@@ -30,47 +30,25 @@ if (!TEAMS_WEBHOOK) {
 
 const topFindings = findings.slice(0, 5);
 
-const sections = topFindings.map(f => ({
-  activityTitle: `**${(f.competitors ?? []).join(', ') || '—'}** — ${f.source_type || 'Unknown'}`,
-  activitySubtitle: f.keywords?.length ? `Keywords: ${f.keywords.join(', ')}` : undefined,
-  activityText: f.summary || '',
-  potentialAction: f.source_link ? [{
-    '@type': 'OpenUri',
-    name: 'View Source',
-    targets: [{ os: 'default', uri: f.source_link }]
-  }] : undefined
-}));
+const findingLines = topFindings.map(f => {
+  const comp = (f.competitors ?? []).filter(c => c !== 'Keyword matched').join(', ') || 'Keyword match';
+  const kw   = f.keywords?.length ? ` · ${f.keywords.join(', ')}` : '';
+  const link = f.source_link ? ` — [View Source](${f.source_link})` : '';
+  return `**${comp}** (${f.source_type || 'Unknown'}${kw})\n${f.summary || ''}${link}`;
+}).join('\n\n');
 
-const card = {
-  '@type': 'MessageCard',
-  '@context': 'https://schema.org/extensions',
-  themeColor: '0f172a',
-  summary: `Zura Bio Competitive Alert — ${findings.length} findings`,
-  title: `Zura Bio — Competitive Intelligence`,
-  text: `**${findings.length} new finding${findings.length !== 1 ? 's' : ''}** across ${uniqueCompetitors.length} competitor${uniqueCompetitors.length !== 1 ? 's' : ''} · ${runDate}`,
-  sections,
-  potentialAction: [
-    {
-      '@type': 'OpenUri',
-      name: `📊 Latest Report`,
-      targets: [{ os: 'default', uri: DASHBOARD_URL }]
-    },
-    {
-      '@type': 'OpenUri',
-      name: `📅 Historical Dashboard`,
-      targets: [{ os: 'default', uri: HISTORICAL_URL }]
-    }
-  ]
+const teamsBody = {
+  text: `## Zura Bio — Competitive Intelligence\n**${findings.length} new finding${findings.length !== 1 ? 's' : ''}** across ${uniqueCompetitors.length} competitor${uniqueCompetitors.length !== 1 ? 's' : ''} · ${runDate}\n\n${findingLines}\n\n[📊 Latest Report](${DASHBOARD_URL}) | [📅 Historical Dashboard](${HISTORICAL_URL})`
 };
 
 const res = await fetch(TEAMS_WEBHOOK, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(card)
+  body: JSON.stringify(teamsBody)
 });
 
 const body = await res.text();
-if (res.ok && body === '1') {
+if (res.ok) {
   console.log('Teams notification sent successfully.');
 } else {
   console.error('Teams failed:', res.status, body);

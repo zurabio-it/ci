@@ -91,7 +91,7 @@ if (AND_MODE && andDropped > 0)
   console.log(`AND filter dropped ${andDropped} finding(s) missing a competitor or keyword.`);
 
 // Deduplicate by URL — only report findings we haven't seen before
-const seenFile = 'results/seen_links.json';
+const seenFile = 'seen_links.json';
 const seenLinks = new Set(
   fs.existsSync(seenFile) ? JSON.parse(fs.readFileSync(seenFile, 'utf8')) : []
 );

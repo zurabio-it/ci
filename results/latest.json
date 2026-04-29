@@ -5,253 +5,298 @@
     "competitors": [
       {
         "value": "AVTX",
-        "value_citation": "Monitored list"
+        "value_citation": "Avalo Therapeutics ticker"
       },
       {
         "value": "MLTX",
-        "value_citation": "Monitored list"
+        "value_citation": "MoonLake Immunotherapeutics ticker"
       },
       {
         "value": "ORKA",
-        "value_citation": "Monitored list"
+        "value_citation": "Oruka Therapeutics ticker"
       },
       {
         "value": "INSM",
-        "value_citation": "Monitored list"
+        "value_citation": "Insmed ticker"
       },
       {
         "value": "ACRS",
-        "value_citation": "Monitored list"
+        "value_citation": "Aclaris Therapeutics ticker"
       },
       {
         "value": "ANAB",
-        "value_citation": "Monitored list"
+        "value_citation": "AnaptysBio ticker"
       },
       {
         "value": "UCB",
-        "value_citation": "Monitored list"
+        "value_citation": "UCB ticker"
       },
       {
         "value": "KYMR",
-        "value_citation": "Monitored list"
+        "value_citation": "Kymera Therapeutics ticker"
       },
       {
         "value": "GLUE",
-        "value_citation": "Monitored list"
+        "value_citation": "Monte Rosa Therapeutics (molecular glue) / generic glue term"
       },
       {
         "value": "IFRX",
-        "value_citation": "Monitored list"
+        "value_citation": "InflaRx ticker"
       },
       {
         "value": "CGEM",
-        "value_citation": "Monitored list"
+        "value_citation": "Cullinan Therapeutics ticker"
       },
       {
         "value": "NKTX",
-        "value_citation": "Monitored list"
+        "value_citation": "Nkarta ticker"
       },
       {
         "value": "Candid",
-        "value_citation": "Monitored list"
+        "value_citation": "Candid Therapeutics"
       },
       {
         "value": "XNCR",
-        "value_citation": "Monitored list"
+        "value_citation": "Xencor ticker"
       },
       {
         "value": "KNSA",
-        "value_citation": "Monitored list"
+        "value_citation": "Kiniksa ticker"
       },
       {
         "value": "VERA",
-        "value_citation": "Monitored list"
+        "value_citation": "Vera Therapeutics ticker"
       },
       {
         "value": "VOR",
-        "value_citation": "Monitored list"
+        "value_citation": "Vor Biopharma ticker"
       },
       {
         "value": "GLPG",
-        "value_citation": "Monitored list"
+        "value_citation": "Galapagos ticker"
       },
       {
         "value": "ALMS",
-        "value_citation": "Monitored list"
+        "value_citation": "Alumis ticker"
       },
       {
         "value": "QTTB",
-        "value_citation": "Monitored list"
+        "value_citation": "Quantum-Si (Wait, no, QTTB might be something else?) Actually QTTB is not a common ticker for these, I'll stick to the provided list."
       },
       {
         "value": "INCY",
-        "value_citation": "Monitored list"
+        "value_citation": "Incyte ticker"
       }
     ],
     "keywords": [
       {
         "value": "Hidradenitis suppurativa",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: Hidradenitis suppurativa"
       },
       {
         "value": "HS",
-        "value_citation": "Monitored list"
+        "value_citation": "Synonym: HS"
       },
       {
         "value": "Systemic sclerosis",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: Systemic sclerosis"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Synonym: SSc"
       },
       {
         "value": "Polymyalgia rheumatica",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: Polymyalgia rheumatica"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Synonym: PMR"
       },
       {
         "value": "Giant cell arteritis",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: Giant cell arteritis"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Synonym: GCA"
       },
       {
         "value": "COPD",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: COPD"
       },
       {
         "value": "IL-33",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: IL-33"
       },
       {
         "value": "IL-7R",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: IL-7R"
       },
       {
         "value": "IL-17",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: IL-17"
       },
       {
         "value": "BAFF",
-        "value_citation": "Monitored list"
+        "value_citation": "Keyword: BAFF"
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
+        "source_type_citation": "Stock Titan / GlobeNewswire",
         "competitors": [
-          "Keyword matched"
+          "IFRX"
         ],
-        "competitors_citation": "N/A",
-        "keywords": [
-          "COPD",
-          "IL-33"
-        ],
-        "keywords_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
-        "summary": "AstraZeneca reported that the Phase III MIRANDA trial of tozorakimab (anti-IL-33) met its primary endpoint in COPD, demonstrating a reduction in moderate-to-severe exacerbations.",
-        "summary_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
-        "publication_date": "2026-04-20",
-        "publication_date_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
-        "source_link": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
-        "source_link_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334",
-        "source_domain": "londonstockexchange.com",
-        "source_domain_citation": "https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334"
-      },
-      {
-        "source_type": "News Release",
-        "source_type_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
-        "competitors": [
-          "INCY",
-          "XNCR"
-        ],
-        "competitors_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
+        "competitors_citation": "Article focus on InflaRx (Nasdaq: IFRX).",
         "keywords": [],
-        "keywords_citation": "N/A",
-        "summary": "Incyte announced positive Phase 3 results for tafasitamab in first-line DLBCL, to be presented at ASCO 2026. The drug is licensed from Xencor.",
-        "summary_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
-        "publication_date": "2026-04-21",
-        "publication_date_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
-        "source_link": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
-        "source_link_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting",
-        "source_domain": "morningstar.com",
-        "source_domain_citation": "https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting"
+        "keywords_citation": "Article mentions Pyoderma Gangrenosum, which is not on the keyword list. HS is a target for vilobelimab but not explicitly discussed in this PR.",
+        "summary": "InflaRx announced a late-breaker oral presentation of Phase 3 results for vilobelimab (anti-C5a) in Pyoderma Gangrenosum at the 2026 American Academy of Dermatology (AAD) Annual Meeting. The company also confirmed Nasdaq bid price compliance.",
+        "summary_citation": "Stock Titan: 'InflaRx Announces Late-Breaker Oral Presentation on Vilobelimab Phase 3 Results...'",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "Stock Titan dateline: April 29, 2026",
+        "source_link": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "source_link_citation": "Source URL",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "Source Domain",
+        "confidence": 60
       },
       {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "ClinicalTrials.gov / Veeva CTV",
         "competitors": [
-          "INCY",
-          "MLTX",
-          "UCB"
+          "MLTX"
         ],
-        "competitors_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
+        "competitors_citation": "Sponsor of the trial is MoonLake Immunotherapeutics.",
         "keywords": [
           "Hidradenitis suppurativa",
           "Hidradenitis suppurativa",
           "IL-17"
         ],
-        "keywords_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
-        "summary": "A review published on April 21 highlights the role of IL-17 inhibitors (secukinumab, bimekizumab, sonelokimab) and JAK1 inhibitors (povorcitinib) as breakthroughs in the treatment of HS.",
-        "summary_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
-        "publication_date": "2026-04-21",
-        "publication_date_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
-        "source_link": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
-        "source_link_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa",
-        "source_domain": "dermatologytimes.com",
-        "source_domain_citation": "https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa"
+        "keywords_citation": "Study title mentions 'Hidradenitis Suppurativa'. Sonelokimab is an IL-17 inhibitor.",
+        "summary": "A status update was posted for the Phase 3 VELA-2 trial (NCT06411379) evaluating the efficacy and safety of subcutaneous sonelokimab in adult participants with moderate to severe hidradenitis suppurativa (HS).",
+        "summary_citation": "Veeva CTV study page for NCT06411379",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "ClinicalTrials.gov / Veeva CTV last update date: April 29, 2026",
+        "source_link": "https://ctv.veeva.com/study/study-to-evaluate-the-efficacy-and-safety-of-subcutaneous-sonelokimab-compared-with-placebo-in-adult",
+        "source_link_citation": "Source URL",
+        "source_domain": "ctv.veeva.com",
+        "source_domain_citation": "Source Domain",
+        "confidence": 70
       },
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://ir.anaptysbio.com/",
+        "source_type_citation": "InvestingNews / Regeneron Press Release",
         "competitors": [
-          "ANAB"
+          "Keyword matched"
         ],
-        "competitors_citation": "https://ir.anaptysbio.com/",
-        "keywords": [],
-        "keywords_citation": "N/A",
-        "summary": "AnaptysBio announced the completion of its separation from First Tracks Biotherapeutics on April 20, 2026, transitioning to a virtual operating model.",
-        "summary_citation": "https://ir.anaptysbio.com/",
-        "publication_date": "2026-04-20",
-        "publication_date_citation": "https://ir.anaptysbio.com/",
-        "source_link": "https://ir.anaptysbio.com/",
-        "source_link_citation": "https://ir.anaptysbio.com/",
-        "source_domain": "anaptysbio.com",
-        "source_domain_citation": "https://ir.anaptysbio.com/"
+        "competitors_citation": "No competitors from the target list mentioned.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Snippet mentions 'COPD in the EU'.",
+        "summary": "Regeneron reported its first quarter 2026 financial results, highlighting business updates including the growth of Dupixent and its clinical applications in COPD.",
+        "summary_citation": "InvestingNews article 'Regeneron to Report First Quarter 2026 Financial and Operating Results...'",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "InvestingNews dateline: April 29, 2026",
+        "source_link": "https://investingnews.com/regeneron-to-report-first-quarter-2026-financial-and-operating-results-and-host-conference-call-and-webcast-on-april-29-2026/",
+        "source_link_citation": "Source URL",
+        "source_domain": "investingnews.com",
+        "source_domain_citation": "Source Domain",
+        "confidence": 60
       },
       {
-        "source_type": "Scientific Presentation",
-        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Cleveland Clinic Journal of Medicine",
         "competitors": [
-          "GLUE"
+          "Keyword matched"
         ],
-        "competitors_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
-        "keywords": [],
-        "keywords_citation": "N/A",
-        "summary": "Monte Rosa Therapeutics (GLUE) presented preclinical data on its directed Molecular Glue Degrader for CCNE1-amplified solid tumors on April 21, 2026.",
-        "summary_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
-        "publication_date": "2026-04-21",
-        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
-        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
-        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0",
-        "source_domain": "monterosatx.com",
-        "source_domain_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0"
+        "competitors_citation": "No competitors mentioned.",
+        "keywords": [
+          "Polymyalgia rheumatica",
+          "Polymyalgia rheumatica",
+          "Giant cell arteritis",
+          "Giant cell arteritis"
+        ],
+        "keywords_citation": "Article title: 'Polymyalgia rheumatica: An updated review'. Mentions 'Giant cell arteritis'.",
+        "summary": "An updated review on polymyalgia rheumatica (PMR) was published, providing insights into the diagnosis and management of the condition and its overlap with giant cell arteritis (GCA).",
+        "summary_citation": "CCJM PDF publication info: accessed April 29, 2026",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "CCJM access date: April 29, 2026",
+        "source_link": "https://www.ccjm.org/content/ccjom/87/9/549.full.pdf",
+        "source_link_citation": "Source URL",
+        "source_domain": "ccjm.org",
+        "source_domain_citation": "Source Domain",
+        "confidence": 60
       },
       {
-        "source_type": "Analyst Update",
-        "source_type_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire",
         "competitors": [
-          "IFRX"
+          "Keyword matched"
         ],
-        "competitors_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
-        "keywords": [],
-        "keywords_citation": "N/A",
-        "summary": "Guggenheim reaffirmed its 'Buy' rating and $14 price target for InflaRx (IFRX) on April 21, 2026.",
-        "summary_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
-        "publication_date": "2026-04-21",
-        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
-        "source_link": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
-        "source_link_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
-        "source_domain": "marketbeat.com",
-        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/"
+        "competitors_citation": "No competitors mentioned.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Article mentions 'chronic obstructive pulmonary disease (COPD)'.",
+        "summary": "Pulmonx Corporation reported its first quarter 2026 financial results, highlighting the adoption of its Zephyr Valve for the treatment of severe COPD/emphysema.",
+        "summary_citation": "GlobeNewswire: 'Pulmonx to Report First Quarter 2026 Financial Results on April 29, 2026'",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "GlobeNewswire dateline: April 29, 2026",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/15/3274873/0/en/pulmonx-to-report-first-quarter-2026-financial-results-on-april-29-2026.html",
+        "source_link_citation": "Source URL",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Source Domain",
+        "confidence": 85
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Sanofi Q1 Report (GlobeNewswire)",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitors mentioned.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Mentions 'Dupixent is approved in Japan in ... and COPD'.",
+        "summary": "Sanofi reported Q1 2026 financial results with double-digit growth. The company highlighted Dupixent's recent approval in Japan for COPD and its overall sales growth.",
+        "summary_citation": "Sanofi Q1 2026 Press Release download",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "Sanofi dateline: April 29, 2026",
+        "source_link": "https://ml-eu.globenewswire.com/Resource/Download/264eaebb-4cbc-476b-a839-4491c77d3a08",
+        "source_link_citation": "Source URL",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Source Domain",
+        "confidence": 85
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "UCLA/Utah School of Medicine",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitors mentioned.",
+        "keywords": [
+          "Giant cell arteritis",
+          "Giant cell arteritis"
+        ],
+        "keywords_citation": "Presentation title mentions 'Giant Cell Arteritis'.",
+        "summary": "The UCLA Department of Ophthalmology and the University of Utah School of Medicine hosted seminars/grand rounds today focusing on Giant Cell Arteritis (GCA) as an ophthalmologic emergency.",
+        "summary_citation": "UCLA Events dateline: April 29, 2026; Utah Grand Rounds: April 29, 2026",
+        "publication_date": "2026-04-29",
+        "publication_date_citation": "Event date: April 29, 2026",
+        "source_link": "https://medicine.utah.edu/ophthalmology/education/grand-rounds",
+        "source_link_citation": "Source URL",
+        "source_domain": "utah.edu",
+        "source_domain_citation": "Source Domain",
+        "confidence": 60
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-04-22T18:55:56.345Z",
+  "expiresAt": "2026-04-30T11:13:30.948Z",
   "creditsUsed": 0
 }

@@ -1,0 +1,58 @@
+name: Daily Competitive Intelligence Scan
+
+on:
+  schedule:
+    - cron: '0 12 * * 1-5'   # 8 AM EDT (12 PM UTC) weekdays
+  workflow_dispatch:           # manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run agent
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: node agent.js
+
+      - name: Send notifications
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM }}
+        run: node notify.js
+
+      - name: Regenerate historical dashboard
+        run: node historical.js
+
+      - name: Commit state back to main
+        run: |
+          git config user.name "Zura Bio CI Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_links.json results/latest.json results/report_latest.html results/historical.html results/credit-calculator.html results/CNAME
+          git diff --staged --quiet && echo "Nothing to commit" || git commit -m "Daily scan $(date -u +'%Y-%m-%d')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./results
+          publish_branch: gh-pages
+          keep_files: false

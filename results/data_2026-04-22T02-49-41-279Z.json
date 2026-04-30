@@ -1,0 +1,242 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "Candid",
+        "value_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "keywords": [],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "summary": "Antengene Corporation presented preclinical data from three novel programs (ATG-125, ATG-106, and ATG-112) at the AACR Annual Meeting 2026. The announcement highlights UCB as a partner on the ATG-201 program.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "publication_date": "April 22, 2026",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "source_link": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "keywords": [],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "summary": "Incyte announced that full Phase 3 results from the frontMIND study evaluating tafasitamab in first-line diffuse large B-cell lymphoma (DLBCL) will be presented as an oral abstract at the ASCO 2026 Annual Meeting.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_link": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "summary": "The Skin of Color Society (SOCS) 22nd Annual Scientific Symposium featured research on metabolic pathways of hidradenitis suppurativa (HS). UCB was highlighted as a partner-level sponsor of the symposium.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "source_link": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html"
+      },
+      {
+        "source_type": "News Article",
+        "source_type_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "competitors": [],
+        "competitors_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "summary": "AstraZeneca announced that its IL-33-targeting biologic tozorakimab met the primary endpoint in the Phase III MIRANDA trial, significantly reducing exacerbations in patients with COPD. This is the third positive pivotal Phase III win for tozorakimab in COPD.",
+        "summary_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "source_link": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "source_link_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/",
+        "source_domain": "clinicaltrialsarena.com",
+        "source_domain_citation": "https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "keywords": [],
+        "keywords_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "summary": "Vor Biopharma Inc. filed a preliminary proxy statement (PRE 14A) for its 2026 Annual Meeting of Stockholders, scheduled for June 22, 2026.",
+        "summary_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "publication_date": "April 22, 2026",
+        "publication_date_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "source_link": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "keywords": [],
+        "keywords_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "summary": "Oruka Therapeutics filed a prospectus supplement regarding the potential resale of up to 39.4 million shares of common stock by selling stockholders, including Point72 and SILV Fund.",
+        "summary_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "source_link": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "source_link_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "competitors": [
+          "GLUE"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "keywords": [],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "summary": "Monte Rosa Therapeutics presented preclinical data for its CCNE1-directed molecular glue degrader (MGD) at the AACR 2026 Annual Meeting. The data showed deep tumor regressions in CCNE1-amplified in vivo models.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/21/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "competitors": [
+          "Candid"
+        ],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "keywords": [],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "summary": "Candid announced the appointment of Andrew Shaw as Chief Product & Technology Officer to lead the scaling of Candid’s AI infrastructure.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "source_link": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html"
+      },
+      {
+        "source_type": "Analyst Update",
+        "source_type_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "keywords": [],
+        "keywords_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "summary": "Guggenheim reaffirmed its 'Buy' rating for InflaRx (IFRX) following recent developments in the company's clinical pipeline.",
+        "summary_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "source_link": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "source_link_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "competitors": [
+          "GLPG"
+        ],
+        "competitors_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "keywords": [],
+        "keywords_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "summary": "Galapagos NV made documents related to its Shareholders' Meetings available on the company's website as part of an SEC filing.",
+        "summary_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "publication_date": "April 21, 2026",
+        "publication_date_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "source_link": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-23T02:49:39.543Z",
+  "creditsUsed": 0
+}

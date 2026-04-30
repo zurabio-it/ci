@@ -1,0 +1,252 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "Identified from Australia TGA approval announcement on April 24, 2026"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Identified from Gilead option exercise announcement on April 23, 2026"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Identified from Monte Rosa and Kymera announcements on April 23, 2026"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Identified from pipeline advancement announcement on April 24, 2026"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Identified from $1.1B deal announcement on April 23, 2026"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Identified from ClinicalTrials.gov update for NCT07547813 on April 23, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "Identified from AstraZeneca and Connect Biopharma announcements"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Identified from AstraZeneca Phase III trial win"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Identified from AbbVie EMA designation and InnoCare results"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Identified from Scinai pipeline financing announcement"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Identified from Almirall clinical trial update"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Identified from PubMed publication on April 23, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, April 24, 2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "PR Newswire, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "PR Newswire, April 24, 2026",
+        "summary": "Incyte announced that the Therapeutic Goods Administration (TGA) in Australia has approved MINJUVI (tafasitamab) for the treatment of adult patients with relapsed or refractory follicular lymphoma.",
+        "summary_citation": "PR Newswire, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "PR Newswire, April 24, 2026",
+        "source_link": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "source_link_citation": "PR Newswire, April 24, 2026",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "PR Newswire, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Yahoo Finance, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "Yahoo Finance, April 24, 2026",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "Yahoo Finance, April 24, 2026",
+        "summary": "AstraZeneca reported that its IL-33 inhibitor reached primary endpoints in a third Phase III clinical trial for COPD, demonstrating significant benefits for patients.",
+        "summary_citation": "Yahoo Finance, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "Yahoo Finance, April 24, 2026",
+        "source_link": "https://www.yahoo.com/news/articles/astrazeneca-copd-drug-gains-third-103024183.html",
+        "source_link_citation": "Yahoo Finance, April 24, 2026",
+        "source_domain": "yahoo.com",
+        "source_domain_citation": "Yahoo Finance, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioSpace, April 24, 2026",
+        "competitors": [
+          "Candid"
+        ],
+        "competitors_citation": "BioSpace, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "BioSpace, April 24, 2026",
+        "summary": "Candid Therapeutics advanced its portfolio of novel T-cell engagers into clinical evaluation across five autoimmune diseases based on positive clinical data.",
+        "summary_citation": "BioSpace, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "BioSpace, April 24, 2026",
+        "source_link": "https://www.biospace.com/press-releases/candid-therapeutics-advances-portfolio-of-novel-t-cell-engagers-into-five-autoimmune-diseases-for-clinical-evaluation",
+        "source_link_citation": "BioSpace, April 24, 2026",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "BioSpace, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "PR Newswire, April 24, 2026",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "PR Newswire, April 24, 2026",
+        "summary": "Scinai Immunotherapeutics secured $2.61 million to fund its immunology pipeline, focusing on its IL-17 directed therapies.",
+        "summary_citation": "PR Newswire, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "PR Newswire, April 24, 2026",
+        "source_link": "https://www.scinai.com/press-releases/scinai-immunotherapeutics-announces-261-million-private-placement-financing",
+        "source_link_citation": "PR Newswire, April 24, 2026",
+        "source_domain": "scinai.com",
+        "source_domain_citation": "PR Newswire, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "AllSci, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "AllSci, April 24, 2026",
+        "keywords": [
+          "Systemic sclerosis",
+          "SSc"
+        ],
+        "keywords_citation": "AllSci, April 24, 2026",
+        "summary": "AbbVie's Rinvoq received EMA Orphan Drug Designation for Systemic Sclerosis, marking a milestone in its development for fibrotic diseases.",
+        "summary_citation": "AllSci, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "AllSci, April 24, 2026",
+        "source_link": "https://allsci.com/news/orphan-drug-designations/abbvies-rinvoq-secures-ema-orphan-drug-designation-for-systemic-sclerosis/",
+        "source_link_citation": "AllSci, April 24, 2026",
+        "source_domain": "allsci.com",
+        "source_domain_citation": "AllSci, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioSpace, April 23, 2026",
+        "competitors": [
+          "KYMR",
+          "GLUE"
+        ],
+        "competitors_citation": "BioSpace, April 23, 2026",
+        "keywords": [],
+        "keywords_citation": "BioSpace, April 23, 2026",
+        "summary": "Gilead Sciences exercised its option to license Kymera's CDK2 molecular glue degrader KT-200, resulting in a $45 million payment to Kymera.",
+        "summary_citation": "BioSpace, April 23, 2026",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "BioSpace, April 23, 2026",
+        "source_link": "https://www.biospace.com/press-releases/kymera-therapeutics-announces-gilead-sciences-option-exercise-to-license-kt-200-oral-cdk2-molecular-glue-degrader-development-candidate",
+        "source_link_citation": "BioSpace, April 23, 2026",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "BioSpace, April 23, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "RTTNews, April 23, 2026",
+        "competitors": [
+          "GLUE"
+        ],
+        "competitors_citation": "RTTNews, April 23, 2026",
+        "keywords": [],
+        "keywords_citation": "RTTNews, April 23, 2026",
+        "summary": "Monte Rosa Therapeutics reached a supply agreement with J&J to support a Phase 2 trial of its GSPT1-directed molecular glue degrader MRT-2359.",
+        "summary_citation": "RTTNews, April 23, 2026",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "RTTNews, April 23, 2026",
+        "source_link": "https://www.rttnews.com/3631113/monte-rosa-signs-supply-agreement-with-jnj-for-phase-2-prostate-cancer-study-stock-up.aspx",
+        "source_link_citation": "RTTNews, April 23, 2026",
+        "source_domain": "rttnews.com",
+        "source_domain_citation": "RTTNews, April 23, 2026"
+      },
+      {
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "ClinicalTrials.gov, April 23, 2026",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "ClinicalTrials.gov, April 23, 2026",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "ClinicalTrials.gov, April 23, 2026",
+        "summary": "Almirall updated the clinical trial record for NCT07547813, a Phase 2 study evaluating LAD328 in adults with moderate-to-severe Hidradenitis Suppurativa.",
+        "summary_citation": "ClinicalTrials.gov, April 23, 2026",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "ClinicalTrials.gov, April 23, 2026",
+        "source_link": "https://clinicaltrials.gov/study/NCT07547813",
+        "source_link_citation": "ClinicalTrials.gov, April 23, 2026",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "ClinicalTrials.gov, April 23, 2026"
+      },
+      {
+        "source_type": "Publication",
+        "source_type_citation": "PubMed, April 23, 2026",
+        "competitors": [],
+        "competitors_citation": "PubMed, April 23, 2026",
+        "keywords": [
+          "Polymyalgia rheumatica",
+          "PMR",
+          "Giant cell arteritis",
+          "GCA"
+        ],
+        "keywords_citation": "PubMed, April 23, 2026",
+        "summary": "A new study comparing FAPI and FDG-PET imaging for PMR and GCA was indexed on PubMed, providing prospective evidence for imaging in vasculitis.",
+        "summary_citation": "PubMed, April 23, 2026",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "PubMed, April 23, 2026",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42020812/",
+        "source_link_citation": "PubMed, April 23, 2026",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "PubMed, April 23, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioWorld, April 23, 2026",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "BioWorld, April 23, 2026",
+        "keywords": [],
+        "keywords_citation": "BioWorld, April 23, 2026",
+        "summary": "UCB announced a $1.1 billion collaboration with Antengene to develop a bispecific T-cell engager for autoimmune indications.",
+        "summary_citation": "BioWorld, April 23, 2026",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "BioWorld, April 23, 2026",
+        "source_link": "https://www.bioworld.com/articles/729298-ucb-inks-11b-deal-for-antengenes-autoimmune-bispecific-tce",
+        "source_link_citation": "BioWorld, April 23, 2026",
+        "source_domain": "bioworld.com",
+        "source_domain_citation": "BioWorld, April 23, 2026"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-25T14:08:13.757Z",
+  "creditsUsed": 0
+}

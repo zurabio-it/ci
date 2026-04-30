@@ -1,0 +1,208 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Mentioned in research findings from April 27, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire",
+        "competitors": [
+          "ORKA",
+          "UCB"
+        ],
+        "competitors_citation": "GlobeNewswire and Stat News",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "GlobeNewswire press release mentions potential in HS",
+        "summary": "Oruka Therapeutics announced positive Week 16 data for ORKA-001 (an IL-23p19 inhibitor) in plaque psoriasis from the EVERLAST-A trial. The company highlighted the drug's extended half-life and potential for once- or twice-yearly dosing, as well as its relevance to other inflammatory conditions like hidradenitis suppurativa.",
+        "summary_citation": "GlobeNewswire/Stock Titan, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "GlobeNewswire, April 27, 2026",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/27/3281232/0/en/oruka-therapeutics-announces-positive-week-16-data-for-orka-001-from-the-ongoing-everlast-a-trial.html",
+        "source_link_citation": "GlobeNewswire",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Insmed via MSN/Stock Titan",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "MSN article",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "MSN article",
+        "summary": "Insmed announced it is discontinuing its development program for brensocatib in hidradenitis suppurativa (HS) following results from the Phase 2b CEDAR study, which did not meet its primary endpoint of reduction in abscess and inflammatory nodule (AN) count.",
+        "summary_citation": "MSN Health / Stock Titan, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "MSN article, April 27, 2026",
+        "source_link": "https://www.msn.com/en-us/health/diseases-and-conditions/insmed-drops-skin-disorder-candidate-after-mid-stage-trial-setback/ar-AA20pVc7",
+        "source_link_citation": "MSN Health",
+        "source_domain": "msn.com",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "AstraZeneca Press Release",
+        "competitors": [],
+        "competitors_citation": "AstraZeneca PR",
+        "keywords": [
+          "COPD",
+          "IL-33",
+          "interleukin-33"
+        ],
+        "keywords_citation": "AstraZeneca press release",
+        "summary": "AstraZeneca announced that its IL-33-targeting biologic, tozorakimab, met the primary endpoint in the Phase III MIRANDA trial, demonstrating a significant reduction in COPD exacerbations. This is the third positive pivotal Phase III trial for the drug in COPD.",
+        "summary_citation": "AstraZeneca Press Release / Stock Titan, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "Stock Titan, April 27, 2026",
+        "source_link": "https://www.stocktitan.net/news/AZN/tozorakimab-met-primary-endpoint-in-phase-iii-miranda-trial-in-a6g6jizb0g2e.html",
+        "source_link_citation": "Stock Titan",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Novartis via FirstWord Pharma",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "Novartis and UCB both compete in the IL-17/HS space (Cosentyx vs Bimzelx)",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17",
+          "interleukin-17"
+        ],
+        "keywords_citation": "FirstWord Pharma article",
+        "summary": "Novartis received FDA approval for Cosentyx (secukinumab) for the treatment of moderate-to-severe hidradenitis suppurativa (HS) in adolescents (ages 12 and older). Additionally, Novartis' remibrutinib (Rhapsido) received European Commission approval for CSU, with noted potential in HS.",
+        "summary_citation": "FirstWord Pharma / Novartis, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "FirstWord Pharma, April 27, 2026",
+        "source_link": "https://firstwordpharma.com/story/7209864",
+        "source_link_citation": "FirstWord Pharma",
+        "source_domain": "firstwordpharma.com",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Cureus / PubMed",
+        "competitors": [],
+        "competitors_citation": "Scientific paper",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "Cureus publication",
+        "summary": "A scientific paper titled 'Clinical Profile and Predictors of Asthma-Chronic Obstructive Pulmonary Disease Overlap in a Tertiary Care Population' was published today, providing new insights into COPD overlap syndromes.",
+        "summary_citation": "Cureus Journal of Medical Science, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "Cureus, April 27, 2026",
+        "source_link": "https://www.cureus.com/articles/485221-clinical-profile-and-predictors-of-asthma-chronic-obstructive-pulmonary-disease-overlap-in-a-tertiary-care-population-in-north-india",
+        "source_link_citation": "Cureus",
+        "source_domain": "cureus.com",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "News Article",
+        "source_type_citation": "Yahoo Finance",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Yahoo Finance article",
+        "keywords": [],
+        "keywords_citation": "Yahoo Finance article",
+        "summary": "Incyte (INCY) reported earnings expectations for the first quarter of 2026, with analysts focused on the growth of its dermatology portfolio, including Jakafi and Opzelura.",
+        "summary_citation": "Yahoo Finance, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "Yahoo Finance, April 27, 2026",
+        "source_link": "https://ca.finance.yahoo.com/news/incyte-earnings-look-incy-114855695.html",
+        "source_link_citation": "Yahoo Finance",
+        "source_domain": "yahoo.com",
+        "source_domain_citation": "Source link domain"
+      },
+      {
+        "source_type": "Financial News",
+        "source_type_citation": "MarketBeat / SEC Filing",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "MarketBeat article",
+        "keywords": [],
+        "keywords_citation": "MarketBeat article",
+        "summary": "B. Metzler seel. Sohn & Co. AG reported a new position in Kymera Therapeutics (KYMR) as of April 27, 2026, according to recent SEC filings.",
+        "summary_citation": "MarketBeat, April 27, 2026",
+        "publication_date": "2026-04-27",
+        "publication_date_citation": "MarketBeat, April 27, 2026",
+        "source_link": "https://www.marketbeat.com/instant-alerts/filing-b-metzler-seel-sohn-co-ag-purchases-new-holdings-in-kymera-therapeutics-inc-kymr-2026-04-27/",
+        "source_link_citation": "MarketBeat",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "Source link domain"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-28T13:17:15.526Z",
+  "creditsUsed": 0
+}

@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://roche.com/irp260423-a.pdf"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://clinicaltrials.gov/study/NCT07544225"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "competitors": [
+          "INCY",
+          "XNCR"
+        ],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "keywords": [],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "summary": "Specialised Therapeutics announced that the Therapeutic Goods Administration (TGA) has registered Minjuvi (tafasitamab) for adult patients with relapsed or refractory follicular lymphoma in Australia. Incyte holds exclusive worldwide rights to develop and commercialize tafasitamab, which was licensed from Xencor.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "source_link": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "competitors": [],
+        "competitors_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "keywords": [
+          "Polymyalgia rheumatica",
+          "COPD"
+        ],
+        "keywords_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "summary": "Sanofi reported its Q1 2026 financial results, showing double-digit sales growth. The company highlighted that Kevzara sales growth was primarily driven by increased use in Polymyalgia Rheumatica. The report also mentions the development of the pipeline in COPD, including AERIFY trials for Dupixent.",
+        "summary_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "source_link": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "source_link_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf",
+        "source_domain": "sanofi.com",
+        "source_domain_citation": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "competitors": [],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "summary": "ENA Respiratory announced the appointment of Melissa Faris to its Board of Directors. The company is partnered with the COPD Foundation for the clinical development of INNA-051 in COPD.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html"
+      },
+      {
+        "source_type": "Corporate Presentation",
+        "source_type_citation": "https://roche.com/irp260423-a.pdf",
+        "competitors": [],
+        "competitors_citation": "https://roche.com/irp260423-a.pdf",
+        "keywords": [
+          "IL-33",
+          "COPD"
+        ],
+        "keywords_citation": "https://roche.com/irp260423-a.pdf",
+        "summary": "Roche's Q1 2026 results presentation highlights its pipeline candidate RG6981, an anti-TSLP:IL-33 bispecific antibody being developed for COPD and Asthma, with First Patient In (FPI) expected in Q1 2026.",
+        "summary_citation": "https://roche.com/irp260423-a.pdf",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://roche.com/irp260423-a.pdf",
+        "source_link": "https://roche.com/irp260423-a.pdf",
+        "source_link_citation": "https://roche.com/irp260423-a.pdf",
+        "source_domain": "roche.com",
+        "source_domain_citation": "https://roche.com/irp260423-a.pdf"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "competitors": [],
+        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "summary": "A study published in PubMed describes the development of DNA aptamers that inhibit the binding to human interleukin-17A (IL-17A), a cytokine involved in inflammatory and autoimmune diseases.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42017161/"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "competitors": [],
+        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "keywords": [
+          "IL-17",
+          "BAFF"
+        ],
+        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "summary": "Research titled 'Genetic Evidence Linking Immune Cell Subsets to Psoriatic Arthritis' identifies immune-mediated pathways involving the IL-23/IL-17 axis and BAFF-R (BAFF receptor) on IgD+CD24+ B-cell subsets.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42016305/"
+      },
+      {
+        "source_type": "ClinicalTrial Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "competitors": [],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "summary": "A study investigating the safety of anti-CD19 CAR-T cell therapy in patients with systemic sclerosis (SSc) was updated on ClinicalTrials.gov.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "source_link": "https://clinicaltrials.gov/study/NCT07544225",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07544225",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07544225"
+      },
+      {
+        "source_type": "ClinicalTrial Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "competitors": [],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "summary": "An update was posted for the study 'Objective Assessment of Skin Damage Using ADHELASKIN in Systemic Sclerosis (SSc)', which clinically manifests as skin fibrosis.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "source_link": "https://clinicaltrials.gov/study/NCT07543679",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07543679",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07543679"
+      },
+      {
+        "source_type": "ClinicalTrial Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "competitors": [],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "summary": "ClinicalTrials.gov update for the study 'Enhanced COPD Management in Suspected Lung Cancer Patients', assessing early diagnosis and optimal treatment of COPD.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "publication_date": "2026-04-23",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "source_link": "https://clinicaltrials.gov/study/NCT07543601",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07543601",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07543601"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-24T11:04:27.407Z",
+  "creditsUsed": 0
+}

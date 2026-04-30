@@ -1,0 +1,275 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://orukatx.com/"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://www.insmed.com/"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://aclaristx.com/"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://www.anaptysbio.com/"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://www.kymeratx.com/"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://www.monterosatx.com/"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://www.cullinantherapeutics.com/"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://www.nkarta.com/"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "https://www.candidtx.com/"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://www.xencor.com/"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://www.kiniksa.com/"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://www.veratx.com/"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://vorbio.com/"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://www.alumis.com/"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://www.quell-tx.com/"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://www.incyte.com/"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.aad.org/public/diseases/a-z/hidradenitis-suppurativa-overview"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://rheumatology.org/patients/scleroderma"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://www.rheumatology.org/I-Am-A/Patient-Caregiver/Diseases-Conditions/Polymyalgia-Rheumatica"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "https://www.rheumatology.org/I-Am-A/Patient-Caregiver/Diseases-Conditions/Giant-Cell-Arteritis"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "https://www.uniprot.org/uniprotkb/O95760/entry"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "https://www.uniprot.org/uniprotkb/P16871/entry"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "https://www.nature.com/articles/nri2278"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586001/"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/207/avalo-reports-second-quarter-2025-financial-results-and-recent-business-updates",
+        "competitor": "AVTX",
+        "competitor_citation": "https://ir.avalotx.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/207/avalo-reports-second-quarter-2025-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics announced completion of enrollment in the Phase 2 LOTUS trial of AVTX-009 for HS. Topline data expected mid-2026.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/207/avalo-reports-second-quarter-2025-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/207/avalo-reports-second-quarter-2025-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/207/avalo-reports-second-quarter-2025-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "competitor": "MLTX",
+        "competitor_citation": "https://ir.moonlaketx.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://pubmed.ncbi.nlm.nih.gov/41053449/",
+        "summary": "MoonLake presented Week 40 results for sonelokimab (IL-17A/F) in Phase 3 trials for HS at the 2026 AAD Annual Meeting, showing sustained clinical response.",
+        "summary_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248058/0/en/Quell-Therapeutics-Initiates-CHILL-Phase-1-2-Trial-of-Novel-QEL-005-CAR-Treg-Therapy-in-Refractory-Rheumatoid-Arthritis-and-Systemic-Sclerosis-Following-UK-CTA-Approval.html",
+        "competitor": "QTTB",
+        "competitor_citation": "https://www.quell-tx.com/",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248058/0/en/Quell-Therapeutics-Initiates-CHILL-Phase-1-2-Trial-of-Novel-QEL-005-CAR-Treg-Therapy-in-Refractory-Rheumatoid-Arthritis-and-Systemic-Sclerosis-Following-UK-CTA-Approval.html",
+        "summary": "Quell Therapeutics initiated the CHILL Phase 1/2 trial of QEL-005, a novel CAR-Treg therapy, for refractory rheumatoid arthritis and systemic sclerosis in March 2026.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248058/0/en/Quell-Therapeutics-Initiates-CHILL-Phase-1-2-Trial-of-Novel-QEL-005-CAR-Treg-Therapy-in-Refractory-Rheumatoid-Arthritis-and-Systemic-Sclerosis-Following-UK-CTA-Approval.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/03/03/3248058/0/en/Quell-Therapeutics-Initiates-CHILL-Phase-1-2-Trial-of-Novel-QEL-005-CAR-Treg-Therapy-in-Refractory-Rheumatoid-Arthritis-and-Systemic-Sclerosis-Following-UK-CTA-Approval.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248058/0/en/Quell-Therapeutics-Initiates-CHILL-Phase-1-2-Trial-of-Novel-QEL-005-CAR-Treg-Therapy-in-Refractory-Rheumatoid-Arthritis-and-Systemic-Sclerosis-Following-UK-CTA-Approval.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/"
+      },
+      {
+        "source_type": "Corporate Presentation",
+        "source_type_citation": "https://orukatx.com/wp-content/uploads/2026/03/Oruka-Corporate-Deck-Mar-2026.pdf",
+        "competitor": "ORKA",
+        "competitor_citation": "https://orukatx.com/",
+        "keyword": "IL17",
+        "keyword_citation": "https://orukatx.com/wp-content/uploads/2026/03/Oruka-Corporate-Deck-Mar-2026.pdf",
+        "summary": "Oruka Therapeutics highlighted its development of ORKA-002, a dual IL-17A/F inhibitor, for chronic inflammatory skin diseases including HS.",
+        "summary_citation": "https://orukatx.com/wp-content/uploads/2026/03/Oruka-Corporate-Deck-Mar-2026.pdf",
+        "source_link": "https://orukatx.com/wp-content/uploads/2026/03/Oruka-Corporate-Deck-Mar-2026.pdf",
+        "source_link_citation": "https://orukatx.com/wp-content/uploads/2026/03/Oruka-Corporate-Deck-Mar-2026.pdf",
+        "source_domain": "orukatx.com",
+        "source_domain_citation": "https://orukatx.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.morningstar.com/news/business-wire/20260320751024/incyte-to-highlight-late-breaking-hidradenitis-suppurativa-data-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "competitor": "INCY",
+        "competitor_citation": "https://www.incyte.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.morningstar.com/news/business-wire/20260320751024/incyte-to-highlight-late-breaking-hidradenitis-suppurativa-data-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "summary": "Incyte presented late-breaking 54-week results from Phase 3 STOP-HS program evaluating povorcitinib in HS at AAD 2026.",
+        "summary_citation": "https://www.morningstar.com/news/business-wire/20260320751024/incyte-to-highlight-late-breaking-hidradenitis-suppurativa-data-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "source_link": "https://www.morningstar.com/news/business-wire/20260320751024/incyte-to-highlight-late-breaking-hidradenitis-suppurativa-data-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "source_link_citation": "https://www.morningstar.com/news/business-wire/20260320751024/incyte-to-highlight-late-breaking-hidradenitis-suppurativa-data-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "source_domain": "morningstar.com",
+        "source_domain_citation": "https://www.morningstar.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/03/19/3258900/0/en/InflaRx-Reports-Full-Year-2025-Results-and-Highlights-Key-Achievements-and-Expected-Milestones.html",
+        "competitor": "IFRX",
+        "competitor_citation": "https://www.inflarx.de/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.globenewswire.com/news-release/2026/03/19/3258900/0/en/InflaRx-Reports-Full-Year-2025-Results-and-Highlights-Key-Achievements-and-Expected-Milestones.html",
+        "summary": "InflaRx reported full year 2025 results and highlighted progress toward Phase 2b readiness for izicopan in HS.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/03/19/3258900/0/en/InflaRx-Reports-Full-Year-2025-Results-and-Highlights-Key-Achievements-and-Expected-Milestones.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/03/19/3258900/0/en/InflaRx-Reports-Full-Year-2025-Results-and-Highlights-Key-Achievements-and-Expected-Milestones.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/03/19/3258900/0/en/InflaRx-Reports-Full-Year-2025-Results-and-Highlights-Key-Achievements-and-Expected-Milestones.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/"
+      },
+      {
+        "source_type": "SEC 8-K Filing",
+        "source_type_citation": "https://investors.alumis.com/node/6561/html",
+        "competitor": "ALMS",
+        "competitor_citation": "https://www.alumis.com/",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://investors.alumis.com/node/6561/html",
+        "summary": "Alumis SEC filing mentions active development of ESK-001 (TYK2 inhibitor) for autoimmune skin diseases including hidradenitis suppurativa and systemic sclerosis.",
+        "summary_citation": "https://investors.alumis.com/node/6561/html",
+        "source_link": "https://investors.alumis.com/node/6561/html",
+        "source_link_citation": "https://investors.alumis.com/node/6561/html",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.linkedin.com/pulse/autoimmune-watch-january-2026-edition-decodemr-mddlc",
+        "competitor": "VERA",
+        "competitor_citation": "https://www.veratx.com/",
+        "keyword": "Baff",
+        "keyword_citation": "https://www.linkedin.com/pulse/autoimmune-watch-january-2026-edition-decodemr-mddlc",
+        "summary": "FDA granted Priority Review to Vera Therapeutics' atacicept, a dual BAFF and APRIL inhibitor, for IgA Nephropathy. PDUFA date July 6, 2026.",
+        "summary_citation": "https://www.linkedin.com/pulse/autoimmune-watch-january-2026-edition-decodemr-mddlc",
+        "source_link": "https://www.linkedin.com/pulse/autoimmune-watch-january-2026-edition-decodemr-mddlc",
+        "source_link_citation": "https://www.linkedin.com/pulse/autoimmune-watch-january-2026-edition-decodemr-mddlc",
+        "source_domain": "linkedin.com",
+        "source_domain_citation": "https://www.linkedin.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://firstwordpharma.com/story/7118108",
+        "competitor": "UCB",
+        "competitor_citation": "https://www.ucb.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://firstwordpharma.com/story/7118108",
+        "summary": "UCB initiated global Phase 3 studies for bimekizumab (IL-17A/F inhibitor) in pediatric hidradenitis suppurativa in 2025.",
+        "summary_citation": "https://firstwordpharma.com/story/7118108",
+        "source_link": "https://firstwordpharma.com/story/7118108",
+        "source_link_citation": "https://firstwordpharma.com/story/7118108",
+        "source_domain": "firstwordpharma.com",
+        "source_domain_citation": "https://firstwordpharma.com/"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/41348269/",
+        "competitor": "INSM",
+        "competitor_citation": "https://www.insmed.com/",
+        "keyword": "COPD",
+        "keyword_citation": "https://pubmed.ncbi.nlm.nih.gov/41348269/",
+        "summary": "Brensocatib (Brinsupri) by Insmed, a DPP1 inhibitor, received its first approval (monitored for bronchiectasis/COPD context).",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/41348269/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/41348269/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/41348269/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-20T11:47:39.109Z",
+  "creditsUsed": 0
+}

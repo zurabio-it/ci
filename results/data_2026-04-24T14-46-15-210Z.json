@@ -1,0 +1,222 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "Business Wire, April 24, 2026"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "NovaPharmaNews, April 24, 2026"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "EQS News, April 24, 2026"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "EQS News, April 24, 2026"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "BioSpace, April 24, 2026"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "BioSpace, April 24, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "PubMed, April 24, 2026"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "PubMed, April 24, 2026"
+      },
+      {
+        "value": "HS",
+        "value_citation": "PubMed, April 24, 2026"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "PatientCareOnline, April 24, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire, April 24, 2026",
+        "competitors": [
+          "GLUE"
+        ],
+        "competitors_citation": "GlobeNewswire, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "GlobeNewswire, April 24, 2026",
+        "summary": "Amphista Therapeutics announced presentation of new preclinical data from its SMARCA2 and TEAD-targeted glue degrader programs at the AACR 2026 Annual Meeting and publication of its first data on Glue™ degraders.",
+        "summary_citation": "GlobeNewswire, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "GlobeNewswire, April 24, 2026",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/24/3280718/0/en/amphista-therapeutics-announces-presentation-of-new-preclinical-data-from-its-smarca2-and-tead-targeted-glue-degrader-programs-at-aacr-2026-and-publication-of-the-first-data-on-its.html",
+        "source_link_citation": "GlobeNewswire, April 24, 2026",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "GlobeNewswire, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Business Wire, April 24, 2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Business Wire, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "Business Wire, April 24, 2026",
+        "summary": "Incyte announced new Phase 3 data for tafasitamab at the 2026 ASCO Annual Meeting, demonstrating progress in its oncology pipeline.",
+        "summary_citation": "Business Wire, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "Business Wire, April 24, 2026",
+        "source_link": "https://www.finanznachrichten.de/nachrichten-2026-04/68266753-incyte-praesentiert-neue-phase-3-daten-zu-tafasitamab-auf-der-jahrestagung-2026-der-american-society-of-clinical-oncology-asco-004.htm",
+        "source_link_citation": "Business Wire, April 24, 2026",
+        "source_domain": "finanznachrichten.de",
+        "source_domain_citation": "Business Wire, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "NovaPharmaNews, April 24, 2026",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "NovaPharmaNews, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "NovaPharmaNews, April 24, 2026",
+        "summary": "UCB announced the acquisition of Neurona Therapeutics and its lead candidate for the treatment of drug-resistant focal epilepsy.",
+        "summary_citation": "NovaPharmaNews, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "NovaPharmaNews, April 24, 2026",
+        "source_link": "https://novapharmanews.com/us/category/neurology",
+        "source_link_citation": "NovaPharmaNews, April 24, 2026",
+        "source_domain": "novapharmanews.com",
+        "source_domain_citation": "NovaPharmaNews, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "EQS News, April 24, 2026",
+        "competitors": [
+          "GLUE",
+          "ORKA"
+        ],
+        "competitors_citation": "EQS News, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "EQS News, April 24, 2026",
+        "summary": "BB Biotech's Q1 2026 report highlights its active portfolio repositioning, including investments in Monte Rosa Therapeutics (GLUE) and Oruka Therapeutics (ORKA).",
+        "summary_citation": "EQS News, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "EQS News, April 24, 2026",
+        "source_link": "https://www.eqs-news.com/news/corporate-news/bb-biotech-q1-2026-share-price-outperformance-narrowing-discount-and-active-portfolio-repositioning/dbfc5ceb-f9e2-4722-8b2f-98450252c68a_en",
+        "source_link_citation": "EQS News, April 24, 2026",
+        "source_domain": "eqs-news.com",
+        "source_domain_citation": "EQS News, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioSpace, April 24, 2026",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "BioSpace, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "BioSpace, April 24, 2026",
+        "summary": "AnaptysBio, Inc. announced an agreement with Roche to develop novel antibodies.",
+        "summary_citation": "BioSpace, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "BioSpace, April 24, 2026",
+        "source_link": "https://www.biospace.com/anaptysbio-inc-announces-agreement-with-roche-to-develop-novel-antibodies",
+        "source_link_citation": "BioSpace, April 24, 2026",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "BioSpace, April 24, 2026"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "PubMed, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "PubMed, April 24, 2026",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "PubMed, April 24, 2026",
+        "summary": "A study in the Journal of Ethnopharmacology reports that the Bufei formula attenuates airway mucus hypersecretion in COPD by inhibiting TRIM56-mediated ITGB4 ubiquitination.",
+        "summary_citation": "PubMed, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "PubMed, April 24, 2026",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/41580166/",
+        "source_link_citation": "PubMed, April 24, 2026",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "PubMed, April 24, 2026"
+      },
+      {
+        "source_type": "News Article",
+        "source_type_citation": "PatientCareOnline, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "PatientCareOnline, April 24, 2026",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "PatientCareOnline, April 24, 2026",
+        "summary": "Tozorakimab, targeting the IL-33 pathway, reduces COPD exacerbations as shown in Phase 3 trials.",
+        "summary_citation": "PatientCareOnline, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "PatientCareOnline, April 24, 2026",
+        "source_link": "https://www.patientcareonline.com/view/q-a-tozorakimab-reduces-copd-exacerbations-in-phase-3-oberon-and-titania-trials",
+        "source_link_citation": "PatientCareOnline, April 24, 2026",
+        "source_domain": "patientcareonline.com",
+        "source_domain_citation": "PatientCareOnline, April 24, 2026"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "PubMed, April 24, 2026",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "PubMed, April 24, 2026",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "PubMed, April 24, 2026",
+        "summary": "A publication discussing the postmarketing safety of bimekizumab for the treatment of hidradenitis suppurativa (HS).",
+        "summary_citation": "PubMed, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "PubMed, April 24, 2026",
+        "source_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13069420/",
+        "source_link_citation": "PubMed, April 24, 2026",
+        "source_domain": "pmc.ncbi.nlm.nih.gov",
+        "source_domain_citation": "PubMed, April 24, 2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioSpace, April 24, 2026",
+        "competitors": [
+          "KNSA"
+        ],
+        "competitors_citation": "BioSpace, April 24, 2026",
+        "keywords": [],
+        "keywords_citation": "BioSpace, April 24, 2026",
+        "summary": "Kiniksa Pharmaceuticals announced it will report first quarter 2026 financial results on April 28, 2026.",
+        "summary_citation": "BioSpace, April 24, 2026",
+        "publication_date": "2026-04-24",
+        "publication_date_citation": "BioSpace, April 24, 2026",
+        "source_link": "https://www.biospace.com/press-releases/kiniksa-pharmaceuticals-to-report-first-quarter-2026-financial-results-on-april-28-2026",
+        "source_link_citation": "BioSpace, April 24, 2026",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "BioSpace, April 24, 2026"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-25T14:46:15.199Z",
+  "creditsUsed": 0
+}

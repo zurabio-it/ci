@@ -1,0 +1,343 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Specified in user prompt"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Specified in user prompt"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Specified in user prompt"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC 8-K / Press Release",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-25-038570/0001628280-25-038570.pdf",
+        "competitor": "AVTX",
+        "competitor_citation": "https://www.stocktitan.net/sec-filings/AVTX/8-k-avalo-therapeutics-inc-reports-material-event-ad3c4e1625fd.html",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-25-000005/0001628280-25-000005.pdf",
+        "summary": "Avalo Therapeutics reports that its lead asset, abdakibart (AVTX-009), is currently in a Phase 2 clinical trial (LOTUS) for the treatment of moderate-to-severe hidradenitis suppurativa. Topline data is expected in the second quarter of 2026.",
+        "summary_citation": "https://www.minichart.com.sg/2026/03/23/avalo-therapeutics-reports-2025-financial-results-and-prepares-for-key-phase-2-lotus-trial-data-of-avtx-009-in-hidradenitis-suppurativa/",
+        "publication_date": "2026-03-23",
+        "publication_date_citation": "https://www.minichart.com.sg/2026/03/23/avalo-therapeutics-reports-2025-financial-results-and-prepares-for-key-phase-2-lotus-trial-data-of-avtx-009-in-hidradenitis-suppurativa/",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-25-038570/0001628280-25-038570.pdf",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-25-038570/0001628280-25-038570.pdf",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/"
+      },
+      {
+        "source_type": "Press Release / Conference Abstract",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "competitor": "MLTX",
+        "competitor_citation": "https://www.nasdaq.com/market-activity/stocks/mltx/press-releases",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://finance.yahoo.com/news/moonlake-immunotherapeutics-investor-day-hs-061619157.html",
+        "summary": "MoonLake Immunotherapeutics announced Week 40 results from its Phase 3 clinical trials of sonelokimab (SLK) in hidradenitis suppurativa at the 2026 AAD Annual Meeting. The company also confirmed that FDA feedback indicates the VELA program data is sufficient to support a U.S. BLA.",
+        "summary_citation": "https://ir.moonlaketx.com/press-releases/",
+        "publication_date": "2026-03-28",
+        "publication_date_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa",
+        "competitor": "UCB",
+        "competitor_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-showcases-three-year-hidradenitis-suppurativa-data-at-ehsf-bimzelxrvbimekizumab-achieved-inflammatory-lesion-resolution-and-substantial-disease-severity-improvements",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.dermatologytimes.com/view/ucb-presents-3-year-be-heard-trial-results-for-bimekizumab-in-moderate-to-severe-hs",
+        "summary": "UCB presented new 3-year data for BIMZELX (bimekizumab) in moderate-to-severe hidradenitis suppurativa (HS) at the 2026 AAD meeting. Results from the BE HEARD I & II Phase 3 trials showed sustained lesion clearance and disease severity improvements over the three-year period.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/ucb-announces-new-bimzelx-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa-302727279.html",
+        "publication_date": "2026-03-27",
+        "publication_date_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa",
+        "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa",
+        "source_domain": "ucb.com",
+        "source_domain_citation": "https://www.ucb.com/"
+      },
+      {
+        "source_type": "Conference Abstract / Press Release",
+        "source_type_citation": "https://www.affibody.se/mfn_news/izokibep-demonstrates-durable-efficacy-in-phase-3-study-in-hidradenitis-suppurativa-as-presented-at-aad-2026/",
+        "competitor": "ACRS",
+        "competitor_citation": "https://www.dermatologytimes.com/view/izokibep-shows-sustained-phase-3-hiscr-response-in-biologic-na-ve-and-experienced-hs-patients",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://thedermdigest.com/hs-pipeline-watch-izokibep-meets-primary-endpoint-in-global-phase-3-trial/",
+        "summary": "Acelyrin (ACRS) partner Affibody presented positive 32-week data from a global Phase 3 study of izokibep in hidradenitis suppurativa at AAD 2026. The study met its primary endpoint of improved HiSCR-75 response and demonstrated durable efficacy in both biologic-naive and experienced patients.",
+        "summary_citation": "https://firstwordpharma.com/story/7155125",
+        "publication_date": "2026-03-27",
+        "publication_date_citation": "https://www.affibody.se/mfn_news/izokibep-demonstrates-durable-efficacy-in-phase-3-study-in-hidradenitis-suppurativa-as-presented-at-aad-2026/",
+        "source_link": "https://www.affibody.se/mfn_news/izokibep-demonstrates-durable-efficacy-in-phase-3-study-in-hidradenitis-suppurativa-as-presented-at-aad-2026/",
+        "source_link_citation": "https://www.affibody.se/mfn_news/izokibep-demonstrates-durable-efficacy-in-phase-3-study-in-hidradenitis-suppurativa-as-presented-at-aad-2026/",
+        "source_domain": "affibody.se",
+        "source_domain_citation": "https://www.affibody.se/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data",
+        "competitor": "INCY",
+        "competitor_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/incytes-skin-disease-drug-shows-long-term-symptom-relief-late-stage-trials-2026-03-28/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.managedhealthcareexecutive.com/view/incyte-s-povorcitinib-demonstrates-lasting-efficacy-in-hidradenitis-suppurativa-aad-2026",
+        "summary": "Incyte announced positive 54-week Phase 3 data for povorcitinib in hidradenitis suppurativa at AAD 2026. The STOP-HS program results demonstrated that the oral JAK1 inhibitor povorcitinib provided long-term symptom relief and durable response rates in moderate-to-severe patients.",
+        "summary_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-incy-6-2-positive-050959247.html",
+        "publication_date": "2026-03-28",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/"
+      },
+      {
+        "source_type": "Financial Report / Scientific Publication",
+        "source_type_citation": "https://investor.insmed.com/2026-02-19-Insmed-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update",
+        "competitor": "INSM",
+        "competitor_citation": "https://www.ajmc.com/view/brensocatib-becomes-first-fda-approved-therapy-for-bronchiectasis",
+        "keyword": "COPD",
+        "keyword_citation": "https://journal.chestnet.org/article/S0012-3692(25)00929-8/fulltext",
+        "summary": "Insmed reported that brensocatib (Brinsupri) received FDA approval in August 2025 for non-cystic fibrosis bronchiectasis. Additionally, analysis from the ASPEN trial presented in late 2025 showed that brensocatib improved clinical outcomes in patients with comorbid COPD.",
+        "summary_citation": "https://journal.chestnet.org/article/S0012-3692(25)00929-8/fulltext",
+        "publication_date": "2026-02-19",
+        "publication_date_citation": "https://investor.insmed.com/2026-02-19-Insmed-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-02-19-Insmed-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-02-19-Insmed-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/"
+      },
+      {
+        "source_type": "Press Release / SEC 8-K",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "competitor": "VERA",
+        "competitor_citation": "https://www.hcplive.com/view/fda-grants-priority-review-of-biologics-license-application-for-atacicept-in-iga-nephropathy",
+        "keyword": "Baff",
+        "keyword_citation": "https://www.empr.com/news/atacicept-for-iga-nephropathy-granted-fda-priority-review/",
+        "summary": "Vera Therapeutics announced that the FDA has granted Priority Review for its Biologics License Application (BLA) for atacicept in the treatment of IgA Nephropathy. Atacicept is a dual inhibitor of BAFF and APRIL cytokines. The PDUFA date is set for July 7, 2026.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/01/07/3214426/0/en/Vera-Therapeutics-Announces-U-S-FDA-Granted-Priority-Review-to-Biologics-License-Application-for-Atacicept-for-Treatment-of-Adults-with-IgA-Nephropathy.html",
+        "publication_date": "2026-01-07",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/"
+      },
+      {
+        "source_type": "Press Release / Financial Report",
+        "source_type_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-announces-completion-enrollment-part-b-signal-aa-phase/",
+        "competitor": "QTTB",
+        "competitor_citation": "https://seekingalpha.com/article/4887054-q32-bio-stock-bempikibart-keeps-alopecia-areata-bull-case-alive",
+        "keyword": "IL7R",
+        "keyword_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-announces-completion-enrollment-part-b-signal-aa-phase/",
+        "summary": "Q32 Bio (QTTB) announced completion of enrollment in its SIGNAL-AA Phase 2a trial of bempikibart, a monoclonal antibody targeting the IL-7R (interleukin-7 receptor). Topline 36-week results for the trial in alopecia areata are expected in mid-2026.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/q32-bio-reports-fourth-quarter-2025-financial-results-and-provides-corporate-update-302708710.html",
+        "publication_date": "2026-03-10",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/q32-bio-reports-fourth-quarter-2025-financial-results-and-provides-corporate-update-302708710.html",
+        "source_link": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-announces-completion-enrollment-part-b-signal-aa-phase/",
+        "source_link_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-announces-completion-enrollment-part-b-signal-aa-phase/",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "https://ir.q32bio.com/"
+      },
+      {
+        "source_type": "Press Release / Regulatory Update",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/03/25/3262553/0/en/Nkarta-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Corporate-Highlights.html",
+        "competitor": "NKTX",
+        "competitor_citation": "https://www.gurufocus.com/news/8795750/nkarta-nktx-clinches-fda-approval-for-clinical-trial-adjustments",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.marketbeat.com/stocks/NASDAQ/NKTX/fda-events/",
+        "summary": "Nkarta announced on April 15, 2026, that it reached an agreement with the FDA on protocol changes for its NKX019 natural killer (NK) cell therapy program. NKX019 is being investigated for autoimmune diseases including lupus, and the company has highlighted its potential in a range of B-cell mediated diseases often associated with systemic sclerosis and SLE.",
+        "summary_citation": "https://au.finance.yahoo.com/news/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "publication_date": "2026-04-15",
+        "publication_date_citation": "https://www.gurufocus.com/news/8795750/nkarta-nktx-clinches-fda-approval-for-clinical-trial-adjustments",
+        "source_link": "https://www.globenewswire.com/news-release/2026/03/25/3262553/0/en/Nkarta-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Corporate-Highlights.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/03/25/3262553/0/en/Nkarta-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Corporate-Highlights.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "competitor": "Candid",
+        "competitor_citation": "https://medcitynews.com/2026/03/candid-therapeutics-rallybio-reverse-merger-t-cell-engager-autoimmune-immunology-rlyb-cdrx/",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.candidrx.com/news-publications/",
+        "summary": "Candid Therapeutics and Rallybio announced a merger in March 2026 to advance a portfolio of T-cell engager (TCE) therapeutics for autoimmune diseases. The combined company will prioritize cizutamig, which is planned to enter Phase 2 trials in 2026 for indications potentially including systemic sclerosis and lupus.",
+        "summary_citation": "https://pulse2.com/candid-therapeutics-505-million-financing-and-merger-with-rallybio-to-advance-autoimmune-t-cell-engager-pipeline/",
+        "publication_date": "2026-03-02",
+        "publication_date_citation": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "source_link": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "source_link_citation": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "source_domain": "investors.rallybio.com",
+        "source_domain_citation": "https://investors.rallybio.com/"
+      },
+      {
+        "source_type": "Press Release / Financial Report",
+        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/",
+        "competitor": "GLUE",
+        "competitor_citation": "https://finance.yahoo.com/news/monte-rosa-therapeutics-touts-molecular-124037920.html",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.monterosatx.com/presentations/",
+        "summary": "Monte Rosa Therapeutics (GLUE) presented data on MRT-6160, a VAV1-directed molecular glue degrader, at the 2026 Keystone Symposia. The degrader has demonstrated activity in various autoimmune disease models, including those relevant to systemic sclerosis and other inflammatory conditions.",
+        "summary_citation": "https://www.monterosatx.com/presentations/",
+        "publication_date": "2026-03-17",
+        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/",
+        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/",
+        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/",
+        "source_domain": "ir.monterosatx.com",
+        "source_domain_citation": "https://ir.monterosatx.com/"
+      },
+      {
+        "source_type": "Financial Report / Pipeline Analysis",
+        "source_type_citation": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-reports-second-quarter-2025-financial/",
+        "competitor": "KNSA",
+        "competitor_citation": "https://www.delveinsight.com/report-store/giant-cell-arteritis-market",
+        "keyword": "Giant cell arteritis",
+        "keyword_citation": "https://www.barchart.com/story/news/37152188/giantcell-arteritis-pipeline-2025-therapies-moa-insights-and-key-clinical-trial-updates-by-delveinsight-abbvie-novartis-csl-kiniksa-pharma-eli-lilly-roche-johnson-johnson-morphosys-ag",
+        "summary": "Kiniksa Pharmaceuticals' rilonacept (Arcalyst) has shown significant revenue growth in 2025 and 2026. While primarily approved for pericarditis, it is highlighted in 2025/2026 pipeline reports as a potential therapeutic candidate for Giant Cell Arteritis (GCA) and other inflammatory vascular diseases.",
+        "summary_citation": "https://finance.yahoo.com/news/kiniksa-pharmaceuticals-provides-corporate-123000630.html",
+        "publication_date": "2026-02-24",
+        "publication_date_citation": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-reports-second-quarter-2025-financial/",
+        "source_link": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-reports-second-quarter-2025-financial/",
+        "source_link_citation": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-reports-second-quarter-2025-financial/",
+        "source_domain": "investors.kiniksa.com",
+        "source_domain_citation": "https://investors.kiniksa.com/"
+      },
+      {
+        "source_type": "Press Release / SEC 8-K",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/03/18/3258105/0/en/Alumis-Announces-Late-Breaker-Oral-Presentation-of-Phase-3-Data-for-Envudeucitinib-in-Moderate-to-Severe-Plaque-Psoriasis-at-2026-American-Academy-of-Dermatology-Annual-Meeting.html",
+        "competitor": "ALMS",
+        "competitor_citation": "https://seekingalpha.com/article/4885807-alumis-oral-psoriasis-med-can-win-approval-challenge-big-pharma-in-major-markets",
+        "keyword": "IL17",
+        "keyword_citation": "https://www.quiverquant.com/news/Alumis+Inc.+Reports+Promising+Phase+3+Results+for+Envudeucitinib+in+Treating+Moderate-to-Severe+Plaque+Psoriasis+at+2026+AAD+Annual+Meeting",
+        "summary": "Alumis presented Phase 3 data for envudeucitinib (ESK-001), a TYK2 inhibitor, in plaque psoriasis at the 2026 AAD Annual Meeting. The company also announced plans to test the drug in other immune-mediated diseases, following the competitive landscape of IL-17 and TYK2 inhibitors in autoimmune conditions.",
+        "summary_citation": "https://www.stocktitan.net/sec-filings/ALMS/8-k-alumis-inc-reports-material-event-7e1025540089.html",
+        "publication_date": "2026-03-18",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/03/18/3258105/0/en/Alumis-Announces-Late-Breaker-Oral-Presentation-of-Phase-3-Data-for-Envudeucitinib-in-Moderate-to-Severe-Plaque-Psoriasis-at-2026-American-Academy-of-Dermatology-Annual-Meeting.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/03/18/3258105/0/en/Alumis-Announces-Late-Breaker-Oral-Presentation-of-Phase-3-Data-for-Envudeucitinib-in-Moderate-to-Severe-Plaque-Psoriasis-at-2026-American-Academy-of-Dermatology-Annual-Meeting.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/03/18/3258105/0/en/Alumis-Announces-Late-Breaker-Oral-Presentation-of-Phase-3-Data-for-Envudeucitinib-in-Moderate-to-Severe-Plaque-Psoriasis-at-2026-American-Academy-of-Dermatology-Annual-Meeting.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-20T12:27:16.634Z",
+  "creditsUsed": 0
+}

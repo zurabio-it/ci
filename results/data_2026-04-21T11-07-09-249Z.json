@@ -1,0 +1,311 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "User query list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "User query list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "User query list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "competitor": "UCB",
+        "competitor_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "summary": "United Community Banks (UCB) released its first quarter 2026 financial results on April 21, 2026, before the market opens.",
+        "summary_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "source_link": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "source_link_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html"
+      },
+      {
+        "source_type": "Scientific News",
+        "source_type_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "keyword": "COPD",
+        "keyword_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "summary": "AstraZeneca's tozorakimab (IL-33 targeting biologic) met the primary endpoint in the Phase III MIRANDA trial, showing a statistically significant reduction in moderate-to-severe COPD exacerbations.",
+        "summary_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "source_link": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "source_link_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd",
+        "source_domain": "drugtopics.com",
+        "source_domain_citation": "https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd"
+      },
+      {
+        "source_type": "Regulatory News",
+        "source_type_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "keyword": "Giant cell arteritis",
+        "keyword_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "summary": "The FDA approved upadacitinib (Rinvoq; AbbVie) for the treatment of adults with giant cell arteritis (GCA), making it the first once-daily, non-steroid pill for this condition.",
+        "summary_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "source_link": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "source_link_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis",
+        "source_domain": "pharmacytimes.com",
+        "source_domain_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      },
+      {
+        "source_type": "Regulatory News",
+        "source_type_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "summary": "The FDA approved secukinumab (Cosentyx; Novartis) for pediatric patients aged 12 years and older with moderate to severe hidradenitis suppurativa (HS).",
+        "summary_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "source_link": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "source_link_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease",
+        "source_domain": "pharmacytimes.com",
+        "source_domain_citation": "https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease"
+      },
+      {
+        "source_type": "Corporate Action",
+        "source_type_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "competitor": "ANAB",
+        "competitor_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "summary": "AnaptysBio (ANAB) announced the spin-off of First Tracks Biotherapeutics (TRAX), with the distribution taking place on April 20 and regular trading expected on April 21, 2026.",
+        "summary_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "source_link": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "source_link_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html"
+      },
+      {
+        "source_type": "Scientific Data Presentation",
+        "source_type_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "competitor": "CGEM",
+        "competitor_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "keyword": "N/A",
+        "keyword_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "summary": "Cullinan Oncology presented updated clinical and preclinical data for zidesamtinib (CLN-081) at the AACR Annual Meeting 2026 on April 21, 2026.",
+        "summary_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "source_link": "https://investors.cullinantherapeutics.com/news-releases",
+        "source_link_citation": "https://investors.cullinantherapeutics.com/news-releases",
+        "source_domain": "cullinantherapeutics.com",
+        "source_domain_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "source_type": "Scientific Data Presentation",
+        "source_type_citation": "https://investors.xencor.com/press-releases",
+        "competitor": "XNCR",
+        "competitor_citation": "https://investors.xencor.com/press-releases",
+        "keyword": "N/A",
+        "keyword_citation": "https://investors.xencor.com/press-releases",
+        "summary": "Xencor presented data for XmAb808, a B7H3-targeted CD28 bispecific antibody, at the AACR Annual Meeting 2026 on April 21, 2026.",
+        "summary_citation": "https://investors.xencor.com/press-releases",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://investors.xencor.com/press-releases",
+        "source_link": "https://investors.xencor.com/press-releases",
+        "source_link_citation": "https://investors.xencor.com/press-releases",
+        "source_domain": "xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "source_type": "Scientific Data Presentation",
+        "source_type_citation": "https://www.glpg.com/press-releases",
+        "competitor": "GLPG",
+        "competitor_citation": "https://www.glpg.com/press-releases",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.glpg.com/press-releases",
+        "summary": "Galapagos presented oncology pipeline data, including its strategic collaboration programs, at the AACR Annual Meeting 2026 on April 21, 2026.",
+        "summary_citation": "https://www.glpg.com/press-releases",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.glpg.com/press-releases",
+        "source_link": "https://www.glpg.com/press-releases",
+        "source_link_citation": "https://www.glpg.com/press-releases",
+        "source_domain": "glpg.com",
+        "source_domain_citation": "https://www.glpg.com/press-releases"
+      },
+      {
+        "source_type": "Market Analysis",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "competitor": "Candid",
+        "competitor_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "summary": "A new market report on the landscape of trispecific antibodies, published April 21, 2026, highlighted Candid Therapeutics as a key proprietary company in the space.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html"
+      },
+      {
+        "source_type": "SEC Filing / Ownership Update",
+        "source_type_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "competitor": "INCY",
+        "competitor_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "summary": "Asset Management One Co. Ltd. reported the purchase of 80,887 shares of Incyte Corp. (INCY) on April 21, 2026.",
+        "summary_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_link": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_link_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/"
+      },
+      {
+        "source_type": "SEC Filing / Ownership Update",
+        "source_type_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "competitor": "INSM",
+        "competitor_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "keyword": "N/A",
+        "keyword_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "summary": "Asset Management One Co. Ltd. reported the purchase of shares of Insmed, Inc. (INSM) on April 21, 2026.",
+        "summary_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_link": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_link_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-22T11:07:09.214Z",
+  "creditsUsed": 0
+}

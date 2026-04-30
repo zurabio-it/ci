@@ -1,0 +1,176 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://clinicaltrials.gov/study/NCT07540741"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "summary": "Incyte announced positive 54-week late-breaking data for Povorcitinib in Hidradenitis Suppurativa at the 2026 American Academy of Dermatology (AAD) Annual Meeting.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_link": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "competitors": [],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "summary": "HKeybio launched the world's first non-human primate (NHP) model for Hidradenitis Suppurativa (HS), which exhibits high clinical consistency to address bottlenecks in drug research and development.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "source_link": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/hkeybio-launches-worlds-first-nhp-hidradenitis-suppurativa-model-with-high-clinical-consistency-to-tackle-global-drug-rd-bottleneck-302746793.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "summary": "AnaptysBio announced the completion of the separation of First Tracks Biotherapeutics; AnaptysBio will continue to trade under the symbol 'ANAB'.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and",
+        "source_domain": "anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-completes-separation-first-tracks-biotherapeutics-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "competitors": [
+          "GLUE",
+          "KYMR"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "keywords": [],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "summary": "A DelveInsight report on the Follicular Lymphoma clinical trial landscape identifies Monte Rosa Therapeutics (GLUE) and Kymera Therapeutics (KYMR) among the key companies with active development programs.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/21/3278305/0/en/Follicular-Lymphoma-Clinical-Trial-Space-Intensifies-with-45-Companies-in-Active-Development-DelveInsight.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "competitors": [],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "keywords": [
+          "Polymyalgia rheumatica"
+        ],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "summary": "Merck and Eisai updated findings for the Phase 3 LITESPARK-012 trial; the study population details mention polymyalgia rheumatica as a condition of interest or exclusion.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "source_link": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260421205834/en/Merck-and-Eisai-Provide-Update-on-Phase-3-LITESPARK-012-Trial-Evaluating-First-Line-Combination-Treatments-for-Certain-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC"
+      },
+      {
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "competitors": [],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "summary": "A clinical trial update for study NCT07540741, which evaluates the efficacy and safety of PCSK9 inhibitors in patients with large-artery vasculitis, includes systemic sclerosis as a relevant autoimmune condition.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "source_link": "https://clinicaltrials.gov/study/NCT07540741",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07540741",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07540741"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "competitors": [],
+        "competitors_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "summary": "Pulmatrix announced the closing of a preferred stock transaction as part of its merger strategy, which supports the development of its COPD product candidates.",
+        "summary_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "source_link": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "source_link_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/pulmatrix-announces-closing-of-preferred-stock-transaction-as-part-of-planned-merger-302748188.html"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-22T20:33:24.648Z",
+  "creditsUsed": 0
+}

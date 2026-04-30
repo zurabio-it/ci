@@ -1,0 +1,455 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring of industry news and press releases on April 20, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Monitoring of medical news and publications on April 20, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "competitor": "ORKA",
+        "competitor_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "keyword": "Oruka Therapeutics",
+        "keyword_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "summary": "Oruka Therapeutics (NASDAQ:ORKA) reached a new 52-week high of $75.65 during midday trading on Monday, April 20, 2026. The stock's rise follows multiple price-target increases from analysts at Wedbush, UBS, and Leerink Partners in recent weeks, contributing to a consensus rating of 'Moderate Buy'.",
+        "summary_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "source_link": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "source_link_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "competitor": "INSM",
+        "competitor_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "keyword": "Insmed",
+        "keyword_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "summary": "Mirae Asset Global Investments Co. Ltd. reported the acquisition of 69,410 shares of Insmed, Inc. (INSM) on April 20, 2026. The investment firm's disclosure comes as Insmed continues to project strong revenue growth for 2026 following successful product launches and clinical updates.",
+        "summary_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "source_link": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "source_link_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "competitor": "NKTX",
+        "competitor_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "keyword": "Nkarta",
+        "keyword_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "summary": "Nkarta (NKTX) was identified as a key public peer and comparable company in the cell therapy space on April 20, 2026, following Eli Lilly's announcement of its $3.25 billion acquisition of Kelonia Therapeutics. Additionally, NKTX was cited in reports regarding Biogen's agreement with TJ Biopharma for Felzartamab assets, and a deadline for a shareholder investigation into previous disclosures for the company was set for today.",
+        "summary_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "source_link": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "source_link_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/",
+        "source_domain": "statnews.com",
+        "source_domain_citation": "https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "competitor": "AstraZeneca",
+        "competitor_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "keyword": "COPD",
+        "keyword_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "summary": "AstraZeneca announced that the Phase 3 MIRANDA trial for tozorakimab (an anti-IL-33 monoclonal antibody) met its primary endpoint, significantly reducing the annualized rate of moderate-to-severe COPD exacerbations compared to placebo in patients with symptomatic COPD and frequent prior exacerbations.",
+        "summary_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "source_link": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "source_link_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations",
+        "source_domain": "hcplive.com",
+        "source_domain_citation": "https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "competitor": "Incyte",
+        "competitor_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "summary": "New 54-week efficacy and safety results from the STOP-HS1 and STOP-HS2 phase 3 studies demonstrate that povorcitinib, a JAK1 inhibitor, provides durable and meaningful efficacy for patients with moderate-to-severe hidradenitis suppurativa.",
+        "summary_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa",
+        "source_domain": "docwirenews.com",
+        "source_domain_citation": "https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "competitor": "Novartis",
+        "competitor_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "keyword": "IL17",
+        "keyword_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "summary": "A pilot study report released today highlights that IL-17 inhibitors show promise in managing both cutaneous and musculoskeletal symptoms in patients with hidradenitis suppurativa, who often suffer from diverse arthritis patterns and high metabolic burden.",
+        "summary_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "source_link": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "source_link_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise",
+        "source_domain": "contemporarypediatrics.com",
+        "source_domain_citation": "https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://www.cmaj.ca/topics",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.cmaj.ca/topics",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.cmaj.ca/topics",
+        "summary": "The Canadian Medical Association Journal (CMAJ) published a clinical review titled 'Five things to know about …: Systemic sclerosis,' providing essential diagnostic and management tips for practitioners, emphasizing the multi-organ nature of the disease.",
+        "summary_citation": "https://www.cmaj.ca/topics",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.cmaj.ca/topics",
+        "source_link": "https://www.cmaj.ca/topics",
+        "source_link_citation": "https://www.cmaj.ca/topics",
+        "source_domain": "cmaj.ca",
+        "source_domain_citation": "https://www.cmaj.ca/topics"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "keyword": "Baff",
+        "keyword_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "summary": "A research publication on April 20, 2026, identified the role of VGLL3 in sexually dimorphic interferon-driven inflammation, specifically linking the cytokine BAFF (TNFSF13B) to the pathogenesis of systemic sclerosis in women.",
+        "summary_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "source_link": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "source_link_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation",
+        "source_domain": "aacom.org",
+        "source_domain_citation": "https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://www.nejm.org",
+        "competitor": "N/A",
+        "competitor_citation": "https://www.nejm.org",
+        "keyword": "Polymyalgia rheumatica",
+        "keyword_citation": "https://www.nejm.org",
+        "summary": "A new Clinical Practice article published in the New England Journal of Medicine (NEJM) on April 20, 2026, provides an updated summary on the diagnosis and management of polymyalgia rheumatica, including steroid-sparing strategies.",
+        "summary_citation": "https://www.nejm.org",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.nejm.org",
+        "source_link": "https://www.nejm.org",
+        "source_link_citation": "https://www.nejm.org",
+        "source_domain": "nejm.org",
+        "source_domain_citation": "https://www.nejm.org"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "competitor": "Roche",
+        "competitor_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "keyword": "Giant cell arteritis",
+        "keyword_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "summary": "University Hospital Zurich updated its clinical protocols for vascular inflammation on April 20, 2026, highlighting the integration of PET-CT imaging and the use of tocilizumab (IL-6 inhibitor) for the treatment of giant cell arteritis.",
+        "summary_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "source_link": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "source_link_citation": "https://www.usz.ch/en/disease/vascular-inflammation/",
+        "source_domain": "usz.ch",
+        "source_domain_citation": "https://www.usz.ch/en/disease/vascular-inflammation/"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.nomic.bio/core",
+        "competitor": "Nomic Bio",
+        "competitor_citation": "https://www.nomic.bio/core",
+        "keyword": "IL7R",
+        "keyword_citation": "https://www.nomic.bio/core",
+        "summary": "Nomic Bio and Broad Clinical Labs announced a partnership on April 20, 2026, to utilize high-throughput proteomics for drug discovery, featuring the Nomic Core Panel which includes markers like IL7R for autoimmune and inflammatory research.",
+        "summary_citation": "https://www.nomic.bio/core",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.nomic.bio/core",
+        "source_link": "https://www.nomic.bio/core",
+        "source_link_citation": "https://www.nomic.bio/core",
+        "source_domain": "nomic.bio",
+        "source_domain_citation": "https://www.nomic.bio/core"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "competitor": "UCB",
+        "competitor_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "keyword": "Epilepsy",
+        "keyword_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "summary": "UCB announced the acquisition of Neurona Therapeutics for $1.15 billion ($650 million upfront) to expand into regenerative cell therapy for epilepsy.",
+        "summary_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "source_link": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "source_link_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article",
+        "source_domain": "europeanpharmaceuticalreview.com",
+        "source_domain_citation": "https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article"
+      },
+      {
+        "source_type": "SEC filing",
+        "source_type_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "competitor": "ANAB",
+        "competitor_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "keyword": "First Tracks Biotherapeutics",
+        "keyword_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "summary": "AnaptysBio completed the spin-off of First Tracks Biotherapeutics (TRAX) on April 20, 2026, which is expected to begin regular-way trading on Nasdaq.",
+        "summary_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "source_link": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "competitor": "GLUE",
+        "competitor_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "keyword": "CCNE1",
+        "keyword_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "summary": "Monte Rosa Therapeutics presented preclinical data at AACR 2026 on its cyclin E1 (CCNE1)-directed molecular glue degrader for treating CCNE1-amplified solid tumors.",
+        "summary_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "source_link": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "source_link_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "competitor": "INCY",
+        "competitor_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "keyword": "Adagene",
+        "keyword_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "summary": "Incyte and Adagene announced a partnership to evaluate ADG116 in combination with retifanlimab in patients with solid tumors.",
+        "summary_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "source_link_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html",
+        "source_domain": "yahoo.com",
+        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "competitor": "AstraZeneca",
+        "competitor_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "keyword": "COPD",
+        "keyword_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "summary": "AstraZeneca announced that Tozorakimab (IL-33 targeting biologic) met its primary endpoint in the Phase III MIRANDA trial, showing a reduction in COPD exacerbations.",
+        "summary_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "source_link": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "source_link_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/",
+        "source_domain": "reuters.com",
+        "source_domain_citation": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "competitor": "NKTX",
+        "competitor_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "keyword": "NKX019",
+        "keyword_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "summary": "Nkarta announced FDA agreement on outpatient dosing for NKX019 in Lupus Nephritis and potentially other autoimmune indications like ANCA-associated vasculitis.",
+        "summary_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "source_link": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "source_link_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html"
+      },
+      {
+        "source_type": "Presentation",
+        "source_type_citation": "https://investors.xencor.com/events-and-presentations",
+        "competitor": "XNCR",
+        "competitor_citation": "https://investors.xencor.com/events-and-presentations",
+        "keyword": "XmAb808",
+        "keyword_citation": "https://investors.xencor.com/events-and-presentations",
+        "summary": "Xencor presented data on XmAb808, a B7H3-targeted CD28 bispecific antibody, costimulating T cells at AACR 2026.",
+        "summary_citation": "https://investors.xencor.com/events-and-presentations",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://investors.xencor.com/events-and-presentations",
+        "source_link": "https://investors.xencor.com/events-and-presentations",
+        "source_link_citation": "https://investors.xencor.com/events-and-presentations",
+        "source_domain": "xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/events-and-presentations"
+      },
+      {
+        "source_type": "Presentation",
+        "source_type_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "competitor": "VOR",
+        "competitor_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "keyword": "VOR-101",
+        "keyword_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "summary": "Vor Bio presented new preclinical data on its PrimeBody platform and VOR-101 at AACR 2026.",
+        "summary_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "source_link": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "source_link_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac",
+        "source_domain": "vorotx.com",
+        "source_domain_citation": "https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "competitor": "VERA",
+        "competitor_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "keyword": "BRAF",
+        "keyword_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "summary": "Verastem Oncology announced presentations at AACR 2026, including regular abstracts on BRAF mutant tumors.",
+        "summary_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "publication_date": "April 20, 2026",
+        "publication_date_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "source_link": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "source_link_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/",
+        "source_domain": "verastem.com",
+        "source_domain_citation": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-21T20:10:44.084Z",
+  "creditsUsed": 0
+}

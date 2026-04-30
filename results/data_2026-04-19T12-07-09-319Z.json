@@ -1,0 +1,295 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Competitor list from task query."
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Competitor list from task query."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Keyword list from task query."
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Keyword list from task query."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/211/avalo-therapeutics-announces-completion-of-enrollment-in-phase-2-lotus-trial-of-avtx-009-for-the-treatment-of-hidradenitis-suppurativa",
+        "competitor": "AVTX",
+        "competitor_citation": "https://ir.avalotx.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/211/",
+        "summary": "Avalo Therapeutics completed enrollment in the LOTUS Phase 2b trial of AVTX-009, a high-affinity IL-1β inhibitor, for moderate-to-severe hidradenitis suppurativa. Topline data is expected in Q2 2026.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/211/",
+        "publication_date": "2026-03-23",
+        "publication_date_citation": "https://www.chartmill.com/news/AVTX/gnwcq-2026-3-23-avalo-therapeutics-reports-2025-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/211/avalo-therapeutics-announces-completion-of-enrollment-in-phase-2-lotus-trial-of-avtx-009-for-the-treatment-of-hidradenitis-suppurativa",
+        "source_link_citation": "https://ir.avalotx.com/",
+        "source_domain": "avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/"
+      },
+      {
+        "source_type": "Press Release / Conference Presentation",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "competitor": "MLTX",
+        "competitor_citation": "https://ir.moonlaketx.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "summary": "MoonLake announced Week 40 results from its Phase 3 clinical trials of Sonelokimab (IL-17A/F nanobody) in Hidradenitis Suppurativa at the 2026 AAD Annual Meeting.",
+        "summary_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "publication_date": "2026-03-28",
+        "publication_date_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/",
+        "source_link_citation": "https://ir.moonlaketx.com/",
+        "source_domain": "moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/"
+      },
+      {
+        "source_type": "Press Release / Conference Presentation",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-highlight-late-breaking-hidradenitis-suppurativa-data/",
+        "competitor": "INCY",
+        "competitor_citation": "https://investor.incyte.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-highlight-late-breaking-hidradenitis-suppurativa-data/",
+        "summary": "Incyte presented late-breaking 54-week results from the Phase 3 STOP-HS program evaluating povorcitinib (JAK1 inhibitor) in moderate-to-severe hidradenitis suppurativa at AAD 2026.",
+        "summary_citation": "https://www.medpagetoday.com/meetingcoverage/aad/120644",
+        "publication_date": "2026-03-27",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-highlight-late-breaking-hidradenitis-suppurativa-data/",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-highlight-late-breaking-hidradenitis-suppurativa-data/",
+        "source_link_citation": "https://investor.incyte.com/",
+        "source_domain": "incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "competitor": "UCB",
+        "competitor_citation": "https://www.ucb.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "summary": "Results from the BE HEARD I and II trials for bimekizumab (Bimzelx), an IL-17A/F inhibitor, showed significant improvements in HS severity.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "publication_date": "2026-02-14",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/41689425/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/"
+      },
+      {
+        "source_type": "SEC 8-K / Press Release",
+        "source_type_citation": "https://www.stocktitan.net/sec-filings/INSM/8-k-insmed-inc-reports-material-event-6310b101f25a.html",
+        "competitor": "INSM",
+        "competitor_citation": "https://investor.insmed.com/",
+        "keyword": "Hidradenitis suppurativa",
+        "keyword_citation": "https://www.stocktitan.net/sec-filings/INSM/8-k-insmed-inc-reports-material-event-6310b101f25a.html",
+        "summary": "Insmed announced that the Phase 2b CEDAR study of brensocatib in adults with moderate-to-severe hidradenitis suppurativa did not meet its primary or secondary efficacy endpoints.",
+        "summary_citation": "https://www.theglobeandmail.com/investing/markets/stocks/INSM/pressreleases/1207850/insmed-halts-brensocatib-development-after-phase-2b-failure/",
+        "publication_date": "2026-04-07",
+        "publication_date_citation": "https://www.stocktitan.net/sec-filings/INSM/8-k-insmed-inc-reports-material-event-6310b101f25a.html",
+        "source_link": "https://investor.insmed.com/2026-04-07-Insmed-Reports-Topline-Results-from-Phase-2b-CEDAR-Trial-of-Brensocatib-in-Hidradenitis-Suppurativa",
+        "source_link_citation": "https://investor.insmed.com/",
+        "source_domain": "insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/"
+      },
+      {
+        "source_type": "SEC 8-K / Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "competitor": "VERA",
+        "competitor_citation": "https://ir.veratx.com/",
+        "keyword": "Baff",
+        "keyword_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "summary": "Vera Therapeutics announced that the U.S. FDA granted Priority Review to the BLA for atacicept, a BAFF/APRIL binding recombinant fusion protein.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "publication_date": "2026-01-21",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review",
+        "source_link_citation": "https://ir.veratx.com/",
+        "source_domain": "veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/"
+      },
+      {
+        "source_type": "SEC 10-K / Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/financial-information/sec-filings/",
+        "competitor": "NKTX",
+        "competitor_citation": "https://ir.nkartatx.com/",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.marketbeat.com/stocks/NASDAQ/NKTX/fda-events/",
+        "summary": "Nkarta announced that its Ntrust-2 clinical trial for NKX019 is open for enrollment for patients with systemic sclerosis.",
+        "summary_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "publication_date": "2026-03-25",
+        "publication_date_citation": "https://ir.nkartatx.com/financial-information/sec-filings/",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-fourth-quarter-and-full-year-2025-financial-results",
+        "source_link_citation": "https://ir.nkartatx.com/",
+        "source_domain": "nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/"
+      },
+      {
+        "source_type": "Press Release / SEC 8-K",
+        "source_type_citation": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-provides-corporate-update-0/",
+        "competitor": "KNSA",
+        "competitor_citation": "https://investors.kiniksa.com/",
+        "keyword": "Giant cell arteritis",
+        "keyword_citation": "https://www.kiniksa.com/for-healthcare-professionals",
+        "summary": "Kiniksa Pharmaceuticals highlighted ongoing progress with ARCALYST and mavrilimumab in Giant Cell Arteritis.",
+        "summary_citation": "https://finance.yahoo.com/news/kiniksa-pharmaceuticals-reports-fourth-quarter-123000309.html",
+        "publication_date": "2026-02-19",
+        "publication_date_citation": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-provides-corporate-update-0/",
+        "source_link": "https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-provides-corporate-update-0/",
+        "source_link_citation": "https://investors.kiniksa.com/",
+        "source_domain": "kiniksa.com",
+        "source_domain_citation": "https://investors.kiniksa.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "competitor": "Candid",
+        "competitor_citation": "https://www.candidrx.com/",
+        "keyword": "Baff",
+        "keyword_citation": "https://www.candidrx.com/news-publications/",
+        "summary": "Candid Therapeutics announced a merger with Rallybio to advance a portfolio of T-cell engager (TCE) therapeutics.",
+        "summary_citation": "https://pulse2.com/candid-therapeutics-505-million-financing-and-merger-with-rallybio-to-advance-autoimmune-t-cell-engager-pipeline/",
+        "publication_date": "2026-03-04",
+        "publication_date_citation": "https://pulse2.com/candid-therapeutics-505-million-financing-and-merger-with-rallybio-to-advance-autoimmune-t-cell-engager-pipeline/",
+        "source_link": "https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/",
+        "source_link_citation": "https://www.candidrx.com/",
+        "source_domain": "candidrx.com",
+        "source_domain_citation": "https://www.candidrx.com/"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248049/0/en/Quell-Therapeutics-Demonstrates-Safety-Phenotypic-Stability-Durability-and-Early-Efficacy-with-Phenotype-Locked-CAR-Tregs-in-LIBERATE-Phase-1-2-Liver-Transplant-Study.html",
+        "competitor": "QTTB",
+        "competitor_citation": "https://www.quell-tx.com/",
+        "keyword": "Systemic sclerosis",
+        "keyword_citation": "https://www.quell-tx.com/pipeline",
+        "summary": "Quell Therapeutics has initiated the CHILL Phase 1/2 trial to explore QEL-005 in systemic sclerosis.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248049/0/en/Quell-Therapeutics-Demonstrates-Safety-Phenotypic-Stability-Durability-and-Early-Efficacy-with-Phenotype-Locked-CAR-Tregs-in-LIBERATE-Phase-1-2-Liver-Transplant-Study.html",
+        "publication_date": "2026-03-03",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/03/03/3248049/0/en/Quell-Therapeutics-Demonstrates-Safety-Phenotypic-Stability-Durability-and-Early-Efficacy-with-Phenotype-Locked-CAR-Tregs-in-LIBERATE-Phase-1-2-Liver-Transplant-Study.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/03/03/3248049/0/en/Quell-Therapeutics-Demonstrates-Safety-Phenotypic-Stability-Durability-and-Early-Efficacy-with-Phenotype-Locked-CAR-Tregs-in-LIBERATE-Phase-1-2-Liver-Transplant-Study.html",
+        "source_link_citation": "https://www.quell-tx.com/",
+        "source_domain": "quell-tx.com",
+        "source_domain_citation": "https://www.quell-tx.com/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-20T12:07:10.482Z",
+  "creditsUsed": 0
+}

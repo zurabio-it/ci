@@ -1,0 +1,283 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Competitor list from user query"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Competitor list from user query"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Keyword list from user query"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Keyword list from user query"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire, April 24, 2026",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Article explicitly mentions AnaptysBio, Inc. (Nasdaq: ANAB)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the monitored list were mentioned in this article.",
+        "summary": "The Delaware Chancery Court ruled in favor of AnaptysBio by dismissing Tesaro’s anticipatory breach claim. The ruling preserves current contracted royalty rates for Jemperli and rejects Tesaro’s request for any royalty reduction.",
+        "summary_citation": "Full article content from GlobeNewswire",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Article date: April 24, 2026 15:40 ET",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/24/3281057/0/en/Delaware-Chancery-Court-Rules-in-Favor-of-Anaptys-by-Dismissing-Tesaro-s-Anticipatory-Breach-Claim.html",
+        "source_link_citation": "Direct URL to the press release",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "UCB Corporate Website, April 24, 2026",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "Article explicitly mentions UCB SA/NV",
+        "keywords": [],
+        "keywords_citation": "No keywords from the monitored list were mentioned in this article.",
+        "summary": "UCB announced the completion of its 2026 share repurchase program. The company repurchased a total of 500,000 UCB shares to cover obligations under its Long Term Incentive Plans.",
+        "summary_citation": "Full article content from UCB press release",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Press release timestamp: 24 April 2026 – 20:00 (CEST)",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/acquisition-of-own-shares-45",
+        "source_link_citation": "Direct URL to the press release",
+        "source_domain": "ucb.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "RTT News / AstraZeneca, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "No specific competitors from the list were mentioned in this AstraZeneca release.",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "Article mentions \"Chronic obstructive pulmonary disease (COPD)\" and \"tozorakimab, a monoclonal antibody targeting interleukin-33 (IL-33)\"",
+        "summary": "AstraZeneca reported that tozorakimab met the primary endpoint in Phase 3 OBERON and TITANIA trials for COPD. The drug significantly reduced the rate of moderate-to-severe exacerbations in a broad COPD population.",
+        "summary_citation": "News reports from RTT News and Reuters on April 24, 2026",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Article timestamp: April 24, 2026 16:30 ET",
+        "source_link": "https://www.rttnews.com/3640138/astrazeneca-says-tozorakimab-meets-main-goal-in-phase-iii-copd-trial.aspx",
+        "source_link_citation": "Direct URL to the news article",
+        "source_domain": "rttnews.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "BioSpace / Novartis, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "No specific competitors from the list were mentioned in this Novartis release.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "Article mentions \"moderate-to-severe hidradenitis suppurativa (HS)\" and targets \"IL-17\"",
+        "summary": "The FDA approved Novartis’ Cosentyx (secukinumab) for the treatment of pediatric patients aged 12 years and older with moderate-to-severe hidradenitis suppurativa (HS). This follows previous approval for adults.",
+        "summary_citation": "News reports from BioSpace and PR Newswire on April 24, 2026",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Article date: April 24, 2026",
+        "source_link": "https://www.biospace.com/press-releases/novartis-cosentyx-receives-fda-approval-for-pediatric-patients-aged-12-with-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link_citation": "Direct URL to the press release",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "PubMed, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "No specific competitors from the list were mentioned in this study.",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "Article mentions \"T helper 17 cell (TH17 cell) differentiation and concurrently activates IL-17\"",
+        "summary": "A study published in PubMed identifies Transcobalamin 1 (TCN1) as a keratinocyte-derived autoantigen that promotes Th17 cell differentiation and activates the IL-17 pathway in inflammatory skin disease contexts.",
+        "summary_citation": "PubMed abstract for PMID: 42030399",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Feed timestamp: April 24, 2026",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42030399/",
+        "source_link_citation": "Direct URL to the PubMed entry",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Market News",
+        "source_type_citation": "Quiver Quantitative / PriceTracker, April 25, 2026",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Article explicitly mentions \"Insmed (INSM)\"",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Article mentions \"failed HS trial\"",
+        "summary": "Insmed (INSM) shares declined as investors continued to react to the failure of its trial in Hidradenitis suppurativa (HS) and positioned ahead of the company's upcoming earnings report.",
+        "summary_citation": "Market commentary from Quiver Quantitative",
+        "publication_date": "April 25, 2026",
+        "publication_date_citation": "Posted date: April 25, 2026",
+        "source_link": "https://www.quiverquant.com/news/Insmed+(INSM)+slips+6%25+as+investors+continue+to+digest+failed+HS+trial+and+reposition+ahead+of+upcoming+earnings",
+        "source_link_citation": "Direct URL to the news item",
+        "source_domain": "quiverquant.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire / Kiniksa Pharmaceuticals, April 24, 2026",
+        "competitors": [
+          "KNSA"
+        ],
+        "competitors_citation": "Article explicitly mentions Kiniksa Pharmaceuticals International, plc (Nasdaq: KNSA)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the monitored list were mentioned in this announcement.",
+        "summary": "Kiniksa Pharmaceuticals announced that it will report its first quarter 2026 financial results on Tuesday, April 28, 2026, before the market opens.",
+        "summary_citation": "Kiniksa press release from GlobeNewswire",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Press release date: April 24, 2026",
+        "source_link": "https://www.biospace.com/press-releases/kiniksa-pharmaceuticals-to-report-first-quarter-2026-financial-results-on-april-28-2026",
+        "source_link_citation": "Direct URL to the press release",
+        "source_domain": "biospace.com",
+        "source_domain_citation": "Root domain of the source"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "JAAD Online, April 24, 2026",
+        "competitors": [],
+        "competitors_citation": "No specific competitors from the list were mentioned in this commentary.",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Article title mentions \"Hidradenitis Suppurativa\"",
+        "summary": "The Journal of the American Academy of Dermatology published a commentary online regarding current data and care strategies for Hidradenitis Suppurativa.",
+        "summary_citation": "JAAD Articles in Press",
+        "publication_date": "April 24, 2026",
+        "publication_date_citation": "Published online: April 24, 2026",
+        "source_link": "https://www.jaad.org/inpress",
+        "source_link_citation": "Journal online publication page",
+        "source_domain": "jaad.org",
+        "source_domain_citation": "Root domain of the source"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-26T11:03:13.852Z",
+  "creditsUsed": 0
+}

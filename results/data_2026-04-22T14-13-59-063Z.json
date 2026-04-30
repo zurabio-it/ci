@@ -1,0 +1,266 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitor list provided in prompt"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitor list provided in prompt"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Monitor list provided in prompt"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PharmiWeb Press Release, April 22, 2026",
+        "competitors": [],
+        "competitors_citation": "No listed competitors mentioned in the specific news report",
+        "keywords": [
+          "IL-33",
+          "COPD"
+        ],
+        "keywords_citation": "Article discusses tozorakimab (IL-33) Phase III MIRANDA trial in COPD",
+        "summary": "AstraZeneca announced that its IL-33-targeting biologic tozorakimab met the primary endpoint in the Phase III MIRANDA trial, showing a statistically significant reduction in moderate-to-severe COPD exacerbations.",
+        "summary_citation": "PharmiWeb, April 22, 2026: \"Third positive pivotal Phase III clinical trial of AstraZenecas IL-33-targeting biologic\"",
+        "publication_date": "2026-04-22",
+        "publication_date_citation": "PharmiWeb publication date: April 22, 2026",
+        "source_link": "https://www.pharmiweb.com/press-release/2026-04-22/third-positive-pivotal-phase-iii-clinical-trial-of-astrazeneca-s-il-33-targeting-biologic-further-demonstrates-its-benefits-in-copd",
+        "source_link_citation": "PharmiWeb URL",
+        "source_domain": "pharmiweb.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Incyte Investor Relations, April 21, 2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Incyte Corporation (INCY) is the subject of the press release",
+        "keywords": [],
+        "keywords_citation": "No specific monitor keywords mentioned in this oncology-focused data release",
+        "summary": "Incyte announced full results from the Phase 3 frontMIND study evaluating tafasitamab in combination with R-CHOP in patients with previously untreated diffuse large B-cell lymphoma (DLBCL), to be presented at ASCO 2026.",
+        "summary_citation": "Incyte Press Release, April 21, 2026: \"Incyte Highlights New Phase 3 Tafasitamab Data at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting\"",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "Press release date: April 21, 2026 (within 24 hours of today)",
+        "source_link": "https://investor.incyte.com/press-releases",
+        "source_link_citation": "Incyte Investor Relations URL",
+        "source_domain": "incyte.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Yahoo Finance, April 22, 2026",
+        "competitors": [],
+        "competitors_citation": "No listed competitors mentioned",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "Article discusses HS models and mentions IL-17 as a target pathway",
+        "summary": "HKeybio launched the world's first non-human primate (NHP) model for Hidradenitis Suppurativa (HS), which is intended to facilitate more clinically relevant testing for drug candidates, including those targeting the IL-17 pathway.",
+        "summary_citation": "Yahoo Finance, April 22, 2026: \"HKeybio Launches Worlds First NHP Hidradenitis Suppurativa model\"",
+        "publication_date": "2026-04-22",
+        "publication_date_citation": "Yahoo Finance publication date: April 22, 2026",
+        "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/hkeybio-launches-worlds-first-nhp-123000729.html",
+        "source_link_citation": "Yahoo Finance URL",
+        "source_domain": "finance.yahoo.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Business Insider / PR Newswire, April 21, 2026",
+        "competitors": [],
+        "competitors_citation": "No listed competitors mentioned",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "Article mentions JADE201 as an anti-BAFF-R antibody",
+        "summary": "Jade Biosciences appointed Edward R. Conner as Chief Medical Officer and highlighted its pipeline, which includes JADE201, an anti-BAFF-R monoclonal antibody for autoimmune diseases.",
+        "summary_citation": "Business Insider, April 21, 2026: \"Jade Biosciences Appoints Edward R. Conner, M.D., as Chief Medical Officer\"",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "Press release date: April 21, 2026",
+        "source_link": "https://markets.businessinsider.com/news/stocks/jade-biosciences-appoints-edward-r-conner-m-d-as-chief-medical-officer-1036048037",
+        "source_link_citation": "Business Insider URL",
+        "source_domain": "businessinsider.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Celltrion Media Center, April 21, 2026",
+        "competitors": [],
+        "competitors_citation": "No listed competitors mentioned",
+        "keywords": [
+          "Giant cell arteritis"
+        ],
+        "keywords_citation": "Article mentions GCA as an indication for AVTOZMA SC",
+        "summary": "Celltrion announced the US commercial availability of AVTOZMA SC, a subcutaneous tocilizumab biosimilar, indicated for conditions including Giant Cell Arteritis (GCA).",
+        "summary_citation": "Celltrion Press Release, April 21, 2026: \"Celltrion Announces Commercial Availability In US Of AVTOZMA SC\"",
+        "publication_date": "2026-04-21",
+        "publication_date_citation": "Press release date: April 21, 2026",
+        "source_link": "https://www.celltrion.com/en-us/company/media-center/press-release",
+        "source_link_citation": "Celltrion URL",
+        "source_domain": "celltrion.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Scientific News",
+        "source_type_citation": "The Limbic, April 22, 2026",
+        "competitors": [],
+        "competitors_citation": "No listed competitors mentioned",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "Article title and content focus on Systemic Sclerosis (SSc)",
+        "summary": "A new Australian study published on April 22 confirmed that male patients with systemic sclerosis (SSc) tend to have a worse prognosis compared to female patients.",
+        "summary_citation": "The Limbic, April 22, 2026: \"Male SSc carries worse prognosis, Aus study confirms\"",
+        "publication_date": "2026-04-22",
+        "publication_date_citation": "The Limbic publication date: April 22, 2026",
+        "source_link": "https://thelimbic.com/rheumatology/male-ssc-carries-worse-prognosis-aus-study-confirms/",
+        "source_link_citation": "The Limbic URL",
+        "source_domain": "thelimbic.com",
+        "source_domain_citation": "Source website domain"
+      },
+      {
+        "source_type": "Trade Publication",
+        "source_type_citation": "Dermatology Times, April 22, 2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Article mentions Incyte in the context of recent HS data and ongoing pipeline",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "Journal digest discusses HS and IL-17 maintenance therapy",
+        "summary": "Dermatology Times published a journal digest discussing emerging therapies in Hidradenitis Suppurativa, noting the importance of maintenance therapy with IL-17 inhibitors and referencing ongoing progress in the HS pipeline (including Incyte's recent data).",
+        "summary_citation": "Dermatology Times, April 22, 2026: \"Journal Digest: April 22, 2026\"",
+        "publication_date": "2026-04-22",
+        "publication_date_citation": "Dermatology Times publication date: April 22, 2026",
+        "source_link": "https://www.dermatologytimes.com/view/journal-digest-april-22-2026",
+        "source_link_citation": "Dermatology Times URL",
+        "source_domain": "dermatologytimes.com",
+        "source_domain_citation": "Source website domain"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-04-23T14:13:58.746Z",
+  "creditsUsed": 0
+}

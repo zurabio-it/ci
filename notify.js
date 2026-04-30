@@ -58,10 +58,18 @@ const adaptiveCard = {
   ],
 };
 
+const teamsPayload = {
+  summary: `Zura Bio CI — ${findings.length} new finding${findings.length !== 1 ? 's' : ''}`,
+  attachments: [{
+    contentType: 'application/vnd.microsoft.card.adaptive',
+    content: adaptiveCard,
+  }],
+};
+
 const res = await fetch(TEAMS_WEBHOOK, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(adaptiveCard)
+  body: JSON.stringify(teamsPayload)
 });
 
 const body = await res.text();

@@ -143,15 +143,12 @@
         "source_link": "https://www.businesswire.com/news/home/20260429072063/en/Incyte-to-Present-at-Upcoming-Investor-Conferences",
         "source_link_citation": "Source URL of the press release.",
         "source_domain": "businesswire.com",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Press Release",
         "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/29/3284252/0/en/pulmonx-reports-first-quarter-2026-financial-results.html",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "No competitors from the list were mentioned in this Pulmonx release.",
         "keywords": [
           "COPD"
@@ -164,15 +161,12 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/04/29/3284252/0/en/pulmonx-reports-first-quarter-2026-financial-results.html",
         "source_link_citation": "Source URL of the press release.",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Press Release",
         "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/29/3283757/0/en/imviva-biotech-to-present-clinical-data-from-ongoing-phase-1-2-study-of-cta313-at-the-american-society-of-gene-cell-therapy-s-annual-meeting.html",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "No competitors from the list were mentioned in this Imviva release.",
         "keywords": [
           "Systemic sclerosis"
@@ -185,15 +179,12 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/04/29/3283757/0/en/imviva-biotech-to-present-clinical-data-from-ongoing-phase-1-2-study-of-cta313-at-the-american-society-of-gene-cell-therapy-s-annual-meeting.html",
         "source_link_citation": "Source URL of the press release.",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Clinical Trial Update",
         "source_type_citation": "https://clinicaltrials.gov/study/NCT07228390",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "Pfizer is the sponsor; not on the competitor list.",
         "keywords": [
           "Hidradenitis suppurativa"
@@ -206,15 +197,12 @@
         "source_link": "https://clinicaltrials.gov/study/NCT07228390",
         "source_link_citation": "ClinicalTrials.gov record URL.",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Clinical Trial Update",
         "source_type_citation": "https://clinicaltrials.gov/study/NCT06806592",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "Boehringer Ingelheim is the sponsor; not on the competitor list.",
         "keywords": [
           "Systemic sclerosis"
@@ -227,8 +215,7 @@
         "source_link": "https://clinicaltrials.gov/study/NCT06806592",
         "source_link_citation": "ClinicalTrials.gov record URL.",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Clinical Trial Update",
@@ -246,8 +233,7 @@
         "source_link": "https://clinicaltrials.gov/study/NCT07555171",
         "source_link_citation": "ClinicalTrials.gov record URL.",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 75
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "SEC Filing",
@@ -265,8 +251,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/1421876/000110465926050978/tm2612973d1_6k.htm",
         "source_link_citation": "SEC EDGAR URL.",
         "source_domain": "sec.gov",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 80
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "SEC Filing",
@@ -284,8 +269,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526191439/glue-20260429.htm",
         "source_link_citation": "SEC EDGAR URL.",
         "source_domain": "sec.gov",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 80
+        "source_domain_citation": "Source URL domain."
       },
       {
         "source_type": "Press Release",
@@ -305,8 +289,7 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/04/29/3284126/0/en/iga-nephropathy-market-forecast-to-2036-novel-therapies-and-key-growth-drivers-fuel-expansion-delveinsight.html",
         "source_link_citation": "Source URL of the press release.",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "Source URL domain.",
-        "confidence": 85
+        "source_domain_citation": "Source URL domain."
       }
     ]
   },

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; transition: width 0.4s; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-21, 7:07:09 a.m. &nbsp;|&nbsp; 10 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">10</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">8</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">6</div><div class="label">Source Types</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="UCB">UCB</option><option value="N/A">N/A</option><option value="CGEM">CGEM</option><option value="XNCR">XNCR</option><option value="GLPG">GLPG</option><option value="Candid">Candid</option><option value="INCY">INCY</option><option value="INSM">INSM</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="Scientific News">Scientific News</option><option value="Regulatory News">Regulatory News</option><option value="Scientific Data Presentation">Scientific Data Presentation</option><option value="Market Analysis">Market Analysis</option><option value="SEC Filing / Ownership Update">SEC Filing / Ownership Update</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">N/A</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">CGEM</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">XNCR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLPG</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Candid</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INSM</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card" data-competitor="UCB" data-source="Press Release" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">United Community Banks (UCB) released its first quarter 2026 financial results on April 21, 2026, before the market opens.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/UCB/united-community-banks-inc-announces-date-for-first-quarter-2026-uzzp7u9p6rg7.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific News" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Scientific News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">AstraZeneca's tozorakimab (IL-33 targeting biologic) met the primary endpoint in the Phase III MIRANDA trial, showing a statistically significant reduction in moderate-to-severe COPD exacerbations.</p>
+      <a class="source-link" href="https://www.drugtopics.com/view/tozorakimab-met-primary-end-point-in-phase-3-trial-improving-copd" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · drugtopics.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Regulatory News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Regulatory News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">The FDA approved upadacitinib (Rinvoq; AbbVie) for the treatment of adults with giant cell arteritis (GCA), making it the first once-daily, non-steroid pill for this condition.</p>
+      <a class="source-link" href="https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · pharmacytimes.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Regulatory News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Regulatory News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">The FDA approved secukinumab (Cosentyx; Novartis) for pediatric patients aged 12 years and older with moderate to severe hidradenitis suppurativa (HS).</p>
+      <a class="source-link" href="https://www.pharmacytimes.com/view/fda-clears-secukinumab-for-adolescents-with-severe-chronic-skin-disease" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · pharmacytimes.com</div>
+    </div>
+    <div class="card" data-competitor="CGEM" data-source="Scientific Data Presentation" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Data Presentation</span>
+        <span class="competitor-tag">CGEM</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">Cullinan Oncology presented updated clinical and preclinical data for zidesamtinib (CLN-081) at the AACR Annual Meeting 2026 on April 21, 2026.</p>
+      <a class="source-link" href="https://investors.cullinantherapeutics.com/news-releases" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · cullinantherapeutics.com</div>
+    </div>
+    <div class="card" data-competitor="XNCR" data-source="Scientific Data Presentation" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Data Presentation</span>
+        <span class="competitor-tag">XNCR</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">Xencor presented data for XmAb808, a B7H3-targeted CD28 bispecific antibody, at the AACR Annual Meeting 2026 on April 21, 2026.</p>
+      <a class="source-link" href="https://investors.xencor.com/press-releases" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · xencor.com</div>
+    </div>
+    <div class="card" data-competitor="GLPG" data-source="Scientific Data Presentation" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Data Presentation</span>
+        <span class="competitor-tag">GLPG</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">Galapagos presented oncology pipeline data, including its strategic collaboration programs, at the AACR Annual Meeting 2026 on April 21, 2026.</p>
+      <a class="source-link" href="https://www.glpg.com/press-releases" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · glpg.com</div>
+    </div>
+    <div class="card" data-competitor="Candid" data-source="Market Analysis" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Market Analysis</span>
+        <span class="competitor-tag">Candid</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">A new market report on the landscape of trispecific antibodies, published April 21, 2026, highlighted Candid Therapeutics as a key proprietary company in the space.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/21/3277640/0/en/trispecific-antibodies-market-landscape-report-2026-opportunity-and-proprietary-insights-90-trispecific-antibodies-by-company-country-indication-phase.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="SEC Filing / Ownership Update" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing / Ownership Update</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">Asset Management One Co. Ltd. reported the purchase of 80,887 shares of Incyte Corp. (INCY) on April 21, 2026.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · marketbeat.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="SEC Filing / Ownership Update" data-keyword="N/A">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing / Ownership Update</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">N/A</span>
+      </div>
+      <p class="summary">Asset Management One Co. Ltd. reported the purchase of shares of Insmed, Inc. (INSM) on April 21, 2026.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/filing-asset-management-one-co-ltd-purchases-shares-of-80887-insmed-inc-insm-2026-04-21/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · marketbeat.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 10 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const matchComp = !comp || card.dataset.competitor?.toLowerCase() === comp;
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

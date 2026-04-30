@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Historical Intelligence</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 18px 22px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 1.8rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.75rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .mobile-filter-toggle { display: none; width: 100%; padding: 10px 16px; background: #0f172a; color: white; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-bottom: 16px; align-items: center; justify-content: center; gap: 8px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; position: static; }
+    .sidebar.open { display: block; }
+    .mobile-filter-toggle { display: flex; }
+  }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 12px; }
+  .date-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .date-row label { font-size: 0.75rem; color: #64748b; white-space: nowrap; width: 28px; flex-shrink: 0; }
+  .preset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+  .preset-btn { padding: 6px 4px; border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc; color: #475569; font-size: 0.75rem; font-weight: 600; cursor: pointer; text-align: center; transition: all 0.15s; }
+  .preset-btn:hover { background: #f1f5f9; border-color: #6366f1; color: #6366f1; }
+  .preset-btn.active { background: #6366f1; border-color: #6366f1; color: white; }
+  .divider { font-size: 0.72rem; color: #94a3b8; text-align: center; margin: 8px 0; }
+  select, input[type=text], input[type=date] { width: 100%; padding: 8px 10px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.855rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  .date-row input[type=date] { margin-bottom: 0; }
+  button.reset-btn { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-top: 4px; }
+  button.reset-btn:hover { background: #1e293b; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .confidence-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 100px; white-space: nowrap; margin-left: auto; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+  .help-icon { display: inline-flex; align-items: center; justify-content: center; width: 15px; height: 15px; border-radius: 50%; background: #94a3b8; color: white; font-size: 0.6rem; font-weight: 700; cursor: help; position: relative; margin-left: 5px; vertical-align: middle; }
+  .help-icon .tooltip { display: none; position: absolute; left: 20px; top: -8px; width: 220px; background: #0f172a; color: #e2e8f0; font-size: 0.72rem; font-weight: 400; line-height: 1.6; padding: 10px 12px; border-radius: 8px; z-index: 100; white-space: normal; box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
+  .help-icon:hover .tooltip { display: block; }
+  .help-icon .tooltip b { color: #ffffff; }
+  .help-icon .tooltip hr { border: none; border-top: 1px solid #334155; margin: 6px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Historical Intelligence</h1>
+  <div class="meta">Generated 2026-04-29, 9:00:26 p.m. &nbsp;|&nbsp; 1 runs &nbsp;|&nbsp; 7 unique findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num" id="s-total">7</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Competitors</div></div>
+    <div class="stat"><div class="num">8</div><div class="label">Keywords</div></div>
+    <div class="stat"><div class="num" id="s-visible">7</div><div class="label">Showing</div></div>
+  </div>
+  <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="panel">
+        <h3>Date Range</h3>
+        <div class="preset-grid">
+          <button class="preset-btn" onclick="setPreset('today')">Today</button>
+          <button class="preset-btn" onclick="setPreset('yesterday')">Yesterday</button>
+          <button class="preset-btn" onclick="setPreset('7d')">Last 7 days</button>
+          <button class="preset-btn" onclick="setPreset('30d')">Last 30 days</button>
+          <button class="preset-btn" onclick="setPreset('mtd')">This month</button>
+          <button class="preset-btn active" onclick="setPreset('all')">All time</button>
+        </div>
+        <div class="divider">— or set custom range —</div>
+        <div class="date-row">
+          <label>From</label>
+          <input type="date" id="date-from" min="2026-04-30" max="2026-04-30">
+        </div>
+        <div class="date-row">
+          <label>To</label>
+          <input type="date" id="date-to" min="2026-04-30" max="2026-04-30">
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="incy">INCY</option><option value="kymr">KYMR</option><option value="orka">ORKA</option><option value="ucb">UCB</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="copd">COPD</option><option value="gca">GCA</option><option value="giant cell arteritis">Giant cell arteritis</option><option value="hs">HS</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-33">IL-33</option><option value="pmr">PMR</option><option value="polymyalgia rheumatica">Polymyalgia rheumatica</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Corporate Report">Corporate Report</option><option value="News Article">News Article</option><option value="Press Release">Press Release</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <div style="display:flex;align-items:center;margin-bottom:6px;">
+          <label style="font-size:0.78rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;">Confidence</label>
+          <span class="help-icon">?<span class="tooltip">
+            <b>Confidence Score (0–100)</b><hr>
+            <b>Domain trust</b> — up to 40 pts<br>
+            Trusted (SEC, PubMed, competitor IR) = +40<br>
+            Unknown = +15 &nbsp;·&nbsp; Blocked = −20<hr>
+            <b>Source type</b> — up to 30 pts<br>
+            SEC 8-K / Filing = 30<br>
+            Press Release / Clinical Trial = 25<br>
+            Conference / Presentation = 20<br>
+            News Article = 15 &nbsp;·&nbsp; Analyst = 10<hr>
+            <b>Recency</b> — up to 20 pts<br>
+            Today = +20 &nbsp;·&nbsp; This month = +10 &nbsp;·&nbsp; Older = +5<hr>
+            <b>Both signals</b> — 10 pts<br>
+            Competitor + keyword matched together
+          </span></span>
+        </div>
+        <select id="filter-confidence">
+          <option value="0">All Confidence Levels</option>
+          <option value="70">High only (70+)</option>
+          <option value="45">Medium + High (45+)</option>
+        </select>
+        <button class="reset-btn" onclick="resetFilters()">Reset All Filters</button>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+  <div class="card"
+    data-competitors="kymr"
+    data-keywords="hidradenitis suppurativa|hs"
+    data-source="Press Release"
+    data-date="2026-04-30"
+    data-confidence="95">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">KYMR</span>
+      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">HS</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 95/100">High · 95</span>
+    </div>
+    <p class="summary">Kymera Therapeutics reported first quarter 2026 financial results, highlighting progress in the KT-474 (IRAK4 degrader) Phase 2 LOTUS trial for Hidradenitis suppurativa (HS).</p>
+    <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · globenewswire.com</div>
+  </div>
+  <div class="card"
+    data-competitors="incy"
+    data-keywords="hidradenitis suppurativa|hs|copd|il-33"
+    data-source="Corporate Report"
+    data-date="2026-04-30"
+    data-confidence="50">
+    <div class="card-header">
+      <span class="badge" style="background:#6b7280">Corporate Report</span>
+      <span class="competitor-tag">INCY</span>
+      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">HS</span><span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 50/100">Medium · 50</span>
+    </div>
+    <p class="summary">Prime Therapeutics' April 2026 drug pipeline report identifies Incyte's povorcitinib for Hidradenitis suppurativa and AstraZeneca's tozorakimab (targeting IL-33) for COPD as key clinical therapies.</p>
+    <a class="source-link" href="https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · primetherapeutics.com</div>
+  </div>
+  <div class="card"
+    data-competitors="orka"
+    data-keywords=""
+    data-source="Press Release"
+    data-date="2026-04-30"
+    data-confidence="60">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">ORKA</span>
+      
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 60/100">Medium · 60</span>
+    </div>
+    <p class="summary">Oruka Therapeutics announced the pricing of an upsized $700 million offering of common stock and pre-funded warrants, which is scheduled to close on April 30, 2026.</p>
+    <a class="source-link" href="https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · rttnews.com</div>
+  </div>
+  <div class="card"
+    data-competitors="keyword matched"
+    data-keywords="copd|il-33"
+    data-source="Press Release"
+    data-date="2026-04-30"
+    data-confidence="85">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">Keyword matched</span>
+      <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 85/100">High · 85</span>
+    </div>
+    <p class="summary">AstraZeneca's tozorakimab, an IL-33 targeting biologic, met the primary endpoint in the Phase III MIRANDA trial in patients with COPD, significantly reducing exacerbations.</p>
+    <a class="source-link" href="https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · astrazeneca.com</div>
+  </div>
+  <div class="card"
+    data-competitors="incy"
+    data-keywords="hidradenitis suppurativa|hs"
+    data-source="News Article"
+    data-date="2026-04-30"
+    data-confidence="60">
+    <div class="card-header">
+      <span class="badge" style="background:#0891b2">News Article</span>
+      <span class="competitor-tag">INCY</span>
+      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">HS</span>
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 60/100">Medium · 60</span>
+    </div>
+    <p class="summary">New data for Incyte's povorcitinib in Hidradenitis suppurativa (HS) was highlighted, demonstrating substantial and durable clinical efficacy through 54 weeks.</p>
+    <a class="source-link" href="https://muckrack.com/denise-mann-23058804/articles" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · muckrack.com</div>
+  </div>
+  <div class="card"
+    data-competitors="keyword matched"
+    data-keywords="giant cell arteritis|gca|polymyalgia rheumatica|pmr"
+    data-source="News Article"
+    data-date="2026-04-30"
+    data-confidence="50">
+    <div class="card-header">
+      <span class="badge" style="background:#0891b2">News Article</span>
+      <span class="competitor-tag">Keyword matched</span>
+      <span class="keyword-tag">Giant cell arteritis</span><span class="keyword-tag">GCA</span><span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">PMR</span>
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 50/100">Medium · 50</span>
+    </div>
+    <p class="summary">Pharmacy Times discussed the FDA's approval of upadacitinib for the treatment of giant cell arteritis (GCA) and polymyalgia rheumatica (PMR) in an article published April 30, 2026.</p>
+    <a class="source-link" href="https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · pharmacytimes.com</div>
+  </div>
+  <div class="card"
+    data-competitors="ucb"
+    data-keywords="hidradenitis suppurativa|hs"
+    data-source="Corporate Report"
+    data-date="2026-04-30"
+    data-confidence="50">
+    <div class="card-header">
+      <span class="badge" style="background:#6b7280">Corporate Report</span>
+      <span class="competitor-tag">UCB</span>
+      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">HS</span>
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 50/100">Medium · 50</span>
+    </div>
+    <p class="summary">UCB's integrated annual report updates, effective April 30, 2026, highlighted the performance and clinical progress of bimekizumab (Bimzelx) in Hidradenitis suppurativa.</p>
+    <a class="source-link" href="https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-04-30 · ibr-ire.be</div>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const totalEl = document.getElementById('s-total');
+  const visibleEl = document.getElementById('s-visible');
+  const countEl = document.getElementById('results-count');
+
+  const DATA_MIN = '2026-04-30';
+  const DATA_MAX = '2026-04-30';
+
+  function toISO(d) { return d.toISOString().slice(0, 10); }
+
+  function toggleFilters() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('filter-toggle-btn');
+    sidebar.classList.toggle('open');
+    btn.textContent = sidebar.classList.contains('open') ? '✕ Hide Filters' : '☰ Show Filters';
+  }
+
+  function setPreset(key) {
+    const today = new Date();
+    let from = '', to = '';
+    if (key === 'today')          { from = to = toISO(today); }
+    else if (key === 'yesterday') { const y = new Date(today); y.setDate(y.getDate()-1); from = to = toISO(y); }
+    else if (key === '7d')        { const d = new Date(today); d.setDate(d.getDate()-6); from = toISO(d); to = toISO(today); }
+    else if (key === '30d')       { const d = new Date(today); d.setDate(d.getDate()-29); from = toISO(d); to = toISO(today); }
+    else if (key === 'mtd')       { from = toISO(new Date(today.getFullYear(), today.getMonth(), 1)); to = toISO(today); }
+    // 'all' leaves from and to empty — no date constraint, shows everything
+
+    document.getElementById('date-from').value = from;
+    document.getElementById('date-to').value = to;
+    document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    applyFilters();
+  }
+
+  function clearPreset() {
+    document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  }
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    visibleEl.textContent = visible;
+    countEl.textContent = visible + ' of 7 findings';
+  }
+
+  function applyFilters() {
+    const from  = document.getElementById('date-from').value;
+    const to    = document.getElementById('date-to').value;
+    const comp  = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw    = document.getElementById('filter-keyword').value.toLowerCase();
+    const src   = document.getElementById('filter-source').value;
+    const q     = document.getElementById('filter-search').value.toLowerCase();
+
+    cards.forEach(card => {
+      const date  = card.dataset.date ?? '';
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+
+      const minConf = parseInt(document.getElementById('filter-confidence').value) || 0;
+      const noRange = !from && !to;
+      const matchDate = noRange || (date && (!from || date >= from) && (!to || date <= to));
+      const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+
+      card.classList.toggle('hidden', !(matchDate && matchComp && matchKw && matchSrc && matchQ && matchConf));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.preset-btn:last-child').classList.add('active');
+    document.getElementById('filter-confidence').value = '0';
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  ['date-from','date-to'].forEach(id => document.getElementById(id).addEventListener('change', () => { clearPreset(); applyFilters(); }));
+  ['filter-competitor','filter-keyword','filter-source','filter-confidence'].forEach(id =>
+    document.getElementById(id).addEventListener('change', applyFilters));
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

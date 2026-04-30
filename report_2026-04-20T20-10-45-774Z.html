@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; transition: width 0.4s; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-20, 4:10:45 p.m. &nbsp;|&nbsp; 20 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">20</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">16</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">5</div><div class="label">Source Types</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="ORKA">ORKA</option><option value="INSM">INSM</option><option value="NKTX">NKTX</option><option value="AstraZeneca">AstraZeneca</option><option value="Incyte">Incyte</option><option value="Novartis">Novartis</option><option value="N/A">N/A</option><option value="Roche">Roche</option><option value="Nomic Bio">Nomic Bio</option><option value="UCB">UCB</option><option value="ANAB">ANAB</option><option value="GLUE">GLUE</option><option value="INCY">INCY</option><option value="XNCR">XNCR</option><option value="VOR">VOR</option><option value="VERA">VERA</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="News">News</option><option value="Scientific Publication">Scientific Publication</option><option value="SEC filing">SEC filing</option><option value="Press Release">Press Release</option><option value="Presentation">Presentation</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">N/A</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">NKTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:67%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">AstraZeneca</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:67%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ORKA</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INSM</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Incyte</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Novartis</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Roche</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Nomic Bio</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:33%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card" data-competitor="ORKA" data-source="News" data-keyword="Oruka Therapeutics">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">ORKA</span>
+        <span class="keyword-tag">Oruka Therapeutics</span>
+      </div>
+      <p class="summary">Oruka Therapeutics (NASDAQ:ORKA) reached a new 52-week high of $75.65 during midday trading on Monday, April 20, 2026. The stock's rise follows multiple price-target increases from analysts at Wedbush, UBS, and Leerink Partners in recent weeks, contributing to a consensus rating of 'Moderate Buy'.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/oruka-therapeutics-nasdaqorka-sets-new-52-week-high-heres-what-happened-2026-04-20/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · marketbeat.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="News" data-keyword="Insmed">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Insmed</span>
+      </div>
+      <p class="summary">Mirae Asset Global Investments Co. Ltd. reported the acquisition of 69,410 shares of Insmed, Inc. (INSM) on April 20, 2026. The investment firm's disclosure comes as Insmed continues to project strong revenue growth for 2026 following successful product launches and clinical updates.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/filing-mirae-asset-global-investments-co-ltd-acquires-69410-shares-of-insmed-inc-insm-2026-04-20/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · marketbeat.com</div>
+    </div>
+    <div class="card" data-competitor="NKTX" data-source="News" data-keyword="Nkarta">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">NKTX</span>
+        <span class="keyword-tag">Nkarta</span>
+      </div>
+      <p class="summary">Nkarta (NKTX) was identified as a key public peer and comparable company in the cell therapy space on April 20, 2026, following Eli Lilly's announcement of its $3.25 billion acquisition of Kelonia Therapeutics. Additionally, NKTX was cited in reports regarding Biogen's agreement with TJ Biopharma for Felzartamab assets, and a deadline for a shareholder investigation into previous disclosures for the company was set for today.</p>
+      <a class="source-link" href="https://www.statnews.com/2026/04/20/kelonia-therapeutics-eli-lilly-slide-deck-memo/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · statnews.com</div>
+    </div>
+    <div class="card" data-competitor="AstraZeneca" data-source="News" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">AstraZeneca announced that the Phase 3 MIRANDA trial for tozorakimab (an anti-IL-33 monoclonal antibody) met its primary endpoint, significantly reducing the annualized rate of moderate-to-severe COPD exacerbations compared to placebo in patients with symptomatic COPD and frequent prior exacerbations.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/phase-3-miranda-tozorakimab-fewer-copd-exacerbations" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="Incyte" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Incyte</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">New 54-week efficacy and safety results from the STOP-HS1 and STOP-HS2 phase 3 studies demonstrate that povorcitinib, a JAK1 inhibitor, provides durable and meaningful efficacy for patients with moderate-to-severe hidradenitis suppurativa.</p>
+      <a class="source-link" href="https://www.docwirenews.com/post/long-term-data-on-povorcitinib-for-moderate-to-severe-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · docwirenews.com</div>
+    </div>
+    <div class="card" data-competitor="Novartis" data-source="News" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Novartis</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">A pilot study report released today highlights that IL-17 inhibitors show promise in managing both cutaneous and musculoskeletal symptoms in patients with hidradenitis suppurativa, who often suffer from diverse arthritis patterns and high metabolic burden.</p>
+      <a class="source-link" href="https://www.contemporarypediatrics.com/view/hs-linked-to-diverse-arthritis-patterns-and-metabolic-burden-with-il-17-inhibitors-showing-promise" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · contemporarypediatrics.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific Publication" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">The Canadian Medical Association Journal (CMAJ) published a clinical review titled 'Five things to know about …: Systemic sclerosis,' providing essential diagnostic and management tips for practitioners, emphasizing the multi-organ nature of the disease.</p>
+      <a class="source-link" href="https://www.cmaj.ca/topics" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · cmaj.ca</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific Publication" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">A research publication on April 20, 2026, identified the role of VGLL3 in sexually dimorphic interferon-driven inflammation, specifically linking the cytokine BAFF (TNFSF13B) to the pathogenesis of systemic sclerosis in women.</p>
+      <a class="source-link" href="https://www.aacom.org/detail-pages/research/the-role-of-vgll3-in-sexually-dimorphic-interferon-driven-inflammation" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · aacom.org</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific Publication" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">A new Clinical Practice article published in the New England Journal of Medicine (NEJM) on April 20, 2026, provides an updated summary on the diagnosis and management of polymyalgia rheumatica, including steroid-sparing strategies.</p>
+      <a class="source-link" href="https://www.nejm.org" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · nejm.org</div>
+    </div>
+    <div class="card" data-competitor="Roche" data-source="News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Roche</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">University Hospital Zurich updated its clinical protocols for vascular inflammation on April 20, 2026, highlighting the integration of PET-CT imaging and the use of tocilizumab (IL-6 inhibitor) for the treatment of giant cell arteritis.</p>
+      <a class="source-link" href="https://www.usz.ch/en/disease/vascular-inflammation/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · usz.ch</div>
+    </div>
+    <div class="card" data-competitor="Nomic Bio" data-source="News" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Nomic Bio</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">Nomic Bio and Broad Clinical Labs announced a partnership on April 20, 2026, to utilize high-throughput proteomics for drug discovery, featuring the Nomic Core Panel which includes markers like IL7R for autoimmune and inflammatory research.</p>
+      <a class="source-link" href="https://www.nomic.bio/core" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · nomic.bio</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="News" data-keyword="Epilepsy">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Epilepsy</span>
+      </div>
+      <p class="summary">UCB announced the acquisition of Neurona Therapeutics for $1.15 billion ($650 million upfront) to expand into regenerative cell therapy for epilepsy.</p>
+      <a class="source-link" href="https://www.europeanpharmaceuticalreview.com/ucb-expands-into-regenerative-cell-therapy-through-115bn-neurona-acquisition/2135245.article" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · europeanpharmaceuticalreview.com</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="SEC filing" data-keyword="First Tracks Biotherapeutics">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC filing</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">First Tracks Biotherapeutics</span>
+      </div>
+      <p class="summary">AnaptysBio completed the spin-off of First Tracks Biotherapeutics (TRAX) on April 20, 2026, which is expected to begin regular-way trading on Nasdaq.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1370053/000119312526127783/d122216d8k.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · sec.gov</div>
+    </div>
+    <div class="card" data-competitor="GLUE" data-source="Press Release" data-keyword="CCNE1">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">GLUE</span>
+        <span class="keyword-tag">CCNE1</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics presented preclinical data at AACR 2026 on its cyclin E1 (CCNE1)-directed molecular glue degrader for treating CCNE1-amplified solid tumors.</p>
+      <a class="source-link" href="https://www.biospace.com/press-releases/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="News" data-keyword="Adagene">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Adagene</span>
+      </div>
+      <p class="summary">Incyte and Adagene announced a partnership to evaluate ADG116 in combination with retifanlimab in patients with solid tumors.</p>
+      <a class="source-link" href="https://finance.yahoo.com/sectors/healthcare/articles/adagene-adag-partners-incyte-incy-141533575.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · yahoo.com</div>
+    </div>
+    <div class="card" data-competitor="AstraZeneca" data-source="News" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">AstraZeneca announced that Tozorakimab (IL-33 targeting biologic) met its primary endpoint in the Phase III MIRANDA trial, showing a reduction in COPD exacerbations.</p>
+      <a class="source-link" href="https://www.reuters.com/business/healthcare-pharmaceuticals/astrazenecas-tozorakimab-delivers-sharp-reduction-copd-flareups-2026-04-20/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · reuters.com</div>
+    </div>
+    <div class="card" data-competitor="NKTX" data-source="News" data-keyword="NKX019">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">NKTX</span>
+        <span class="keyword-tag">NKX019</span>
+      </div>
+      <p class="summary">Nkarta announced FDA agreement on outpatient dosing for NKX019 in Lupus Nephritis and potentially other autoimmune indications like ANCA-associated vasculitis.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/NKTX/nkarta-announces-fda-agreement-on-outpatient-dosing-of-nkx019-in-hthsxvjo201n.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="XNCR" data-source="Presentation" data-keyword="XmAb808">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Presentation</span>
+        <span class="competitor-tag">XNCR</span>
+        <span class="keyword-tag">XmAb808</span>
+      </div>
+      <p class="summary">Xencor presented data on XmAb808, a B7H3-targeted CD28 bispecific antibody, costimulating T cells at AACR 2026.</p>
+      <a class="source-link" href="https://investors.xencor.com/events-and-presentations" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · xencor.com</div>
+    </div>
+    <div class="card" data-competitor="VOR" data-source="Presentation" data-keyword="VOR-101">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Presentation</span>
+        <span class="competitor-tag">VOR</span>
+        <span class="keyword-tag">VOR-101</span>
+      </div>
+      <p class="summary">Vor Bio presented new preclinical data on its PrimeBody platform and VOR-101 at AACR 2026.</p>
+      <a class="source-link" href="https://www.vorotx.com/post/voro-therapeutics-to-present-new-preclinical-data-on-primebody-platform-and-vor-101-at-upcoming-aac" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · vorotx.com</div>
+    </div>
+    <div class="card" data-competitor="VERA" data-source="News" data-keyword="BRAF">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">VERA</span>
+        <span class="keyword-tag">BRAF</span>
+      </div>
+      <p class="summary">Verastem Oncology announced presentations at AACR 2026, including regular abstracts on BRAF mutant tumors.</p>
+      <a class="source-link" href="https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-late-breaking-and-regular-abstracts/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · verastem.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 20 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const matchComp = !comp || card.dataset.competitor?.toLowerCase() === comp;
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

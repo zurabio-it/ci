@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; transition: width 0.4s; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-19, 7:57:00 a.m. &nbsp;|&nbsp; 67 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">67</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">21</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">31</div><div class="label">Source Types</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">13</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="AVTX">AVTX</option><option value="MLTX">MLTX</option><option value="ORKA">ORKA</option><option value="INSM">INSM</option><option value="ACRS">ACRS</option><option value="ANAB">ANAB</option><option value="UCB">UCB</option><option value="KYMR">KYMR</option><option value="Monte Rosa Therapeutics (GLUE)">Monte Rosa Therapeutics (GLUE)</option><option value="InflaRx (IFRX)">InflaRx (IFRX)</option><option value="Cullinan Therapeutics (CGEM)">Cullinan Therapeutics (CGEM)</option><option value="Nkarta (NKTX)">Nkarta (NKTX)</option><option value="Candid Therapeutics">Candid Therapeutics</option><option value="Kiniksa Pharmaceuticals">Kiniksa Pharmaceuticals</option><option value="Vera Therapeutics">Vera Therapeutics</option><option value="Xencor">Xencor</option><option value="VOR">VOR</option><option value="GLPG">GLPG</option><option value="ALMS">ALMS</option><option value="QTTB">QTTB</option><option value="INCY">INCY</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="Corporate Presentation">Corporate Presentation</option><option value="SEC 8-K filing">SEC 8-K filing</option><option value="News">News</option><option value="Conference Abstract">Conference Abstract</option><option value="Scientific Publication">Scientific Publication</option><option value="ClinicalTrials.gov">ClinicalTrials.gov</option><option value="SEC 8-K">SEC 8-K</option><option value="PubMed">PubMed</option><option value="SEC 8-K / Press Release">SEC 8-K / Press Release</option><option value="Conference Presentation / LinkedIn">Conference Presentation / LinkedIn</option><option value="Corporate Presentation / News">Corporate Presentation / News</option><option value="Scientific Publication / LinkedIn">Scientific Publication / LinkedIn</option><option value="Conference Abstract (FOCIS)">Conference Abstract (FOCIS)</option><option value="Press Release / News">Press Release / News</option><option value="Scientific Publication / PubMed">Scientific Publication / PubMed</option><option value="Scientific Publication / News">Scientific Publication / News</option><option value="SEC Filing / Press Release">SEC Filing / Press Release</option><option value="News / Press Release">News / Press Release</option><option value="Patent / Scientific Publication">Patent / Scientific Publication</option><option value="LinkedIn / Scientific Tagging">LinkedIn / Scientific Tagging</option><option value="SEC Filing / LinkedIn">SEC Filing / LinkedIn</option><option value="News / Scientific Review">News / Scientific Review</option><option value="SEC 8-K Filing">SEC 8-K Filing</option><option value="News / Partnership">News / Partnership</option><option value="Scientific Publication (JAAD)">Scientific Publication (JAAD)</option><option value="SEC 8-K Filing / Press Release">SEC 8-K Filing / Press Release</option><option value="News / Market Report">News / Market Report</option><option value="Patent">Patent</option><option value="Scientific Publication (Nature)">Scientific Publication (Nature)</option><option value="SEC 10-K">SEC 10-K</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">Monte Rosa Therapeutics (GLUE)</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">7</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">7</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ANAB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:57%"></div>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">KYMR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:57%"></div>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Cullinan Therapeutics (CGEM)</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:57%"></div>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">AVTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:43%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INSM</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:43%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:43%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">InflaRx (IFRX)</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:43%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Candid Therapeutics</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:43%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card" data-competitor="AVTX" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">AVTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Avalo Therapeutics announced the completion of enrollment in its Phase 2 LOTUS trial evaluating AVTX-009 (abdakibart), an anti-IL-1 beta monoclonal antibody, for the treatment of moderate-to-severe Hidradenitis Suppurativa. Topline data is expected in 2026.</p>
+      <a class="source-link" href="https://ir.avalotx.com/news-events-presentations/press-releases/detail/211/avalo-therapeutics-announces-completion-of-enrollment-in-phase-2-lotus-trial-of-avtx-009-for-the-treatment-of-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.avalotx.com</div>
+    </div>
+    <div class="card" data-competitor="AVTX" data-source="Corporate Presentation" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Presentation</span>
+        <span class="competitor-tag">AVTX</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">AVTX-002 (quisovalimab), a monoclonal antibody targeting LIGHT (TNFSF14), is being explored for its potential in treating non-eosinophilic asthma and COPD, with presentations on its role in airway inflammation delivered at the ATS 2023 Respiratory Innovation Summit.</p>
+      <a class="source-link" href="https://ir.avalotx.com/news-events-presentations/press-releases/detail/170/avalo-to-present-at-ats-2023-respiratory-innovation-summit" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.avalotx.com</div>
+    </div>
+    <div class="card" data-competitor="AVTX" data-source="SEC 8-K filing" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K filing</span>
+        <span class="competitor-tag">AVTX</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Avalo Therapeutics' investor materials have referenced BAFF inhibition (e.g., Benlysta) as a relevant therapeutic benchmark or mechanism of interest in the landscape of chronic inflammatory and autoimmune diseases.</p>
+      <a class="source-link" href="https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-23-001103/0001628280-23-001103.pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.avalotx.com</div>
+    </div>
+    <div class="card" data-competitor="MLTX" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">MLTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">MoonLake Immunotherapeutics reported positive Week 40 results from the Phase 3 VELA-1 and VELA-2 trials of sonelokimab in Hidradenitis Suppurativa, demonstrating significant efficacy in achieving HiSCR75 and HiSCR90 response rates compared to placebo.</p>
+      <a class="source-link" href="https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.moonlaketx.com</div>
+    </div>
+    <div class="card" data-competitor="MLTX" data-source="News" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">MLTX</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Sonelokimab is a trivalent Nanobody that selectively binds to both IL-17A and IL-17F. It is the lead asset for MoonLake, showing promise in Hidradenitis Suppurativa and Psoriatic Arthritis (Phase 2 ARGO trial).</p>
+      <a class="source-link" href="https://www.biospace.com/moonlake-immunotherapeutics-presents-positive-12-week-data-from-the-phase-2-mira-trial-with-nanobody-sonelokimab-for-hidradenitis-suppurativa-at-the-european-academy-of-dermatology-and-venereology-congress" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">www.biospace.com</div>
+    </div>
+    <div class="card" data-competitor="ORKA" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">ORKA</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Oruka Therapeutics announced positive interim Phase 1 data for ORKA-002, an IL-17A/F inhibitor, which demonstrated a favorable safety profile and potent cytokine neutralization. The company plans to initiate a Phase 2 trial in Hidradenitis Suppurativa in 2026.</p>
+      <a class="source-link" href="https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-interim-phase-1-data-orka/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.orukatx.com</div>
+    </div>
+    <div class="card" data-competitor="ORKA" data-source="Conference Abstract" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#ea580c">Conference Abstract</span>
+        <span class="competitor-tag">ORKA</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Scientific characterization of ORKA-002 presented at meetings like EULAR and ACR highlights its high affinity for IL-17A and IL-17F and its potential for infrequent maintenance dosing (e.g., once every 6 months) in diseases like HS.</p>
+      <a class="source-link" href="https://www.jidonline.org/article/S0022-202X(25)02580-1/pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">www.jidonline.org</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Insmed announced the discontinuation of its brensocatib program in Hidradenitis Suppurativa following the Phase 2b CEDAR study, which failed to meet primary or secondary efficacy endpoints at both the 10 mg and 40 mg dose levels.</p>
+      <a class="source-link" href="https://investor.insmed.com/2026-04-07-Insmed-Provides-Clinical-Update-on-Phase-2b-CEDAR-Study" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">investor.insmed.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="Scientific Publication" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Data from Insmed's ASPEN study on brensocatib (a DPP1 inhibitor) in non-cystic fibrosis bronchiectasis showed consistent reduction in exacerbations across subgroups, including patients with comorbid COPD.</p>
+      <a class="source-link" href="https://www.pulmonologyadvisor.com/reports/brensocatib-in-bronchiectasis-beneficial-even-with-copd/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">www.pulmonologyadvisor.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="ClinicalTrials.gov" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrials.gov</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Insmed is evaluating Treprostinil Palmitil (TPIP) in Phase 2 trials for pulmonary hypertension associated with interstitial lung disease (PH-ILD). PH-ILD is a common and severe complication of Systemic Sclerosis (SSc).</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT05176951" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">clinicaltrials.gov</div>
+    </div>
+    <div class="card" data-competitor="ACRS" data-source="SEC 8-K" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K</span>
+        <span class="competitor-tag">ACRS</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Aclaris Therapeutics announced that its Phase 2a study of zunsemetinib (ATI-450) for moderate to severe hidradenitis suppurativa did not meet its primary or secondary efficacy endpoints.</p>
+      <a class="source-link" href="https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-preliminary-topline-data-12-week" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">investor.aclaristx.com</div>
+    </div>
+    <div class="card" data-competitor="ACRS" data-source="SEC 8-K" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K</span>
+        <span class="competitor-tag">ACRS</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Aclaris Therapeutics entered into an exclusive global license agreement with CTTQ for the development and commercialization of bosakitug (ATI-045), an ITK/TXK/JAK3 inhibitor, for COPD and other indications.</p>
+      <a class="source-link" href="https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2025-financial" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">investor.aclaristx.com</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="SEC 8-K" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">AnaptysBio reported topline data from its HARP Phase 2 clinical trial of imsidolimab (IL-36R inhibitor) in moderate-to-severe HS. The study did not meet its primary endpoint, leading to the discontinuation of imsidolimab's development for HS.</p>
+      <a class="source-link" href="https://ir.anaptysbio.com/news-releases/news-release-details/anaptysbio-reports-harp-phase-2-top-line-data-imsidolimab" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ir.anaptysbio.com</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="News" data-keyword="IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">IL33</span>
+      </div>
+      <p class="summary">Itepekimab, an IL-33 antagonist developed by AnaptysBio in partnership with Sanofi/Regeneron, has been evaluated in Phase 2 trials for COPD, showing efficacy in former smokers.</p>
+      <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11287337/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pmc.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="Corporate Presentation" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Presentation</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">AnaptysBio's pipeline includes ANB030, an anti-IL-7R antibody currently being developed for inflammatory diseases like alopecia areata and potentially others.</p>
+      <a class="source-link" href="https://www.anaptysbio.com/pipeline/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">anaptysbio.com</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="News" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Recent biopharma updates for AnaptysBio mentioned the competitive landscape of B-cell therapies like BAFF/APRIL inhibitors while discussing the company's development of ANB032 (BTLA agonist).</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/jasonlee-bio_20241212-biopharma-updates-anaptysbio-activity-7272976588583907332-pg-K" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">UCB announced Phase 3 data for bimekizumab (Bimzelx) showing durable symptom control and significant pain relief through three years in patients with moderate to severe HS.</p>
+      <a class="source-link" href="https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ucb-usa.com</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="PubMed" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">PubMed</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Research published in PubMed highlights the role of IL-17A and IL-17F in the pathogenesis of hidradenitis suppurativa and the efficacy of bimekizumab as a dual inhibitor.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/39531733/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="Corporate Presentation" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Presentation</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">UCB is advancing galvokimig, a multi-specific antibody targeting IL-33, into Phase 2a clinical trials for COPD and non-cystic fibrosis bronchiectasis (NCFB).</p>
+      <a class="source-link" href="https://www.ucb.com/innovation/pipeline" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ucb.com</div>
+    </div>
+    <div class="card" data-competitor="KYMR" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Kymera Therapeutics initiated a Phase 2 trial of KT-474 (SAR444656), an oral IRAK4 degrader, in patients with moderate to severe HS in collaboration with Sanofi.</p>
+      <a class="source-link" href="https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-patient-dosed-phase-2/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">investors.kymeratx.com</div>
+    </div>
+    <div class="card" data-competitor="KYMR" data-source="News" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Kymera presented data on KT-579, a potent and selective oral IRF5 degrader, targeting systemic sclerosis (SSc) and other rheumatic diseases, highlighting its potential in fibrotic conditions.</p>
+      <a class="source-link" href="https://allsci.com/news/irf5-kymera-kt-579/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">allsci.com</div>
+    </div>
+    <div class="card" data-competitor="KYMR" data-source="News" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Kymera's IRAK4 degrader (KT-474) and potentially its IRF5 degrader are noted in rheumatology pipelines for indications including Polymyalgia rheumatica (PMR).</p>
+      <a class="source-link" href="https://www.bioworld.com/content/phase2-data-2024" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">bioworld.com</div>
+    </div>
+    <div class="card" data-competitor="KYMR" data-source="PubMed" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">PubMed</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">A study published in the Journal of Investigative Dermatology demonstrates that IRAK4 is overexpressed in HS skin and correlates with inflammatory biomarkers, supporting the mechanism of KT-474.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/39084489/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="SEC 8-K / Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K / Press Release</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics announced plans to initiate dosing of patients with hidradenitis suppurativa (HS) in H1 2027 using its lead VAV1-directed molecular glue degrader, MRT-6160.</p>
+      <a class="source-link" href="https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">monterosatx.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="Conference Presentation / LinkedIn" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#ea580c">Conference Presentation / LinkedIn</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Preclinical data for MRT-6160 was presented at ACR Convergence 2025, highlighting its potential to modulate immune pathways relevant to systemic sclerosis (SSc).</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/monte-rosa-therapeutics_acr25-activity-7388945861117911040-E6mU" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="Corporate Presentation / News" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Corporate Presentation / News</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics entered a global licensing agreement with Novartis to develop MRT-6160, with potential applications in COPD and other immune-mediated diseases.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/03/17/3256993/0/en/Monte-Rosa-Therapeutics-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Business-Updates.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="Scientific Publication / LinkedIn" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication / LinkedIn</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Preclinical studies of MRT-6160 showed significant reduction in soluble BAFF levels and inhibition of plasmablast differentiation, suggesting potential in B-cell driven autoimmune diseases.</p>
+      <a class="source-link" href="https://ir.monterosatx.com/static-files/141aa55a-1da0-483b-a6c1-a36b970783ce" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">monterosatx.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="Conference Abstract (FOCIS)" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#ea580c">Conference Abstract (FOCIS)</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">Preclinical analysis of VAV1 degradation by MRT-6160 showed modulation of T-cell 'stemness' markers, including a significant impact on IL7R gene expression.</p>
+      <a class="source-link" href="https://focisnet.org/wp-content/uploads/2025-FINAL-ABSTRACT-SUPPLEMENT-06.23.25.pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">focisnet.org</div>
+    </div>
+    <div class="card" data-competitor="InflaRx (IFRX)" data-source="Press Release / News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / News</span>
+        <span class="competitor-tag">InflaRx (IFRX)</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">InflaRx reported positive Phase 2a data for INF904, an oral C5aR inhibitor, in hidradenitis suppurativa (HS). The company is also developing vilobelimab for HS.</p>
+      <a class="source-link" href="https://www.inflarx.de/Home/Investors/Press-Releases/11-2025-InflaRx-Reports-Positive-Phase-2a-Data-for-INF904-in-Hidradenitis-Suppurativa--HS--and-Chronic-Spontaneous-Urticaria--CSU-.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">inflarx.de</div>
+    </div>
+    <div class="card" data-competitor="InflaRx (IFRX)" data-source="Scientific Publication / PubMed" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">Scientific Publication / PubMed</span>
+        <span class="competitor-tag">InflaRx (IFRX)</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">A study published in PubMed highlights the clinical efficacy of complement C5a inhibition by IFX-1 (vilobelimab) in patients with moderate-to-severe hidradenitis suppurativa.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/31954061/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="InflaRx (IFRX)" data-source="Scientific Publication / News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Scientific Publication / News</span>
+        <span class="competitor-tag">InflaRx (IFRX)</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">InflaRx is involved in research related to complement inhibition and glucocorticoid tapering in giant cell arteritis (GCA).</p>
+      <a class="source-link" href="https://ard.bmj.com/content/83/1/48" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ard.bmj.com</div>
+    </div>
+    <div class="card" data-competitor="Cullinan Therapeutics (CGEM)" data-source="SEC Filing / Press Release" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">SEC Filing / Press Release</span>
+        <span class="competitor-tag">Cullinan Therapeutics (CGEM)</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Cullinan Therapeutics announced a strategic expansion into autoimmune diseases, including plans to develop CLN-978, a CD19-directed T-cell engager, for systemic sclerosis.</p>
+      <a class="source-link" href="https://investors.cullinantherapeutics.com/news-releases/news-release-details/cullinan-therapeutics-announces-strategic-expansion-autoimmune/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">cullinantherapeutics.com</div>
+    </div>
+    <div class="card" data-competitor="Cullinan Therapeutics (CGEM)" data-source="News / Press Release" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">News / Press Release</span>
+        <span class="competitor-tag">Cullinan Therapeutics (CGEM)</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Cullinan Therapeutics expanded its pipeline with the licensing of xeligekimab, a monoclonal antibody targeting IL-17, for moderate-to-severe plaque psoriasis and other autoimmune indications.</p>
+      <a class="source-link" href="https://www.bioworld.com/articles/721452-cullinan-deals-712m-to-test-genrix-bispecific-tce-in-autoimmune" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">bioworld.com</div>
+    </div>
+    <div class="card" data-competitor="Nkarta (NKTX)" data-source="ClinicalTrials.gov" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrials.gov</span>
+        <span class="competitor-tag">Nkarta (NKTX)</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Nkarta is conducting a Phase 1/2 clinical trial (Ntrust-2) of NKX019, a CD19-directed CAR-NK cell therapy, in patients with systemic sclerosis.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT06733935" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">clinicaltrials.gov</div>
+    </div>
+    <div class="card" data-competitor="Nkarta (NKTX)" data-source="Patent / Scientific Publication" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Patent / Scientific Publication</span>
+        <span class="competitor-tag">Nkarta (NKTX)</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Nkarta holds patents for BAFF-R and CD19 targeted chimeric antigen receptor-modified cells, exploring BAFF-R as a target for B-cell depletion.</p>
+      <a class="source-link" href="https://patents.google.com/patent/WO2020172440A1/en" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">patents.google.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="LinkedIn / Scientific Tagging" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">LinkedIn / Scientific Tagging</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Preclinical data for MRT-6160 at ECTRIMS 2025 discussed its impact on Th17 polarization and IL17 production in models of autoimmune disease.</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/monte-rosa-therapeutics_ectrims2025-activity-7376937170785288192-rb8q" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics (GLUE)" data-source="SEC Filing / LinkedIn" data-keyword="IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing / LinkedIn</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics (GLUE)</span>
+        <span class="keyword-tag">IL33</span>
+      </div>
+      <p class="summary">Monte Rosa's preclinical data for VAV1 degradation by MRT-6160 was associated with modulation of IL33 signaling pathways.</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/monte-rosa-therapeutics_were-excited-to-announce-the-first-subjects-activity-7353029845229936640-G9LU" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="Cullinan Therapeutics (CGEM)" data-source="News / Scientific Review" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News / Scientific Review</span>
+        <span class="competitor-tag">Cullinan Therapeutics (CGEM)</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Cullinan Therapeutics has indicated hidradenitis suppurativa (HS) as a potential target indication for its B-cell depleting therapies like CLN-978.</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/cullinantx_acr25-activity-7388945861117911040-E6mU" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="Cullinan Therapeutics (CGEM)" data-source="Scientific Publication / PubMed" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">Scientific Publication / PubMed</span>
+        <span class="competitor-tag">Cullinan Therapeutics (CGEM)</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Cullinan Therapeutics was mentioned in a systematic review and update on PET imaging for polymyalgia rheumatica (PMR) and giant cell arteritis (GCA).</p>
+      <a class="source-link" href="https://www.sciencedirect.com/science/article/pii/S0001299826000772" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">sciencedirect.com</div>
+    </div>
+    <div class="card" data-competitor="Candid Therapeutics" data-source="SEC 8-K Filing" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K Filing</span>
+        <span class="competitor-tag">Candid Therapeutics</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Candid Therapeutics announced a reverse merger with Rallybio Corporation. The combined company will focus on developing Candid's pipeline of T-cell engagers (CND261 and cizutamig/CND432) for autoimmune diseases, including systemic sclerosis (SSc).</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1739410/000119312526084452/d108429d425.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">sec.gov</div>
+    </div>
+    <div class="card" data-competitor="Candid Therapeutics" data-source="News / Partnership" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News / Partnership</span>
+        <span class="competitor-tag">Candid Therapeutics</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">Candid Therapeutics has partnered with WuXi Biologics to advance an innovative tri-specific antibody therapy targeting the TSLP/IL-7Rα pathway for autoimmune diseases.</p>
+      <a class="source-link" href="https://synapse.patsnap.com/target/44bf7de8b9d03457a6a5c606aff20bee" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">patsnap.com</div>
+    </div>
+    <div class="card" data-competitor="Candid Therapeutics" data-source="News / Press Release" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">News / Press Release</span>
+        <span class="competitor-tag">Candid Therapeutics</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Candid Therapeutics reportedly plans to initiate multiple Phase 2 studies following promising clinical data, with a focus on autoimmune and inflammatory conditions including Chronic Obstructive Pulmonary Disease (COPD).</p>
+      <a class="source-link" href="https://www.linkedin.com/posts/san-diego-biotechnology-network_candid-therapeutics-plans-to-initiate-multiple-activity-7415048952259117056-0WiM" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">linkedin.com</div>
+    </div>
+    <div class="card" data-competitor="Kiniksa Pharmaceuticals" data-source="Scientific Publication (JAAD)" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication (JAAD)</span>
+        <span class="competitor-tag">Kiniksa Pharmaceuticals</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">A randomized, double-blind, placebo-controlled Phase 2 study of abiprubart (KPL-404), an anti-CD40 monoclonal antibody, met its primary endpoint in patients with moderate-to-severe Hidradenitis suppurativa (HS).</p>
+      <a class="source-link" href="https://www.jaad.org/article/S0190-9622(25)02964-0/fulltext" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">jaad.org</div>
+    </div>
+    <div class="card" data-competitor="Kiniksa Pharmaceuticals" data-source="Press Release" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Kiniksa Pharmaceuticals</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">Kiniksa announced positive Phase 2 data for mavrilimumab (anti-GM-CSFRα) in Giant cell arteritis (GCA), demonstrating a significant reduction in the risk of flare and higher sustained remission rates compared to placebo.</p>
+      <a class="source-link" href="https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-announces-positive-data-phase-2-trial-mavrilimumab-giant/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">kiniksa.com</div>
+    </div>
+    <div class="card" data-competitor="Kiniksa Pharmaceuticals" data-source="Press Release / News" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / News</span>
+        <span class="competitor-tag">Kiniksa Pharmaceuticals</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Kiniksa's lead indication for mavrilimumab is Giant cell arteritis (GCA), but the company also explores its potential in related inflammatory conditions such as Polymyalgia rheumatica (PMR) and systemic sclerosis.</p>
+      <a class="source-link" href="https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-announces-us-orphan-drug-designation-mavrilimumab/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">kiniksa.com</div>
+    </div>
+    <div class="card" data-competitor="Vera Therapeutics" data-source="SEC 8-K Filing / Press Release" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K Filing / Press Release</span>
+        <span class="competitor-tag">Vera Therapeutics</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Vera Therapeutics reported positive long-term data from the ORIGIN Phase 3 trial of atacicept, a dual inhibitor of BAFF and APRIL, in patients with IgA Nephropathy. The FDA has granted Priority Review for its BLA.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1831828/000119312525268331/d30094d8k.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">sec.gov</div>
+    </div>
+    <div class="card" data-competitor="Vera Therapeutics" data-source="News / Market Report" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News / Market Report</span>
+        <span class="competitor-tag">Vera Therapeutics</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Vera Therapeutics is identified as a key developer in the B-cell inhibitors market for non-oncology diseases, including Hidradenitis suppurativa (HS), through its work with atacicept.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/03/12/3254360/28124/en/B-cell-Inhibitors-Market-for-Non-Oncology-Diseases-2026-2035-Industry-Trends-and-Global-Forecasts-Growing-Prevalence-of-Autoimmune-Disorders-and-Hematologic-Cancers-Drives-Rapid-Ad.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="Xencor" data-source="Press Release" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Xencor</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Xencor determined the crystal structure of BAFF, a key target in autoimmune diseases, and developed a class of inhibitors using its 'Dominant Negative' protein engineering strategy to disrupt BAFF signaling.</p>
+      <a class="source-link" href="https://investors.xencor.com/news-releases/news-release-details/xencor-determines-structure-baff-key-autoimmune-disease-target" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">xencor.com</div>
+    </div>
+    <div class="card" data-competitor="Xencor" data-source="Patent" data-keyword="IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Patent</span>
+        <span class="competitor-tag">Xencor</span>
+        <span class="keyword-tag">IL33</span>
+      </div>
+      <p class="summary">Xencor holds patents for human anti-IL-33 neutralizing monoclonal antibodies, which incorporate XmAb engineered Fc variants for enhanced therapeutic activity in inflammatory conditions.</p>
+      <a class="source-link" href="https://patents.google.com/patent/EP3088517A1/en" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">google.com</div>
+    </div>
+    <div class="card" data-competitor="Xencor" data-source="Scientific Publication (Nature)" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication (Nature)</span>
+        <span class="competitor-tag">Xencor</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Xencor participates in the advisory and development efforts for IL-17 inhibitors, such as sonelokimab, an IL-17A/F nanobody, utilizing its XmAb technology to optimize antibody-like molecules.</p>
+      <a class="source-link" href="https://ir.moonlaketx.com/static-files/4fe9d883-f14d-4b16-ac19-826726f29f00" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">moonlaketx.com</div>
+    </div>
+    <div class="card" data-competitor="VOR" data-source="Press Release" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">VOR</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Vor Bio entered into an exclusive global license agreement with RemeGen for telitacicept, a dual BAFF/APRIL inhibitor, for global development in multiple autoimmune indications including generalized myasthenia gravis (gMG) and Sjögren's Disease.</p>
+      <a class="source-link" href="https://ir.vorbio.com/news-releases/news-release-details/vor-bio-enters-exclusive-global-license-agreement-remegen-late" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">vorbio.com</div>
+    </div>
+    <div class="card" data-competitor="VOR" data-source="SEC 8-K" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K</span>
+        <span class="competitor-tag">VOR</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Vor Bio reported late-stage autoimmune asset telitacicept (BAFF/APRIL inhibitor) as a key program in its 2025 financial results and corporate update.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/VOR/vor-bio-reports-fourth-quarter-and-full-year-2025-financial-results-cbuadf02sn9l.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="GLPG" data-source="Scientific Publication" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">GLPG</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Scientific review discusses Ziritaxestat (GLPG1690) and its evaluation in systemic sclerosis and idiopathic pulmonary fibrosis (IPF) trials.</p>
+      <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12358001/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="GLPG" data-source="ClinicalTrials.gov" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrials.gov</span>
+        <span class="competitor-tag">GLPG</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">A clinical study (NCT03976648) was conducted to test the long-term safety of GLPG1690 (Ziritaxestat) in participants with systemic sclerosis.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT03976648" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">clinicaltrials.gov</div>
+    </div>
+    <div class="card" data-competitor="GLPG" data-source="Scientific Publication" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">GLPG</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Galapagos' pipeline development mentions GLPG0778 as a JAK1 inhibitor explored for inflammatory diseases including COPD.</p>
+      <a class="source-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7102286/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="ALMS" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Alumis reported that oral ESK-001 (allosteric TYK2 inhibitor) demonstrated significant dose-dependent improvement in signs and symptoms of Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/40659116/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="ALMS" data-source="SEC 10-K" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC 10-K</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Alumis' SEC 10-K filing mentions its intention to explore additional indications for its TYK2 inhibitor platform, including COPD and Systemic Sclerosis.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1847367/000184736725000012/tmb-20241231x10k.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">sec.gov</div>
+    </div>
+    <div class="card" data-competitor="ALMS" data-source="SEC 10-K" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC 10-K</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Alumis lists systemic sclerosis as a potential future indication for its precision immunology pipeline in its annual regulatory filings.</p>
+      <a class="source-link" href="https://investors.alumis.com/node/6561/html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">alumis.com</div>
+    </div>
+    <div class="card" data-competitor="QTTB" data-source="News" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">QTTB</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">Q32 Bio is advancing bempikibart (ADX-914), a fully human anti-IL-7Rα antibody, for the treatment of autoimmune diseases such as Alopecia Areata and Atopic Dermatitis.</p>
+      <a class="source-link" href="https://ir.q32bio.com/news-releases/news-release-details/q32-bio-provides-bempikibart-program-update-including-next-steps" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">q32bio.com</div>
+    </div>
+    <div class="card" data-competitor="QTTB" data-source="SEC 10-K" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC 10-K</span>
+        <span class="competitor-tag">QTTB</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Q32 Bio identifies COPD as a potential future indication for bempikibart (anti-IL-7Rα) in its corporate strategy and SEC filings.</p>
+      <a class="source-link" href="https://ir.q32bio.com/node/10146/html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">q32bio.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Incyte announced positive topline results from two Phase 3 clinical trials (STOP-HS1 and STOP-HS2) of povorcitinib in patients with Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://investor.incyte.com/news-releases/news-release-details/incyte-announces-positive-topline-results-two-phase-3-clinical/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">incyte.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="Scientific Publication" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Incyte presented 54-week data for povorcitinib in Hidradenitis Suppurativa at the 2026 American Academy of Dermatology (AAD) Annual Meeting.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/40659116/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">Incyte's baricitinib (Olumiant) has been evaluated in Giant Cell Arteritis (GCA) and other inflammatory conditions through its partnership with Eli Lilly.</p>
+      <a class="source-link" href="https://www.zacks.com/stock/news/2441800/abbvies-rinvoq-gets-eu-nod-for-8th-indication-giant-cell-arteritis" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">zacks.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="News" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Incyte's partnership with Eli Lilly includes development of baricitinib for indications such as Polymyalgia Rheumatica and GCA.</p>
+      <a class="source-link" href="https://www.zacks.com/stock/news/2441800/abbvies-rinvoq-gets-eu-nod-for-8th-indication-giant-cell-arteritis" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">zacks.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="Scientific Publication" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Research involving multi-omics profiling of chronic immune-mediated skin diseases mentions IL-17 and its relevance in conditions like Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://www.researchgate.net/publication/400527574_Multi-omics_profiling_of_chronic_immune-mediated_skin_diseases_SKINERGY_protocol_and_strategic_evaluation" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">researchgate.net</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="Scientific Publication" data-keyword="IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">IL33</span>
+      </div>
+      <p class="summary">Multi-omics profiling of skin diseases like HS explores the role of cytokines such as IL-33 and IL-17 in disease pathogenesis.</p>
+      <a class="source-link" href="https://www.researchgate.net/publication/400527574_Multi-omics_profiling_of_chronic_immune-mediated_skin_diseases_SKINERGY_protocol_and_strategic_evaluation" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">researchgate.net</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="ClinicalTrials.gov" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrials.gov</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Clinical trial (NCT07502872) protocol for Incyte/Genentech studies mentions COPD as a co-morbid condition requiring specific monitoring in treatment regimens.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT07502872" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">clinicaltrials.gov</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 67 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const matchComp = !comp || card.dataset.competitor?.toLowerCase() === comp;
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

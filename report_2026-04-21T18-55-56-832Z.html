@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-21, 2:55:56 p.m. &nbsp;|&nbsp; 6 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">6</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">7</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="anab">ANAB</option><option value="glue">GLUE</option><option value="ifrx">IFRX</option><option value="incy">INCY</option><option value="keyword matched">Keyword matched</option><option value="mltx">MLTX</option><option value="ucb">UCB</option><option value="xncr">XNCR</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="copd">COPD</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="il-33">IL-33</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="News Release">News Release</option><option value="News Article">News Article</option><option value="Scientific Presentation">Scientific Presentation</option><option value="Analyst Update">Analyst Update</option><option value="Press Release">Press Release</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">XNCR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">MLTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLUE</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">IFRX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ANAB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card"
+      data-competitors="incy|xncr"
+      data-source="News Release"
+      data-keywords="">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Release</span>
+        <span class="competitor-tag">INCY</span><span class="competitor-tag">XNCR</span>
+        
+      </div>
+      <p class="summary">Incyte announced positive Phase 3 results for tafasitamab in first-line DLBCL, to be presented at ASCO 2026. The drug is licensed from Xencor.</p>
+      <a class="source-link" href="https://www.morningstar.com/news/business-wire/20260421480376/incyte-highlights-new-phase-3-tafasitamab-data-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · morningstar.com</div>
+    </div>
+    <div class="card"
+      data-competitors="incy|mltx|ucb"
+      data-source="News Article"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa|il-17">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">INCY</span><span class="competitor-tag">MLTX</span><span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+      </div>
+      <p class="summary">A review published on April 21 highlights the role of IL-17 inhibitors (secukinumab, bimekizumab, sonelokimab) and JAK1 inhibitors (povorcitinib) as breakthroughs in the treatment of HS.</p>
+      <a class="source-link" href="https://www.dermatologytimes.com/view/from-burden-to-breakthrough-redefining-the-standard-of-care-in-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · dermatologytimes.com</div>
+    </div>
+    <div class="card"
+      data-competitors="glue"
+      data-source="Scientific Presentation"
+      data-keywords="">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Presentation</span>
+        <span class="competitor-tag">GLUE</span>
+        
+      </div>
+      <p class="summary">Monte Rosa Therapeutics (GLUE) presented preclinical data on its directed Molecular Glue Degrader for CCNE1-amplified solid tumors on April 21, 2026.</p>
+      <a class="source-link" href="https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-presents-preclinical-data-american-0" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · monterosatx.com</div>
+    </div>
+    <div class="card"
+      data-competitors="ifrx"
+      data-source="Analyst Update"
+      data-keywords="">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Analyst Update</span>
+        <span class="competitor-tag">IFRX</span>
+        
+      </div>
+      <p class="summary">Guggenheim reaffirmed its 'Buy' rating and $14 price target for InflaRx (IFRX) on April 21, 2026.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/inflarxs-ifrx-buy-rating-reaffirmed-at-guggenheim-2026-04-21/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · marketbeat.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="copd|il-33">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+      </div>
+      <p class="summary">AstraZeneca reported that the Phase III MIRANDA trial of tozorakimab (anti-IL-33) met its primary endpoint in COPD, demonstrating a reduction in moderate-to-severe exacerbations.</p>
+      <a class="source-link" href="https://www.londonstockexchange.com/news-article/AZN/third-tozorakimab-positive-phase-iii-in-copd/17553334" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · londonstockexchange.com</div>
+    </div>
+    <div class="card"
+      data-competitors="anab"
+      data-source="Press Release"
+      data-keywords="">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">ANAB</span>
+        
+      </div>
+      <p class="summary">AnaptysBio announced the completion of its separation from First Tracks Biotherapeutics on April 20, 2026, transitioning to a virtual operating model.</p>
+      <a class="source-link" href="https://ir.anaptysbio.com/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · anaptysbio.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 6 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw   = document.getElementById('filter-keyword').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-keyword').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

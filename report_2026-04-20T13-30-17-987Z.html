@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; transition: width 0.4s; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-20, 9:30:17 a.m. &nbsp;|&nbsp; 54 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">54</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">34</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">11</div><div class="label">Source Types</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="AstraZeneca">AstraZeneca</option><option value="UCB">UCB</option><option value="Monte Rosa Therapeutics">Monte Rosa Therapeutics</option><option value="Alumis">Alumis</option><option value="Nuance Pharma">Nuance Pharma</option><option value="AnaptysBio">AnaptysBio</option><option value="Insmed">Insmed</option><option value="Cabaletta Bio">Cabaletta Bio</option><option value="N/A">N/A</option><option value="Passage Bio">Passage Bio</option><option value="GLUE">GLUE</option><option value="ANAB">ANAB</option><option value="QTTB">QTTB</option><option value="Eli Lilly">Eli Lilly</option><option value="CABA">CABA</option><option value="IFRX">IFRX</option><option value="Medscape">Medscape</option><option value="KYMR">KYMR</option><option value="OncLive">OncLive</option><option value="Vor Bio">Vor Bio</option><option value="Galapagos">Galapagos</option><option value="Sutro Biopharma">Sutro Biopharma</option><option value="Immunofoco">Immunofoco</option><option value="Genprex">Genprex</option><option value="Biogen">Biogen</option><option value="Prelude Therapeutics">Prelude Therapeutics</option><option value="INSM">INSM</option><option value="INCY">INCY</option><option value="ALMS">ALMS</option><option value="Novartis">Novartis</option><option value="MLTX">MLTX</option><option value="HCP Live">HCP Live</option><option value="Incyte">Incyte</option><option value="Q32 Bio">Q32 Bio</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="News / Press Release">News / Press Release</option><option value="Press Release">Press Release</option><option value="SEC Filing (8-K)">SEC Filing (8-K)</option><option value="PubMed / Medscape">PubMed / Medscape</option><option value="Conference Presentation">Conference Presentation</option><option value="Medical News">Medical News</option><option value="SEC Filing">SEC Filing</option><option value="News Article">News Article</option><option value="News">News</option><option value="PubMed">PubMed</option><option value="Scientific News">Scientific News</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">N/A</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">10</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">AstraZeneca</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:40%"></div>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Nuance Pharma</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:30%"></div>
+        <span class="chart-count">3</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Alumis</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Insmed</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLUE</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ANAB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INSM</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:20%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Monte Rosa Therapeutics</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:10%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card" data-competitor="AstraZeneca" data-source="News / Press Release" data-keyword="COPD, IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">News / Press Release</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD, IL33</span>
+      </div>
+      <p class="summary">Tozorakimab met the primary endpoint in the Phase III MIRANDA trial, showing a statistically significant and clinically meaningful reduction in moderate-to-severe COPD exacerbations in former smokers and the overall population.</p>
+      <a class="source-link" href="https://lasvegassun.com/news/2026/apr/20/tozorakimab-met-primary-endpoint-in-phase-iii-mira/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · lasvegassun.com</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="Press Release" data-keyword="UCB">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">UCB</span>
+      </div>
+      <p class="summary">UCB acquired Neurona Therapeutics for up to $1.15 billion to enhance its epilepsy pipeline and cellular therapy capabilities.</p>
+      <a class="source-link" href="https://www.biospace.com/deals/ucb-elevates-epilepsy-expertise-with-up-to-1-15b-neurona-takeover" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="Monte Rosa Therapeutics" data-source="Press Release" data-keyword="GLUE">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Monte Rosa Therapeutics</span>
+        <span class="keyword-tag">GLUE</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics (GLUE) presented preclinical data at AACR 2026 demonstrating the potential of its CCNE1-directed molecular glue degrader to treat CCNE1-amplified solid tumors.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/GLUE/monte-rosa-therapeutics-presents-preclinical-data-at-american-0d1p5boq20p0.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="Alumis" data-source="Press Release" data-keyword="ALMS">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Alumis</span>
+        <span class="keyword-tag">ALMS</span>
+      </div>
+      <p class="summary">Alumis (ALMS) presented late-breaker oral Phase 3 data for envudeucitinib in moderate-to-severe plaque psoriasis at the 2026 AAD Annual Meeting.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/ALMS/alumis-announces-late-breaker-oral-presentation-of-phase-3-data-for-9soeae3zjmzv.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="Nuance Pharma" data-source="Press Release" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Nuance Pharma</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Nuance Pharma published Phase 3 ENHANCE-China data in the CHEST journal, showing Ohtuvayre (ensifentrine) significantly improved lung function in Chinese adult patients with COPD.</p>
+      <a class="source-link" href="https://www.prnewswire.com/apac/news-releases/nuance-pharma-announces-publication-of-phase-3-enhance-china-data-in-the-central-journal-302745742.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · prnewswire.com</div>
+    </div>
+    <div class="card" data-competitor="AnaptysBio" data-source="Press Release" data-keyword="ANAB">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">AnaptysBio</span>
+        <span class="keyword-tag">ANAB</span>
+      </div>
+      <p class="summary">AnaptysBio (ANAB) announced the spin-off distribution date for First Tracks Biotherapeutics, which occurred on April 20, 2026. Stockholders received one share of First Tracks for every share of ANAB owned.</p>
+      <a class="source-link" href="https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-board-directors-approves-spin-first-tracks" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · anaptysbio.com</div>
+    </div>
+    <div class="card" data-competitor="Insmed" data-source="Press Release" data-keyword="INSM, Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Insmed</span>
+        <span class="keyword-tag">INSM, Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Insmed (INSM) reported that its Phase 2b CEDAR trial of brensocatib in moderate to severe hidradenitis suppurativa failed to meet its primary and secondary efficacy endpoints.</p>
+      <a class="source-link" href="https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-insm/insmed/news/insmed-clinical-setback-in-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · simplywall.st</div>
+    </div>
+    <div class="card" data-competitor="Cabaletta Bio" data-source="SEC Filing (8-K)" data-keyword="CABA, Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing (8-K)</span>
+        <span class="competitor-tag">Cabaletta Bio</span>
+        <span class="keyword-tag">CABA, Systemic sclerosis</span>
+      </div>
+      <p class="summary">Cabaletta Bio (CABA) filed an 8-K featuring an updated corporate presentation with Rese-cel (CABA-201) data across autoimmune diseases, including clinical responses in systemic sclerosis (SSc) and myositis.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1759138/000175913826000016/caba-20260420.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · sec.gov</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="PubMed / Medscape" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">PubMed / Medscape</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">A study published on Medscape indicates that the use of low-dose aspirin initiated at the diagnosis of Giant Cell Arteritis (GCA) may significantly reduce cardiovascular risk in these patients.</p>
+      <a class="source-link" href="https://www.medscape.com/viewarticle/giant-cell-arteritis-low-dose-aspirin" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · medscape.com</div>
+    </div>
+    <div class="card" data-competitor="Passage Bio" data-source="Press Release" data-keyword="Passage Bio">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Passage Bio</span>
+        <span class="keyword-tag">Passage Bio</span>
+      </div>
+      <p class="summary">Passage Bio updated interim data from its ongoing Phase 1/2 upliFT-D clinical trial in an 8-K filing on April 20, 2026.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1787297/000110465926045219/tm2612152d1_8k.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · sec.gov</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Conference Presentation" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#ea580c">Conference Presentation</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Larvol presented new data on Baff (B-cell activating factor) and B-cell biology at the IMMUNOLOGY2026 conference, highlighting therapeutic implications in autoimmune diseases.</p>
+      <a class="source-link" href="https://immunology2026.eventscribe.net/fsPopup.asp?PresentationID=1779473&mode=presInfo" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · eventscribe.net</div>
+    </div>
+    <div class="card" data-competitor="GLUE" data-source="Press Release" data-keyword="Molecular glue">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">GLUE</span>
+        <span class="keyword-tag">Molecular glue</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics presented preclinical data at the AACR Annual Meeting 2026 highlighting its Cyclin E1 (CCNE1)-directed molecular glue degrader. The data demonstrate the potential of the degrader to treat CCNE1-amplified solid tumors.</p>
+      <a class="source-link" href="https://www.manilatimes.net/2026/04/20/tmt-newswire/globenewswire/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-glue-degrader-to-treat-ccne1-amplified-solid-tumors/2323836" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · manilatimes.net</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="Press Release" data-keyword="ANAB">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">ANAB</span>
+      </div>
+      <p class="summary">AnaptysBio announced that its Board of Directors approved the spin-off of First Tracks Biotherapeutics. Stockholders of record as of April 20, 2026, will receive shares in the new entity, which is focused on the development of novel therapies.</p>
+      <a class="source-link" href="https://www.stocktitan.net/news/ANAB/anaptys-board-of-directors-approves-spin-off-of-first-tracks-l03opw3lyd4u.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="QTTB" data-source="Press Release" data-keyword="QTTB">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">QTTB</span>
+        <span class="keyword-tag">QTTB</span>
+      </div>
+      <p class="summary">Quantum-Si announced the presentation of two customer posters at the AACR Annual Meeting 2026. One poster (2421) by Nigel O'Neil, PhD, demonstrated the application of the company's single-molecule protein sequencing platform in cancer research.</p>
+      <a class="source-link" href="https://www.quantum-si.com/press-releases/quantum-si-announces-two-customer-posters-to-be-presented-at-the-american-association-of-cancer-research-annual-meeting/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · quantum-si.com</div>
+    </div>
+    <div class="card" data-competitor="AstraZeneca" data-source="Press Release" data-keyword="COPD, IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD, IL33</span>
+      </div>
+      <p class="summary">The Phase III MIRANDA trial of tozorakimab met its primary endpoint in patients with COPD. Tozorakimab, an anti-IL-33 monoclonal antibody, showed significant reduction in COPD exacerbations by addressing underlying drivers of the disease.</p>
+      <a class="source-link" href="https://lasvegassun.com/news/2026/apr/20/tozorakimab-met-primary-endpoint-in-phase-iii-mira/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · lasvegassun.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Medical News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">A study reported on Medscape suggests that using low-dose aspirin at the time of diagnosis of Giant Cell Arteritis (GCA) may significantly reduce the risk of cardiovascular events in these patients.</p>
+      <a class="source-link" href="https://www.medscape.com/viewarticle/use-low-dose-aspirin-diagnosis-giant-cell-arteritis-may-2026a1000c9w" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · medscape.com</div>
+    </div>
+    <div class="card" data-competitor="Eli Lilly" data-source="Medical News" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">Eli Lilly</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">A study presented at AAD 2026 showed that the combination of tirzepatide and ixekizumab (an IL-17A inhibitor) significantly improved clinical outcomes in patients suffering from both psoriatic arthritis and obesity.</p>
+      <a class="source-link" href="https://www.patientcareonline.com/view/tirzepatide-plus-ixekizumab-improves-outcomes-in-psoriatic-arthritis-with-obesity-aad-2026" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · patientcareonline.com</div>
+    </div>
+    <div class="card" data-competitor="AstraZeneca" data-source="Press Release" data-keyword="COPD, IL33">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD, IL33</span>
+      </div>
+      <p class="summary">AstraZeneca announced that tozorakimab, an IL-33 inhibitor, met the primary endpoint in the Phase III MIRANDA trial, significantly reducing the annualized rate of moderate or severe COPD exacerbations in patients with symptomatic COPD.</p>
+      <a class="source-link" href="https://finance.yahoo.com/sectors/healthcare/articles/tozorakimab-met-primary-endpoint-phase-110000457.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · finance.yahoo.com</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="Press Release" data-keyword="UCB">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">UCB</span>
+      </div>
+      <p class="summary">UCB announced the acquisition of Neurona Therapeutics for up to $1.15 billion to expand its epilepsy expertise and pipeline with cell therapies for drug-resistant focal epilepsy.</p>
+      <a class="source-link" href="https://www.biospace.com/deals/ucb-elevates-epilepsy-expertise-with-up-to-1-15b-neurona-takeover" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="ANAB" data-source="Press Release" data-keyword="AnaptysBio">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">ANAB</span>
+        <span class="keyword-tag">AnaptysBio</span>
+      </div>
+      <p class="summary">AnaptysBio, Inc. announced that its Board of Directors has approved the spin-off of First Tracks Biotherapeutics (TRAX), with the distribution of shares and commencement of trading expected on April 20, 2026.</p>
+      <a class="source-link" href="https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-board-directors-approves-spin-first-tracks" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · ir.anaptysbio.com</div>
+    </div>
+    <div class="card" data-competitor="CABA" data-source="SEC Filing" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing</span>
+        <span class="competitor-tag">CABA</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Cabaletta Bio filed an 8-K reporting the presentation of new clinical data for CABA-201 at the AAN 2026 Annual Meeting. The data highlights the expansion of the rese-cel program across multiple autoimmune diseases, including systemic sclerosis and lupus.</p>
+      <a class="source-link" href="https://www.stocktitan.net/sec-filings/CABA/8-k-cabaletta-bio-inc-reports-material-event-ecfeaf0cce31.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="GLUE" data-source="Press Release" data-keyword="Monte Rosa Therapeutics">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">GLUE</span>
+        <span class="keyword-tag">Monte Rosa Therapeutics</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics presented preclinical data at the AACR 2026 Annual Meeting demonstrating the potential of its Cyclin E1 (CCNE1)-directed molecular glue degrader to treat CCNE1-amplified solid tumors.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/20/3276859/0/en/monte-rosa-therapeutics-presents-preclinical-data-at-american-association-for-cancer-research-aacr-annual-meeting-2026-on-the-potential-of-its-cyclin-e1-ccne1-directed-molecular-gl.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="Nuance Pharma" data-source="Press Release" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Nuance Pharma</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Nuance Pharma announced the publication of Phase 3 ENHANCE-China data for Ohtuvayre (ensifentrine) in the CHEST Journal, confirming its efficacy and safety in Chinese patients with moderate-to-severe COPD.</p>
+      <a class="source-link" href="https://www.prnewswire.com/apac/news-releases/nuance-pharma-announces-publication-of-phase-3-enhance-china-data-in-the-chest-journal-302745742.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · prnewswire.com</div>
+    </div>
+    <div class="card" data-competitor="IFRX" data-source="News Article" data-keyword="InflaRx">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">IFRX</span>
+        <span class="keyword-tag">InflaRx</span>
+      </div>
+      <p class="summary">InflaRx announced it is reducing its workforce by approximately 30% to conserve capital and focus on its primary clinical development programs.</p>
+      <a class="source-link" href="https://www.biospace.com/biospace-layoff-tracker" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="Medscape" data-source="News Article" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">Medscape</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">A study published in Medscape suggests that the use of low-dose aspirin at the time of diagnosis of Giant Cell Arteritis (GCA) may significantly reduce cardiovascular risk in these patients.</p>
+      <a class="source-link" href="https://www.medscape.com/viewarticle/use-low-dose-aspirin-diagnosis-giant-cell-arteritis-may-2026a1000c9w" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · medscape.com</div>
+    </div>
+    <div class="card" data-competitor="KYMR" data-source="Press Release" data-keyword="Kymera Therapeutics">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Kymera Therapeutics</span>
+      </div>
+      <p class="summary">Kymera Therapeutics announced that KT-253, a novel MDM2 degrader, received FDA Orphan Drug Designation for the treatment of Acute Myeloid Leukemia (AML).</p>
+      <a class="source-link" href="https://www.cancernetwork.com/view/novel-mdm2-degrader-kt-253-receives-fda-orphan-drug-designation-in-aml" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · cancernetwork.com</div>
+    </div>
+    <div class="card" data-competitor="OncLive" data-source="News Article" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">OncLive</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">A report on April 20, 2026, discusses how targeting BAFF-R with ianalumab in combination with BTK inhibition shows promise in treating Chronic Lymphocytic Leukemia (CLL).</p>
+      <a class="source-link" href="https://www.onclive.com/view/targeting-baff-r-with-ianalumab-plus-btk-inhibition-shows-promise-in-cll" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · onclive.com</div>
+    </div>
+    <div class="card" data-competitor="Nuance Pharma" data-source="Press Release" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Nuance Pharma</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Nuance Pharma announced the publication of Phase 3 ENHANCE clinical data for Ensifentrine for the maintenance treatment of chronic obstructive pulmonary disease (COPD) in the journal CHEST.</p>
+      <a class="source-link" href="https://finance.yahoo.com/sectors/healthcare/articles/nuance-pharma-announces-publication-phase-010000585.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · yahoo.com</div>
+    </div>
+    <div class="card" data-competitor="Vor Bio" data-source="News" data-keyword="VOR">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Vor Bio</span>
+        <span class="keyword-tag">VOR</span>
+      </div>
+      <p class="summary">Vor Bio has reportedly folded (ceased operations) as of April 2026, joining a list of other biotech companies that have closed due to policy uncertainty and market conditions.</p>
+      <a class="source-link" href="https://www.biospace.com/business/arena-bioworks-folds-less-than-two-years-after-launch-blames-policy-uncertainty" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="Galapagos" data-source="News" data-keyword="GLPG">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Galapagos</span>
+        <span class="keyword-tag">GLPG</span>
+      </div>
+      <p class="summary">The FDA has granted RMAT designation to Galapagos' novel CAR T-cell therapy, GLPG5101, which is being developed for the treatment of relapsed or refractory mantle cell lymphoma.</p>
+      <a class="source-link" href="https://www.onclive.com/view/fda-grants-rmat-designation-to-novel-car-t-cell-therapy-for-r-r-mantle-cell-lymphoma" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · onclive.com</div>
+    </div>
+    <div class="card" data-competitor="Sutro Biopharma" data-source="Press Release" data-keyword="AACR 2026">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Sutro Biopharma</span>
+        <span class="keyword-tag">AACR 2026</span>
+      </div>
+      <p class="summary">Sutro Biopharma presented promising preclinical data for its Integrin beta-6 targeting antibody-drug conjugate (ADC), STRO-006, at the AACR 2026 Annual Meeting.</p>
+      <a class="source-link" href="https://www.fidelity.com/news/article/default/202604191945PRIMZONEFULLFEED9692714" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · fidelity.com</div>
+    </div>
+    <div class="card" data-competitor="Immunofoco" data-source="Press Release" data-keyword="AACR 2026">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Immunofoco</span>
+        <span class="keyword-tag">AACR 2026</span>
+      </div>
+      <p class="summary">Immunofoco presented preclinical data for IMV102, an in vivo BCMA-targeting CAR-T candidate, demonstrating durable tumor control at the AACR 2026 meeting.</p>
+      <a class="source-link" href="https://www.morningstar.com/news/pr-newswire/20260420cn38141/immunofoco-presents-preclinical-data-for-imv102-an-in-vivo-car-t-candidate-demonstrating-durable-tumor-control-at-the-aacr-2026" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · morningstar.com</div>
+    </div>
+    <div class="card" data-competitor="Genprex" data-source="Press Release" data-keyword="AACR 2026">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Genprex</span>
+        <span class="keyword-tag">AACR 2026</span>
+      </div>
+      <p class="summary">Genprex collaborators presented positive preclinical data on the use of Reqorsa gene therapy for the treatment of lung cancer at the AACR 2026 Annual Meeting.</p>
+      <a class="source-link" href="https://www.morningstar.com/news/pr-newswire/20260420da37592/genprex-collaborators-present-positive-preclinical-data-on-the-use-of-reqorsa-gene-therapy-for-the-treatment-of-lung-cancer-at-the-2026-aacr-annual-meeting" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · morningstar.com</div>
+    </div>
+    <div class="card" data-competitor="Alumis" data-source="News" data-keyword="ALMS">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Alumis</span>
+        <span class="keyword-tag">ALMS</span>
+      </div>
+      <p class="summary">Alumis Inc. (ALMS) received a consensus 'Moderate Buy' recommendation from analysts as of April 20, 2026.</p>
+      <a class="source-link" href="https://www.marketbeat.com/instant-alerts/alumis-inc-nasdaqalms-receives-consensus-recommendation-of-moderate-buy-from-analysts-2026-04-20/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · marketbeat.com</div>
+    </div>
+    <div class="card" data-competitor="Biogen" data-source="Press Release" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Biogen</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Biogen entered into an agreement with TJ Biopharma for Felzartamab assets in Greater China, a drug with potential applications in systemic sclerosis.</p>
+      <a class="source-link" href="https://markets.businessinsider.com/news/stocks/biogen-enters-into-agreement-with-tj-biopharma-for-felzartamab-assets-in-the-greater-china-region-1036037537" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · businessinsider.com</div>
+    </div>
+    <div class="card" data-competitor="Prelude Therapeutics" data-source="SEC Filing" data-keyword="AACR 2026">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing</span>
+        <span class="competitor-tag">Prelude Therapeutics</span>
+        <span class="keyword-tag">AACR 2026</span>
+      </div>
+      <p class="summary">Prelude Therapeutics (PRLD) issued an 8-K filing announcing the presentation of new preclinical data at the AACR 2026 Annual Meeting.</p>
+      <a class="source-link" href="https://www.stocktitan.net/sec-filings/PRLD/8-k-prelude-therapeutics-inc-reports-material-event-6352fd10ae64.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · stocktitan.net</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="News" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">Research indicated that the use of low-dose aspirin at the time of diagnosis of Giant Cell Arteritis (GCA) may reduce cardiovascular risk.</p>
+      <a class="source-link" href="https://www.medscape.com/viewarticle/use-low-dose-aspirin-diagnosis-giant-cell-arteritis-may-2026a1000c9w" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · medscape.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="News" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">The FDA granted priority review for Keytruda in several new indications, including the treatment of polymyalgia rheumatica.</p>
+      <a class="source-link" href="https://lasvegassun.com/news/2026/apr/20/fda-grants-priority-review-for-keytruda-pembrolizu/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-19 · lasvegassun.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Insmed reported that its Phase 2b CEDAR trial of brensocatib in moderate to severe hidradenitis suppurativa did not meet primary or secondary efficacy endpoints. As a result, the company plans to discontinue development of the drug for this indication.</p>
+      <a class="source-link" href="https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-insm/insmed/news/a-look-at-insmed-insm-valuation-after-brensocatib-setback-in" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · simplywall.st</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="Medical News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Late-breaking 54-week data for povorcitinib in Hidradenitis Suppurativa were recapped at AAD 2026, showing sustained efficacy and a favorable safety profile in patients with moderate to severe disease.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/abcs-in-dermatology-aad-2026-late-breaking-data-recap" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="PubMed" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#16a34a">PubMed</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">A scoping review titled 'Aryl Hydrocarbon Receptor Signalling in Hidradenitis Suppurativa' was published online, exploring the role of AHR signaling in the pathogenesis of HS and its potential as a therapeutic target.</p>
+      <a class="source-link" href="https://journals.sagepub.com/doi/10.1177/12034754261442918" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · journals.sagepub.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific News" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Scientific News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">New research highlighted by Larvol Delta shows that reduced BCMA signaling disrupts the BAFF/APRIL axis, leading to increased inflammatory cytokine production by B cells in Multiple Sclerosis.</p>
+      <a class="source-link" href="https://delta.larvol.com/NewsItem/NewsItemID/a2e52b22-ce83-447b-8ec6-2cd5746f0d10/Reduced+BCMA+Signaling+Disrupts+the+BAFF%202fAPRIL+Axis+and+Promotes+Inflammatory+Cytokine+Production+by+B+Cells+in+Multiple+Sclerosis." target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · delta.larvol.com</div>
+    </div>
+    <div class="card" data-competitor="ALMS" data-source="Medical News" data-keyword="ALMS">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">ALMS</span>
+      </div>
+      <p class="summary">Alumis (ALMS) was highlighted at AAD 2026 for its progress in developing treatments for inflammatory skin diseases, joining major players like Sanofi and Incyte in the advancing dermatology space.</p>
+      <a class="source-link" href="https://www.biospace.com/press-releases/lundbeck-presents-new-data-at-aan-2026-highlighting-real-world-changes-in-migraine-related-cognitive-symptoms-after-starting-vyepti-eptinezumab-jjmr" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · biospace.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Medical News" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Clinical research highlighted on HCPLive suggests that fibrinogen may serve as a potential new marker for polymyalgia rheumatica (PMR), being useful in both diagnosis and monitoring treatment response.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/fibrinogen-possible-new-marker-polymyalgia-rheumatica" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Medical News" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">A real-world study published in Dermatology Times quantified the elevated risk of autoimmune conditions, such as systemic sclerosis, in patients with vitiligo, emphasizing the need for comprehensive screening.</p>
+      <a class="source-link" href="https://www.dermatologytimes.com/view/real-world-study-quantifies-elevated-autoimmune-risk-in-us-vitiligo-patients" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · dermatologytimes.com</div>
+    </div>
+    <div class="card" data-competitor="N/A" data-source="Scientific News" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Scientific News</span>
+        <span class="competitor-tag">N/A</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Research into the fecal metabolome in patients with early systemic sclerosis was highlighted, pointing towards potential gut microbiome-related biomarkers for the disease.</p>
+      <a class="source-link" href="https://www.youtube.com/watch?v=MhLIKhCV-Yo" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · youtube.com</div>
+    </div>
+    <div class="card" data-competitor="Novartis" data-source="Medical News" data-keyword="IL17, Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Medical News</span>
+        <span class="competitor-tag">Novartis</span>
+        <span class="keyword-tag">IL17, Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Long-term data (up to 4 years) from the SUNSHINE and SUNRISE trials for secukinumab (Cosentyx), an IL-17A inhibitor, were presented, demonstrating sustained efficacy and safety in patients with moderate to severe hidradenitis suppurativa.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/discussing-findings-secukinumab-cosentyx-efficacy-over-4-years-hs-martina-porter-md" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="News Article" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Insmed (INSM) reportedly faced a setback as brensocatib failed to meet its primary endpoints in a study for Hidradenitis Suppurativa, leading to a valuation review.</p>
+      <a class="source-link" href="https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-insm/insmed/news/a-look-at-insmed-insm-valuation-after-brensocatib-setback-in/amp" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · simplywall.st</div>
+    </div>
+    <div class="card" data-competitor="MLTX" data-source="News Article" data-keyword="Hidradenitis suppurativa, IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">MLTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa, IL17</span>
+      </div>
+      <p class="summary">MoonLake Immunotherapeutics (MLTX) stock surged 30% following positive FDA updates regarding sonelokimab (an IL-17 inhibitor) for the treatment of Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://www.marketbeat.com/originals/biotech-breakout-moonlake-up-30-on-fda-wins/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · marketbeat.com</div>
+    </div>
+    <div class="card" data-competitor="HCP Live" data-source="News Article" data-keyword="Polymyalgia rheumatica">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">HCP Live</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span>
+      </div>
+      <p class="summary">Experts discussed the interim results and design of the REPLENISH trial for Polymyalgia Rheumatica, focusing on new era steroid-sparing options.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/experts-discuss-the-replenish-trial-for-polymyalgia-rheumatica" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="Incyte" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Incyte</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">An AAD 2026 Preview highlighted late-breaking data for hidradenitis suppurativa that is expected to support Incyte's pipeline candidate povortitinib.</p>
+      <a class="source-link" href="https://www.hcplive.com/view/aad-2026-preview-late-breaking-data-to-watch" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · hcplive.com</div>
+    </div>
+    <div class="card" data-competitor="Insmed" data-source="News" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Insmed</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Analysis of Insmed's valuation following a significant setback for brensocatib in a clinical study for the treatment of Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-insm/insmed/news/a-look-at-insmed-insm-valuation-after-brensocatib-setback-in" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · simplywall.st</div>
+    </div>
+    <div class="card" data-competitor="AstraZeneca" data-source="News" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">AstraZeneca</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">AstraZeneca's experimental drug tozorakimab significantly reduced flare-ups of chronic obstructive pulmonary disease (COPD) in late-stage clinical trials.</p>
+      <a class="source-link" href="https://www.reuters.com/business/healthcare-pharmaceuticals/astrazeneca-drug-reduces-copd-flare-ups-late-stage-trials-2026-03-27/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · reuters.com</div>
+    </div>
+    <div class="card" data-competitor="Q32 Bio" data-source="News" data-keyword="QTTB">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News</span>
+        <span class="competitor-tag">Q32 Bio</span>
+        <span class="keyword-tag">QTTB</span>
+      </div>
+      <p class="summary">Analysis of Q32 Bio Inc. (QTTB) indicates a bullish moving average trend in its stock performance as of April 19, 2026.</p>
+      <a class="source-link" href="https://intellectia.ai/stock/QTTB/forecast" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-18 · intellectia.ai</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 54 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const matchComp = !comp || card.dataset.competitor?.toLowerCase() === comp;
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

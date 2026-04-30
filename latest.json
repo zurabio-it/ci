@@ -1,0 +1,194 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INCY",
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "summary": "Kymera Therapeutics reported first quarter 2026 financial results, highlighting progress in the KT-474 (IRAK4 degrader) Phase 2 LOTUS trial for Hidradenitis suppurativa (HS).",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "confidence": 95
+      },
+      {
+        "source_type": "Corporate Report",
+        "source_type_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa",
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "summary": "Prime Therapeutics' April 2026 drug pipeline report identifies Incyte's povorcitinib for Hidradenitis suppurativa and AstraZeneca's tozorakimab (targeting IL-33) for COPD as key clinical therapies.",
+        "summary_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_domain": "primetherapeutics.com",
+        "source_domain_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "confidence": 50
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "keywords": [],
+        "keywords_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "summary": "Oruka Therapeutics announced the pricing of an upsized $700 million offering of common stock and pre-funded warrants, which is scheduled to close on April 30, 2026.",
+        "summary_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_link": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_link_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_domain": "rttnews.com",
+        "source_domain_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "confidence": 60
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "summary": "AstraZeneca's tozorakimab, an IL-33 targeting biologic, met the primary endpoint in the Phase III MIRANDA trial in patients with COPD, significantly reducing exacerbations.",
+        "summary_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_domain": "astrazeneca.com",
+        "source_domain_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "confidence": 85
+      },
+      {
+        "source_type": "News Article",
+        "source_type_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "summary": "New data for Incyte's povorcitinib in Hidradenitis suppurativa (HS) was highlighted, demonstrating substantial and durable clinical efficacy through 54 weeks.",
+        "summary_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_link": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_link_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_domain": "muckrack.com",
+        "source_domain_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "confidence": 60
+      },
+      {
+        "source_type": "Corporate Report",
+        "source_type_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "summary": "UCB's integrated annual report updates, effective April 30, 2026, highlighted the performance and clinical progress of bimekizumab (Bimzelx) in Hidradenitis suppurativa.",
+        "summary_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_link": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_link_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_domain": "ibr-ire.be",
+        "source_domain_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "confidence": 50
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-01T01:00:23.849Z",
+  "creditsUsed": 0
+}

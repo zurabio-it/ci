@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; transition: width 0.4s; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-19, 8:32:37 a.m. &nbsp;|&nbsp; 13 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">13</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">13</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">9</div><div class="label">Source Types</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">SEC Filings</div></div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="NKTX">NKTX</option><option value="MLTX">MLTX</option><option value="INCY">INCY</option><option value="UCB">UCB</option><option value="ACRS">ACRS</option><option value="AVTX">AVTX</option><option value="ALMS">ALMS</option><option value="GLUE">GLUE</option><option value="QTTB">QTTB</option><option value="Candid">Candid</option><option value="KNSA">KNSA</option><option value="INSM">INSM</option><option value="VERA">VERA</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release / Regulatory Update">Press Release / Regulatory Update</option><option value="Press Release / Conference Abstract">Press Release / Conference Abstract</option><option value="Press Release">Press Release</option><option value="Conference Abstract / Press Release">Conference Abstract / Press Release</option><option value="SEC 8-K / Press Release">SEC 8-K / Press Release</option><option value="Press Release / SEC 8-K">Press Release / SEC 8-K</option><option value="Press Release / Financial Report">Press Release / Financial Report</option><option value="Financial Report / Pipeline Analysis">Financial Report / Pipeline Analysis</option><option value="Financial Report / Scientific Publication">Financial Report / Scientific Publication</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">NKTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">MLTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ACRS</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">AVTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ALMS</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLUE</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">QTTB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Candid</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card" data-competitor="NKTX" data-source="Press Release / Regulatory Update" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / Regulatory Update</span>
+        <span class="competitor-tag">NKTX</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Nkarta announced on April 15, 2026, that it reached an agreement with the FDA on protocol changes for its NKX019 natural killer (NK) cell therapy program. NKX019 is being investigated for autoimmune diseases including lupus, and the company has highlighted its potential in a range of B-cell mediated diseases often associated with systemic sclerosis and SLE.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/03/25/3262553/0/en/Nkarta-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Corporate-Highlights.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-14 · globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="MLTX" data-source="Press Release / Conference Abstract" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / Conference Abstract</span>
+        <span class="competitor-tag">MLTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">MoonLake Immunotherapeutics announced Week 40 results from its Phase 3 clinical trials of sonelokimab (SLK) in hidradenitis suppurativa at the 2026 AAD Annual Meeting. The company also confirmed that FDA feedback indicates the VELA program data is sufficient to support a U.S. BLA.</p>
+      <a class="source-link" href="https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-week-40-results-its-phase-3-clinical-trials/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-27 · ir.moonlaketx.com</div>
+    </div>
+    <div class="card" data-competitor="INCY" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Incyte announced positive 54-week Phase 3 data for povorcitinib in hidradenitis suppurativa at AAD 2026. The STOP-HS program results demonstrated that the oral JAK1 inhibitor povorcitinib provided long-term symptom relief and durable response rates in moderate-to-severe patients.</p>
+      <a class="source-link" href="https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-27 · investor.incyte.com</div>
+    </div>
+    <div class="card" data-competitor="UCB" data-source="Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">UCB presented new 3-year data for BIMZELX (bimekizumab) in moderate-to-severe hidradenitis suppurativa (HS) at the 2026 AAD meeting. Results from the BE HEARD I & II Phase 3 trials showed sustained lesion clearance and disease severity improvements over the three-year period.</p>
+      <a class="source-link" href="https://www.ucb.com/newsroom/press-releases/article/ucb-announces-new-bimzelxr-bimekizumab-bkzx-data-at-aad-showing-durable-symptom-control-throughout-three-years-in-hidradenitis-suppurativa" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-26 · ucb.com</div>
+    </div>
+    <div class="card" data-competitor="ACRS" data-source="Conference Abstract / Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Conference Abstract / Press Release</span>
+        <span class="competitor-tag">ACRS</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Acelyrin (ACRS) partner Affibody presented positive 32-week data from a global Phase 3 study of izokibep in hidradenitis suppurativa at AAD 2026. The study met its primary endpoint of improved HiSCR-75 response and demonstrated durable efficacy in both biologic-naive and experienced patients.</p>
+      <a class="source-link" href="https://www.affibody.se/mfn_news/izokibep-demonstrates-durable-efficacy-in-phase-3-study-in-hidradenitis-suppurativa-as-presented-at-aad-2026/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-26 · affibody.se</div>
+    </div>
+    <div class="card" data-competitor="AVTX" data-source="SEC 8-K / Press Release" data-keyword="Hidradenitis suppurativa">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">SEC 8-K / Press Release</span>
+        <span class="competitor-tag">AVTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+      </div>
+      <p class="summary">Avalo Therapeutics reports that its lead asset, abdakibart (AVTX-009), is currently in a Phase 2 clinical trial (LOTUS) for the treatment of moderate-to-severe hidradenitis suppurativa. Topline data is expected in the second quarter of 2026.</p>
+      <a class="source-link" href="https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001628280-25-038570/0001628280-25-038570.pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-22 · ir.avalotx.com</div>
+    </div>
+    <div class="card" data-competitor="ALMS" data-source="Press Release / SEC 8-K" data-keyword="IL17">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">Press Release / SEC 8-K</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">IL17</span>
+      </div>
+      <p class="summary">Alumis presented Phase 3 data for envudeucitinib (ESK-001), a TYK2 inhibitor, in plaque psoriasis at the 2026 AAD Annual Meeting. The company also announced plans to test the drug in other immune-mediated diseases, following the competitive landscape of IL-17 and TYK2 inhibitors in autoimmune conditions.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/03/18/3258105/0/en/Alumis-Announces-Late-Breaker-Oral-Presentation-of-Phase-3-Data-for-Envudeucitinib-in-Moderate-to-Severe-Plaque-Psoriasis-at-2026-American-Academy-of-Dermatology-Annual-Meeting.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-17 · globenewswire.com</div>
+    </div>
+    <div class="card" data-competitor="GLUE" data-source="Press Release / Financial Report" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / Financial Report</span>
+        <span class="competitor-tag">GLUE</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics (GLUE) presented data on MRT-6160, a VAV1-directed molecular glue degrader, at the 2026 Keystone Symposia. The degrader has demonstrated activity in various autoimmune disease models, including those relevant to systemic sclerosis and other inflammatory conditions.</p>
+      <a class="source-link" href="https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-fourth-quarter-and-full-year-1/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-16 · ir.monterosatx.com</div>
+    </div>
+    <div class="card" data-competitor="QTTB" data-source="Press Release / Financial Report" data-keyword="IL7R">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release / Financial Report</span>
+        <span class="competitor-tag">QTTB</span>
+        <span class="keyword-tag">IL7R</span>
+      </div>
+      <p class="summary">Q32 Bio (QTTB) announced completion of enrollment in its SIGNAL-AA Phase 2a trial of bempikibart, a monoclonal antibody targeting the IL-7R (interleukin-7 receptor). Topline 36-week results for the trial in alopecia areata are expected in mid-2026.</p>
+      <a class="source-link" href="https://ir.q32bio.com/news-releases/news-release-details/q32-bio-announces-completion-enrollment-part-b-signal-aa-phase/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-09 · ir.q32bio.com</div>
+    </div>
+    <div class="card" data-competitor="Candid" data-source="Press Release" data-keyword="Systemic sclerosis">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Candid</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+      </div>
+      <p class="summary">Candid Therapeutics and Rallybio announced a merger in March 2026 to advance a portfolio of T-cell engager (TCE) therapeutics for autoimmune diseases. The combined company will prioritize cizutamig, which is planned to enter Phase 2 trials in 2026 for indications potentially including systemic sclerosis and lupus.</p>
+      <a class="source-link" href="https://investors.rallybio.com/news-releases/news-release-details/rallybio-corporation-and-candid-therapeutics-announce-merger/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-03-01 · investors.rallybio.com</div>
+    </div>
+    <div class="card" data-competitor="KNSA" data-source="Financial Report / Pipeline Analysis" data-keyword="Giant cell arteritis">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Financial Report / Pipeline Analysis</span>
+        <span class="competitor-tag">KNSA</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+      </div>
+      <p class="summary">Kiniksa Pharmaceuticals' rilonacept (Arcalyst) has shown significant revenue growth in 2025 and 2026. While primarily approved for pericarditis, it is highlighted in 2025/2026 pipeline reports as a potential therapeutic candidate for Giant Cell Arteritis (GCA) and other inflammatory vascular diseases.</p>
+      <a class="source-link" href="https://investors.kiniksa.com/news-releases/news-release-details/kiniksa-pharmaceuticals-reports-second-quarter-2025-financial/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-02-23 · investors.kiniksa.com</div>
+    </div>
+    <div class="card" data-competitor="INSM" data-source="Financial Report / Scientific Publication" data-keyword="COPD">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Financial Report / Scientific Publication</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">COPD</span>
+      </div>
+      <p class="summary">Insmed reported that brensocatib (Brinsupri) received FDA approval in August 2025 for non-cystic fibrosis bronchiectasis. Additionally, analysis from the ASPEN trial presented in late 2025 showed that brensocatib improved clinical outcomes in patients with comorbid COPD.</p>
+      <a class="source-link" href="https://investor.insmed.com/2026-02-19-Insmed-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-02-18 · investor.insmed.com</div>
+    </div>
+    <div class="card" data-competitor="VERA" data-source="Press Release / SEC 8-K" data-keyword="Baff">
+      <div class="card-header">
+        <span class="badge" style="background:#dc2626">Press Release / SEC 8-K</span>
+        <span class="competitor-tag">VERA</span>
+        <span class="keyword-tag">Baff</span>
+      </div>
+      <p class="summary">Vera Therapeutics announced that the FDA has granted Priority Review for its Biologics License Application (BLA) for atacicept in the treatment of IgA Nephropathy. Atacicept is a dual inhibitor of BAFF and APRIL cytokines. The PDUFA date is set for July 7, 2026.</p>
+      <a class="source-link" href="https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-01-06 · ir.veratx.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 13 findings';
+  }
+
+  function applyFilters() {
+    const comp = document.getElementById('filter-competitor').value.toLowerCase();
+    const src  = document.getElementById('filter-source').value.toLowerCase();
+    const q    = document.getElementById('filter-search').value.toLowerCase();
+    cards.forEach(card => {
+      const matchComp = !comp || card.dataset.competitor?.toLowerCase() === comp;
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !(matchComp && matchSrc && matchQ));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

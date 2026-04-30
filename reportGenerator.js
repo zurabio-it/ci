@@ -206,7 +206,7 @@ export function generateReport(data, timestamp) {
             Conference / Presentation = 20<br>
             News Article = 15 &nbsp;·&nbsp; Analyst = 10<hr>
             <b>Recency</b> — up to 20 pts<br>
-            Today = +20 &nbsp;·&nbsp; This month = +10 &nbsp;·&nbsp; Older = +5<hr>
+            Today = +20 &nbsp;·&nbsp; This month = +10<hr>
             <b>Both signals</b> — 10 pts<br>
             Competitor + keyword matched together
           </span></span>

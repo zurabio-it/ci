@@ -81,8 +81,7 @@ export function scoreFindings(finding) {
 
   // Date recency (up to 20 pts)
   if (pubDate === today) score += 20;
-  else if (pubDate >= today.slice(0, 7)) score += 10; // same month
-  else if (pubDate) score += 5;
+  else if (pubDate >= today.slice(0, 7)) score += 10;
 
   // Both competitor AND keyword matched (10 pts bonus)
   const hasCompetitor = (finding.competitors ?? []).some(c => c !== 'Keyword matched');

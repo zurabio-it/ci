@@ -30,21 +30,38 @@ if (!TEAMS_WEBHOOK) {
 
 const topFindings = findings.slice(0, 5);
 
-const findingLines = topFindings.map(f => {
+const findingBlocks = topFindings.flatMap(f => {
   const comp = (f.competitors ?? []).filter(c => c !== 'Keyword matched').join(', ') || 'Keyword match';
   const kw   = f.keywords?.length ? ` · ${f.keywords.join(', ')}` : '';
-  const link = f.source_link ? ` — [View Source](${f.source_link})` : '';
-  return `**${comp}** (${f.source_type || 'Unknown'}${kw})\n${f.summary || ''}${link}`;
-}).join('\n\n');
+  const items = [
+    { type: 'TextBlock', text: `**${comp}** — ${f.source_type || 'Unknown'}${kw}`, wrap: true, weight: 'Bolder', size: 'Small' },
+    { type: 'TextBlock', text: f.summary || '', wrap: true, size: 'Small', color: 'Default' },
+  ];
+  if (f.source_link) {
+    items.push({ type: 'TextBlock', text: `[View Source →](${f.source_link})`, wrap: true, size: 'Small', color: 'Accent' });
+  }
+  return [{ type: 'Container', separator: true, items }];
+});
 
-const teamsBody = {
-  text: `## Zura Bio — Competitive Intelligence\n**${findings.length} new finding${findings.length !== 1 ? 's' : ''}** across ${uniqueCompetitors.length} competitor${uniqueCompetitors.length !== 1 ? 's' : ''} · ${runDate}\n\n${findingLines}\n\n[📊 Latest Report](${DASHBOARD_URL}) | [📅 Historical Dashboard](${HISTORICAL_URL})`
+const adaptiveCard = {
+  type: 'AdaptiveCard',
+  $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
+  version: '1.4',
+  body: [
+    { type: 'TextBlock', text: 'Zura Bio — Competitive Intelligence', weight: 'Bolder', size: 'Large' },
+    { type: 'TextBlock', text: `**${findings.length} new finding${findings.length !== 1 ? 's' : ''}** across ${uniqueCompetitors.length} competitor${uniqueCompetitors.length !== 1 ? 's' : ''} · ${runDate}`, wrap: true, color: 'Accent' },
+    ...findingBlocks,
+  ],
+  actions: [
+    { type: 'Action.OpenUrl', title: '📊 Latest Report', url: DASHBOARD_URL },
+    { type: 'Action.OpenUrl', title: '📅 Historical Dashboard', url: HISTORICAL_URL },
+  ],
 };
 
 const res = await fetch(TEAMS_WEBHOOK, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(teamsBody)
+  body: JSON.stringify(adaptiveCard)
 });
 
 const body = await res.text();

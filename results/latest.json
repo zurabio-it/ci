@@ -5,169 +5,195 @@
     "competitors": [
       {
         "value": "AVTX",
-        "value_citation": "Avalo Therapeutics Inc."
+        "value_citation": "Avalo Therapeutics ticker symbol"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "MoonLake Immunotherapeutics ticker symbol"
       },
       {
         "value": "ORKA",
-        "value_citation": "Oruka Therapeutics, Inc."
+        "value_citation": "Oruka Therapeutics ticker symbol"
       },
       {
         "value": "INSM",
-        "value_citation": "Insmed Incorporated"
+        "value_citation": "Insmed ticker symbol"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Acelyrin ticker symbol"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "AnaptysBio ticker symbol"
       },
       {
         "value": "UCB",
-        "value_citation": "UCB SA/NV"
+        "value_citation": "UCB S.A. ticker symbol"
       },
       {
         "value": "KYMR",
-        "value_citation": "Kymera Therapeutics, Inc."
+        "value_citation": "Kymera Therapeutics ticker symbol"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monte Rosa Therapeutics / Molecular Glue ticker"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "InflaRx ticker symbol"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Cullinan Oncology / Cullinan Therapeutics ticker"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Nkarta ticker symbol"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Candid Therapeutics company name"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Xencor ticker symbol"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Kiniksa Pharmaceuticals ticker symbol"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Vera Therapeutics ticker symbol"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Vor Bio ticker symbol"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Galapagos ticker symbol"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Alumis ticker symbol"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Q32 Bio ticker symbol"
       },
       {
         "value": "INCY",
-        "value_citation": "Incyte Corporation"
+        "value_citation": "Incyte ticker symbol"
       }
     ],
     "keywords": [
       {
-        "value": "COPD",
-        "value_citation": "Chronic obstructive pulmonary disease (COPD)"
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Indication keyword"
       },
       {
-        "value": "BAFF",
-        "value_citation": "B-lymphocyte stimulator (BAFF)"
+        "value": "Systemic sclerosis",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Mechanism keyword"
       },
       {
         "value": "IL-7R",
-        "value_citation": "Interleukin 7 receptor (IL-7R)"
+        "value_citation": "Mechanism keyword"
       },
       {
-        "value": "Hidradenitis suppurativa",
-        "value_citation": "Hidradenitis suppurativa (HS)"
+        "value": "IL-17",
+        "value_citation": "Mechanism keyword"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Mechanism keyword"
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "Kymera Therapeutics Investor Relations news release, 'Kymera Therapeutics Announces First Quarter 2026 Financial Results and Provides a Business Update', April 30, 2026",
+        "source_type_citation": "GlobeNewswire press release, April 30, 2026",
         "competitors": [
-          "KYMR"
+          "KYMR",
+          "GLUE"
         ],
-        "competitors_citation": "Source mentions 'Kymera Therapeutics, Inc. (NASDAQ: KYMR)'",
+        "competitors_citation": "Kymera Therapeutics (KYMR) announced Q1 results; 'molecular glue' (GLUE) mentioned in context of KT-200.",
         "keywords": [
           "COPD"
         ],
-        "keywords_citation": "Source mentions 'KT-621... potential to transform treatment for more than 140 million patients around the world suffering from Type 2 diseases such as... chronic obstructive pulmonary disease (COPD)'",
-        "summary": "Kymera Therapeutics reported Q1 2026 financial results with $1.55 billion in cash and a runway into 2029. The company provided updates on its STAT6 degrader (KT-621) Phase 2b trials in atopic dermatitis and asthma, and its IRF5 degrader (KT-579) Phase 1 trial. Additionally, Gilead Sciences exercised its option for the oral CDK2 molecular glue degrader KT-200, triggering a $45 million milestone.",
-        "summary_citation": "Based on the Q1 2026 results press release text, describing milestones, financial status, and pipeline updates.",
+        "keywords_citation": "COPD mentioned as a development indication for STAT6 degrader KT-621.",
+        "summary": "Kymera announced Q1 2026 financial results and provided a business update. Highlights include Gilead Sciences exercising its option to license KT-200, a first-in-class CDK2 molecular glue degrader, and the advancement of KT-621, an oral STAT6 degrader, into development for COPD, asthma, and atopic dermatitis.",
+        "summary_citation": "Kymera Q1 2026 Press Release text",
         "publication_date": "2026-04-30",
-        "publication_date_citation": "Press release header states 'April 30, 2026'",
-        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-quarter-2026-financial",
-        "source_link_citation": "Direct URL to the company's official press release.",
-        "source_domain": "kymeratx.com",
-        "source_domain_citation": "Official investor relations domain for Kymera Therapeutics.",
+        "publication_date_citation": "April 30, 2026 date on press release",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/30/3284687/0/en/kymera-therapeutics-announces-first-quarter-2026-financial-results-and-provides-a-business-update.html",
+        "source_link_citation": "URL of press release",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Source domain of the press release",
         "confidence": 95
       },
       {
-        "source_type": "Press Release",
-        "source_type_citation": "ATS Press Release, 'American Thoracic Society Announces Landmark Initiative to Improve Diagnosis of Bronchiectasis Across the United States', April 30, 2026",
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Biomolecules & Therapeutics journal, April 30, 2026",
         "competitors": [
-          "INSM"
+          "Keyword matched"
         ],
-        "competitors_citation": "Source mentions 'support from Insmed Incorporated' and quotes 'Insmed’s Chief Medical Officer Martina Flammer, MD, MBA'",
+        "competitors_citation": "N/A",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "IL-17 axis and therapies.",
+        "summary": "A new scientific review titled 'Current and Emerging Therapies Targeting the IL-23/IL-17 Axis in Psoriasis and Psoriatic Arthritis' was published online. The article provides an update on the mechanism of IL-17 inhibition in chronic inflammatory conditions.",
+        "summary_citation": "IL-17 Scientific Review publication",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 online publication date",
+        "source_link": "https://www.biomolther.org/view.html?uid=1719&vmd=Full",
+        "source_link_citation": "URL of publication",
+        "source_domain": "biomolther.org",
+        "source_domain_citation": "Journal domain",
+        "confidence": 60
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, April 30, 2026",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "N/A",
         "keywords": [
           "COPD"
         ],
-        "keywords_citation": "Source states 'symptoms often overlap with other respiratory diseases like asthma or chronic obstructive pulmonary disease (COPD)'",
-        "summary": "The American Thoracic Society (ATS) announced a landmark quality improvement initiative across seven academic medical systems to address the underdiagnosis of bronchiectasis. The project, supported by an independent research grant from Insmed Incorporated, will use electronic health record (EHR) data to identify patients misdiagnosed with COPD or asthma who may have bronchiectasis as their underlying condition.",
-        "summary_citation": "Based on the ATS press release describing the initiative, multi-site study goals, and Insmed support.",
+        "keywords_citation": "COPD indication.",
+        "summary": "Altesa BioSciences announced it will present Phase 2a results for vapendavir in patients with COPD at the ATS 2026 International Congress. The data demonstrates vapendavir's ability to protect lung function and accelerate virus clearance in COPD patients after rhinovirus challenge.",
+        "summary_citation": "Altesa BioSciences press release",
         "publication_date": "2026-04-30",
-        "publication_date_citation": "Press release header states 'NEW YORK, NY – April 30, 2026'",
-        "source_link": "https://site.thoracic.org/press-releases/american-thoracic-society-announces-landmark-initiative-to-improve-diagnosis-of-bronchiectasis-across-the-united-states",
-        "source_link_citation": "Official ATS press release URL.",
-        "source_domain": "thoracic.org",
-        "source_domain_citation": "Official domain for the American Thoracic Society.",
-        "confidence": 70
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "Insmed Incorporated news release, 'Insmed to Present at May 2026 Investor Conferences', April 30, 2026",
-        "competitors": [
-          "INSM"
-        ],
-        "competitors_citation": "Source mentions 'Insmed Incorporated (Nasdaq: INSM)'",
-        "keywords": [],
-        "keywords_citation": "No specific keywords from the list mentioned in this specific event announcement.",
-        "summary": "Insmed Incorporated announced that its management will participate in two upcoming investor conferences: the BofA Securities 2026 Healthcare Conference in Las Vegas on May 12, and the 2026 RBC Capital Markets Global Healthcare Conference in New York on May 20. Live webcasts will be available on the company's website.",
-        "summary_citation": "Based on the PR Newswire release from Insmed detailing conference dates and times.",
-        "publication_date": "2026-04-30",
-        "publication_date_citation": "Press release header states 'BRIDGEWATER, N.J., April 30, 2026 /PRNewswire/'",
-        "source_link": "https://www.prnewswire.com/news-releases/insmed-to-present-at-may-2026-investor-conferences-302754966.html",
-        "source_link_citation": "PR Newswire source link for the Insmed announcement.",
+        "publication_date_citation": "April 30, 2026 date on press release",
+        "source_link": "https://www.prnewswire.com/news-releases/altesa-biosciences-selected-for-oral-presentation-at-the-american-thoracic-society-2026-international-congress-302758236.html",
+        "source_link_citation": "URL of press release",
         "source_domain": "prnewswire.com",
-        "source_domain_citation": "PR Newswire domain.",
+        "source_domain_citation": "Source domain",
         "confidence": 85
-      },
-      {
-        "source_type": "Company Announcement",
-        "source_type_citation": "UCB Press Release, 'UCB Annual General Meeting of Shareholders 2026', April 30, 2026",
-        "competitors": [
-          "UCB"
-        ],
-        "competitors_citation": "Source mentions 'UCB'",
-        "keywords": [],
-        "keywords_citation": "No specific keywords from the list mentioned in the AGM summary.",
-        "summary": "UCB held its 2026 Annual General Meeting of Shareholders on April 30, 2026. Shareholders approved the 2025 annual accounts and a gross dividend of €1.45 per share. The company also announced that Rodolfo J. Savitzky would step down from the Board of Directors effective today.",
-        "summary_citation": "Based on the UCB corporate announcement regarding AGM outcomes and board changes.",
-        "publication_date": "2026-04-30",
-        "publication_date_citation": "Search result and UCB newsroom state April 30, 2026 as the AGM date.",
-        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-annual-general-meeting-of-shareholders-2026",
-        "source_link_citation": "Official UCB newsroom link.",
-        "source_domain": "ucb.com",
-        "source_domain_citation": "Official UCB domain.",
-        "confidence": 65
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "Oruka Therapeutics Press Release, 'Oruka Therapeutics Announces Pricing of Upsized $700 Million Underwritten Public Offering', April 28, 2026; Close Date April 30, 2026",
-        "competitors": [
-          "ORKA"
-        ],
-        "competitors_citation": "Source mentions 'Oruka Therapeutics, Inc. (Nasdaq: ORKA)'",
-        "keywords": [],
-        "keywords_citation": "No specific keywords from the list mentioned in the financing PR.",
-        "summary": "Oruka Therapeutics announced the pricing of an upsized underwritten public offering of 9,660,000 shares at $72.50 per share, with gross proceeds expected at $700.4 million. The offering was scheduled to close on or about April 30, 2026. Proceeds are intended to support the development of novel monoclonal antibody therapeutics for psoriasis and other inflammatory indications.",
-        "summary_citation": "Based on the pricing PR and multiple sources confirming the April 30 close date.",
-        "publication_date": "2026-04-30",
-        "publication_date_citation": "Pricing PR published April 28, with the closing event occurring on April 30, 2026.",
-        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
-        "source_link_citation": "Official Oruka IR link.",
-        "source_domain": "orukatx.com",
-        "source_domain_citation": "Oruka IR domain.",
-        "confidence": 85
-      },
-      {
-        "source_type": "News Wire",
-        "source_type_citation": "BioWorld News, 'Other news to note for April 29, 2026', April 29, 2026",
-        "competitors": [
-          "AVTX"
-        ],
-        "competitors_citation": "Source mentions 'Avalo Therapeutics Inc., of Wayne, Pa.'",
-        "keywords": [],
-        "keywords_citation": "No specific keywords from list mentioned in the brief news note.",
-        "summary": "Avalo Therapeutics entered into a milestone agreement related to its AlmataBio terms (restructuring a $15M milestone into an upfront payment and buyout option) as reported by BioWorld on April 29, 2026. The company is also expected to report earnings on April 30, 2026.",
-        "summary_citation": "Based on BioWorld news and corporate earnings calendar.",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "BioWorld report date April 29, 2026, within 24 hours of the current April 30 date.",
-        "source_link": "https://www.bioworld.com/articles/730692-other-news-to-note-for-april-29-2026",
-        "source_link_citation": "BioWorld news summary link.",
-        "source_domain": "bioworld.com",
-        "source_domain_citation": "BioWorld domain.",
-        "confidence": 40
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-01T13:18:50.012Z",
-  "creditsUsed": 422
+  "expiresAt": "2026-05-01T17:10:28.321Z",
+  "creditsUsed": 603
 }

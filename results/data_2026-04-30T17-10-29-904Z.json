@@ -1,0 +1,341 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Avalo Therapeutics ticker symbol"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "MoonLake Immunotherapeutics ticker symbol"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Oruka Therapeutics ticker symbol"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Insmed ticker symbol"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Acelyrin ticker symbol"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "AnaptysBio ticker symbol"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "UCB S.A. ticker symbol"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Kymera Therapeutics ticker symbol"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monte Rosa Therapeutics / Molecular Glue ticker"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "InflaRx ticker symbol"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Cullinan Oncology / Cullinan Therapeutics ticker"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Nkarta ticker symbol"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Candid Therapeutics company name"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Xencor ticker symbol"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Kiniksa Pharmaceuticals ticker symbol"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Vera Therapeutics ticker symbol"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Vor Bio ticker symbol"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Galapagos ticker symbol"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Alumis ticker symbol"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Q32 Bio ticker symbol"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Incyte ticker symbol"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Indication keyword"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Mechanism keyword"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Mechanism keyword"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mechanism keyword"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Mechanism keyword"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire press release, April 30, 2026",
+        "competitors": [
+          "KYMR",
+          "GLUE"
+        ],
+        "competitors_citation": "Kymera Therapeutics (KYMR) announced Q1 results; 'molecular glue' (GLUE) mentioned in context of KT-200.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "COPD mentioned as a development indication for STAT6 degrader KT-621.",
+        "summary": "Kymera announced Q1 2026 financial results and provided a business update. Highlights include Gilead Sciences exercising its option to license KT-200, a first-in-class CDK2 molecular glue degrader, and the advancement of KT-621, an oral STAT6 degrader, into development for COPD, asthma, and atopic dermatitis.",
+        "summary_citation": "Kymera Q1 2026 Press Release text",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 date on press release",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/30/3284687/0/en/kymera-therapeutics-announces-first-quarter-2026-financial-results-and-provides-a-business-update.html",
+        "source_link_citation": "URL of press release",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Source domain of the press release"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Oruka Therapeutics investor relations, April 30, 2026",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "Oruka Therapeutics (ORKA) ticker and company name.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "Hidradenitis suppurativa (HS) mentioned as primary indication for ORKA-001.",
+        "summary": "Oruka Therapeutics announced the closing of its upsized $700 million public offering on April 30, 2026. The capital is intended to advance its pipeline of monoclonal antibodies, specifically ORKA-001 for Hidradenitis suppurativa (HS) and ORKA-002 for other immunology indications.",
+        "summary_citation": "Oruka pricing and closing press release",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "Offering expected to close on April 30, 2026",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "source_link_citation": "URL of press release",
+        "source_domain": "orukatx.com",
+        "source_domain_citation": "Company investor relations domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, April 30, 2026",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Insmed Incorporated (INSM) ticker.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "COPD mentioned as part of Insmed's pulmonary and inflammatory disease focus (brensocatib).",
+        "summary": "Insmed announced its participation in the BofA Securities 2026 Healthcare Conference and RBC Capital Markets Global Healthcare Conference. The company highlighted its commitment to therapies for serious pulmonary diseases, including its late-stage programs in COPD and bronchiectasis.",
+        "summary_citation": "Insmed presentation press release",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 date on press release",
+        "source_link": "https://www.prnewswire.com/news-releases/insmed-to-present-at-may-2026-investor-conferences-302754966.html",
+        "source_link_citation": "URL of press release",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "Financial Report",
+        "source_type_citation": "SEC 10-Q filing / GuruFocus report, April 30, 2026",
+        "competitors": [
+          "KNSA"
+        ],
+        "competitors_citation": "Kiniksa Pharmaceuticals (KNSA) ticker.",
+        "keywords": [
+          "Polymyalgia rheumatica",
+          "PMR",
+          "IL-7R"
+        ],
+        "keywords_citation": "Polymyalgia rheumatica (PMR) and IL-7R (CD127) target for abiprubart.",
+        "summary": "Kiniksa Pharmaceuticals released its first-quarter 2026 financial report, detailing the ongoing commercial success of ARCALYST and pipeline advancements. Specifically, the company is progressing the development of abiprubart, an anti-IL-7R monoclonal antibody, for the treatment of Polymyalgia rheumatica (PMR).",
+        "summary_citation": "Kiniksa Q1 2026 financial update",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 report date",
+        "source_link": "https://www.gurufocus.com/news/8829606/knsa-swot-analysis-financial-growth-and-challenges-revealed-in-10q-filing",
+        "source_link_citation": "URL of financial recap",
+        "source_domain": "gurufocus.com",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "News Article",
+        "source_type_citation": "Yahoo Finance / Reuters news, April 30, 2026",
+        "competitors": [],
+        "competitors_citation": "N/A",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "COPD and IL-33 mechanism (tozorakimab).",
+        "summary": "AstraZeneca reported that its inhaled IL-33 inhibitor, tozorakimab, achieved positive results in three Phase III trials (MIRANDA, OBERON, and TITANIA). The drug significantly reduced flare-ups in both current and former smokers with COPD.",
+        "summary_citation": "AstraZeneca COPD Phase III news",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 news date",
+        "source_link": "https://www.yahoo.com/news/articles/astrazeneca-copd-drug-gains-third-103024183.html",
+        "source_link_citation": "URL of news article",
+        "source_domain": "yahoo.com",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Business Wire, April 29/30, 2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Incyte (INCY) ticker.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "Hidradenitis suppurativa (HS) listed as an indication for povorcitinib.",
+        "summary": "Incyte announced its participation in multiple investor conferences in May 2026. The corporate update highlighted pipeline progress for povorcitinib, an oral JAK1 inhibitor, in moderate to severe Hidradenitis suppurativa (HS) and vitiligo.",
+        "summary_citation": "Incyte conference presentation press release",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "Released within last 24 hours (April 29/30)",
+        "source_link": "https://www.businesswire.com/news/home/20260429072063/en/Incyte-to-Present-at-Upcoming-Investor-Conferences",
+        "source_link_citation": "URL of press release",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Biomolecules & Therapeutics journal, April 30, 2026",
+        "competitors": [],
+        "competitors_citation": "N/A",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "IL-17 axis and therapies.",
+        "summary": "A new scientific review titled 'Current and Emerging Therapies Targeting the IL-23/IL-17 Axis in Psoriasis and Psoriatic Arthritis' was published online. The article provides an update on the mechanism of IL-17 inhibition in chronic inflammatory conditions.",
+        "summary_citation": "IL-17 Scientific Review publication",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 online publication date",
+        "source_link": "https://www.biomolther.org/view.html?uid=1719&vmd=Full",
+        "source_link_citation": "URL of publication",
+        "source_domain": "biomolther.org",
+        "source_domain_citation": "Journal domain"
+      },
+      {
+        "source_type": "Conference Program",
+        "source_type_citation": "CCR East 2026 official website, April 30, 2026",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "UCB S.A. listed as premier sponsor.",
+        "keywords": [
+          "Systemic sclerosis",
+          "Giant cell arteritis",
+          "GCA",
+          "Polymyalgia rheumatica",
+          "PMR",
+          "BAFF"
+        ],
+        "keywords_citation": "Keywords mentioned in session titles and mechanism discussions.",
+        "summary": "The Congress of Clinical Rheumatology (CCR) East 2026 conference commenced on April 30, 2026. Key presentations for the opening day included sessions on 'Novel Therapies in Systemic Sclerosis,' 'Vasculitis and PMR Mimics,' and advancements in 'Giant Cell Arteritis.' UCB, maker of Bimzelx (IL-17A/F inhibitor), is a lead sponsor.",
+        "summary_citation": "CCR East 2026 program and session details",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "Conference start date April 30, 2026",
+        "source_link": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
+        "source_link_citation": "URL of conference website",
+        "source_domain": "ccrheumatology.com",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "ClinicalTrials.gov record NCT06603077, April 30, 2026",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Avalo Therapeutics (AVTX) as sponsor.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "Hidradenitis suppurativa (HS) indication.",
+        "summary": "A study to evaluate the efficacy and safety of AVTX-009 (an IL-1beta inhibitor) in patients with moderate to severe Hidradenitis suppurativa (HS) was updated on ClinicalTrials.gov with a 'Last Update Posted' date of April 30, 2026.",
+        "summary_citation": "ClinicalTrials.gov record update",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "Last Update Posted date on study record",
+        "source_link": "https://clinicaltrials.gov/study/NCT06603077",
+        "source_link_citation": "URL of clinical trial record",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "Source domain"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, April 30, 2026",
+        "competitors": [],
+        "competitors_citation": "N/A",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "COPD indication.",
+        "summary": "Altesa BioSciences announced it will present Phase 2a results for vapendavir in patients with COPD at the ATS 2026 International Congress. The data demonstrates vapendavir's ability to protect lung function and accelerate virus clearance in COPD patients after rhinovirus challenge.",
+        "summary_citation": "Altesa BioSciences press release",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "April 30, 2026 date on press release",
+        "source_link": "https://www.prnewswire.com/news-releases/altesa-biosciences-selected-for-oral-presentation-at-the-american-thoracic-society-2026-international-congress-302758236.html",
+        "source_link_citation": "URL of press release",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "Source domain"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-01T17:10:28.321Z",
+  "creditsUsed": 603
+}

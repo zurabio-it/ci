@@ -53,13 +53,13 @@
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-04-30, 9:18:50 a.m. &nbsp;|&nbsp; 6 findings</div>
+  <div class="meta">Generated 2026-04-30, 1:10:29 p.m. &nbsp;|&nbsp; 3 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">6</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">5</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">1</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
     <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
     <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
@@ -70,15 +70,15 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="avtx">AVTX</option><option value="insm">INSM</option><option value="kymr">KYMR</option><option value="orka">ORKA</option><option value="ucb">UCB</option>
+          <option value="glue">GLUE</option><option value="kymr">KYMR</option><option value="keyword matched">Keyword matched</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          <option value="copd">COPD</option>
+          <option value="copd">COPD</option><option value="il-17">IL-17</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
-          <option value="Press Release">Press Release</option><option value="Company Announcement">Company Announcement</option><option value="News Wire">News Wire</option>
+          <option value="Press Release">Press Release</option><option value="Scientific Publication">Scientific Publication</option>
         </select>
         <input type="text" id="filter-search" placeholder="Search summaries...">
         <div style="display:flex;align-items:center;margin-bottom:6px;">
@@ -110,7 +110,7 @@
         <h3>Findings by Competitor</h3>
         
     <div class="chart-row">
-      <div class="chart-label">INSM</div>
+      <div class="chart-label">Keyword matched</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:100%"></div>
         <span class="chart-count">2</span>
@@ -124,21 +124,7 @@
       </div>
     </div>
     <div class="chart-row">
-      <div class="chart-label">UCB</div>
-      <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:50%"></div>
-        <span class="chart-count">1</span>
-      </div>
-    </div>
-    <div class="chart-row">
-      <div class="chart-label">ORKA</div>
-      <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:50%"></div>
-        <span class="chart-count">1</span>
-      </div>
-    </div>
-    <div class="chart-row">
-      <div class="chart-label">AVTX</div>
+      <div class="chart-label">GLUE</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:50%"></div>
         <span class="chart-count">1</span>
@@ -151,94 +137,49 @@
       <div class="grid" id="card-grid">
         
     <div class="card"
-      data-competitors="kymr"
+      data-competitors="kymr|glue"
       data-source="Press Release"
       data-keywords="copd"
       data-confidence="95">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">KYMR</span>
+        <span class="competitor-tag">KYMR</span><span class="competitor-tag">GLUE</span>
         <span class="keyword-tag">COPD</span>
         <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 95/100">High · 95</span>
       </div>
-      <p class="summary">Kymera Therapeutics reported Q1 2026 financial results with $1.55 billion in cash and a runway into 2029. The company provided updates on its STAT6 degrader (KT-621) Phase 2b trials in atopic dermatitis and asthma, and its IRF5 degrader (KT-579) Phase 1 trial. Additionally, Gilead Sciences exercised its option for the oral CDK2 molecular glue degrader KT-200, triggering a $45 million milestone.</p>
-      <a class="source-link" href="https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-quarter-2026-financial" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · kymeratx.com</div>
+      <p class="summary">Kymera announced Q1 2026 financial results and provided a business update. Highlights include Gilead Sciences exercising its option to license KT-200, a first-in-class CDK2 molecular glue degrader, and the advancement of KT-621, an oral STAT6 degrader, into development for COPD, asthma, and atopic dermatitis.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/30/3284687/0/en/kymera-therapeutics-announces-first-quarter-2026-financial-results-and-provides-a-business-update.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · globenewswire.com</div>
     </div>
     <div class="card"
-      data-competitors="insm"
+      data-competitors="keyword matched"
+      data-source="Scientific Publication"
+      data-keywords="il-17"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">A new scientific review titled 'Current and Emerging Therapies Targeting the IL-23/IL-17 Axis in Psoriasis and Psoriatic Arthritis' was published online. The article provides an update on the mechanism of IL-17 inhibition in chronic inflammatory conditions.</p>
+      <a class="source-link" href="https://www.biomolther.org/view.html?uid=1719&vmd=Full" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · biomolther.org</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
       data-source="Press Release"
       data-keywords="copd"
-      data-confidence="70">
+      data-confidence="85">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">INSM</span>
+        <span class="competitor-tag">Keyword matched</span>
         <span class="keyword-tag">COPD</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 70/100">High · 70</span>
-      </div>
-      <p class="summary">The American Thoracic Society (ATS) announced a landmark quality improvement initiative across seven academic medical systems to address the underdiagnosis of bronchiectasis. The project, supported by an independent research grant from Insmed Incorporated, will use electronic health record (EHR) data to identify patients misdiagnosed with COPD or asthma who may have bronchiectasis as their underlying condition.</p>
-      <a class="source-link" href="https://site.thoracic.org/press-releases/american-thoracic-society-announces-landmark-initiative-to-improve-diagnosis-of-bronchiectasis-across-the-united-states" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · thoracic.org</div>
-    </div>
-    <div class="card"
-      data-competitors="insm"
-      data-source="Press Release"
-      data-keywords=""
-      data-confidence="85">
-      <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">INSM</span>
-        
         <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
       </div>
-      <p class="summary">Insmed Incorporated announced that its management will participate in two upcoming investor conferences: the BofA Securities 2026 Healthcare Conference in Las Vegas on May 12, and the 2026 RBC Capital Markets Global Healthcare Conference in New York on May 20. Live webcasts will be available on the company's website.</p>
-      <a class="source-link" href="https://www.prnewswire.com/news-releases/insmed-to-present-at-may-2026-investor-conferences-302754966.html" target="_blank" rel="noopener">View Source →</a>
+      <p class="summary">Altesa BioSciences announced it will present Phase 2a results for vapendavir in patients with COPD at the ATS 2026 International Congress. The data demonstrates vapendavir's ability to protect lung function and accelerate virus clearance in COPD patients after rhinovirus challenge.</p>
+      <a class="source-link" href="https://www.prnewswire.com/news-releases/altesa-biosciences-selected-for-oral-presentation-at-the-american-thoracic-society-2026-international-congress-302758236.html" target="_blank" rel="noopener">View Source →</a>
       <div class="card-domain">📅 2026-04-30 · prnewswire.com</div>
-    </div>
-    <div class="card"
-      data-competitors="ucb"
-      data-source="Company Announcement"
-      data-keywords=""
-      data-confidence="65">
-      <div class="card-header">
-        <span class="badge" style="background:#6b7280">Company Announcement</span>
-        <span class="competitor-tag">UCB</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
-      </div>
-      <p class="summary">UCB held its 2026 Annual General Meeting of Shareholders on April 30, 2026. Shareholders approved the 2025 annual accounts and a gross dividend of €1.45 per share. The company also announced that Rodolfo J. Savitzky would step down from the Board of Directors effective today.</p>
-      <a class="source-link" href="https://www.ucb.com/newsroom/press-releases/article/ucb-annual-general-meeting-of-shareholders-2026" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · ucb.com</div>
-    </div>
-    <div class="card"
-      data-competitors="orka"
-      data-source="Press Release"
-      data-keywords=""
-      data-confidence="85">
-      <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">ORKA</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
-      </div>
-      <p class="summary">Oruka Therapeutics announced the pricing of an upsized underwritten public offering of 9,660,000 shares at $72.50 per share, with gross proceeds expected at $700.4 million. The offering was scheduled to close on or about April 30, 2026. Proceeds are intended to support the development of novel monoclonal antibody therapeutics for psoriasis and other inflammatory indications.</p>
-      <a class="source-link" href="https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · orukatx.com</div>
-    </div>
-    <div class="card"
-      data-competitors="avtx"
-      data-source="News Wire"
-      data-keywords=""
-      data-confidence="40">
-      <div class="card-header">
-        <span class="badge" style="background:#0891b2">News Wire</span>
-        <span class="competitor-tag">AVTX</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#dc26261a;color:#dc2626;border:1px solid #dc262640" title="Confidence score: 40/100">Low · 40</span>
-      </div>
-      <p class="summary">Avalo Therapeutics entered into a milestone agreement related to its AlmataBio terms (restructuring a $15M milestone into an upfront payment and buyout option) as reported by BioWorld on April 29, 2026. The company is also expected to report earnings on April 30, 2026.</p>
-      <a class="source-link" href="https://www.bioworld.com/articles/730692-other-news-to-note-for-april-29-2026" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-29 · bioworld.com</div>
     </div>
       </div>
     </div>
@@ -250,7 +191,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 6 findings';
+    countEl.textContent = visible + ' of 3 findings';
   }
 
   function applyFilters() {

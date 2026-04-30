@@ -4,299 +4,191 @@
   "data": {
     "competitors": [
       {
-        "value": "AVTX",
-        "value_citation": "Avalo Therapeutics ticker"
-      },
-      {
-        "value": "MLTX",
-        "value_citation": "MoonLake Immunotherapeutics ticker"
-      },
-      {
-        "value": "ORKA",
-        "value_citation": "Oruka Therapeutics ticker"
-      },
-      {
-        "value": "INSM",
-        "value_citation": "Insmed ticker"
-      },
-      {
-        "value": "ACRS",
-        "value_citation": "Aclaris Therapeutics ticker"
-      },
-      {
-        "value": "ANAB",
-        "value_citation": "AnaptysBio ticker"
-      },
-      {
-        "value": "UCB",
-        "value_citation": "UCB ticker"
+        "value": "INCY",
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
       },
       {
         "value": "KYMR",
-        "value_citation": "Kymera Therapeutics ticker"
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
       },
       {
-        "value": "GLUE",
-        "value_citation": "Monte Rosa Therapeutics (molecular glue) / generic glue term"
+        "value": "ORKA",
+        "value_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx"
       },
       {
-        "value": "IFRX",
-        "value_citation": "InflaRx ticker"
-      },
-      {
-        "value": "CGEM",
-        "value_citation": "Cullinan Therapeutics ticker"
-      },
-      {
-        "value": "NKTX",
-        "value_citation": "Nkarta ticker"
-      },
-      {
-        "value": "Candid",
-        "value_citation": "Candid Therapeutics"
-      },
-      {
-        "value": "XNCR",
-        "value_citation": "Xencor ticker"
-      },
-      {
-        "value": "KNSA",
-        "value_citation": "Kiniksa ticker"
-      },
-      {
-        "value": "VERA",
-        "value_citation": "Vera Therapeutics ticker"
-      },
-      {
-        "value": "VOR",
-        "value_citation": "Vor Biopharma ticker"
-      },
-      {
-        "value": "GLPG",
-        "value_citation": "Galapagos ticker"
-      },
-      {
-        "value": "ALMS",
-        "value_citation": "Alumis ticker"
-      },
-      {
-        "value": "QTTB",
-        "value_citation": "Quantum-Si (Wait, no, QTTB might be something else?) Actually QTTB is not a common ticker for these, I'll stick to the provided list."
-      },
-      {
-        "value": "INCY",
-        "value_citation": "Incyte ticker"
+        "value": "UCB",
+        "value_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1"
       }
     ],
     "keywords": [
       {
-        "value": "Hidradenitis suppurativa",
-        "value_citation": "Keyword: Hidradenitis suppurativa"
-      },
-      {
-        "value": "HS",
-        "value_citation": "Synonym: HS"
-      },
-      {
-        "value": "Systemic sclerosis",
-        "value_citation": "Keyword: Systemic sclerosis"
-      },
-      {
-        "value": "SSc",
-        "value_citation": "Synonym: SSc"
-      },
-      {
-        "value": "Polymyalgia rheumatica",
-        "value_citation": "Keyword: Polymyalgia rheumatica"
-      },
-      {
-        "value": "PMR",
-        "value_citation": "Synonym: PMR"
-      },
-      {
-        "value": "Giant cell arteritis",
-        "value_citation": "Keyword: Giant cell arteritis"
+        "value": "COPD",
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
       },
       {
         "value": "GCA",
-        "value_citation": "Synonym: GCA"
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
       },
       {
-        "value": "COPD",
-        "value_citation": "Keyword: COPD"
+        "value": "Giant cell arteritis",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html"
       },
       {
         "value": "IL-33",
-        "value_citation": "Keyword: IL-33"
+        "value_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
       },
       {
-        "value": "IL-7R",
-        "value_citation": "Keyword: IL-7R"
+        "value": "PMR",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
       },
       {
-        "value": "IL-17",
-        "value_citation": "Keyword: IL-17"
-      },
-      {
-        "value": "BAFF",
-        "value_citation": "Keyword: BAFF"
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-for-adult-patients-with-giant-cell-arteritis"
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "Stock Titan / GlobeNewswire",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
         "competitors": [
-          "IFRX"
+          "KYMR"
         ],
-        "competitors_citation": "Article focus on InflaRx (Nasdaq: IFRX).",
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "summary": "Kymera Therapeutics reported first quarter 2026 financial results, highlighting progress in the KT-474 (IRAK4 degrader) Phase 2 LOTUS trial for Hidradenitis suppurativa (HS).",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html",
+        "confidence": 95
+      },
+      {
+        "source_type": "Corporate Report",
+        "source_type_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa",
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "summary": "Prime Therapeutics' April 2026 drug pipeline report identifies Incyte's povorcitinib for Hidradenitis suppurativa and AstraZeneca's tozorakimab (targeting IL-33) for COPD as key clinical therapies.",
+        "summary_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_domain": "primetherapeutics.com",
+        "source_domain_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "confidence": 50
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
         "keywords": [],
-        "keywords_citation": "Article mentions Pyoderma Gangrenosum, which is not on the keyword list. HS is a target for vilobelimab but not explicitly discussed in this PR.",
-        "summary": "InflaRx announced a late-breaker oral presentation of Phase 3 results for vilobelimab (anti-C5a) in Pyoderma Gangrenosum at the 2026 American Academy of Dermatology (AAD) Annual Meeting. The company also confirmed Nasdaq bid price compliance.",
-        "summary_citation": "Stock Titan: 'InflaRx Announces Late-Breaker Oral Presentation on Vilobelimab Phase 3 Results...'",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "Stock Titan dateline: April 29, 2026",
-        "source_link": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
-        "source_link_citation": "Source URL",
-        "source_domain": "stocktitan.net",
-        "source_domain_citation": "Source Domain",
-        "confidence": 60
-      },
-      {
-        "source_type": "Clinical Trial Update",
-        "source_type_citation": "ClinicalTrials.gov / Veeva CTV",
-        "competitors": [
-          "MLTX"
-        ],
-        "competitors_citation": "Sponsor of the trial is MoonLake Immunotherapeutics.",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa",
-          "IL-17"
-        ],
-        "keywords_citation": "Study title mentions 'Hidradenitis Suppurativa'. Sonelokimab is an IL-17 inhibitor.",
-        "summary": "A status update was posted for the Phase 3 VELA-2 trial (NCT06411379) evaluating the efficacy and safety of subcutaneous sonelokimab in adult participants with moderate to severe hidradenitis suppurativa (HS).",
-        "summary_citation": "Veeva CTV study page for NCT06411379",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "ClinicalTrials.gov / Veeva CTV last update date: April 29, 2026",
-        "source_link": "https://ctv.veeva.com/study/study-to-evaluate-the-efficacy-and-safety-of-subcutaneous-sonelokimab-compared-with-placebo-in-adult",
-        "source_link_citation": "Source URL",
-        "source_domain": "ctv.veeva.com",
-        "source_domain_citation": "Source Domain",
-        "confidence": 70
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "InvestingNews / Regeneron Press Release",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "No competitors from the target list mentioned.",
-        "keywords": [
-          "COPD"
-        ],
-        "keywords_citation": "Snippet mentions 'COPD in the EU'.",
-        "summary": "Regeneron reported its first quarter 2026 financial results, highlighting business updates including the growth of Dupixent and its clinical applications in COPD.",
-        "summary_citation": "InvestingNews article 'Regeneron to Report First Quarter 2026 Financial and Operating Results...'",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "InvestingNews dateline: April 29, 2026",
-        "source_link": "https://investingnews.com/regeneron-to-report-first-quarter-2026-financial-and-operating-results-and-host-conference-call-and-webcast-on-april-29-2026/",
-        "source_link_citation": "Source URL",
-        "source_domain": "investingnews.com",
-        "source_domain_citation": "Source Domain",
-        "confidence": 60
-      },
-      {
-        "source_type": "Scientific Publication",
-        "source_type_citation": "Cleveland Clinic Journal of Medicine",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "No competitors mentioned.",
-        "keywords": [
-          "Polymyalgia rheumatica",
-          "Polymyalgia rheumatica",
-          "Giant cell arteritis",
-          "Giant cell arteritis"
-        ],
-        "keywords_citation": "Article title: 'Polymyalgia rheumatica: An updated review'. Mentions 'Giant cell arteritis'.",
-        "summary": "An updated review on polymyalgia rheumatica (PMR) was published, providing insights into the diagnosis and management of the condition and its overlap with giant cell arteritis (GCA).",
-        "summary_citation": "CCJM PDF publication info: accessed April 29, 2026",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "CCJM access date: April 29, 2026",
-        "source_link": "https://www.ccjm.org/content/ccjom/87/9/549.full.pdf",
-        "source_link_citation": "Source URL",
-        "source_domain": "ccjm.org",
-        "source_domain_citation": "Source Domain",
+        "keywords_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "summary": "Oruka Therapeutics announced the pricing of an upsized $700 million offering of common stock and pre-funded warrants, which is scheduled to close on April 30, 2026.",
+        "summary_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_link": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_link_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
+        "source_domain": "rttnews.com",
+        "source_domain_citation": "https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx",
         "confidence": 60
       },
       {
         "source_type": "Press Release",
-        "source_type_citation": "GlobeNewswire",
+        "source_type_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
         "competitors": [
           "Keyword matched"
         ],
-        "competitors_citation": "No competitors mentioned.",
+        "competitors_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
         "keywords": [
-          "COPD"
+          "COPD",
+          "IL-33"
         ],
-        "keywords_citation": "Article mentions 'chronic obstructive pulmonary disease (COPD)'.",
-        "summary": "Pulmonx Corporation reported its first quarter 2026 financial results, highlighting the adoption of its Zephyr Valve for the treatment of severe COPD/emphysema.",
-        "summary_citation": "GlobeNewswire: 'Pulmonx to Report First Quarter 2026 Financial Results on April 29, 2026'",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "GlobeNewswire dateline: April 29, 2026",
-        "source_link": "https://www.globenewswire.com/news-release/2026/04/15/3274873/0/en/pulmonx-to-report-first-quarter-2026-financial-results-on-april-29-2026.html",
-        "source_link_citation": "Source URL",
-        "source_domain": "globenewswire.com",
-        "source_domain_citation": "Source Domain",
+        "keywords_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "summary": "AstraZeneca's tozorakimab, an IL-33 targeting biologic, met the primary endpoint in the Phase III MIRANDA trial in patients with COPD, significantly reducing exacerbations.",
+        "summary_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_domain": "astrazeneca.com",
+        "source_domain_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
         "confidence": 85
       },
       {
-        "source_type": "Press Release",
-        "source_type_citation": "Sanofi Q1 Report (GlobeNewswire)",
+        "source_type": "News Article",
+        "source_type_citation": "https://muckrack.com/denise-mann-23058804/articles",
         "competitors": [
-          "Keyword matched"
+          "INCY"
         ],
-        "competitors_citation": "No competitors mentioned.",
+        "competitors_citation": "https://muckrack.com/denise-mann-23058804/articles",
         "keywords": [
-          "COPD"
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "Mentions 'Dupixent is approved in Japan in ... and COPD'.",
-        "summary": "Sanofi reported Q1 2026 financial results with double-digit growth. The company highlighted Dupixent's recent approval in Japan for COPD and its overall sales growth.",
-        "summary_citation": "Sanofi Q1 2026 Press Release download",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "Sanofi dateline: April 29, 2026",
-        "source_link": "https://ml-eu.globenewswire.com/Resource/Download/264eaebb-4cbc-476b-a839-4491c77d3a08",
-        "source_link_citation": "Source URL",
-        "source_domain": "globenewswire.com",
-        "source_domain_citation": "Source Domain",
-        "confidence": 85
+        "keywords_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "summary": "New data for Incyte's povorcitinib in Hidradenitis suppurativa (HS) was highlighted, demonstrating substantial and durable clinical efficacy through 54 weeks.",
+        "summary_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_link": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_link_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "source_domain": "muckrack.com",
+        "source_domain_citation": "https://muckrack.com/denise-mann-23058804/articles",
+        "confidence": 60
       },
       {
-        "source_type": "Scientific Publication",
-        "source_type_citation": "UCLA/Utah School of Medicine",
+        "source_type": "Corporate Report",
+        "source_type_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
         "competitors": [
-          "Keyword matched"
+          "UCB"
         ],
-        "competitors_citation": "No competitors mentioned.",
+        "competitors_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
         "keywords": [
-          "Giant cell arteritis",
-          "Giant cell arteritis"
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "Presentation title mentions 'Giant Cell Arteritis'.",
-        "summary": "The UCLA Department of Ophthalmology and the University of Utah School of Medicine hosted seminars/grand rounds today focusing on Giant Cell Arteritis (GCA) as an ophthalmologic emergency.",
-        "summary_citation": "UCLA Events dateline: April 29, 2026; Utah Grand Rounds: April 29, 2026",
-        "publication_date": "2026-04-29",
-        "publication_date_citation": "Event date: April 29, 2026",
-        "source_link": "https://medicine.utah.edu/ophthalmology/education/grand-rounds",
-        "source_link_citation": "Source URL",
-        "source_domain": "utah.edu",
-        "source_domain_citation": "Source Domain",
-        "confidence": 60
+        "keywords_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "summary": "UCB's integrated annual report updates, effective April 30, 2026, highlighted the performance and clinical progress of bimekizumab (Bimzelx) in Hidradenitis suppurativa.",
+        "summary_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_link": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_link_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "source_domain": "ibr-ire.be",
+        "source_domain_citation": "https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1",
+        "confidence": 50
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-04-30T11:13:30.948Z",
+  "expiresAt": "2026-05-01T01:00:23.849Z",
   "creditsUsed": 0
 }

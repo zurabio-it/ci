@@ -53,15 +53,15 @@
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-04-29, 7:13:32 a.m. &nbsp;|&nbsp; 7 findings</div>
+  <div class="meta">Generated 2026-04-29, 9:00:25 p.m. &nbsp;|&nbsp; 6 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">7</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">2</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">5</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">6</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
-    <div class="stat"><div class="num">1</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
     <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
   </div>
   <div class="layout">
@@ -70,15 +70,15 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="ifrx">IFRX</option><option value="keyword matched">Keyword matched</option><option value="mltx">MLTX</option>
+          <option value="incy">INCY</option><option value="kymr">KYMR</option><option value="keyword matched">Keyword matched</option><option value="orka">ORKA</option><option value="ucb">UCB</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          <option value="copd">COPD</option><option value="giant cell arteritis">Giant cell arteritis</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="polymyalgia rheumatica">Polymyalgia rheumatica</option>
+          <option value="copd">COPD</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-33">IL-33</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
-          <option value="Press Release">Press Release</option><option value="Clinical Trial Update">Clinical Trial Update</option><option value="Scientific Publication">Scientific Publication</option>
+          <option value="Press Release">Press Release</option><option value="Corporate Report">Corporate Report</option><option value="News Article">News Article</option>
         </select>
         <input type="text" id="filter-search" placeholder="Search summaries...">
         <div style="display:flex;align-items:center;margin-bottom:6px;">
@@ -110,23 +110,37 @@
         <h3>Findings by Competitor</h3>
         
     <div class="chart-row">
-      <div class="chart-label">Keyword matched</div>
+      <div class="chart-label">INCY</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:100%"></div>
-        <span class="chart-count">5</span>
+        <span class="chart-count">2</span>
       </div>
     </div>
     <div class="chart-row">
-      <div class="chart-label">IFRX</div>
+      <div class="chart-label">KYMR</div>
       <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:20%"></div>
+        <div class="chart-bar" style="width:50%"></div>
         <span class="chart-count">1</span>
       </div>
     </div>
     <div class="chart-row">
-      <div class="chart-label">MLTX</div>
+      <div class="chart-label">ORKA</div>
       <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:20%"></div>
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
         <span class="chart-count">1</span>
       </div>
     </div>
@@ -137,109 +151,94 @@
       <div class="grid" id="card-grid">
         
     <div class="card"
-      data-competitors="ifrx"
+      data-competitors="kymr"
+      data-source="Press Release"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa"
+      data-confidence="95">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 95/100">High · 95</span>
+      </div>
+      <p class="summary">Kymera Therapeutics reported first quarter 2026 financial results, highlighting progress in the KT-474 (IRAK4 degrader) Phase 2 LOTUS trial for Hidradenitis suppurativa (HS).</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/30/3279714/0/en/kymera-therapeutics-reports-first-quarter-2026-financial-results.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · globenewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="incy"
+      data-source="Corporate Report"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa|copd|il-33"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Report</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Prime Therapeutics' April 2026 drug pipeline report identifies Incyte's povorcitinib for Hidradenitis suppurativa and AstraZeneca's tozorakimab (targeting IL-33) for COPD as key clinical therapies.</p>
+      <a class="source-link" href="https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · primetherapeutics.com</div>
+    </div>
+    <div class="card"
+      data-competitors="orka"
       data-source="Press Release"
       data-keywords=""
       data-confidence="60">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">IFRX</span>
+        <span class="competitor-tag">ORKA</span>
         
         <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
       </div>
-      <p class="summary">InflaRx announced a late-breaker oral presentation of Phase 3 results for vilobelimab (anti-C5a) in Pyoderma Gangrenosum at the 2026 American Academy of Dermatology (AAD) Annual Meeting. The company also confirmed Nasdaq bid price compliance.</p>
-      <a class="source-link" href="https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · stocktitan.net</div>
-    </div>
-    <div class="card"
-      data-competitors="mltx"
-      data-source="Clinical Trial Update"
-      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa|il-17"
-      data-confidence="70">
-      <div class="card-header">
-        <span class="badge" style="background:#9333ea">Clinical Trial Update</span>
-        <span class="competitor-tag">MLTX</span>
-        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 70/100">High · 70</span>
-      </div>
-      <p class="summary">A status update was posted for the Phase 3 VELA-2 trial (NCT06411379) evaluating the efficacy and safety of subcutaneous sonelokimab in adult participants with moderate to severe hidradenitis suppurativa (HS).</p>
-      <a class="source-link" href="https://ctv.veeva.com/study/study-to-evaluate-the-efficacy-and-safety-of-subcutaneous-sonelokimab-compared-with-placebo-in-adult" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · ctv.veeva.com</div>
+      <p class="summary">Oruka Therapeutics announced the pricing of an upsized $700 million offering of common stock and pre-funded warrants, which is scheduled to close on April 30, 2026.</p>
+      <a class="source-link" href="https://www.rttnews.com/3644078/oruka-therapeutics-prices-upsized-700-mln-offering-to-advance-psoriasis-pipeline.aspx" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · rttnews.com</div>
     </div>
     <div class="card"
       data-competitors="keyword matched"
       data-source="Press Release"
-      data-keywords="copd"
-      data-confidence="60">
-      <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">Keyword matched</span>
-        <span class="keyword-tag">COPD</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
-      </div>
-      <p class="summary">Regeneron reported its first quarter 2026 financial results, highlighting business updates including the growth of Dupixent and its clinical applications in COPD.</p>
-      <a class="source-link" href="https://investingnews.com/regeneron-to-report-first-quarter-2026-financial-and-operating-results-and-host-conference-call-and-webcast-on-april-29-2026/" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · investingnews.com</div>
-    </div>
-    <div class="card"
-      data-competitors="keyword matched"
-      data-source="Scientific Publication"
-      data-keywords="polymyalgia rheumatica|polymyalgia rheumatica|giant cell arteritis|giant cell arteritis"
-      data-confidence="60">
-      <div class="card-header">
-        <span class="badge" style="background:#6b7280">Scientific Publication</span>
-        <span class="competitor-tag">Keyword matched</span>
-        <span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">Giant cell arteritis</span><span class="keyword-tag">Giant cell arteritis</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
-      </div>
-      <p class="summary">An updated review on polymyalgia rheumatica (PMR) was published, providing insights into the diagnosis and management of the condition and its overlap with giant cell arteritis (GCA).</p>
-      <a class="source-link" href="https://www.ccjm.org/content/ccjom/87/9/549.full.pdf" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · ccjm.org</div>
-    </div>
-    <div class="card"
-      data-competitors="keyword matched"
-      data-source="Press Release"
-      data-keywords="copd"
+      data-keywords="copd|il-33"
       data-confidence="85">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
         <span class="competitor-tag">Keyword matched</span>
-        <span class="keyword-tag">COPD</span>
+        <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
         <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
       </div>
-      <p class="summary">Pulmonx Corporation reported its first quarter 2026 financial results, highlighting the adoption of its Zephyr Valve for the treatment of severe COPD/emphysema.</p>
-      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/15/3274873/0/en/pulmonx-to-report-first-quarter-2026-financial-results-on-april-29-2026.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · globenewswire.com</div>
+      <p class="summary">AstraZeneca's tozorakimab, an IL-33 targeting biologic, met the primary endpoint in the Phase III MIRANDA trial in patients with COPD, significantly reducing exacerbations.</p>
+      <a class="source-link" href="https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · astrazeneca.com</div>
     </div>
     <div class="card"
-      data-competitors="keyword matched"
-      data-source="Press Release"
-      data-keywords="copd"
-      data-confidence="85">
-      <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">Keyword matched</span>
-        <span class="keyword-tag">COPD</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
-      </div>
-      <p class="summary">Sanofi reported Q1 2026 financial results with double-digit growth. The company highlighted Dupixent's recent approval in Japan for COPD and its overall sales growth.</p>
-      <a class="source-link" href="https://ml-eu.globenewswire.com/Resource/Download/264eaebb-4cbc-476b-a839-4491c77d3a08" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · globenewswire.com</div>
-    </div>
-    <div class="card"
-      data-competitors="keyword matched"
-      data-source="Scientific Publication"
-      data-keywords="giant cell arteritis|giant cell arteritis"
+      data-competitors="incy"
+      data-source="News Article"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa"
       data-confidence="60">
       <div class="card-header">
-        <span class="badge" style="background:#6b7280">Scientific Publication</span>
-        <span class="competitor-tag">Keyword matched</span>
-        <span class="keyword-tag">Giant cell arteritis</span><span class="keyword-tag">Giant cell arteritis</span>
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span>
         <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
       </div>
-      <p class="summary">The UCLA Department of Ophthalmology and the University of Utah School of Medicine hosted seminars/grand rounds today focusing on Giant Cell Arteritis (GCA) as an ophthalmologic emergency.</p>
-      <a class="source-link" href="https://medicine.utah.edu/ophthalmology/education/grand-rounds" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-28 · utah.edu</div>
+      <p class="summary">New data for Incyte's povorcitinib in Hidradenitis suppurativa (HS) was highlighted, demonstrating substantial and durable clinical efficacy through 54 weeks.</p>
+      <a class="source-link" href="https://muckrack.com/denise-mann-23058804/articles" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · muckrack.com</div>
+    </div>
+    <div class="card"
+      data-competitors="ucb"
+      data-source="Corporate Report"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Report</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">UCB's integrated annual report updates, effective April 30, 2026, highlighted the performance and clinical progress of bimekizumab (Bimzelx) in Hidradenitis suppurativa.</p>
+      <a class="source-link" href="https://www.ibr-ire.be/docs/default-source/bas-reports-2026/ucb-ir2025-eng.pdf?sfvrsn=dbdbdfd8_1" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · ibr-ire.be</div>
     </div>
       </div>
     </div>
@@ -251,7 +250,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 7 findings';
+    countEl.textContent = visible + ' of 6 findings';
   }
 
   function applyFilters() {

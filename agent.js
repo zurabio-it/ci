@@ -11,7 +11,7 @@ console.log('Running Firecrawl agent — this may take several minutes...');
 const today = new Date().toISOString().slice(0, 10);
 
 const result = await firecrawl.agent({
-  maxCredits: 2400,
+  maxCredits: 4000,
   prompt: `Today is ${today}. Search for news, press releases, SEC 8-K filings, corporate presentations, scientific publications from PubMed, and clinical trial updates from clinicaltrials.gov published TODAY or within the last 24 hours.
 
 Competitors to monitor: AVTX, MLTX, ORKA, INSM, ACRS, ANAB, UCB, KYMR, GLUE, IFRX, CGEM, NKTX, Candid, XNCR, KNSA, VERA, VOR, GLPG, ALMS, QTTB, INCY.

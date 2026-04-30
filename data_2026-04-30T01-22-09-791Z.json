@@ -71,8 +71,7 @@
         "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-report-first-quarter-2026-financial-results",
         "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-report-first-quarter-2026-financial-results",
         "source_domain": "investors.kymeratx.com",
-        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-report-first-quarter-2026-financial-results",
-        "confidence": 85
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-report-first-quarter-2026-financial-results"
       },
       {
         "source_type": "Clinical Trial Update",
@@ -83,7 +82,7 @@
         "competitors_citation": "https://clinicaltrials.gov/study/NCT06603077",
         "keywords": [
           "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
+          "HS"
         ],
         "keywords_citation": "https://clinicaltrials.gov/study/NCT06603077",
         "summary": "The clinical trial NCT06603077 evaluating the efficacy and safety of AVTX-009 in patients with moderate-to-severe Hidradenitis Suppurativa (HS) reached its estimated completion date on April 30, 2026.",
@@ -93,19 +92,16 @@
         "source_link": "https://clinicaltrials.gov/study/NCT06603077",
         "source_link_citation": "https://clinicaltrials.gov/study/NCT06603077",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06603077",
-        "confidence": 95
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06603077"
       },
       {
         "source_type": "Scientific Publication",
         "source_type_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
         "keywords": [
           "Polymyalgia rheumatica",
-          "Polymyalgia rheumatica"
+          "PMR"
         ],
         "keywords_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
         "summary": "A clinical practice article on Polymyalgia Rheumatica (PMR) was published in the New England Journal of Medicine, discussing diagnosis and treatment strategies.",
@@ -115,19 +111,16 @@
         "source_link": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
         "source_link_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
         "source_domain": "www.nejm.org",
-        "source_domain_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887",
-        "confidence": 85
+        "source_domain_citation": "https://www.nejm.org/doi/abs/10.1056/NEJMcp2506887"
       },
       {
         "source_type": "Corporate Presentation / Event",
         "source_type_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
         "keywords": [
           "Systemic sclerosis",
-          "Systemic sclerosis",
+          "SSc",
           "BAFF"
         ],
         "keywords_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
@@ -138,15 +131,12 @@
         "source_link": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
         "source_link_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
         "source_domain": "www.ccrheumatology.com",
-        "source_domain_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/",
-        "confidence": 40
+        "source_domain_citation": "https://www.ccrheumatology.com/shop/events/ccr-east/ccr-east-2026/congress-of-clinical-rheumatology-east-2026/"
       },
       {
         "source_type": "Clinical Trial Update",
         "source_type_citation": "https://clinicaltrials.gov/study/NCT06897748",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://clinicaltrials.gov/study/NCT06897748",
         "keywords": [
           "COPD"
@@ -159,19 +149,16 @@
         "source_link": "https://clinicaltrials.gov/study/NCT06897748",
         "source_link_citation": "https://clinicaltrials.gov/study/NCT06897748",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06897748",
-        "confidence": 85
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06897748"
       },
       {
         "source_type": "Clinical Trial Update",
         "source_type_citation": "https://clinicaltrials.gov/study/NCT05270668",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://clinicaltrials.gov/study/NCT05270668",
         "keywords": [
           "Systemic sclerosis",
-          "Systemic sclerosis"
+          "SSc"
         ],
         "keywords_citation": "https://clinicaltrials.gov/study/NCT05270668",
         "summary": "A Phase 2 safety and efficacy study of Tulisokibart in systemic sclerosis associated with interstitial lung disease (SSc-ILD) was updated on ClinicalTrials.gov.",
@@ -181,19 +168,16 @@
         "source_link": "https://clinicaltrials.gov/study/NCT05270668",
         "source_link_citation": "https://clinicaltrials.gov/study/NCT05270668",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "https://clinicaltrials.gov/study/NCT05270668",
-        "confidence": 85
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT05270668"
       },
       {
         "source_type": "Clinical Trial Update",
         "source_type_citation": "https://clinicaltrials.gov/study/NCT06503224",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://clinicaltrials.gov/study/NCT06503224",
         "keywords": [
           "Systemic sclerosis",
-          "Systemic sclerosis"
+          "SSc"
         ],
         "keywords_citation": "https://clinicaltrials.gov/study/NCT06503224",
         "summary": "An exploratory clinical study of SCAR02 targeting systemic sclerosis was updated with an estimated study completion date of April 30, 2026.",
@@ -203,8 +187,7 @@
         "source_link": "https://clinicaltrials.gov/study/NCT06503224",
         "source_link_citation": "https://clinicaltrials.gov/study/NCT06503224",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06503224",
-        "confidence": 85
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06503224"
       },
       {
         "source_type": "SEC Filing",
@@ -222,19 +205,16 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926049733/0001104659-26-049733-index.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926049733/0001104659-26-049733-index.htm",
         "source_domain": "www.sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926049733/0001104659-26-049733-index.htm",
-        "confidence": 90
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926049733/0001104659-26-049733-index.htm"
       },
       {
         "source_type": "Newswire / Journal",
         "source_type_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
         "keywords": [
           "Giant cell arteritis",
-          "Giant cell arteritis"
+          "GCA"
         ],
         "keywords_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
         "summary": "Pharmacy Times published an article discussing the risks and benefits of low-dose aspirin at the time of Giant Cell Arteritis (GCA) diagnosis.",
@@ -244,8 +224,26 @@
         "source_link": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
         "source_link_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
         "source_domain": "www.pharmacytimes.com",
-        "source_domain_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk",
-        "confidence": 50
+        "source_domain_citation": "https://www.pharmacytimes.com/view/low-dose-aspirin-at-gca-diagnosis-may-reduce-cardiovascular-events-but-raises-bleeding-risk"
+      },
+      {
+        "source_type": "Industry Report",
+        "source_type_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "competitors": [],
+        "competitors_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "keywords": [
+          "IL-17",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "summary": "Prime Therapeutics released its Quarterly Drug Pipeline report for April 2026, highlighting key developments in therapies targeting IL-17 and IL-33.",
+        "summary_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_link_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026",
+        "source_domain": "www.primetherapeutics.com",
+        "source_domain_citation": "https://www.primetherapeutics.com/quarterly-drug-pipeline-april-2026"
       }
     ]
   },

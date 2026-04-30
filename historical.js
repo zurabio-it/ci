@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { scoreFindings } from './keywords.js';
+import { scoreFindings, getPrimaryDiseaseArea, DISEASE_AREAS, DISEASE_AREA_META } from './keywords.js';
 
 function toISODate(raw) {
   if (!raw) return '';
@@ -35,7 +35,7 @@ for (const file of files) {
       keywords: cleanKeywords,
       publication_date: toISODate(f.publication_date),
     };
-    allFindings.push({ ...normalized, confidence: f.confidence ?? scoreFindings(normalized) });
+    allFindings.push({ ...normalized, confidence: f.confidence ?? scoreFindings(normalized), disease_area: f.disease_area ?? getPrimaryDiseaseArea(normalized.keywords) });
   }
 }
 
@@ -71,15 +71,17 @@ const badgeColor = (type) => {
 const confColor = s => s >= 70 ? '#16a34a' : s >= 45 ? '#d97706' : '#dc2626';
 const confLabel = s => s >= 70 ? 'High' : s >= 45 ? 'Medium' : 'Low';
 
-const cards = allFindings.map(f => {
+const makeCard = (f) => {
   const score = f.confidence ?? 0;
+  const area = f.disease_area ?? 'Other';
   return `
   <div class="card"
     data-competitors="${(f.competitors ?? []).join('|').toLowerCase()}"
     data-keywords="${(f.keywords ?? []).join('|').toLowerCase()}"
     data-source="${f.source_type ?? ''}"
     data-date="${f.publication_date?.slice(0, 10) ?? ''}"
-    data-confidence="${score}">
+    data-confidence="${score}"
+    data-area="${area}">
     <div class="card-header">
       <span class="badge" style="background:${badgeColor(f.source_type)}">${f.source_type || 'Unknown'}</span>
       ${(f.competitors ?? []).map(c => `<span class="competitor-tag">${c}</span>`).join('')}
@@ -89,6 +91,26 @@ const cards = allFindings.map(f => {
     <p class="summary">${f.summary || 'No summary available.'}</p>
     ${f.source_link ? `<a class="source-link" href="${f.source_link}" target="_blank" rel="noopener">View Source →</a>` : ''}
     <div class="card-domain">${f.publication_date ? `📅 ${new Date(f.publication_date).toLocaleDateString('en-CA')} · ` : ''}${f.source_domain || ''}</div>
+  </div>`;
+};
+
+const grouped = Object.fromEntries(DISEASE_AREAS.map(a => [a, []]));
+allFindings.forEach(f => grouped[f.disease_area ?? 'Other'].push(f));
+
+const findingSections = DISEASE_AREAS.map(area => {
+  const areaFindings = grouped[area];
+  if (areaFindings.length === 0) return '';
+  const meta = DISEASE_AREA_META[area];
+  return `
+  <div class="disease-section" data-area="${area}">
+    <div class="section-header">
+      <span class="section-dot" style="background:${meta.color}"></span>
+      <span class="section-title">${meta.label}</span>
+      <span class="section-count">${areaFindings.length}</span>
+    </div>
+    <div class="grid section-grid">
+      ${areaFindings.map(makeCard).join('')}
+    </div>
   </div>`;
 }).join('');
 
@@ -151,6 +173,11 @@ const html = `<!DOCTYPE html>
   .help-icon:hover .tooltip { display: block; }
   .help-icon .tooltip b { color: #ffffff; }
   .help-icon .tooltip hr { border: none; border-top: 1px solid #334155; margin: 6px 0; }
+  .disease-section { margin-bottom: 32px; }
+  .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+  .section-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .section-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+  .section-count { background: #f1f5f9; color: #64748b; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; }
 </style>
 </head>
 <body>
@@ -203,6 +230,13 @@ const html = `<!DOCTYPE html>
           <option value="">All Source Types</option>
           ${allSourceTypes.map(s => `<option value="${s}">${s}</option>`).join('')}
         </select>
+        <select id="filter-area">
+          <option value="">All Disease Areas</option>
+          <option value="HS">Hidradenitis Suppurativa</option>
+          <option value="SSc">Systemic Sclerosis</option>
+          <option value="PMR/GCA">PMR / GCA</option>
+          <option value="Other">Other</option>
+        </select>
         <input type="text" id="filter-search" placeholder="Search summaries...">
         <div style="display:flex;align-items:center;margin-bottom:6px;">
           <label style="font-size:0.78rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;">Confidence</label>
@@ -232,8 +266,8 @@ const html = `<!DOCTYPE html>
     </div>
     <div>
       <div id="results-count"></div>
-      <div class="grid" id="card-grid">
-        ${cards || '<div class="no-results">No findings found.</div>'}
+      <div id="findings-container">
+        ${findingSections || '<div class="no-results">No findings found.</div>'}
       </div>
     </div>
   </div>
@@ -264,7 +298,6 @@ const html = `<!DOCTYPE html>
     else if (key === '7d')        { const d = new Date(today); d.setDate(d.getDate()-6); from = toISO(d); to = toISO(today); }
     else if (key === '30d')       { const d = new Date(today); d.setDate(d.getDate()-29); from = toISO(d); to = toISO(today); }
     else if (key === 'mtd')       { from = toISO(new Date(today.getFullYear(), today.getMonth(), 1)); to = toISO(today); }
-    // 'all' leaves from and to empty — no date constraint, shows everything
 
     document.getElementById('date-from').value = from;
     document.getElementById('date-to').value = to;
@@ -290,6 +323,7 @@ const html = `<!DOCTYPE html>
     const kw    = document.getElementById('filter-keyword').value.toLowerCase();
     const src   = document.getElementById('filter-source').value;
     const q     = document.getElementById('filter-search').value.toLowerCase();
+    const area  = document.getElementById('filter-area').value;
 
     cards.forEach(card => {
       const date  = card.dataset.date ?? '';
@@ -304,8 +338,13 @@ const html = `<!DOCTYPE html>
       const matchKw   = !kw   || kws.some(k => k === kw);
       const matchSrc  = !src  || card.dataset.source === src;
       const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      const matchArea = !area || card.dataset.area === area;
 
-      card.classList.toggle('hidden', !(matchDate && matchComp && matchKw && matchSrc && matchQ && matchConf));
+      card.classList.toggle('hidden', !(matchDate && matchComp && matchKw && matchSrc && matchQ && matchConf && matchArea));
+    });
+    document.querySelectorAll('.disease-section').forEach(sec => {
+      const hasVisible = [...sec.querySelectorAll('.card')].some(c => !c.classList.contains('hidden'));
+      sec.classList.toggle('hidden', !hasVisible);
     });
     updateCount();
   }
@@ -320,11 +359,12 @@ const html = `<!DOCTYPE html>
     document.getElementById('filter-keyword').value = '';
     document.getElementById('filter-source').value = '';
     document.getElementById('filter-search').value = '';
+    document.getElementById('filter-area').value = '';
     applyFilters();
   }
 
   ['date-from','date-to'].forEach(id => document.getElementById(id).addEventListener('change', () => { clearPreset(); applyFilters(); }));
-  ['filter-competitor','filter-keyword','filter-source','filter-confidence'].forEach(id =>
+  ['filter-competitor','filter-keyword','filter-source','filter-confidence','filter-area'].forEach(id =>
     document.getElementById(id).addEventListener('change', applyFilters));
   document.getElementById('filter-search').addEventListener('input', applyFilters);
 

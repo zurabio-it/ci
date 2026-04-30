@@ -2,7 +2,7 @@ import Firecrawl from '@mendable/firecrawl-js';
 import { z } from 'zod';
 import fs from 'fs';
 import { generateReport } from './reportGenerator.js';
-import { allAliasesForPrompt, normalizeKeyword, AND_MODE, isStaleContent, scoreFindings } from './keywords.js';
+import { allAliasesForPrompt, normalizeKeyword, AND_MODE, isStaleContent, scoreFindings, getPrimaryDiseaseArea } from './keywords.js';
 
 const firecrawl = new Firecrawl({ apiKey: process.env.FIRECRAWL_API_KEY });
 
@@ -73,6 +73,7 @@ const allFindings = (result.data?.findings ?? []).map(f => ({
 })).map(f => ({
   ...f,
   competitors: f.competitors.length ? f.competitors : ['Keyword matched'],
+  disease_area: getPrimaryDiseaseArea(f.keywords),
   confidence: scoreFindings(f),
 }));
 

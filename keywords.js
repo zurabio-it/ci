@@ -135,3 +135,35 @@ export function normalizeKeyword(raw) {
   }
   return raw;
 }
+
+const DISEASE_NAME_MAP = {
+  'Hidradenitis suppurativa': 'HS',
+  'Systemic sclerosis': 'SSc',
+  'Polymyalgia rheumatica': 'PMR/GCA',
+  'Giant cell arteritis': 'PMR/GCA',
+};
+
+const MECHANISM_AREA_MAP = {
+  'IL-17': 'HS',
+  'IL-7R': 'SSc',
+  'BAFF': 'SSc',
+};
+
+export function getPrimaryDiseaseArea(keywords) {
+  for (const kw of keywords) {
+    if (DISEASE_NAME_MAP[kw]) return DISEASE_NAME_MAP[kw];
+  }
+  for (const kw of keywords) {
+    if (MECHANISM_AREA_MAP[kw]) return MECHANISM_AREA_MAP[kw];
+  }
+  return 'Other';
+}
+
+export const DISEASE_AREAS = ['HS', 'SSc', 'PMR/GCA', 'Other'];
+
+export const DISEASE_AREA_META = {
+  'HS':      { label: 'Hidradenitis Suppurativa (HS)', color: '#7c3aed' },
+  'SSc':     { label: 'Systemic Sclerosis (SSc)',      color: '#2563eb' },
+  'PMR/GCA': { label: 'PMR / Giant Cell Arteritis',    color: '#ea580c' },
+  'Other':   { label: 'Other',                         color: '#6b7280' },
+};

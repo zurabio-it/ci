@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { getPrimaryDiseaseArea, DISEASE_AREAS, DISEASE_AREA_META } from './keywords.js';
 
 export function generateReport(data, timestamp) {
   const findings = (data?.findings ?? []).sort((a, b) => {
@@ -8,9 +9,14 @@ export function generateReport(data, timestamp) {
   });
   const runDate = new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' });
 
-  const sourceTypes = [...new Set(findings.map(f => f.source_type).filter(Boolean))];
-  const allCompetitors = [...new Set(findings.flatMap(f => f.competitors ?? []).filter(Boolean))].sort();
-  const allKeywords = [...new Set(findings.flatMap(f => f.keywords ?? []).filter(Boolean))].sort();
+  const findingsWithArea = findings.map(f => ({
+    ...f,
+    disease_area: f.disease_area ?? getPrimaryDiseaseArea(f.keywords ?? []),
+  }));
+
+  const sourceTypes = [...new Set(findingsWithArea.map(f => f.source_type).filter(Boolean))];
+  const allCompetitors = [...new Set(findingsWithArea.flatMap(f => f.competitors ?? []).filter(Boolean))].sort();
+  const allKeywords = [...new Set(findingsWithArea.flatMap(f => f.keywords ?? []).filter(Boolean))].sort();
 
   const badgeColor = (type) => {
     const map = {
@@ -30,16 +36,21 @@ export function generateReport(data, timestamp) {
   };
   const confidenceLabel = (score) => score >= 70 ? 'High' : score >= 45 ? 'Medium' : 'Low';
 
-  const findingCards = findings.map(f => {
+  const grouped = Object.fromEntries(DISEASE_AREAS.map(a => [a, []]));
+  findingsWithArea.forEach(f => grouped[f.disease_area ?? 'Other'].push(f));
+
+  const makeCard = (f) => {
     const competitors = f.competitors ?? [];
     const keywords = f.keywords ?? [];
     const score = f.confidence ?? 0;
+    const area = f.disease_area ?? 'Other';
     return `
     <div class="card"
       data-competitors="${competitors.join('|').toLowerCase()}"
       data-source="${f.source_type}"
       data-keywords="${keywords.join('|').toLowerCase()}"
-      data-confidence="${score}">
+      data-confidence="${score}"
+      data-area="${area}">
       <div class="card-header">
         <span class="badge" style="background:${badgeColor(f.source_type)}">${f.source_type || 'Unknown'}</span>
         ${competitors.map(c => `<span class="competitor-tag">${c}</span>`).join('')}
@@ -50,6 +61,23 @@ export function generateReport(data, timestamp) {
       ${f.source_link ? `<a class="source-link" href="${f.source_link}" target="_blank" rel="noopener">View Source →</a>` : ''}
       <div class="card-domain">${f.publication_date ? `📅 ${new Date(f.publication_date).toLocaleDateString('en-CA')} · ` : ''}${f.source_domain || ''}</div>
     </div>`;
+  };
+
+  const findingSections = DISEASE_AREAS.map(area => {
+    const areaFindings = grouped[area];
+    if (areaFindings.length === 0) return '';
+    const meta = DISEASE_AREA_META[area];
+    return `
+    <div class="disease-section" data-area="${area}">
+      <div class="section-header">
+        <span class="section-dot" style="background:${meta.color}"></span>
+        <span class="section-title">${meta.label}</span>
+        <span class="section-count">${areaFindings.length}</span>
+      </div>
+      <div class="grid section-grid">
+        ${areaFindings.map(makeCard).join('')}
+      </div>
+    </div>`;
   }).join('');
 
   const competitorOptions = allCompetitors.map(c => `<option value="${c.toLowerCase()}">${c}</option>`).join('');
@@ -57,7 +85,7 @@ export function generateReport(data, timestamp) {
   const keywordOptions = allKeywords.map(k => `<option value="${k.toLowerCase()}">${k}</option>`).join('');
 
   const competitorCounts = {};
-  findings.forEach(f => (f.competitors ?? []).forEach(c => {
+  findingsWithArea.forEach(f => (f.competitors ?? []).forEach(c => {
     competitorCounts[c] = (competitorCounts[c] || 0) + 1;
   }));
   const topCompetitors = Object.entries(competitorCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
@@ -120,21 +148,26 @@ export function generateReport(data, timestamp) {
   .help-icon:hover .tooltip { display: block; }
   .help-icon .tooltip b { color: #ffffff; }
   .help-icon .tooltip hr { border: none; border-top: 1px solid #334155; margin: 6px 0; }
+  .disease-section { margin-bottom: 32px; }
+  .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+  .section-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .section-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+  .section-count { background: #f1f5f9; color: #64748b; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated ${runDate} &nbsp;|&nbsp; ${findings.length} findings</div>
+  <div class="meta">Generated ${runDate} &nbsp;|&nbsp; ${findingsWithArea.length} findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">${findings.length}</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">${findingsWithArea.length}</div><div class="label">Total Findings</div></div>
     <div class="stat"><div class="num">${allCompetitors.filter(c => c !== 'Keyword matched').length}</div><div class="label">Competitors Detected</div></div>
     <div class="stat"><div class="num">${allKeywords.length}</div><div class="label">Keywords Matched</div></div>
-    <div class="stat"><div class="num">${findings.filter(f => f.source_type?.toLowerCase().includes('pubmed')).length}</div><div class="label">PubMed Publications</div></div>
-    <div class="stat"><div class="num">${findings.filter(f => f.source_type?.toLowerCase().includes('clinical')).length}</div><div class="label">Clinical Trial Updates</div></div>
-    <div class="stat"><div class="num">${findings.filter(f => f.source_type?.toLowerCase().includes('8-k') || f.source_type?.toLowerCase().includes('sec')).length}</div><div class="label">SEC Filings</div></div>
+    <div class="stat"><div class="num">${findingsWithArea.filter(f => f.source_type?.toLowerCase().includes('pubmed')).length}</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">${findingsWithArea.filter(f => f.source_type?.toLowerCase().includes('clinical')).length}</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">${findingsWithArea.filter(f => f.source_type?.toLowerCase().includes('8-k') || f.source_type?.toLowerCase().includes('sec')).length}</div><div class="label">SEC Filings</div></div>
   </div>
   <div class="layout">
     <div class="sidebar">
@@ -151,6 +184,13 @@ export function generateReport(data, timestamp) {
         <select id="filter-source">
           <option value="">All Source Types</option>
           ${sourceOptions}
+        </select>
+        <select id="filter-area">
+          <option value="">All Disease Areas</option>
+          <option value="HS">Hidradenitis Suppurativa</option>
+          <option value="SSc">Systemic Sclerosis</option>
+          <option value="PMR/GCA">PMR / GCA</option>
+          <option value="Other">Other</option>
         </select>
         <input type="text" id="filter-search" placeholder="Search summaries...">
         <div style="display:flex;align-items:center;margin-bottom:6px;">
@@ -185,8 +225,8 @@ export function generateReport(data, timestamp) {
     </div>
     <div>
       <div id="results-count"></div>
-      <div class="grid" id="card-grid">
-        ${findingCards || '<div class="no-results">No findings returned by the agent.</div>'}
+      <div id="findings-container">
+        ${findingSections || '<div class="no-results">No findings returned by the agent.</div>'}
       </div>
     </div>
   </div>
@@ -197,7 +237,7 @@ export function generateReport(data, timestamp) {
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of ${findings.length} findings';
+    countEl.textContent = visible + ' of ${findingsWithArea.length} findings';
   }
 
   function applyFilters() {
@@ -206,6 +246,7 @@ export function generateReport(data, timestamp) {
     const src      = document.getElementById('filter-source').value.toLowerCase();
     const q        = document.getElementById('filter-search').value.toLowerCase();
     const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    const area     = document.getElementById('filter-area').value;
     cards.forEach(card => {
       const comps = card.dataset.competitors?.split('|') ?? [];
       const kws   = card.dataset.keywords?.split('|') ?? [];
@@ -214,7 +255,12 @@ export function generateReport(data, timestamp) {
       const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
       const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
       const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
-      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+      const matchArea = !area || card.dataset.area === area;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf && matchArea));
+    });
+    document.querySelectorAll('.disease-section').forEach(sec => {
+      const hasVisible = [...sec.querySelectorAll('.card')].some(c => !c.classList.contains('hidden'));
+      sec.classList.toggle('hidden', !hasVisible);
     });
     updateCount();
   }
@@ -225,6 +271,7 @@ export function generateReport(data, timestamp) {
     document.getElementById('filter-source').value = '';
     document.getElementById('filter-search').value = '';
     document.getElementById('filter-confidence').value = '0';
+    document.getElementById('filter-area').value = '';
     applyFilters();
   }
 
@@ -233,6 +280,7 @@ export function generateReport(data, timestamp) {
   document.getElementById('filter-source').addEventListener('change', applyFilters);
   document.getElementById('filter-confidence').addEventListener('change', applyFilters);
   document.getElementById('filter-search').addEventListener('input', applyFilters);
+  document.getElementById('filter-area').addEventListener('change', applyFilters);
 
   updateCount();
 </script>

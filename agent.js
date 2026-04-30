@@ -8,7 +8,7 @@ const firecrawl = new Firecrawl({ apiKey: process.env.FIRECRAWL_API_KEY });
 
 console.log('Running Firecrawl agent — this may take several minutes...');
 
-const today = new Date().toISOString().slice(0, 10);
+const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago' }).format(new Date());
 
 const result = await firecrawl.agent({
   maxCredits: 4000,

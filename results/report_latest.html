@@ -48,21 +48,26 @@
   .help-icon:hover .tooltip { display: block; }
   .help-icon .tooltip b { color: #ffffff; }
   .help-icon .tooltip hr { border: none; border-top: 1px solid #334155; margin: 6px 0; }
+  .disease-section { margin-bottom: 32px; }
+  .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+  .section-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .section-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+  .section-count { background: #f1f5f9; color: #64748b; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-04-30, 1:10:29 p.m. &nbsp;|&nbsp; 3 findings</div>
+  <div class="meta">Generated 2026-04-30, 9:48:21 p.m. &nbsp;|&nbsp; 7 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">3</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">2</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">2</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">7</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
     <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
-    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">SEC Filings</div></div>
   </div>
   <div class="layout">
     <div class="sidebar">
@@ -70,15 +75,22 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="glue">GLUE</option><option value="kymr">KYMR</option><option value="keyword matched">Keyword matched</option>
+          <option value="incy">INCY</option><option value="kymr">KYMR</option><option value="keyword matched">Keyword matched</option><option value="nktx">NKTX</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          <option value="copd">COPD</option><option value="il-17">IL-17</option>
+          <option value="copd">COPD</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="systemic sclerosis">Systemic sclerosis</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
-          <option value="Press Release">Press Release</option><option value="Scientific Publication">Scientific Publication</option>
+          <option value="Press Release">Press Release</option><option value="Scientific Publication">Scientific Publication</option><option value="SEC Filing (8-K)">SEC Filing (8-K)</option>
+        </select>
+        <select id="filter-area">
+          <option value="">All Disease Areas</option>
+          <option value="HS">Hidradenitis Suppurativa</option>
+          <option value="SSc">Systemic Sclerosis</option>
+          <option value="PMR/GCA">PMR / GCA</option>
+          <option value="Other">Other</option>
         </select>
         <input type="text" id="filter-search" placeholder="Search summaries...">
         <div style="display:flex;align-items:center;margin-bottom:6px;">
@@ -94,7 +106,7 @@
             Conference / Presentation = 20<br>
             News Article = 15 &nbsp;·&nbsp; Analyst = 10<hr>
             <b>Recency</b> — up to 20 pts<br>
-            Today = +20 &nbsp;·&nbsp; This month = +10 &nbsp;·&nbsp; Older = +5<hr>
+            Today = +20 &nbsp;·&nbsp; This month = +10<hr>
             <b>Both signals</b> — 10 pts<br>
             Competitor + keyword matched together
           </span></span>
@@ -113,20 +125,27 @@
       <div class="chart-label">Keyword matched</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:100%"></div>
-        <span class="chart-count">2</span>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">NKTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
       </div>
     </div>
     <div class="chart-row">
       <div class="chart-label">KYMR</div>
       <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:50%"></div>
-        <span class="chart-count">1</span>
-      </div>
-    </div>
-    <div class="chart-row">
-      <div class="chart-label">GLUE</div>
-      <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:50%"></div>
+        <div class="chart-bar" style="width:25%"></div>
         <span class="chart-count">1</span>
       </div>
     </div>
@@ -134,52 +153,149 @@
     </div>
     <div>
       <div id="results-count"></div>
-      <div class="grid" id="card-grid">
+      <div id="findings-container">
+        
+    <div class="disease-section" data-area="HS">
+      <div class="section-header">
+        <span class="section-dot" style="background:#7c3aed"></span>
+        <span class="section-title">Hidradenitis Suppurativa (HS)</span>
+        <span class="section-count">3</span>
+      </div>
+      <div class="grid section-grid">
         
     <div class="card"
-      data-competitors="kymr|glue"
+      data-competitors="incy"
       data-source="Press Release"
-      data-keywords="copd"
-      data-confidence="95">
+      data-keywords="hidradenitis suppurativa|il-17"
+      data-confidence="75"
+      data-area="HS">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">KYMR</span><span class="competitor-tag">GLUE</span>
-        <span class="keyword-tag">COPD</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 95/100">High · 95</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
       </div>
-      <p class="summary">Kymera announced Q1 2026 financial results and provided a business update. Highlights include Gilead Sciences exercising its option to license KT-200, a first-in-class CDK2 molecular glue degrader, and the advancement of KT-621, an oral STAT6 degrader, into development for COPD, asthma, and atopic dermatitis.</p>
-      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/30/3284687/0/en/kymera-therapeutics-announces-first-quarter-2026-financial-results-and-provides-a-business-update.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · globenewswire.com</div>
+      <p class="summary">Incyte reported Q1 2026 financial results, noting that Phase 3 results for povorcitinib in Hidradenitis Suppurativa (HS) are expected in Q4 2026. The release also mentions the competitive landscape including IL-17 inhibitors.</p>
+      <a class="source-link" href="https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · investor.incyte.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="hidradenitis suppurativa"
+      data-confidence="40"
+      data-area="HS">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#dc26261a;color:#dc2626;border:1px solid #dc262640" title="Confidence score: 40/100">Low · 40</span>
+      </div>
+      <p class="summary">Novartis announced plans to expand its US manufacturing and R&D presence, highlighting its focus on immune-mediated diseases such as Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · novartis.com</div>
     </div>
     <div class="card"
       data-competitors="keyword matched"
       data-source="Scientific Publication"
       data-keywords="il-17"
-      data-confidence="60">
+      data-confidence="65"
+      data-area="HS">
       <div class="card-header">
         <span class="badge" style="background:#6b7280">Scientific Publication</span>
         <span class="competitor-tag">Keyword matched</span>
         <span class="keyword-tag">IL-17</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
       </div>
-      <p class="summary">A new scientific review titled 'Current and Emerging Therapies Targeting the IL-23/IL-17 Axis in Psoriasis and Psoriatic Arthritis' was published online. The article provides an update on the mechanism of IL-17 inhibition in chronic inflammatory conditions.</p>
-      <a class="source-link" href="https://www.biomolther.org/view.html?uid=1719&vmd=Full" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · biomolther.org</div>
+      <p class="summary">A comprehensive analysis of ATF3 as a diagnostic and prognostic biomarker in SLE, noting its involvement in the IL-17 signaling pathway.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42056650/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+      </div>
+    </div>
+    <div class="disease-section" data-area="SSc">
+      <div class="section-header">
+        <span class="section-dot" style="background:#2563eb"></span>
+        <span class="section-title">Systemic Sclerosis (SSc)</span>
+        <span class="section-count">1</span>
+      </div>
+      <div class="grid section-grid">
+        
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Scientific Publication"
+      data-keywords="systemic sclerosis"
+      data-confidence="65"
+      data-area="SSc">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
+      </div>
+      <p class="summary">This publication provides a guide for the application of Large Language Models in systemic sclerosis, outlining a design workflow for early-stage development.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42055539/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+      </div>
+    </div>
+    <div class="disease-section" data-area="Other">
+      <div class="section-header">
+        <span class="section-dot" style="background:#6b7280"></span>
+        <span class="section-title">Other</span>
+        <span class="section-count">3</span>
+      </div>
+      <div class="grid section-grid">
+        
+    <div class="card"
+      data-competitors="nktx"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="40"
+      data-area="Other">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">NKTX</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#dc26261a;color:#dc2626;border:1px solid #dc262640" title="Confidence score: 40/100">Low · 40</span>
+      </div>
+      <p class="summary">Nkarta stock surged following an FDA clearance of amendments to its ongoing Ntrust-1 and Ntrust-2 studies for NKX019, allowing for outpatient dosing in autoimmune disease patients.</p>
+      <a class="source-link" href="https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · finance.yahoo.com</div>
     </div>
     <div class="card"
       data-competitors="keyword matched"
-      data-source="Press Release"
+      data-source="Scientific Publication"
       data-keywords="copd"
-      data-confidence="85">
+      data-confidence="65"
+      data-area="Other">
       <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
         <span class="competitor-tag">Keyword matched</span>
         <span class="keyword-tag">COPD</span>
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
       </div>
-      <p class="summary">Altesa BioSciences announced it will present Phase 2a results for vapendavir in patients with COPD at the ATS 2026 International Congress. The data demonstrates vapendavir's ability to protect lung function and accelerate virus clearance in COPD patients after rhinovirus challenge.</p>
-      <a class="source-link" href="https://www.prnewswire.com/news-releases/altesa-biosciences-selected-for-oral-presentation-at-the-american-thoracic-society-2026-international-congress-302758236.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-04-30 · prnewswire.com</div>
+      <p class="summary">A study evaluating the effectiveness of enterosorption therapy in patients with chronic obstructive pulmonary disease (COPD) in the acute phase.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42048503/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="kymr"
+      data-source="SEC Filing (8-K)"
+      data-keywords="copd"
+      data-confidence="80"
+      data-area="Other">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing (8-K)</span>
+        <span class="competitor-tag">KYMR</span>
+        <span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 80/100">High · 80</span>
+      </div>
+      <p class="summary">Kymera Therapeutics filed an 8-K Current Report on April 30, 2026, announcing its Q1 2026 financial results and providing a business update that includes its pipeline in immunology and COPD.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-30 · sec.gov</div>
+    </div>
+      </div>
     </div>
       </div>
     </div>
@@ -191,7 +307,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 3 findings';
+    countEl.textContent = visible + ' of 7 findings';
   }
 
   function applyFilters() {
@@ -200,6 +316,7 @@
     const src      = document.getElementById('filter-source').value.toLowerCase();
     const q        = document.getElementById('filter-search').value.toLowerCase();
     const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    const area     = document.getElementById('filter-area').value;
     cards.forEach(card => {
       const comps = card.dataset.competitors?.split('|') ?? [];
       const kws   = card.dataset.keywords?.split('|') ?? [];
@@ -208,7 +325,12 @@
       const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
       const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
       const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
-      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+      const matchArea = !area || card.dataset.area === area;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf && matchArea));
+    });
+    document.querySelectorAll('.disease-section').forEach(sec => {
+      const hasVisible = [...sec.querySelectorAll('.card')].some(c => !c.classList.contains('hidden'));
+      sec.classList.toggle('hidden', !hasVisible);
     });
     updateCount();
   }
@@ -219,6 +341,7 @@
     document.getElementById('filter-source').value = '';
     document.getElementById('filter-search').value = '';
     document.getElementById('filter-confidence').value = '0';
+    document.getElementById('filter-area').value = '';
     applyFilters();
   }
 
@@ -227,6 +350,7 @@
   document.getElementById('filter-source').addEventListener('change', applyFilters);
   document.getElementById('filter-confidence').addEventListener('change', applyFilters);
   document.getElementById('filter-search').addEventListener('input', applyFilters);
+  document.getElementById('filter-area').addEventListener('change', applyFilters);
 
   updateCount();
 </script>

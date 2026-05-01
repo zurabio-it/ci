@@ -1,0 +1,204 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-quarter-2026-financial"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://www.prnewswire.com/news-releases/insmed-to-present-at-may-2026-investor-conferences-302754966.html"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-quarter-2026-financial"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "summary": "Incyte reported Q1 2026 financial results, noting that Phase 3 results for povorcitinib in Hidradenitis Suppurativa (HS) are expected in Q4 2026. The release also mentions the competitive landscape including IL-17 inhibitors.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "disease_area": "HS",
+        "confidence": 75
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "keywords": [],
+        "keywords_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "summary": "Nkarta stock surged following an FDA clearance of amendments to its ongoing Ntrust-1 and Ntrust-2 studies for NKX019, allowing for outpatient dosing in autoimmune disease patients.",
+        "summary_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "source_link_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "source_domain": "finance.yahoo.com",
+        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/nktx-stock-upbeat-regulatory-lead-142800377.html",
+        "disease_area": "Other",
+        "confidence": 40
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "summary": "Novartis announced plans to expand its US manufacturing and R&D presence, highlighting its focus on immune-mediated diseases such as Hidradenitis Suppurativa.",
+        "summary_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "source_link": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "source_link_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "source_domain": "novartis.com",
+        "source_domain_citation": "https://www.novartis.com/us-en/news/media-releases/novartis-finalizes-us-manufacturing-and-rd-expansion-plan-seventh-new-facility",
+        "disease_area": "HS",
+        "confidence": 40
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "summary": "This publication provides a guide for the application of Large Language Models in systemic sclerosis, outlining a design workflow for early-stage development.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42055539/",
+        "disease_area": "SSc",
+        "confidence": 65
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "summary": "A comprehensive analysis of ATF3 as a diagnostic and prognostic biomarker in SLE, noting its involvement in the IL-17 signaling pathway.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42056650/",
+        "disease_area": "HS",
+        "confidence": 65
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "summary": "A study evaluating the effectiveness of enterosorption therapy in patients with chronic obstructive pulmonary disease (COPD) in the acute phase.",
+        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "source_link": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "source_domain": "pubmed.ncbi.nlm.nih.gov",
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42048503/",
+        "disease_area": "Other",
+        "confidence": 65
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "summary": "Kymera Therapeutics filed an 8-K Current Report on April 30, 2026, announcing its Q1 2026 financial results and providing a business update that includes its pipeline in immunology and COPD.",
+        "summary_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "publication_date": "2026-04-30",
+        "publication_date_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "source_link": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+        "disease_area": "Other",
+        "confidence": 80
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-02T01:48:19.324Z",
+  "creditsUsed": 314
+}

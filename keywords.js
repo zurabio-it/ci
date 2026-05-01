@@ -100,6 +100,16 @@ export const BLOCKED_SOURCE_TYPES = [
 export const BLOCKED_DOMAINS = [
   'seekingalpha.com', 'fool.com', 'benzinga.com', 'tipranks.com',
   'gurufocus.com', 'stockanalysis.com', 'simply wall st', 'simplywall.st',
+  'stocktitan.net', 'investing.com', 'marketwatch.com', 'finance.yahoo.com',
+  'markets.businessinsider.com', 'thestreet.com', 'investorplace.com',
+  'prnewswire.com.com', 'globenewswire.com.com',
+];
+
+// Source types that must come directly from a trusted domain (competitor IR, newswire, or regulator).
+// Aggregator republications of these are filtered out.
+export const PRIMARY_ONLY_SOURCE_TYPES = [
+  'press release', 'news release', 'sec filing', 'sec 8-k', 'financial report',
+  'quarterly results', 'earnings', 'annual report',
 ];
 
 // Summary phrases that indicate the article is recapping old events, not reporting new ones
@@ -117,6 +127,14 @@ export function isStaleContent(finding) {
   if (BLOCKED_SOURCE_TYPES.some(t => sourceType.includes(t))) return true;
   if (BLOCKED_DOMAINS.some(d => domain.includes(d))) return true;
   if (STALE_PHRASES.some(p => summary.includes(p))) return true;
+
+  // Press releases, SEC filings, and financial results must come from a trusted
+  // domain (competitor IR page, official newswire, or regulator). Aggregator
+  // republications are discarded.
+  const isPrimaryType = PRIMARY_ONLY_SOURCE_TYPES.some(t => sourceType.includes(t));
+  const isTrusted = TRUSTED_DOMAINS.some(d => domain.includes(d));
+  if (isPrimaryType && !isTrusted) return true;
+
   return false;
 }
 

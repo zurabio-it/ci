@@ -107,9 +107,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0001373382/000137338226000045/anab-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0001373382/000137338226000045/anab-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001373382/000137338226000045/anab-20260501.htm",
-        "disease_area": "Other",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001373382/000137338226000045/anab-20260501.htm"
       },
       {
         "source_type": "sec.gov",
@@ -131,9 +129,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0001717357/000171735726000032/cgem-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0001717357/000171735726000032/cgem-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001717357/000171735726000032/cgem-20260501.htm",
-        "disease_area": "SSc",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001717357/000171735726000032/cgem-20260501.htm"
       },
       {
         "source_type": "sec.gov",
@@ -156,9 +152,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0001710912/000110465926021456/ifrx-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0001710912/000110465926021456/ifrx-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001710912/000110465926021456/ifrx-20260501.htm",
-        "disease_area": "HS",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001710912/000110465926021456/ifrx-20260501.htm"
       },
       {
         "source_type": "sec.gov",
@@ -180,9 +174,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0000879169/000087916926000067/incy-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0000879169/000087916926000067/incy-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0000879169/000087916926000067/incy-20260501.htm",
-        "disease_area": "HS",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0000879169/000087916926000067/incy-20260501.htm"
       },
       {
         "source_type": "sec.gov",
@@ -204,9 +196,7 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0001831828/000183182826000021/vera-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0001831828/000183182826000021/vera-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001831828/000183182826000021/vera-20260501.htm",
-        "disease_area": "SSc",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001831828/000183182826000021/vera-20260501.htm"
       },
       {
         "source_type": "sec.gov",
@@ -228,9 +218,29 @@
         "source_link": "https://www.sec.gov/Archives/edgar/data/0001425430/000110465926021589/glpg-20260501.htm",
         "source_link_citation": "https://www.sec.gov/Archives/edgar/data/0001425430/000110465926021589/glpg-20260501.htm",
         "source_domain": "sec.gov",
-        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001425430/000110465926021589/glpg-20260501.htm",
-        "disease_area": "Other",
-        "confidence": 75
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/0001425430/000110465926021589/glpg-20260501.htm"
+      },
+      {
+        "source_type": "www.ucb.com",
+        "source_type_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Systemic sclerosis",
+          "COPD"
+        ],
+        "keywords_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "summary": "UCB announced the acquisition of IMIDomics' Patient Insight Business, gaining access to a comprehensive multi-omic dataset to accelerate precision medicine for immune-mediated inflammatory diseases (IMIDs). The acquisition aims to enhance drug target identification and patient stratification.",
+        "summary_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "publication_date": "2026-05-01",
+        "publication_date_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
+        "source_domain": "www.ucb.com",
+        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids"
       },
       {
         "source_type": "finance.yahoo.com",
@@ -241,7 +251,7 @@
         "competitors_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html",
         "keywords": [
           "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
+          "HS"
         ],
         "keywords_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html",
         "summary": "Incyte reported strong 54-week data from its late-stage study of ruxolitinib cream in patients with Hidradenitis Suppurativa (HS). The data, showing higher HiSCR50 responses, was highlighted at the 2026 American Academy of Dermatology (AAD) Annual Meeting.",
@@ -251,9 +261,7 @@
         "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html",
         "source_link_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html",
         "source_domain": "finance.yahoo.com",
-        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html",
-        "disease_area": "HS",
-        "confidence": 50
+        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-reports-strong-54-week-185900472.html"
       },
       {
         "source_type": "finance.yahoo.com",
@@ -264,7 +272,7 @@
         "competitors_citation": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html",
         "keywords": [
           "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa",
+          "HS",
           "IL-17"
         ],
         "keywords_citation": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html",
@@ -275,9 +283,49 @@
         "source_link": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html",
         "source_link_citation": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html",
         "source_domain": "finance.yahoo.com",
-        "source_domain_citation": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html",
-        "disease_area": "HS",
-        "confidence": 50
+        "source_domain_citation": "https://finance.yahoo.com/news/moonlake-announces-positive-topline-results-160000186.html"
+      },
+      {
+        "source_type": "www.stocktitan.net",
+        "source_type_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "summary": "Insmed provided a clinical update on its Phase 2b CEDAR study evaluating brensocatib, an oral DPP1 inhibitor, in patients with hidradenitis suppurativa (HS). The study update coincided with the 2026 AAD meeting.",
+        "summary_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "publication_date": "2026-05-01",
+        "publication_date_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "source_link": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "source_link_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
+        "source_domain": "www.stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html"
+      },
+      {
+        "source_type": "www.stocktitan.net",
+        "source_type_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "summary": "InflaRx announced a late-breaker oral presentation on vilobelimab at the 2026 AAD Annual Meeting. The company also announced it will report its Q1 2026 financial results on May 7, 2026.",
+        "summary_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "publication_date": "2026-05-01",
+        "publication_date_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "source_link": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "source_link_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html",
+        "source_domain": "www.stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/IFRX/infla-rx-announces-late-breaker-oral-presentation-on-vilobelimab-odwty0lkcucy.html"
       },
       {
         "source_type": "finance.yahoo.com",
@@ -297,9 +345,7 @@
         "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/kymera-therapeutics-inc-kymr-reports-123009111.html",
         "source_link_citation": "https://finance.yahoo.com/sectors/healthcare/articles/kymera-therapeutics-inc-kymr-reports-123009111.html",
         "source_domain": "finance.yahoo.com",
-        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/kymera-therapeutics-inc-kymr-reports-123009111.html",
-        "disease_area": "HS",
-        "confidence": 50
+        "source_domain_citation": "https://finance.yahoo.com/sectors/healthcare/articles/kymera-therapeutics-inc-kymr-reports-123009111.html"
       },
       {
         "source_type": "www.stocktitan.net",
@@ -317,9 +363,7 @@
         "source_link": "https://www.stocktitan.net/news/GLUE/monte-rosa-therapeutics-to-present-interim-mrt-8102-phase-1-study-ve6uqxl7ejag.html",
         "source_link_citation": "https://www.stocktitan.net/news/GLUE/monte-rosa-therapeutics-to-present-interim-mrt-8102-phase-1-study-ve6uqxl7ejag.html",
         "source_domain": "www.stocktitan.net",
-        "source_domain_citation": "https://www.stocktitan.net/news/GLUE/monte-rosa-therapeutics-to-present-interim-mrt-8102-phase-1-study-ve6uqxl7ejag.html",
-        "disease_area": "Other",
-        "confidence": 40
+        "source_domain_citation": "https://www.stocktitan.net/news/GLUE/monte-rosa-therapeutics-to-present-interim-mrt-8102-phase-1-study-ve6uqxl7ejag.html"
       },
       {
         "source_type": "www.stocktitan.net",
@@ -337,9 +381,7 @@
         "source_link": "https://www.stocktitan.net/news/ANAB/first-tracks-biotherapeutics-the-planned-spin-off-of-anaptys-secures-thtceanjixqg.html",
         "source_link_citation": "https://www.stocktitan.net/news/ANAB/first-tracks-biotherapeutics-the-planned-spin-off-of-anaptys-secures-thtceanjixqg.html",
         "source_domain": "www.stocktitan.net",
-        "source_domain_citation": "https://www.stocktitan.net/news/ANAB/first-tracks-biotherapeutics-the-planned-spin-off-of-anaptys-secures-thtceanjixqg.html",
-        "disease_area": "Other",
-        "confidence": 40
+        "source_domain_citation": "https://www.stocktitan.net/news/ANAB/first-tracks-biotherapeutics-the-planned-spin-off-of-anaptys-secures-thtceanjixqg.html"
       },
       {
         "source_type": "www.jrheum.org",
@@ -351,7 +393,7 @@
         "competitors_citation": "https://www.jrheum.org/",
         "keywords": [
           "Systemic sclerosis",
-          "Systemic sclerosis"
+          "SSc"
         ],
         "keywords_citation": "https://www.jrheum.org/",
         "summary": "The Journal of Rheumatology published research in its May 1, 2026 issue (Vol 53, No 5) focusing on Refractory Systemic Sclerosis-Related conditions and potential therapeutic interventions.",
@@ -361,9 +403,7 @@
         "source_link": "https://www.jrheum.org/",
         "source_link_citation": "https://www.jrheum.org/",
         "source_domain": "www.jrheum.org",
-        "source_domain_citation": "https://www.jrheum.org/",
-        "disease_area": "SSc",
-        "confidence": 50
+        "source_domain_citation": "https://www.jrheum.org/"
       },
       {
         "source_type": "clinicaltrials.gov",
@@ -375,7 +415,7 @@
         "competitors_citation": "https://clinicaltrials.gov/study/NCT07508514",
         "keywords": [
           "Giant cell arteritis",
-          "Giant cell arteritis"
+          "GCA"
         ],
         "keywords_citation": "https://clinicaltrials.gov/study/NCT07508514",
         "summary": "A clinical trial update was posted for the SONIC-TIME study (NCT07508514), which investigates the temporal dynamics of optic nerve sheath diameter in patients with Giant Cell Arteritis (GCA) after glucocorticoid therapy.",
@@ -385,9 +425,7 @@
         "source_link": "https://clinicaltrials.gov/study/NCT07508514",
         "source_link_citation": "https://clinicaltrials.gov/study/NCT07508514",
         "source_domain": "clinicaltrials.gov",
-        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07508514",
-        "disease_area": "PMR/GCA",
-        "confidence": 75
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07508514"
       }
     ]
   },

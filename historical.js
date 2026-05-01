@@ -343,8 +343,10 @@ const html = `<!DOCTYPE html>
       card.classList.toggle('hidden', !(matchDate && matchComp && matchKw && matchSrc && matchQ && matchConf && matchArea));
     });
     document.querySelectorAll('.disease-section').forEach(sec => {
-      const hasVisible = [...sec.querySelectorAll('.card')].some(c => !c.classList.contains('hidden'));
-      sec.classList.toggle('hidden', !hasVisible);
+      const sectionCards = [...sec.querySelectorAll('.card')];
+      const visibleCount = sectionCards.filter(c => !c.classList.contains('hidden')).length;
+      sec.classList.toggle('hidden', visibleCount === 0);
+      sec.querySelector('.section-count').textContent = visibleCount;
     });
     updateCount();
   }

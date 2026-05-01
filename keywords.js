@@ -143,7 +143,6 @@ const DISEASE_NAME_MAP = {
 };
 
 const MECHANISM_AREA_MAP = {
-  'IL-17': 'HS',
   'IL-7R': 'SSc',
   'BAFF': 'SSc',
 };

@@ -41,6 +41,25 @@
     "findings": [
       {
         "source_type": "Press Release",
+        "source_type_citation": "AstraZeneca Newsroom, May 1, 2026",
+        "competitors": [],
+        "competitors_citation": "No competitors from monitored list mentioned.",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "tozorakimab met primary endpoint in Phase III MIRANDA trial in COPD... AstraZeneca's IL-33-targeting biologic",
+        "summary": "AstraZeneca announced that its IL-33-targeting biologic, tozorakimab, met the primary endpoint in the Phase III MIRANDA trial, significantly reducing the annualized rate of moderate-to-severe COPD exacerbations in patients with COPD.",
+        "summary_citation": "AstraZeneca COPD drug hits Phase III MIRANDA endpoint... May 1, 2026",
+        "publication_date": "2026-05-01",
+        "publication_date_citation": "May 1, 2026",
+        "source_link": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_domain": "astrazeneca.com",
+        "source_domain_citation": "astrazeneca.com"
+      },
+      {
+        "source_type": "Press Release",
         "source_type_citation": "UCB Newsroom, May 1, 2026",
         "competitors": [
           "UCB"
@@ -55,9 +74,7 @@
         "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
         "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-announces-acquisition-of-imidomics-patient-insight-business-strengthening-capabilities-in-immune-mediated-inflammatory-diseases-imids",
         "source_domain": "ucb.com",
-        "source_domain_citation": "ucb.com",
-        "disease_area": "Other",
-        "confidence": 85
+        "source_domain_citation": "ucb.com"
       },
       {
         "source_type": "Press Release",
@@ -77,9 +94,7 @@
         "source_link": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
         "source_link_citation": "https://www.stocktitan.net/news/INSM/insmed-provides-clinical-update-on-phase-2b-cedar-njxntkz2ofvr.html",
         "source_domain": "stocktitan.net",
-        "source_domain_citation": "stocktitan.net",
-        "disease_area": "HS",
-        "confidence": 70
+        "source_domain_citation": "stocktitan.net"
       },
       {
         "source_type": "Press Release",
@@ -99,9 +114,7 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/05/01/3285846/0/en/inflarx-to-report-first-quarter-2026-results-on-may-7-2026.html",
         "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/01/3285846/0/en/inflarx-to-report-first-quarter-2026-results-on-may-7-2026.html",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "globenewswire.com",
-        "disease_area": "HS",
-        "confidence": 95
+        "source_domain_citation": "globenewswire.com"
       },
       {
         "source_type": "Press Release",
@@ -121,9 +134,7 @@
         "source_link": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-highlight-breaking-hidradenitis-suppurativa-140000367.html",
         "source_link_citation": "https://finance.yahoo.com/sectors/healthcare/articles/incyte-highlight-breaking-hidradenitis-suppurativa-140000367.html",
         "source_domain": "finance.yahoo.com",
-        "source_domain_citation": "finance.yahoo.com",
-        "disease_area": "HS",
-        "confidence": 70
+        "source_domain_citation": "finance.yahoo.com"
       },
       {
         "source_type": "Press Release",
@@ -141,9 +152,7 @@
         "source_link": "https://www.marketwatch.com/investing/stock/rlyb",
         "source_link_citation": "https://www.marketwatch.com/investing/stock/rlyb",
         "source_domain": "marketwatch.com",
-        "source_domain_citation": "marketwatch.com",
-        "disease_area": "Other",
-        "confidence": 60
+        "source_domain_citation": "marketwatch.com"
       }
     ]
   },

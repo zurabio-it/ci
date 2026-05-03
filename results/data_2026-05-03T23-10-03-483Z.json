@@ -1,0 +1,138 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://www.biospace.com/press-releases/zura-bio-launches-global-phase-2-tibusure-study-to-evaluate-tibulizumab-in-adults-with-systemic-sclerosis"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "competitors": [
+          "UCB",
+          "Candid"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "keywords": [],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics for up to $2.2 billion ($2 billion upfront). The acquisition adds Candid’s lead asset, cizutamig, a BCMA-targeting T-cell engager currently in multiple clinical studies for autoimmune indications, to UCB’s immunology pipeline.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "publication_date": "2026-05-03",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_link": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "keywords": [],
+        "keywords_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "summary": "Incyte's NIKTIMVO (axatilimab) received TGA approval in Australia for the treatment of chronic graft-versus-host disease (cGVHD) in patients who have failed at least two prior lines of systemic therapy. This approval marks the expansion of Incyte's partnership with Specialised Therapeutics in the region.",
+        "summary_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "publication_date": "2026-05-03",
+        "publication_date_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "source_link": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "source_link_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html",
+        "source_domain": "stocktitan.net",
+        "source_domain_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html"
+      },
+      {
+        "source_type": "News",
+        "source_type_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "summary": "Analyses from the Phase 3 BE HEARD I and II trials highlighted the efficacy of UCB’s bimekizumab in patients with moderate-to-severe hidradenitis suppurativa (HS). The data showed that a higher proportion of patients achieved HiSCR75 and HiSCR90 responses compared to placebo, with sustained results through Week 48.",
+        "summary_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "publication_date": "2026-05-02",
+        "publication_date_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_link": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_link_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_domain": "ajmc.com",
+        "source_domain_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "competitors": [],
+        "competitors_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "summary": "AstraZeneca announced positive results from the Phase III MIRANDA trial, where tozorakimab (an IL-33 monoclonal antibody) met the primary endpoint by significantly reducing the rate of moderate-to-severe exacerbations in patients with COPD compared to placebo.",
+        "summary_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "publication_date": "2026-05-02",
+        "publication_date_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_domain": "astrazeneca.com",
+        "source_domain_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "source_type": "ClinicalTrials.gov Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "competitors": [],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "summary": "A new clinical trial (NCT07484178) evaluating the effectiveness of nurse-led interventions on respiratory outcomes in patients with acute exacerbations of COPD was updated on May 2, 2026. The study aims to improve patient management and outcomes in COPD exacerbation settings.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "publication_date": "2026-05-02",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_link": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07484178"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-04T23:10:00.593Z",
+  "creditsUsed": 422
+}

@@ -4,469 +4,85 @@
   "data": {
     "competitors": [
       {
-        "value": "Candid",
-        "value_citation": "Mentioned in findings"
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
       },
       {
-        "value": "IFRX",
-        "value_citation": "Mentioned in findings"
+        "value": "Candid",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
       },
       {
         "value": "INCY",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "INSM",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "ORKA",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "UCB",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "VERA",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "VOR",
-        "value_citation": "Mentioned in findings"
+        "value_citation": "https://www.stocktitan.net/news/INCY/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-b2rcr2d8fi1n.html"
       }
     ],
     "keywords": [
       {
-        "value": "BAFF",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "Baff",
-        "value_citation": "Mentioned in findings"
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa"
       },
       {
         "value": "COPD",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "GCA",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "Giant cell arteritis",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "HS",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "Hidradenitis suppurativa",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "IL-17",
-        "value_citation": "Mentioned in findings"
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
       },
       {
         "value": "IL-33",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "IL-7R",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "Polymyalgia rheumatica",
-        "value_citation": "Mentioned in findings"
-      },
-      {
-        "value": "SSc",
-        "value_citation": "Mentioned in findings"
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
       },
       {
         "value": "Systemic sclerosis",
-        "value_citation": "Mentioned in findings"
+        "value_citation": "https://www.biospace.com/press-releases/zura-bio-launches-global-phase-2-tibusure-study-to-evaluate-tibulizumab-in-adults-with-systemic-sclerosis"
       }
     ],
     "findings": [
       {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
+        "source_type": "News",
+        "source_type_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
         "competitors": [
-          "Candid",
           "UCB"
         ],
-        "competitors_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "keywords": [],
-        "keywords_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "summary": "Belgian biopharmaceuticals company UCB announced an agreement to acquire Candid Therapeutics for up to $2.2 billion ($2 billion upfront plus $200 million in milestones). Candid is developing B-cell depleting T-cell engagers (TCEs) for autoimmune diseases, significantly expanding UCB's immunology portfolio.",
-        "summary_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "source_link": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "source_link_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "source_domain": "reuters.com",
-        "source_domain_citation": "https://www.reuters.com/legal/transactional/belgian-pharma-group-ucb-buy-candid-therapeutics-up-22-billion-2026-05-03/",
-        "disease_area": "Other",
-        "confidence": 75
-      },
-      {
-        "source_type": "Market Report",
-        "source_type_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "competitors": [
-          "ORKA"
-        ],
-        "competitors_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "keywords": [],
-        "keywords_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "summary": "Oruka Therapeutics (ORKA) was highlighted by MarketBeat on May 3, 2026, as a high-volume biotech stock to watch. Oruka is advancing a pipeline of monoclonal antibodies, including ORKA-001 and ORKA-002, targeting psoriasis and other immunology and inflammation (I&I) indications.",
-        "summary_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "source_link": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "source_link_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "source_domain": "marketbeat.com",
-        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/best-biotech-stocks-to-watch-today-may-3rd-2026-05-03/",
-        "disease_area": "Other",
-        "confidence": 40
-      },
-      {
-        "source_type": "Clinical Insights",
-        "source_type_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "competitors": [
-          "Candid",
-          "ORKA"
-        ],
-        "competitors_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "competitors_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
         "keywords": [
           "Hidradenitis suppurativa",
           "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "summary": "Dermatology Times reviewed clinical data for Oruka Therapeutics' (ORKA) lead candidate ORKA-001, noting its 63.5% PASI 100 rate at week 16 in psoriasis. The publication emphasized that ORKA-001's pharmacokinetic profile could potentially allow for once-yearly dosing. The report also integrated the latest research on Hidradenitis suppurativa (HS) as part of its May 3 clinical translational takeaways.",
-        "summary_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_domain": "dermatologytimes.com",
-        "source_domain_citation": "http://dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "keywords_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "summary": "Analyses from the Phase 3 BE HEARD I and II trials highlighted the efficacy of UCB’s bimekizumab in patients with moderate-to-severe hidradenitis suppurativa (HS). The data showed that a higher proportion of patients achieved HiSCR75 and HiSCR90 responses compared to placebo, with sustained results through Week 48.",
+        "summary_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "publication_date": "2026-05-02",
+        "publication_date_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_link": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_link_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
+        "source_domain": "ajmc.com",
+        "source_domain_citation": "https://www.ajmc.com/view/be-heard-trials-highlight-efficacy-of-bimekizumab-in-hidradenitis-suppurativa",
         "disease_area": "HS",
         "confidence": 50
       },
       {
-        "source_type": "Financial News",
-        "source_type_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "competitors": [
-          "INSM"
-        ],
-        "competitors_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "keywords": [
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "summary": "Institutional investment data published on May 3, 2026, revealed that Danske Bank A S increased its holdings in Insmed, Inc. (INSM) by 4,494.1%. Insmed remains a key competitor in the rare disease and immunology space, with ongoing programs in conditions such as hidradenitis suppurativa.",
-        "summary_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "source_link": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "source_link_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "source_domain": "marketbeat.com",
-        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/filing-insmed-inc-insm-shares-bought-by-danske-bank-a-s-2026-05-03/",
-        "disease_area": "HS",
-        "confidence": 60
-      },
-      {
-        "source_type": "Medical Education",
-        "source_type_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
+        "source_type": "ClinicalTrials.gov Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT07484178",
         "competitors": [
           "Keyword matched"
         ],
-        "competitors_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "summary": "Dermatology Times' May 3, 2026 edition featured clinical insights and a 'Spot Test' focusing on the pathogenesis and holistic management of Hidradenitis Suppurativa (HS). The publication highlighted the disease as a critical area for novel biologic intervention and improved patient assessment.",
-        "summary_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "source_link": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "source_link_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "source_domain": "dermatologytimes.com",
-        "source_domain_citation": "https://www.dermatologytimes.com/view/dermatology-times-spot-test-may-3-2026",
-        "disease_area": "HS",
-        "confidence": 40
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "competitors": [
-          "Candid",
-          "UCB"
-        ],
-        "competitors_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics, a biotechnology company specializing in novel T-cell engagers (TCEs) for autoimmune and inflammatory diseases. The acquisition enhances UCB's immunology pipeline, which already includes treatments for Hidradenitis suppurativa (HS) such as Bimzelx.",
-        "summary_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_link": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_link_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_domain": "www.businesswire.com",
-        "source_domain_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "disease_area": "HS",
-        "confidence": 95
-      },
-      {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "competitors": [
-          "ORKA"
-        ],
-        "competitors_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "summary": "Dermatology Times' Translational Takeaways for May 3, 2026, highlights developments in inflammatory skin diseases. It discusses Orka Therapeutics' ORKA-001 and its potential annual dosing paradigm. The publication covers multiple conditions including Hidradenitis suppurativa (HS) and psoriasis maintenance strategies.",
-        "summary_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_domain": "www.dermatologytimes.com",
-        "source_domain_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "disease_area": "HS",
-        "confidence": 60
-      },
-      {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "competitors": [
-          "UCB"
-        ],
-        "competitors_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "keywords": [
-          "Systemic sclerosis",
-          "Systemic sclerosis"
-        ],
-        "keywords_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "summary": "A report from the Congress of Clinical Rheumatology East meeting (April 30-May 3, 2026) discusses the need for an 'orchestra of therapies' for patients with Systemic sclerosis (SSc). The article highlights novel therapies and the complex management required for SSc-ILD, noting contributions from companies like UCB in the immunology space.",
-        "summary_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "source_link": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "source_link_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "source_domain": "www.healio.com",
-        "source_domain_citation": "https://www.healio.com/news/rheumatology/20260501/orchestra-of-therapies-required-for-most-patients-with-systemic-sclerosis",
-        "disease_area": "SSc",
-        "confidence": 60
-      },
-      {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "keywords": [
-          "Giant cell arteritis",
-          "Giant cell arteritis"
-        ],
-        "keywords_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "summary": "Research presented at the Congress of Clinical Rheumatology East on May 3, 2026, indicates that major depression remains significantly undertreated in rheumatology patients. The study specifically calls out populations with Giant cell arteritis (GCA) and other forms of vasculitis as being at high risk for psychiatric comorbidities.",
-        "summary_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "source_link": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "source_link_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "source_domain": "www.healio.com",
-        "source_domain_citation": "https://www.healio.com/news/rheumatology/20260503/major-depression-remains-usually-undertreated-among-rheumatology-patient-populations",
-        "disease_area": "PMR/GCA",
-        "confidence": 50
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "competitors": [
-          "Candid",
-          "UCB"
-        ],
-        "competitors_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "keywords": [],
-        "keywords_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics for up to $2.2 billion ($2 billion upfront and $200 million in milestones). Candid is a clinical-stage biotech developing T-cell engagers (TCEs) for autoimmune diseases. Its lead asset, cizutamig, is a BCMA/CD3 bispecific antibody currently in Phase 1 trials for multiple autoimmune indications. The deal follows UCB's recent acquisition of rights to a CD19/CD3 bispecific from Antengene.",
-        "summary_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_link": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_link_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "source_domain": "businesswire.com",
-        "source_domain_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
-        "disease_area": "Other",
-        "confidence": 85
-      },
-      {
-        "source_type": "News Article",
-        "source_type_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "competitors": [
-          "ORKA"
-        ],
-        "competitors_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "keywords": [
-          "IL-17"
-        ],
-        "keywords_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "summary": "Dermatology Times highlighted Oruka Therapeutics' (ORKA) ORKA-001 in its 'Translational Takeaways' published on May 3, 2026. ORKA-001, a long-acting IL-17A/F inhibitor, demonstrated a PASI 100 rate of 63.5% at week 16 in the EVERLAST-A trial. The article discussed the drug's potential for annual dosing in psoriasis, which could significantly improve treatment adherence.",
-        "summary_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_domain": "dermatologytimes.com",
-        "source_domain_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "disease_area": "Other",
-        "confidence": 60
-      },
-      {
-        "source_type": "Market Analysis",
-        "source_type_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "competitors": [
-          "INCY"
-        ],
-        "competitors_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "keywords": [],
-        "keywords_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "summary": "Incyte Corporation (INCY) received a consensus 'Hold' rating from brokerage firms on May 3, 2026. The analyst consensus price target for Incyte is approximately $73.40, reflecting neutral sentiment on the stock's near-term performance.",
-        "summary_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "source_link": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "source_link_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "source_domain": "marketbeat.com",
-        "source_domain_citation": "https://www.marketbeat.com/instant-alerts/incyte-corporation-nasdaqincy-receives-consensus-rating-of-hold-from-brokerages-2026-05-03/",
-        "disease_area": "Other",
-        "confidence": 45
-      },
-      {
-        "source_type": "News Article",
-        "source_type_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "competitors": [
-          "Candid",
-          "UCB"
-        ],
-        "competitors_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "keywords": [],
-        "keywords_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics, a clinical-stage biotechnology company focusing on T-cell engagers (TCEs) for autoimmune diseases. The lead asset is cizutamig, a potential best-in-class BCMA TCE currently in multiple clinical studies for over 10 autoimmune indications.",
-        "summary_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "source_link": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "source_link_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "source_domain": "lasvegassun.com",
-        "source_domain_citation": "https://lasvegassun.com/news/2026/may/03/ucb-to-acquire-candid-therapeutics-building-upon-i/",
-        "disease_area": "Other",
-        "confidence": 50
-      },
-      {
-        "source_type": "Medical News",
-        "source_type_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "competitors": [
-          "ORKA"
-        ],
-        "competitors_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "keywords": [],
-        "keywords_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "summary": "The Translational Takeaways article for May 3, 2026, highlights ORKA-001's week-16 PASI 100 results of 63.5% and discusses a potential annual dosing paradigm. It also covers updates on Upadacitinib for alopecia areata and roflumilast cream expansion for infants.",
-        "summary_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_link_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "source_domain": "dermatologytimes.com",
-        "source_domain_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
-        "disease_area": "Other",
-        "confidence": 50
-      },
-      {
-        "source_type": "Scientific Publication",
-        "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT07484178",
         "keywords": [
           "COPD"
         ],
-        "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "summary": "A study available on PubMed (PMC release today) investigated the prevalence of dysphonia in U.S. adults with dysphagia, finding a 6.78-fold increase in odds and a significant association with COPD.",
-        "summary_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "source_link": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "source_domain": "pubmed.ncbi.nlm.nih.gov",
-        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/40317750/",
-        "disease_area": "Other",
-        "confidence": 85
-      },
-      {
-        "source_type": "Conference Presentation",
-        "source_type_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "keywords": [
-          "IL-17"
-        ],
-        "keywords_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "summary": "A research poster (Poster 708) presented at the ARVO 2026 meeting today indicates that Blau syndrome is characterized by an enhanced IL-17 profile.",
-        "summary_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "source_link": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "source_link_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
-        "source_domain": "ohsu.edu",
-        "source_domain_citation": "https://www.ohsu.edu/casey-eye-institute/arvo-2026-research-presentations",
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "summary": "A new clinical trial (NCT07484178) evaluating the effectiveness of nurse-led interventions on respiratory outcomes in patients with acute exacerbations of COPD was updated on May 2, 2026. The study aims to improve patient management and outcomes in COPD exacerbation settings.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "publication_date": "2026-05-02",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_link": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT07484178",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT07484178",
         "disease_area": "Other",
         "confidence": 55
-      },
-      {
-        "source_type": "Scientific Review",
-        "source_type_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "competitors": [
-          "Keyword matched"
-        ],
-        "competitors_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "keywords": [
-          "IL-7R"
-        ],
-        "keywords_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "summary": "A systematic review published or updated today notes that neutrophil-derived long noncoding RNA IL-7R predicts the development of multiple organ dysfunction after major trauma.",
-        "summary_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "publication_date": "2026-05-03",
-        "publication_date_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "source_link": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "source_link_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "source_domain": "wjgnet.com",
-        "source_domain_citation": "https://www.wjgnet.com/2220-3141/full/v10/i5/260.htm",
-        "disease_area": "SSc",
-        "confidence": 40
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-04T23:01:39.640Z",
-  "creditsUsed": 2291
+  "expiresAt": "2026-05-04T23:10:00.593Z",
+  "creditsUsed": 422
 }

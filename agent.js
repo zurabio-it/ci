@@ -77,15 +77,21 @@ const allFindings = (result.data?.findings ?? []).map(f => ({
   confidence: scoreFindings(f),
 }));
 
-// Normalize SEC EDGAR direct-file URLs to the filing index directory.
-// The AI often guesses filenames (e.g. anab-20260501.htm) that don't exist;
-// the accession-number directory index always resolves if the filing is real.
-allFindings.forEach(f => {
-  const m = (f.source_link ?? '').match(
-    /^(https?:\/\/(?:www\.)?sec\.gov\/Archives\/edgar\/data\/\d+\/\d+)\//i
-  );
-  if (m) f.source_link = m[1] + '/';
-});
+// Validate SEC EDGAR URLs — the AI often halluminates accession numbers and filenames.
+// HEAD-check the URL; if it fails, fall back to the company's EDGAR filing page (CIK only).
+// If no CIK can be found, drop the finding entirely.
+const secPattern = /^https?:\/\/(?:www\.)?sec\.gov\/Archives\/edgar\/data\/(\d+)/i;
+await Promise.all(allFindings.map(async f => {
+  const m = (f.source_link ?? '').match(secPattern);
+  if (!m) return;
+  const cik = m[1];
+  try {
+    const res = await fetch(f.source_link, { method: 'HEAD' });
+    if (!res.ok) f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=8-K&dateb=&owner=include&count=10`;
+  } catch {
+    f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=8-K&dateb=&owner=include&count=10`;
+  }
+}));
 
 // Filter stale and low-quality sources
 const qualityFindings = allFindings.filter(f => !isStaleContent(f));

@@ -58,8 +58,16 @@ const adaptiveCard = {
   ],
 };
 
+const summary = `Zura Bio CI — ${findings.length} new finding${findings.length !== 1 ? 's' : ''} · ${runDate}`;
+const topLines = topFindings.map(f => {
+  const comp = (f.competitors ?? []).filter(c => c !== 'Keyword matched').join(', ') || 'Keyword match';
+  const kw   = f.keywords?.length ? ` · ${f.keywords.join(', ')}` : '';
+  return `• **${comp}**${kw} — ${f.summary?.slice(0, 120) ?? ''}${f.source_link ? ` [→](${f.source_link})` : ''}`;
+}).join('\n\n');
+
 const teamsPayload = {
-  summary: `Zura Bio CI — ${findings.length} new finding${findings.length !== 1 ? 's' : ''}`,
+  summary,
+  text: `**${summary}**\n\n${topLines}\n\n[📊 Latest Report](${DASHBOARD_URL}) · [📅 Historical](${HISTORICAL_URL})`,
   attachments: [{
     contentType: 'application/vnd.microsoft.card.adaptive',
     content: adaptiveCard,

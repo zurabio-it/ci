@@ -48,7 +48,7 @@
         ],
         "competitors_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
         "keywords": [
-          "Systemic sclerosis"
+          "Systemic sclerosis (SSc)"
         ],
         "keywords_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
         "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics for an upfront payment of $450 million and potential milestone payments up to $1.75 billion (total $2.2 billion). Candid is developing T-cell engagers (TCEs) CND-101 and CND-201 for B-cell mediated autoimmune diseases, specifically including systemic sclerosis (SSc) and systemic lupus erythematosus (SLE).",
@@ -58,9 +58,7 @@
         "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
         "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
         "source_domain": "ucb.com",
-        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
-        "disease_area": "SSc",
-        "confidence": 85
+        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
       },
       {
         "source_type": "Press Release",
@@ -70,7 +68,7 @@
         ],
         "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
         "keywords": [
-          "Hidradenitis suppurativa"
+          "Hidradenitis suppurativa (HS)"
         ],
         "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
         "summary": "Avalo Therapeutics announced it has entered into an agreement to purchase an optional milestone buyout related to its acquisition of AlmataBio. The lead asset involved, abdakibart (AVTX-009), an IL-1β inhibitor, is currently in the Phase 2 LOTUS clinical trial for the treatment of moderate-to-severe hidradenitis suppurativa (HS).",
@@ -80,9 +78,7 @@
         "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
         "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
         "source_domain": "avalotx.com",
-        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
-        "disease_area": "HS",
-        "confidence": 85
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout"
       },
       {
         "source_type": "Press Release",
@@ -100,19 +96,33 @@
         "source_link": "https://www.prnewswire.com/news-releases/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-approved-in-australia1-302760088.html",
         "source_link_citation": "https://www.prnewswire.com/news-releases/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-approved-in-australia1-302760088.html",
         "source_domain": "prnewswire.com",
-        "source_domain_citation": "https://www.prnewswire.com/news-releases/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-approved-in-australia1-302760088.html",
-        "disease_area": "Other",
-        "confidence": 75
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/new-first-in-class-therapy-for-chronic-graft-versus-host-disease-approved-in-australia1-302760088.html"
+      },
+      {
+        "source_type": "Article",
+        "source_type_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "keywords": [],
+        "keywords_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "summary": "An article in Dermatology Times titled 'Translational Takeaways: May 3, 2026' discusses the phase 2a EVERLAST-A trial data for ORKA-001 (Oruka Therapeutics). The study demonstrated a week-16 PASI 100 rate of 63.5% in patients with moderate-to-severe plaque psoriasis, highlighting the drug's potential for infrequent annual dosing.",
+        "summary_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "publication_date": "2026-05-03",
+        "publication_date_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "source_link": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "source_link_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026",
+        "source_domain": "dermatologytimes.com",
+        "source_domain_citation": "https://www.dermatologytimes.com/view/translational-takeaways-may-3-2026"
       },
       {
         "source_type": "Scientific Publication",
         "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
         "keywords": [
-          "Hidradenitis suppurativa"
+          "Hidradenitis suppurativa (HS)"
         ],
         "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
         "summary": "A review article published on May 3, 2026, titled 'The Genetics of Hidradenitis Suppurativa' details the current understanding of the genetic architecture of HS, including the role of the Notch signaling pathway and rare genetic variants in disease pathogenesis.",
@@ -122,19 +132,15 @@
         "source_link": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
         "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
         "source_domain": "pubmed.ncbi.nlm.nih.gov",
-        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/",
-        "disease_area": "HS",
-        "confidence": 75
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42057800/"
       },
       {
         "source_type": "Scientific Publication",
         "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
         "keywords": [
-          "Hidradenitis suppurativa"
+          "Hidradenitis suppurativa (HS)"
         ],
         "keywords_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
         "summary": "A research study published on PubMed on May 3, 2026, investigates the 'Risk of Cancer in Patients with Hidradenitis Suppurativa', identifying significant associations between HS and increased risks of squamous cell carcinoma, buccal cancer, and liver cancer.",
@@ -144,16 +150,12 @@
         "source_link": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
         "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
         "source_domain": "pubmed.ncbi.nlm.nih.gov",
-        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/",
-        "disease_area": "HS",
-        "confidence": 75
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/41811683/"
       },
       {
         "source_type": "Scientific Publication",
         "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/42059024/",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/42059024/",
         "keywords": [
           "IL-17"
@@ -166,9 +168,27 @@
         "source_link": "https://pubmed.ncbi.nlm.nih.gov/42059024/",
         "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/42059024/",
         "source_domain": "pubmed.ncbi.nlm.nih.gov",
-        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42059024/",
-        "disease_area": "Other",
-        "confidence": 75
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/42059024/"
+      },
+      {
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "keywords": [
+          "Hidradenitis suppurativa (HS)"
+        ],
+        "keywords_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "summary": "The ClinicalTrials.gov entry for the Phase 2 LOTUS trial (NCT06603077) of AVTX-009 (abdakibart) in patients with moderate-to-severe hidradenitis suppurativa was updated on May 3, 2026, confirming the completion of patient enrollment with a final count of approximately 250 participants.",
+        "summary_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "publication_date": "2026-05-03",
+        "publication_date_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "source_link": "https://clinicaltrials.gov/study/NCT06603077",
+        "source_link_citation": "https://clinicaltrials.gov/study/NCT06603077",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "https://clinicaltrials.gov/study/NCT06603077"
       }
     ]
   },

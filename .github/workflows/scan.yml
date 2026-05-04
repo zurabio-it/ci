@@ -3,7 +3,6 @@ name: Daily Competitive Intelligence Scan
 on:
   schedule:
     - cron: '0 12 * * 1-5'   # 8 AM EDT (12 PM UTC) weekdays
-    - cron: '0 17 * * 1-5'   # 1 PM EDT (5 PM UTC) fallback if 8 AM was skipped
   workflow_dispatch:           # manual trigger from GitHub UI
 
 permissions:

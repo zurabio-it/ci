@@ -77,6 +77,48 @@
     "findings": [
       {
         "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "competitors": [
+          "UCB",
+          "Candid"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "keywords": [
+          "Systemic sclerosis",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.ucb.com/investors",
+        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics for up to $2.2 billion. The deal focuses on Candid's B-cell depleting T-cell engagers, with cizutamig being explored for systemic sclerosis and other immunology conditions. The acquisition strengthens UCB's existing pipeline which already includes treatments for hidradenitis suppurativa.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_link": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260503595444/en/UCB-to-Acquire-Candid-Therapeutics-Building-Upon-Its-Existing-Immunology-Pipeline-With-Novel-T-cell-Engagers"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.biospace.com/press-releases/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-in-hidradenitis-suppurativa-at-the-2026-american-academy-of-dermatology-aad-annual-meeting",
+        "summary": "Incyte reported Q1 2026 financial results and provided a corporate update, highlighting 54-week data for povorcitinib in hidradenitis suppurativa showing sustained efficacy. The company also announced leadership changes and continued progress in its JAK inhibitor and immunology portfolio.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides",
+        "source_domain": "incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-first-quarter-2026-financial-results-and-provides"
+      },
+      {
+        "source_type": "Press Release",
         "source_type_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
         "competitors": [
           "ANAB"
@@ -94,9 +136,7 @@
         "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptysbio-reports-q1-2026-financial-results",
         "source_link_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
         "source_domain": "anaptysbio.com",
-        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptysbio-reports-q1-2026-financial-results",
-        "disease_area": "HS",
-        "confidence": 95
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptysbio-reports-q1-2026-financial-results"
       },
       {
         "source_type": "Press Release",
@@ -116,9 +156,7 @@
         "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-reports-first-quarter-2026-financial",
         "source_link_citation": "https://www.marketbeat.com/instant-alerts/moonlake-immunotherapeutics-mltx-to-release-earnings-on-monday-2026-05-04/",
         "source_domain": "moonlaketx.com",
-        "source_domain_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-reports-first-quarter-2026-financial",
-        "disease_area": "HS",
-        "confidence": 95
+        "source_domain_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-reports-first-quarter-2026-financial"
       },
       {
         "source_type": "Press Release",
@@ -138,9 +176,7 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
         "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
-        "disease_area": "SSc",
-        "confidence": 95
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
       },
       {
         "source_type": "Press Release",
@@ -160,9 +196,7 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
         "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
-        "disease_area": "HS",
-        "confidence": 95
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html"
       },
       {
         "source_type": "Press Release",
@@ -182,9 +216,27 @@
         "source_link": "https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html",
         "source_link_citation": "https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html",
         "source_domain": "prnewswire.com",
-        "source_domain_citation": "https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html",
-        "disease_area": "Other",
-        "confidence": 95
+        "source_domain_citation": "https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "summary": "Avalo Therapeutics announced the purchase of an optional milestone buyout for its lead asset AVTX-009 (abdakibart). The asset is currently in the Phase 2 LOTUS trial for hidradenitis suppurativa, with data expected in Q2 2026. This move simplifies the future economics of the program.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout",
+        "source_domain": "avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/219/avalo-therapeutics-purchases-optional-milestone-buyout"
       },
       {
         "source_type": "Press Release",
@@ -205,16 +257,12 @@
         "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286605/0/en/windward-bio-announces-165m-crossover-financing-to-advance-pipeline-of-long-acting-immunology-therapies-with-best-in-disease-potential.html",
         "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286605/0/en/windward-bio-announces-165m-crossover-financing-to-advance-pipeline-of-long-acting-immunology-therapies-with-best-in-disease-potential.html",
         "source_domain": "globenewswire.com",
-        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286605/0/en/windward-bio-announces-165m-crossover-financing-to-advance-pipeline-of-long-acting-immunology-therapies-with-best-in-disease-potential.html",
-        "disease_area": "Other",
-        "confidence": 95
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286605/0/en/windward-bio-announces-165m-crossover-financing-to-advance-pipeline-of-long-acting-immunology-therapies-with-best-in-disease-potential.html"
       },
       {
         "source_type": "Scientific Publication",
         "source_type_citation": "https://pubmed.ncbi.nlm.nih.gov/41915169/",
-        "competitors": [
-          "Keyword matched"
-        ],
+        "competitors": [],
         "competitors_citation": "https://pubmed.ncbi.nlm.nih.gov/41915169/",
         "keywords": [
           "IL-33"
@@ -227,9 +275,7 @@
         "source_link": "https://pubmed.ncbi.nlm.nih.gov/41915169/",
         "source_link_citation": "https://pubmed.ncbi.nlm.nih.gov/41915169/",
         "source_domain": "pubmed.ncbi.nlm.nih.gov",
-        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/41915169/",
-        "disease_area": "Other",
-        "confidence": 85
+        "source_domain_citation": "https://pubmed.ncbi.nlm.nih.gov/41915169/"
       }
     ]
   },

@@ -103,6 +103,7 @@ export const BLOCKED_DOMAINS = [
   'stocktitan.net', 'investing.com', 'marketwatch.com', 'finance.yahoo.com',
   'markets.businessinsider.com', 'thestreet.com', 'investorplace.com',
   'prnewswire.com.com', 'globenewswire.com.com',
+  'ajmc.com', 'managedhealthcareexecutive.com', 'pharmacytimes.com',
 ];
 
 // Source types that must come directly from a trusted domain (competitor IR, newswire, or regulator).
@@ -117,6 +118,8 @@ export const STALE_PHRASES = [
   'last month', 'last year', 'last quarter', 'earlier this year', 'previously announced',
   'as previously reported', 'months ago', 'years ago', 'back in 20', 'announced in 20',
   'reported in 20', 'in a prior', 'retrospective',
+  'analyses from the phase', 'data from the phase', 'results from the phase',
+  'post-hoc', 'post hoc', 'subgroup analysis',
 ];
 
 export function isStaleContent(finding) {
@@ -134,6 +137,11 @@ export function isStaleContent(finding) {
   const isPrimaryType = PRIMARY_ONLY_SOURCE_TYPES.some(t => sourceType.includes(t));
   const isTrusted = TRUSTED_DOMAINS.some(d => domain.includes(d));
   if (isPrimaryType && !isTrusted) return true;
+
+  // ClinicalTrials.gov updates with no competitor match are generic trials
+  // unrelated to Zura Bio's competitive landscape — drop them.
+  const hasNoCompetitor = (finding.competitors ?? []).every(c => c === 'Keyword matched');
+  if (domain.includes('clinicaltrials.gov') && hasNoCompetitor) return true;
 
   return false;
 }

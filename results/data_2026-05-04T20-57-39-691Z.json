@@ -1,0 +1,250 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html"
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "competitors": [
+          "UCB",
+          "Candid"
+        ],
+        "competitors_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "keywords": [],
+        "keywords_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "summary": "UCB announced an agreement to acquire Candid Therapeutics for up to $2.2 billion to strengthen its immunology pipeline with novel T-cell engagers (TCEs) for autoimmune diseases. The acquisition includes two bispecific TCE assets.",
+        "summary_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "source_link": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "source_link_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "source_domain": "ucb-usa.com",
+        "source_domain_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "competitors": [],
+        "competitors_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "keywords": [
+          "COPD",
+          "IL-33",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "summary": "AstraZeneca reported that its IL-33-targeting monoclonal antibody, tozorakimab, met the primary endpoint in the Phase III MIRANDA trial for patients with COPD, representing the third positive pivotal trial for the drug in this patient population.",
+        "summary_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_link_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html",
+        "source_domain": "astrazeneca.com",
+        "source_domain_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "summary": "Insmed announced its scheduled presentations for the ATS 2026 International Conference, which will include late-breaking data from the Phase 3b ENCORE study of ARIKAYCE and updates on its COPD programs.",
+        "summary_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "source_link": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "source_link_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "source_domain": "insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "summary": "Incyte presented positive 54-week results from its Phase 2 study of povorcitinib in moderate-to-severe Hidradenitis Suppurativa, showing sustained efficacy across primary and secondary endpoints.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "source_domain": "incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "summary": "Vera Therapeutics announced its participation in the Bank of America Securities 2026 Health Care Conference on May 4, 2026. The company discussed its development of atacicept, which targets BAFF and APRIL.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "keywords": [],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "summary": "InflaRx reported results from studies evaluating the reactive metabolite profile of its C5a inhibitor izicopan, showing favorable results in human liver microsomes that support the therapeutic's safety.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "summary": "Avalo Therapeutics provided a clinical update on May 4, 2026, confirming the progress of its Phase 2 LOTUS trial of AVTX-009 for the treatment of moderate-to-severe Hidradenitis Suppurativa.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
+        "source_domain": "avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "keywords": [],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "summary": "Xencor announced a webcast on May 4, 2026, to discuss clinical results for XmAb942 and XmAb412 being presented at the DDW 2026 conference.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "source_link": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW"
+      },
+      {
+        "source_type": "Earnings Report",
+        "source_type_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "keywords": [],
+        "keywords_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "summary": "AnaptysBio announced its Q1 2026 financial results on May 4, 2026, and provided a business update following the successful spin-off of its biopharma operations into First Tracks Biotherapeutics.",
+        "summary_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "source_link": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "source_link_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-05T20:57:38.795Z",
+  "creditsUsed": 473
+}

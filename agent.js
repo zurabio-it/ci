@@ -93,8 +93,21 @@ await Promise.all(allFindings.map(async f => {
   }
 }));
 
+// Drop findings older than 2 days — only keep today and yesterday to account
+// for timezone differences. Filters out old articles the agent surface for the first time.
+const cutoff = new Date();
+cutoff.setDate(cutoff.getDate() - 2);
+const cutoffStr = cutoff.toISOString().slice(0, 10);
+const dateFiltered = allFindings.filter(f => {
+  const pub = (f.publication_date ?? '').slice(0, 10);
+  if (!pub) return true; // no date — let other filters decide
+  return pub >= cutoffStr;
+});
+const dateDropped = allFindings.length - dateFiltered.length;
+if (dateDropped > 0) console.log(`Date filter dropped ${dateDropped} finding(s) older than 2 days.`);
+
 // Filter stale and low-quality sources
-const qualityFindings = allFindings.filter(f => !isStaleContent(f));
+const qualityFindings = dateFiltered.filter(f => !isStaleContent(f));
 const staleDropped = allFindings.length - qualityFindings.length;
 if (staleDropped > 0) console.log(`Quality filter dropped ${staleDropped} stale/low-quality finding(s).`);
 

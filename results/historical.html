@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-04, 8:48:00 p.m. &nbsp;|&nbsp; 38 runs &nbsp;|&nbsp; 336 unique findings</div>
+  <div class="meta">Generated 2026-05-05, 8:26:37 a.m. &nbsp;|&nbsp; 39 runs &nbsp;|&nbsp; 338 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">336</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">38</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">338</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">39</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">64</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">51</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">336</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">338</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -93,11 +93,11 @@
         <div class="divider">— or set custom range —</div>
         <div class="date-row">
           <label>From</label>
-          <input type="date" id="date-from" min="2026-01-21" max="2026-05-04">
+          <input type="date" id="date-from" min="2026-01-21" max="2026-05-05">
         </div>
         <div class="date-row">
           <label>To</label>
-          <input type="date" id="date-to" min="2026-01-21" max="2026-05-04">
+          <input type="date" id="date-to" min="2026-01-21" max="2026-05-05">
         </div>
       </div>
       <div class="panel">
@@ -2617,10 +2617,27 @@
     <div class="section-header">
       <span class="section-dot" style="background:#6b7280"></span>
       <span class="section-title">Other</span>
-      <span class="section-count">193</span>
+      <span class="section-count">195</span>
     </div>
     <div class="grid section-grid">
       
+  <div class="card"
+    data-competitors="keyword matched"
+    data-keywords="copd|il-33"
+    data-source="Clinical Trial Update"
+    data-date="2026-05-05"
+    data-confidence="85"
+    data-area="Other">
+    <div class="card-header">
+      <span class="badge" style="background:#9333ea">Clinical Trial Update</span>
+      <span class="competitor-tag">Keyword matched</span>
+      <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 85/100">High · 85</span>
+    </div>
+    <p class="summary">A study update was posted on ClinicalTrials.gov for tozorakimab in patients with COPD. The study (NCT07566195) is a long-term safety and tolerability study of the IL-33 inhibitor in patients who completed a prior tozorakimab trial.</p>
+    <a class="source-link" href="https://clinicaltrials.gov/study/NCT07566195" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-05 · clinicaltrials.gov</div>
+  </div>
   <div class="card"
     data-competitors="insm"
     data-keywords="copd"
@@ -2773,6 +2790,23 @@
     <p class="summary">Anaptys Bio announced its management will participate in the H.C. Wainwright 2nd Annual Royalty Company Virtual Conference, providing updates on imsidolimab and other royalty-bearing assets.</p>
     <a class="source-link" href="https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html" target="_blank" rel="noopener">View Source →</a>
     <div class="card-domain">📅 2026-05-04 · globenewswire.com</div>
+  </div>
+  <div class="card"
+    data-competitors="orka"
+    data-keywords=""
+    data-source="Press Release"
+    data-date="2026-05-04"
+    data-confidence="50"
+    data-area="Other">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">ORKA</span>
+      
+      <span class="confidence-badge" style="background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence: 50/100">Medium · 50</span>
+    </div>
+    <p class="summary">Oruka Therapeutics announced positive Week 16 data for its lead asset ORKA-001 in a Phase 1 study and concurrently priced an upsized $700.4 million public offering of common stock to fund its extended half-life antibody portfolio.</p>
+    <a class="source-link" href="https://allsci.com/news/funding/oruka-therapeutics-raises-usd-700-4m-in-underwritten-public-offering/" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-04 · allsci.com</div>
   </div>
   <div class="card"
     data-competitors="candid|ucb"
@@ -5915,7 +5949,7 @@
   const countEl = document.getElementById('results-count');
 
   const DATA_MIN = '2026-01-21';
-  const DATA_MAX = '2026-05-04';
+  const DATA_MAX = '2026-05-05';
 
   function toISO(d) { return d.toISOString().slice(0, 10); }
 
@@ -5949,7 +5983,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 336 findings';
+    countEl.textContent = visible + ' of 338 findings';
   }
 
   function applyFilters() {

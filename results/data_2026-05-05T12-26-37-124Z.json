@@ -1,0 +1,249 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Competitor identified from May 4-5, 2026 research."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "Keyword identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Keyword identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Keyword identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Keyword identified from May 4-5, 2026 research."
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Keyword identified from May 4-5, 2026 research."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "UCB official press release published May 3/4, 2026.",
+        "competitors": [
+          "UCB",
+          "Candid"
+        ],
+        "competitors_citation": "Directly mentions UCB's acquisition of Candid Therapeutics.",
+        "keywords": [],
+        "keywords_citation": "No specific user keywords (like SSc or HS) were explicitly found in the short press release text, though lead asset Cizutamig targets autoimmune diseases.",
+        "summary": "UCB announced a definitive agreement to acquire clinical-stage biotechnology company Candid Therapeutics for up to $2.2 billion. The deal includes Candid's lead asset, cizutamig (a BCMA x CD3 bispecific antibody), which is being evaluated in multiple clinical studies for autoimmune diseases.",
+        "summary_citation": "Extracted from UCB press release dated May 3, 2026 (announced Sunday, widespread on May 4).",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Announced May 3, widespread on May 4, 2026.",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers",
+        "source_link_citation": "Official UCB website.",
+        "source_domain": "ucb.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire press release published May 4, 2026.",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "Press release from InflaRx (IFRX).",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Article mentions development of izicopan for several inflammatory diseases, including hidradenitis suppurativa.",
+        "summary": "InflaRx reported favorable reactive metabolite data for its oral C5aR1 inhibitor, izicopan (INF904). The results from human liver microsome studies support a favorable safety profile compared to other C5aR1 inhibitors. Izicopan is being developed for hidradenitis suppurativa.",
+        "summary_citation": "Summarized from InflaRx press release on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html",
+        "source_link_citation": "GlobeNewswire distribution.",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Business Wire press release published May 4, 2026.",
+        "competitors": [],
+        "competitors_citation": "None of the specific competitor tickers mentioned in the summary, but relevant to keywords.",
+        "keywords": [
+          "BAFF",
+          "Systemic sclerosis",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Article title and content explicitly mention BAFF inhibition in systemic sclerosis and hidradenitis suppurativa (HS).",
+        "summary": "Zura Bio reported inducement grants and highlighted its progress in BAFF inhibition. The company is advancing TibuSURE for systemic sclerosis and mentioned its programs in hidradenitis suppurativa (HS).",
+        "summary_citation": "Summarized from Business Wire release on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "source_link_citation": "Business Wire.",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire press release published May 4, 2026.",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Press release from Insmed (INSM).",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Content mentions respiratory portfolio data related to chronic obstructive pulmonary disease (COPD) exacerbations.",
+        "summary": "Insmed announced its participation at the ATS 2026 International Conference, where it presented late-breaking Phase 3b ENCORE results for ARIKAYCE and provided data across its respiratory portfolio, including COPD-related exacerbation data.",
+        "summary_citation": "Summarized from Insmed press release on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html",
+        "source_link_citation": "PR Newswire.",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "GlobeNewswire press release published May 4, 2026.",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "Press release from Vera Therapeutics (VERA).",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "Mentions atacicept as a dual inhibitor of BAFF and APRIL.",
+        "summary": "Vera Therapeutics announced it will participate in the Bank of America Securities 2026 Health Care Conference on May 13, 2026. The presentation will cover its lead program atacicept, which inhibits BAFF and APRIL to treat certain autoimmune diseases.",
+        "summary_citation": "Summarized from Vera Therapeutics press release on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html",
+        "source_link_citation": "GlobeNewswire.",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Kymera official press release published May 4, 2026.",
+        "competitors": [
+          "KYMR",
+          "GLUE"
+        ],
+        "competitors_citation": "Mentions Kymera (KYMR) and its molecular glue collaboration/degrader focus (Gilead advancing KT-200, a molecular glue).",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Mentions clinical progress of KT-474 in Phase 2 trials for hidradenitis suppurativa.",
+        "summary": "Kymera Therapeutics reported Q1 2026 financial results, including $34.4 million in collaboration revenue. The company highlighted clinical progress for KT-474 (IRAK4 degrader) in Phase 2 studies for hidradenitis suppurativa and announced Gilead's decision to advance KT-200 (CDK2 molecular glue).",
+        "summary_citation": "Summarized from Kymera IR news on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-first-quarter-2026-financial",
+        "source_link_citation": "Kymera IR website.",
+        "source_domain": "kymeratx.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Clinical Trial Update",
+        "source_type_citation": "ClinicalTrials.gov record update on May 5, 2026.",
+        "competitors": [],
+        "competitors_citation": "No target competitors mentioned in trial record.",
+        "keywords": [
+          "COPD",
+          "IL-33"
+        ],
+        "keywords_citation": "Record NCT07566195 for tozorakimab (IL-33 inhibitor) in patients with COPD.",
+        "summary": "A study update was posted on ClinicalTrials.gov for tozorakimab in patients with COPD. The study (NCT07566195) is a long-term safety and tolerability study of the IL-33 inhibitor in patients who completed a prior tozorakimab trial.",
+        "summary_citation": "Extracted from ClinicalTrials.gov record dated May 5, 2026.",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "Date confirmed from record history as May 5, 2026.",
+        "source_link": "https://clinicaltrials.gov/study/NCT07566195",
+        "source_link_citation": "Official ClinicalTrials.gov record.",
+        "source_domain": "clinicaltrials.gov",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "AllSci / Oruka news on May 4, 2026.",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "Mentions Oruka Therapeutics (ORKA).",
+        "keywords": [],
+        "keywords_citation": "No specific user keywords mentioned in the offering news summary, though Oruka's pipeline is immunology-focused.",
+        "summary": "Oruka Therapeutics announced positive Week 16 data for its lead asset ORKA-001 in a Phase 1 study and concurrently priced an upsized $700.4 million public offering of common stock to fund its extended half-life antibody portfolio.",
+        "summary_citation": "Summarized from Oruka news on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://allsci.com/news/funding/oruka-therapeutics-raises-usd-700-4m-in-underwritten-public-offering/",
+        "source_link_citation": "AllSci news outlet.",
+        "source_domain": "allsci.com",
+        "source_domain_citation": "Domain derived from source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "MarketBeat / AnaptysBio IR on May 4, 2026.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Mentions AnaptysBio (ANAB).",
+        "keywords": [
+          "IL-33",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Mentions imunapticept (IL-33 inhibitor) and pipeline for HS.",
+        "summary": "AnaptysBio reported Q1 2026 financial results on May 4, 2026. The company provided updates on its portfolio of 'best-in-class' immunology assets, including imunapticept (anti-IL-33) and rosnilimab (PD-1 agonist), with continued enrollment in Phase 2 trials.",
+        "summary_citation": "Summarized from AnaptysBio earnings report on May 4, 2026.",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "Date confirmed as May 4, 2026.",
+        "source_link": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/",
+        "source_link_citation": "MarketBeat earnings report.",
+        "source_domain": "marketbeat.com",
+        "source_domain_citation": "Domain derived from source link."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-06T12:26:36.441Z",
+  "creditsUsed": 1496
+}

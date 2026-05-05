@@ -4,138 +4,242 @@
   "data": {
     "competitors": [
       {
-        "value": "UCB",
-        "value_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+        "value": "AVTX",
+        "value_citation": "Monitoring list"
       },
       {
-        "value": "Candid",
-        "value_citation": "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/ucb-to-acquire-candid-therapeutics-building-upon-its-existing-immunology-pipeline-with-novel-t-cell-engagers"
+        "value": "MLTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring list"
       },
       {
         "value": "INSM",
-        "value_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026"
+        "value_citation": "Monitoring list"
       },
       {
-        "value": "INCY",
-        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
-      },
-      {
-        "value": "VERA",
-        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
-      },
-      {
-        "value": "IFRX",
-        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286600/0/en/inflarx-reports-favorable-reactive-metabolite-profile-for-izicopan-in-human-liver-microsomes.html"
-      },
-      {
-        "value": "AVTX",
-        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
-      },
-      {
-        "value": "XNCR",
-        "value_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW"
+        "value": "ACRS",
+        "value_citation": "Monitoring list"
       },
       {
         "value": "ANAB",
-        "value_citation": "https://www.marketbeat.com/earnings/reports/2026-5-4-anaptysbio-inc-stock/"
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring list"
       }
     ],
     "keywords": [
       {
         "value": "Hidradenitis suppurativa",
-        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+        "value_citation": "Monitoring list"
       },
       {
-        "value": "HS",
-        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad"
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring list"
       },
       {
         "value": "COPD",
-        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+        "value_citation": "Monitoring list"
       },
       {
         "value": "IL-33",
-        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitoring list"
       },
       {
         "value": "BAFF",
-        "value_citation": "https://www.globenewswire.com/news-release/2026/05/04/3286607/0/en/vera-therapeutics-to-participate-in-the-bank-of-america-securities-2026-health-care-conference.html"
-      },
-      {
-        "value": "chronic obstructive pulmonary disease",
-        "value_citation": "https://www.astrazeneca.com/media-centre/press-releases/2026/third-tozorakimab-positive-phase-iii-in-copd.html"
+        "value_citation": "Monitoring list"
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
         "competitors": [
-          "INCY"
+          "VERA"
         ],
-        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
         "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
+          "BAFF"
         ],
-        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
-        "summary": "Incyte presented positive 54-week results from its Phase 2 study of povorcitinib in moderate-to-severe Hidradenitis Suppurativa, showing sustained efficacy across primary and secondary endpoints.",
-        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "summary": "Vera Therapeutics will participate in the Bank of America Securities 2026 Health Care Conference, discussing its lead drug atacicept, a dual inhibitor of BAFF and APRIL for IgA nephropathy.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
         "publication_date": "2026-05-04",
-        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
-        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
-        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
-        "source_domain": "incyte.com",
-        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-new-positive-54-week-late-breaking-data-for-povorcitinib-hidradenitis-suppurativa-2026-aad",
-        "disease_area": "HS",
-        "confidence": 95
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "competitors": [
-          "AVTX"
-        ],
-        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "summary": "Avalo Therapeutics provided a clinical update on May 4, 2026, confirming the progress of its Phase 2 LOTUS trial of AVTX-009 for the treatment of moderate-to-severe Hidradenitis Suppurativa.",
-        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "publication_date": "2026-05-04",
-        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "source_domain": "avalotx.com",
-        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases",
-        "disease_area": "HS",
-        "confidence": 95
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "competitors": [
-          "XNCR"
-        ],
-        "competitors_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "keywords": [],
-        "keywords_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "summary": "Xencor announced a webcast on May 4, 2026, to discuss clinical results for XmAb942 and XmAb412 being presented at the DDW 2026 conference.",
-        "summary_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "publication_date": "2026-05-04",
-        "publication_date_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "source_link": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "source_link_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "source_domain": "businesswire.com",
-        "source_domain_citation": "https://www.businesswire.com/news/home/20260504721570/en/Xencor-to-Host-Webcast-to-Discuss-XmAb942-and-XmAb412-Data-Presentations-at-DDW",
-        "disease_area": "Other",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "source_domain": "veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "disease_area": "SSc",
         "confidence": 85
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Systemic sclerosis",
+          "IL-17",
+          "BAFF"
+        ],
+        "keywords_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "summary": "Zura Bio Ltd. shared clinical progress for tibulizumab (ZB-106), a dual antagonist of IL-17A and BAFF, currently in Phase 2 for HS and Systemic Sclerosis.",
+        "summary_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "source_link": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "source_link_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "source_domain": "businesswire.com",
+        "source_domain_citation": "https://www.businesswire.com/news/home/20260504865719/en/Zura-Bio-Reports-Inducement-Grants-under-Nasdaq-Listing-Rule-5635c4",
+        "disease_area": "HS",
+        "confidence": 75
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "competitors": [
+          "Candid",
+          "UCB"
+        ],
+        "competitors_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "summary": "Candid Therapeutics was acquired by UCB S.A. for up to $2.2 billion, bringing Candid's pipeline of T-cell engagers (TCEs) for autoimmune diseases like systemic sclerosis to UCB.",
+        "summary_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "source_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1739410&type=8-K&dateb=&owner=include&count=10",
+        "source_link_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526202601/d19625d8k.htm",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "keywords": [],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "summary": "Vor Bio reported the granting of stock options to new employees as an inducement to join the company, in accordance with Nasdaq listing rules.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287173/0/en/Vor-Bio-Reports-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+        "disease_area": "Other",
+        "confidence": 75
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "keywords": [],
+        "keywords_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "summary": "Anaptys Bio announced its management will participate in the H.C. Wainwright 2nd Annual Royalty Company Virtual Conference, providing updates on imsidolimab and other royalty-bearing assets.",
+        "summary_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "source_link": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "source_link_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "source_domain": "globenewswire.com",
+        "source_domain_citation": "https://www.globenewswire.com/news-release/2026/05/04/3287160/0/en/Anaptys-to-Participate-at-the-H-C-Wainwright-2nd-Annual-Royalty-Company-Virtual-Conference.html",
+        "disease_area": "Other",
+        "confidence": 75
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-05T20:57:38.795Z",
-  "creditsUsed": 473
+  "expiresAt": "2026-05-06T00:47:57.869Z",
+  "creditsUsed": 5392
 }

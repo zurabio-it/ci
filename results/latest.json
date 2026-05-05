@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Avalo Therapeutics Announces Completion of Enrollment in Phase 2 LOTUS Trial, BioSpace, May 5, 2026"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Q32 Bio Reports First Quarter 2026 Financial Results, Q32 Bio IR, May 5, 2026"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Xencor to Host Webcast to Discuss XmAb942 and XmAb412 Data, SEC Form 8-K, May 5, 2026"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "UCB is buying Candid Therapeutics, MMM Online, May 5, 2026"
+      },
+      {
+        "value": "Candid",
+        "value_citation": "UCB is buying Candid Therapeutics, MMM Online, May 5, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Avalo Therapeutics Announces Completion of Enrollment in Phase 2 LOTUS Trial, BioSpace, May 5, 2026"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Altesa BioSciences Enrolls First Patient in Phase 2b CARDINAL Clinical Trial, PR Newswire, May 5, 2026"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Long-term Safety and Tolerability of Tozorakimab in Patients With COPD, ClinicalTrials.gov (NCT07566195), May 5, 2026"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Structural rewiring of IL-7R dimerization, PNAS, May 5, 2026"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Xencor to Host Webcast to Discuss XmAb942 Data, SEC Form 8-K, May 5, 2026"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Q32 Bio Reports First Quarter 2026 Financial Results, Q32 Bio IR, May 5, 2026"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "CD14+CD16+ monocyte-derived TREM2 macrophages promote lung fibrosis in SSc-ILD, Frontiers in Immunology, May 5, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Q32 Bio IR, May 5, 2026",
+        "competitors": [
+          "QTTB"
+        ],
+        "competitors_citation": "Q32 Bio (Nasdaq: QTTB) reports financial results.",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "Q32 is developing bempikibart (ADX-914), a dual inhibitor of IL-21 and BAFF.",
+        "summary": "Q32 Bio reported its Q1 2026 financial results and provided a corporate update, highlighting progress in its clinical-stage pipeline, including the dual BAFF/IL-21 inhibitor bempikibart.",
+        "summary_citation": "Q32 Bio Reports First Quarter 2026 Financial Results, Q32 Bio IR, May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "Q32 Bio IR, May 5, 2026",
+        "source_link": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and-provides",
+        "source_link_citation": "Q32 Bio IR, May 5, 2026",
+        "source_domain": "q32bio.com",
+        "source_domain_citation": "Q32 Bio IR, May 5, 2026",
+        "disease_area": "SSc",
+        "confidence": 95
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "SEC Form 8-K, May 5, 2026",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "Xencor, Inc. (XNCR) provided a corporate update.",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "Xencor is developing XmAb942, an IL-17/IL-23 inhibitor.",
+        "summary": "Xencor furnished a corporate presentation current as of May 5, 2026, and hosted a webcast to discuss clinical data for XmAb942 (an IL-17 x IL-23 bispecific) and XmAb412 presented at DDW.",
+        "summary_citation": "Xencor SEC Form 8-K dated May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "Xencor SEC Form 8-K dated May 5, 2026",
+        "source_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1326732&type=8-K&dateb=&owner=include&count=10",
+        "source_link_citation": "Xencor SEC Form 8-K dated May 5, 2026",
+        "source_domain": "sec.gov",
+        "source_domain_citation": "SEC EDGAR database",
+        "disease_area": "Other",
+        "confidence": 100
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "PR Newswire, May 5, 2026",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitor from the list mentioned.",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Study evaluating treatment for patients with COPD.",
+        "summary": "Altesa BioSciences enrolled the first patient in its Phase 2b CARDINAL clinical trial of vapendavir, an oral antiviral being studied as a treatment for COPD exacerbations triggered by rhinovirus.",
+        "summary_citation": "Altesa BioSciences Enrolls First Patient in Phase 2b CARDINAL Clinical Trial, PR Newswire, May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "PR Newswire, May 5, 2026",
+        "source_link": "https://www.prnewswire.com/news-releases/altesa-biosciences-enrolls-first-patient-in-phase-2b-cardinal-clinical-trial-evaluating-vapendavir-as-transformational-treatment-for-patients-with-copd-impacted-by-rhinovirus-the-leading-cause-of-exacerbations-302762079.html",
+        "source_link_citation": "PR Newswire, May 5, 2026",
+        "source_domain": "prnewswire.com",
+        "source_domain_citation": "PR Newswire, May 5, 2026",
+        "disease_area": "Other",
+        "confidence": 85
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "PNAS, May 5, 2026",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitor from the list mentioned.",
+        "keywords": [
+          "IL-7R"
+        ],
+        "keywords_citation": "Research focusing on the IL-7 receptor (IL-7R).",
+        "summary": "A scientific publication in PNAS explores the structural mechanisms of IL-7R dimerization and identifies ways to reverse oncogenic transmembrane mutations through rational design, offering insights for IL-7R-targeted therapies.",
+        "summary_citation": "Structural rewiring of IL-7R dimerization by an oncogenic transmembrane mutation, PNAS, Vol. 123 No. 18, May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "PNAS Table of Contents, May 5, 2026",
+        "source_link": "https://www.pnas.org/doi/10.1073/pnas.2519111122",
+        "source_link_citation": "PNAS, May 5, 2026",
+        "source_domain": "pnas.org",
+        "source_domain_citation": "PNAS, May 5, 2026",
+        "disease_area": "SSc",
+        "confidence": 60
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Nature Communications, May 5, 2026",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitor from the list mentioned.",
+        "keywords": [
+          "IL-17"
+        ],
+        "keywords_citation": "Study investigating the IL-17-DUOX2 axis.",
+        "summary": "A study published in Nature Communications describes how the host IL-17-DUOX2 axis regulates the gastrointestinal colonization of Candida albicans.",
+        "summary_citation": "An IL-17-DUOX2 axis controls gastrointestinal colonization, Nature Communications, May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "Nature Communications, May 5, 2026",
+        "source_link": "https://www.nature.com/articles/s41467-026-72174-5",
+        "source_link_citation": "Nature Communications, May 5, 2026",
+        "source_domain": "nature.com",
+        "source_domain_citation": "Nature Communications, May 5, 2026",
+        "disease_area": "Other",
+        "confidence": 85
+      },
+      {
+        "source_type": "Scientific Publication",
+        "source_type_citation": "Frontiers in Immunology, May 5, 2026",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "No competitor from the list mentioned.",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "Research on systemic sclerosis-interstitial lung disease (SSc-ILD).",
+        "summary": "An article in Frontiers in Immunology investigates the role of monocyte-derived TREM2 macrophages in promoting lung fibrosis in patients with systemic sclerosis-interstitial lung disease (SSc-ILD).",
+        "summary_citation": "CD14+CD16+ monocyte-derived TREM2 macrophages promote lung fibrosis in SSc-ILD, Frontiers in Immunology, May 5, 2026",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "Frontiers in Immunology, May 5, 2026",
+        "source_link": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1748574/full",
+        "source_link_citation": "Frontiers in Immunology, May 5, 2026",
+        "source_domain": "frontiersin.org",
+        "source_domain_citation": "Frontiers in Immunology, May 5, 2026",
+        "disease_area": "SSc",
+        "confidence": 60
+      },
+      {
+        "source_type": "Newswire",
+        "source_type_citation": "MMM Online, May 5, 2026",
+        "competitors": [
+          "UCB",
+          "Candid"
+        ],
+        "competitors_citation": "UCB is buying Candid Therapeutics for up to $2.2 Billion.",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Candid Therapeutics is focused on T-cell engagers for autoimmune diseases including HS.",
+        "summary": "UCB announced a definitive agreement to acquire Candid Therapeutics for up to $2.2 billion. Candid is a clinical-stage biotechnology company developing bispecific T-cell engagers for autoimmune and inflammatory diseases, with a pipeline including candidates for Hidradenitis Suppurativa.",
+        "summary_citation": "Five things for pharma marketers to know for Tuesday, May 5, 2026, MMM Online",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "MMM Online, May 5, 2026",
+        "source_link": "https://www.mmm-online.com/news/five-things-for-pharma-marketers-may-5-2026/",
+        "source_link_citation": "MMM Online, May 5, 2026",
+        "source_domain": "mmm-online.com",
+        "source_domain_citation": "MMM Online, May 5, 2026",
+        "disease_area": "HS",
+        "confidence": 60
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-06T17:12:24.073Z",
+  "creditsUsed": 425
+}

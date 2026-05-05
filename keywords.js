@@ -143,6 +143,16 @@ export function isStaleContent(finding) {
   const hasNoCompetitor = (finding.competitors ?? []).every(c => c === 'Keyword matched');
   if (domain.includes('clinicaltrials.gov') && hasNoCompetitor) return true;
 
+  // Drop findings whose source link is a generic index page rather than a
+  // specific article — signals the agent hallucinated content it couldn't source.
+  const link = (finding.source_link ?? '').toLowerCase().replace(/\/$/, '');
+  const GENERIC_PAGE_PATTERNS = [
+    /\/press-releases?$/, /\/news(-releases?)?$/, /\/newsroom$/, /\/news-events?$/,
+    /\/investor-relations?$/, /\/ir$/, /\/events?$/, /\/presentations?$/,
+    /\/pipeline$/, /\/about$/, /\/home$/, /\/(index|default)(\.html?)?$/,
+  ];
+  if (GENERIC_PAGE_PATTERNS.some(p => p.test(link))) return true;
+
   return false;
 }
 

@@ -1,32 +1,47 @@
 import fs from 'fs';
 
+const TEAMS_WEBHOOK = process.env.TEAMS_WEBHOOK_URL;
+const DASHBOARD_URL = 'https://ci.zurabio.com/';
+const HISTORICAL_URL = 'https://ci.zurabio.com/historical.html';
+const runDate = new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' });
+
+async function postToTeams(card) {
+  if (!TEAMS_WEBHOOK) { console.error('TEAMS_WEBHOOK_URL not set.'); return; }
+  const res = await fetch(TEAMS_WEBHOOK, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(card),
+  });
+  const body = await res.text();
+  if (res.ok) console.log('Teams notification sent.');
+  else console.error('Teams failed:', res.status, body);
+}
+
 if (!fs.existsSync('results/latest.json')) {
-  console.log('No latest.json — nothing to notify.');
+  console.log('No new findings — sending clean-run notice to Teams.');
+  await postToTeams({
+    type: 'AdaptiveCard',
+    $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
+    version: '1.4',
+    body: [
+      { type: 'TextBlock', text: 'Zura Bio — Competitive Intelligence', weight: 'Bolder', size: 'Large' },
+      { type: 'TextBlock', text: `✅ Scan complete — no new articles · ${runDate}`, wrap: true, color: 'Good' },
+      { type: 'TextBlock', text: 'All 20 competitor IR pages were checked. Nothing new since the last report.', wrap: true, size: 'Small', color: 'Default' },
+    ],
+    actions: [
+      { type: 'Action.OpenUrl', title: '📅 Historical Dashboard', url: HISTORICAL_URL },
+    ],
+  });
   process.exit(0);
 }
 
 const data = JSON.parse(fs.readFileSync('results/latest.json', 'utf8'));
 const findings = data?.data?.findings ?? data?.findings ?? [];
 
-if (findings.length === 0) {
-  console.log('No new findings — skipping Teams notification.');
-  process.exit(0);
-}
-
 const runDate = new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' });
 const uniqueCompetitors = [...new Set(findings.flatMap(f => f.competitors ?? []).filter(c => c !== 'Keyword matched'))];
 
-const DASHBOARD_URL = 'https://ci.zurabio.com/';
-const HISTORICAL_URL = 'https://ci.zurabio.com/historical.html';
-
 // ── Teams ──────────────────────────────────────────────────────────────────
-
-const TEAMS_WEBHOOK = process.env.TEAMS_WEBHOOK_URL;
-
-if (!TEAMS_WEBHOOK) {
-  console.error('TEAMS_WEBHOOK_URL not set in environment.');
-  process.exit(1);
-}
 
 function cleanSummary(raw) {
   return (raw ?? '')
@@ -68,22 +83,7 @@ const adaptiveCard = {
   ],
 };
 
-// Send the Adaptive Card directly as the body so Power Automate's
-// "Post card in a chat or channel" action can use triggerBody() as the card.
-const teamsPayload = adaptiveCard;
-
-const res = await fetch(TEAMS_WEBHOOK, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(teamsPayload)
-});
-
-const body = await res.text();
-if (res.ok) {
-  console.log('Teams notification sent successfully.');
-} else {
-  console.error('Teams failed:', res.status, body);
-}
+await postToTeams(adaptiveCard);
 
 // ── Email via Resend ───────────────────────────────────────────────────────
 

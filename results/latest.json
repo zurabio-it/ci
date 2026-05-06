@@ -5,65 +5,97 @@
     "competitors": [
       {
         "value": "AVTX",
-        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering"
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
       },
       {
         "value": "ACRS",
-        "value_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004"
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
       },
       {
         "value": "KYMR",
-        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579"
-      },
-      {
-        "value": "Kymera",
-        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579"
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
       },
       {
         "value": "GLUE",
-        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule"
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
       },
       {
-        "value": "Monte Rosa",
-        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule"
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
       },
       {
         "value": "XNCR",
-        "value_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036"
-      },
-      {
-        "value": "INCY",
-        "value_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036"
+        "value_citation": "https://investors.xencor.com/press-releases"
       },
       {
         "value": "KNSA",
-        "value_citation": "https://investors.kiniksa.com/sec-filings/sec-filing/4/0001741533-26-000008"
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
       },
       {
-        "value": "Q32 Bio",
-        "value_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and"
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
       },
       {
         "value": "QTTB",
-        "value_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and"
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
       }
     ],
     "keywords": [
       {
         "value": "Hidradenitis suppurativa",
-        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering"
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
       },
       {
         "value": "HS",
-        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering"
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
       },
       {
-        "value": "Hidradenitis suppurativa (HS)",
-        "value_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036"
-      },
-      {
-        "value": "Systemic sclerosis (SSc)",
-        "value_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036"
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
       },
       {
         "value": "IL-7R",
@@ -72,93 +104,48 @@
     ],
     "findings": [
       {
-        "source_type": "Press Release",
-        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "competitors": [
-          "AVTX"
-        ],
-        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "keywords": [
-          "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
-        ],
-        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "summary": "Avalo Therapeutics announced the pricing of an underwritten public offering of $375 million to fund the clinical development of abdakibart (AVTX-009). Abdakibart is an anti-IL-1β monoclonal antibody being developed for immune-mediated inflammatory diseases, with recently reported positive Phase 2 topline data in hidradenitis suppurativa (HS).",
-        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "publication_date": "May 5, 2026",
-        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "source_domain": "ir.avalotx.com",
-        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
-        "disease_area": "HS",
-        "confidence": 85
-      },
-      {
         "source_type": "SEC Filing",
-        "source_type_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
+        "source_type_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
         "competitors": [
-          "ACRS"
+          "XNCR"
         ],
-        "competitors_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
+        "competitors_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
         "keywords": [],
-        "keywords_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
-        "summary": "Aclaris Therapeutics filed an SEC Form 4 reporting changes in beneficial ownership for Jesse Wayne Hall, an officer of the company. The filing date is May 5, 2026.",
-        "summary_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
-        "publication_date": "May 5, 2026",
-        "publication_date_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
-        "source_link": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
-        "source_link_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
-        "source_domain": "investor.aclaristx.com",
-        "source_domain_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/4/0002065269-26-000004",
+        "keywords_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "summary": "Xencor filed an 8-K current report on May 5, 2026.",
+        "summary_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_link": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_link_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
         "disease_area": "Other",
         "confidence": 80
       },
       {
-        "source_type": "Press Release",
-        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "competitors": [
-          "GLUE",
-          "Monte Rosa"
-        ],
-        "competitors_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "keywords": [],
-        "keywords_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "summary": "Monte Rosa Therapeutics announced the granting of inducement stock options and restricted stock units to two new employees in accordance with Nasdaq Listing Rule 5635(c)(4).",
-        "summary_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "publication_date": "May 5, 2026",
-        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "source_domain": "ir.monterosatx.com",
-        "source_domain_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-reports-inducement-grants-under-nasdaq-listing-rule",
-        "disease_area": "Other",
-        "confidence": 75
-      },
-      {
         "source_type": "SEC Filing",
-        "source_type_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
+        "source_type_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
         "competitors": [
-          "GLUE",
-          "Monte Rosa"
+          "QTTB"
         ],
-        "competitors_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
+        "competitors_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
         "keywords": [],
-        "keywords_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
-        "summary": "An SEC Form 4 filing for Monte Rosa Therapeutics (GLUE) was submitted, reporting a change in beneficial ownership of securities by an insider of the company.",
-        "summary_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
-        "publication_date": "May 05, 2026",
-        "publication_date_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
-        "source_link": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
-        "source_link_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
-        "source_domain": "ir.monterosatx.com",
-        "source_domain_citation": "https://ir.monterosatx.com/sec-filings/sec-filing/4/0001193125-26-206344",
+        "keywords_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "summary": "Q32 Bio filed an 8-K current report on May 5, 2026, including its first quarter 2026 financial results.",
+        "summary_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_link": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_link_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
         "disease_area": "Other",
         "confidence": 80
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-07T12:09:55.556Z",
-  "creditsUsed": 1776
+  "expiresAt": "2026-05-07T13:20:11.760Z",
+  "creditsUsed": 894
 }

@@ -1,0 +1,227 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "summary": "Avalo Therapeutics announced positive topline results from the Phase 2 LOTUS trial of abdakibart (AVTX-009) in patients with moderate to severe Hidradenitis suppurativa (HS). The trial met its primary endpoint of HiSCR75 at Week 16 for both doses studied. Abdakibart was well-tolerated, and the company plans to advance to Phase 3.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "summary": "Avalo Therapeutics priced an upsized $375 million public offering of common stock and pre-funded warrants following the announcement of positive Phase 2 data in HS.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "QTTB"
+        ],
+        "competitors_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "IL-7R"
+        ],
+        "keywords_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "summary": "Q32 Bio reported first quarter 2026 financial results and provided a business update, including progress on bempikibart (anti-IL-7Rα antibody) in the SIGNAL-AA trial.",
+        "summary_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "keywords": [],
+        "keywords_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "summary": "Kymera Therapeutics presented new preclinical IBD data for KT-579, an oral IRF5 degrader, at Digestive Disease Week.",
+        "summary_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-presents-new-preclinical-ibd-data-kt-579"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "summary": "Xencor filed an 8-K current report on May 5, 2026.",
+        "summary_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_link": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_link_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/sec-filings/sec-filing/8-k/0001326732-26-000036"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "competitors": [
+          "QTTB"
+        ],
+        "competitors_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "keywords": [],
+        "keywords_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "summary": "Q32 Bio filed an 8-K current report on May 5, 2026, including its first quarter 2026 financial results.",
+        "summary_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_link": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_link_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "https://ir.q32bio.com/sec-filings/sec-filing/8-k/0001193125-26-205006"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-07T13:20:11.760Z",
+  "creditsUsed": 894
+}

@@ -38,7 +38,6 @@ if (!fs.existsSync('results/latest.json')) {
 const data = JSON.parse(fs.readFileSync('results/latest.json', 'utf8'));
 const findings = data?.data?.findings ?? data?.findings ?? [];
 
-const runDate = new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' });
 const uniqueCompetitors = [...new Set(findings.flatMap(f => f.competitors ?? []).filter(c => c !== 'Keyword matched'))];
 
 // ── Teams ──────────────────────────────────────────────────────────────────

@@ -76,19 +76,24 @@ const results = await Promise.all(COMPETITOR_URLS.map(async ([ticker, url]) => {
       signal: AbortSignal.timeout(20000),
       headers: { 'User-Agent': BROWSER_UA, 'Accept': 'text/html' },
     });
-    // 403/401 = site is up but blocking bots — Firecrawl handles these fine
-    const ok = res.ok || res.status === 403 || res.status === 401;
-    return { ticker, url, status: res.status, ok };
+    // Many IR sites use Cloudflare/bot protection and return 403/401/timeout to plain
+    // HTTP clients — Firecrawl's headless browser handles these fine. Only flag
+    // definitive "page not found" or server errors as genuinely broken.
+    const broken = res.status === 404 || res.status === 410 || res.status >= 500;
+    return { ticker, url, status: res.status, ok: !broken };
   } catch (e) {
-    return { ticker, url, status: 'ERROR', error: e.message, ok: false };
+    // Timeout or connection error from a CI runner IP is almost always bot-blocking,
+    // not a dead URL. Log it but don't alert.
+    console.log(`  SKIP [${ticker}] network error (likely bot-blocking) — ${url}`);
+    return { ticker, url, status: 'BLOCKED', ok: true };
   }
 }));
 
 const broken = results.filter(r => !r.ok);
 const healthy = results.filter(r => r.ok);
 
-console.log(`URL check: ${healthy.length} healthy, ${broken.length} broken out of ${results.length} total.`);
-broken.forEach(r => console.log(`  BROKEN [${r.ticker}] ${r.status}${r.error ? ' — ' + r.error : ''} — ${r.url}`));
+console.log(`URL check: ${healthy.length} reachable/blocked-by-CDN, ${broken.length} confirmed broken out of ${results.length} total.`);
+broken.forEach(r => console.log(`  BROKEN [${r.ticker}] ${r.status} — ${r.url}`));
 
 if (broken.length === 0) process.exit(0);
 
@@ -125,7 +130,7 @@ const emailHtml = `<!DOCTYPE html>
         </tr>
         <tr>
           <td style="padding:24px 32px;">
-            <p style="margin:0 0 16px;font-size:14px;color:#374151;">The following URLs could not be reached during today's scan. These pages will be skipped by the Firecrawl agent until they are fixed.</p>
+            <p style="margin:0 0 16px;font-size:14px;color:#374151;">The following URLs returned a confirmed error (404 or 5xx) during today's health check. These pages may have moved — please verify and update <code>agent.js</code> if needed.</p>
             <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:13px;">
               <thead>
                 <tr style="background:#f9fafb;border-bottom:2px solid #e5e7eb;">

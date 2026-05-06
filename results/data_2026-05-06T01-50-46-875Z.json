@@ -1,0 +1,343 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Avalo Therapeutics Achieves Positive Topline Results in Phase 2 LOTUS Trial of Abdakibart (AVTX-009) in Moderate to Severe Hidradenitis Suppurativa",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Avalo Therapeutics Inc. (Nasdaq: AVTX)",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Abdakibart (AVTX-009) in Moderate to Severe Hidradenitis Suppurativa... and compared with the IL-17 class",
+        "summary": "Avalo Therapeutics reported positive topline results from its Phase 2 LOTUS trial evaluating abdakibart (AVTX-009) for the treatment of moderate to severe hidradenitis suppurativa (HS).",
+        "summary_citation": "Avalo Therapeutics Achieves Positive Topline Results in Phase 2 LOTUS Trial of Abdakibart (AVTX-009) in Moderate to Severe Hidradenitis Suppurativa",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "May 5, 2026 4:01 pm EDT",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/220/avalo-therapeutics-achieves-positive-topline-results-in-phase-2-lotus-trial-of-abdakibart-avtx-009-in-moderate-to-severe-hidradenitis-suppurativa",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "ir.avalotx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Avalo Therapeutics Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Avalo Therapeutics, Inc. (Nasdaq: AVTX)",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "...the previously announced topline results from its Phase 2 LOTUS trial of abdakibart (AVTX-009) in patients with moderate to severe hidradenitis suppurativa (HS).",
+        "summary": "Following positive Phase 2 results in HS, Avalo Therapeutics announced a proposed public offering of its common stock and pre-funded warrants.",
+        "summary_citation": "Avalo Therapeutics Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "May 5, 2026 4:05 pm EDT",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/221/avalo-therapeutics-announces-proposed-public-offering-of-common-stock-and-pre-funded-warrants",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/221/avalo-therapeutics-announces-proposed-public-offering-of-common-stock-and-pre-funded-warrants",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "ir.avalotx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Insmed to Present Data Across Its Respiratory Portfolio... at the American Thoracic Society International Conference 2026",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Insmed Incorporated (Nasdaq: INSM)",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "...brensocatib in patients with chronic obstructive pulmonary disease (COPD).",
+        "summary": "Insmed announced that it will present data from its respiratory portfolio, including late-breaking results for ARIKAYCE and brensocatib in COPD, at the ATS 2026 conference.",
+        "summary_citation": "Insmed to Present Data Across Its Respiratory Portfolio, Including Late-Breaking ARIKAYCE® Results from Phase 3b ENCORE Study, at the American Thoracic Society International Conference 2026",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "May 4, 2026",
+        "source_link": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "source_link_citation": "https://investor.insmed.com/2026-05-04-Insmed-to-Present-Data-Across-Its-Respiratory-Portfolio,-Including-Late-Breaking-ARIKAYCE-R-Results-from-Phase-3b-ENCORE-Study,-at-the-American-Thoracic-Society-International-Conference-2026",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "investor.insmed.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Q32 Bio Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "competitors": [
+          "QTTB"
+        ],
+        "competitors_citation": "Q32 Bio Inc. (Nasdaq: QTTB)",
+        "keywords": [
+          "IL-7R"
+        ],
+        "keywords_citation": "...bempikibart (ADX-914), a fully human anti-IL-7Rα antibody...",
+        "summary": "Q32 Bio reported its Q1 2026 financial results and provided a corporate update, highlighting progress in its SIGNAL-AA trial for bempikibart, an anti-IL-7R antibody.",
+        "summary_citation": "Q32 Bio Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "publication_date": "2026-05-05",
+        "publication_date_citation": "May 5, 2026",
+        "source_link": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.q32bio.com/news-releases/news-release-details/q32-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "ir.q32bio.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Vera Therapeutics to Participate in the Bank of America Securities 2026 Health Care Conference",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "Vera Therapeutics, Inc. (Nasdaq: VERA)",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "...atacicept, a dual inhibitor of BLyS (BAFF) and APRIL...",
+        "summary": "Vera Therapeutics announced its participation in the Bank of America Securities 2026 Health Care Conference.",
+        "summary_citation": "Vera Therapeutics to Participate in the Bank of America Securities 2026 Health Care Conference",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "May 4, 2026",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-participate-bank-america-securities-2026",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "ir.veratx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "InflaRx Reports Favorable Reactive Metabolite Profile for Izicopan in Human Liver Microsomes",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "InflaRx NV (Nasdaq: IFRX)",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "...clinical development for the treatment of patients with hidradenitis suppurativa.",
+        "summary": "InflaRx reported favorable preclinical metabolite data for izicopan, being developed for hidradenitis suppurativa.",
+        "summary_citation": "InflaRx Reports Favorable Reactive Metabolite Profile for Izicopan in Human Liver Microsomes",
+        "publication_date": "2026-05-04",
+        "publication_date_citation": "May 04, 2026",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Reports-Favorable-Reactive-Metabolite-Profile-for-Izicopan-in-Human-Liver-Microsomes~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Reports-Favorable-Reactive-Metabolite-Profile-for-Izicopan-in-Human-Liver-Microsomes~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "www.inflarx.de"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-07T01:50:45.782Z",
+  "creditsUsed": 417
+}

@@ -10,23 +10,87 @@ console.log('Running Firecrawl agent — this may take several minutes...');
 
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago' }).format(new Date());
 
+// Competitor IR pages — only these URLs are visited. No open web search.
+const COMPETITOR_URLS = [
+  // AVTX — Avalo Therapeutics
+  'https://ir.avalotx.com/news-events-presentations/press-releases',
+  'https://ir.avalotx.com/sec-filings/all-sec-filings',
+  'https://ir.avalotx.com/sec-filings/quarterly-reports',
+  // MLTX — MoonLake Immunotherapeutics
+  'https://ir.moonlaketx.com/press-releases',
+  'https://ir.moonlaketx.com/financials-filings',
+  // ORKA — Oruka Therapeutics
+  'https://ir.orukatx.com/news-events/press-releases',
+  'https://ir.orukatx.com/financial-information/sec-filings',
+  'https://ir.orukatx.com/financial-information/quarterly-results',
+  // INSM — Insmed
+  'https://investor.insmed.com/releases',
+  'https://investor.insmed.com/sec',
+  // ACRS — Aclaris Therapeutics
+  'https://investor.aclaristx.com/press-releases',
+  'https://investor.aclaristx.com/sec-filings',
+  // ANAB — AnaptysBio
+  'https://ir.anaptysbio.com/news',
+  'https://ir.anaptysbio.com/sec-filings',
+  // UCB
+  'https://www.ucb.com/newsroom/press-releases',
+  'https://www.ucb.com/investors/download-center',
+  // KYMR — Kymera Therapeutics
+  'https://investors.kymeratx.com/news-events/press-releases',
+  'https://investors.kymeratx.com/sec-filings',
+  // GLUE — Monte Rosa Therapeutics
+  'https://ir.monterosatx.com/news-and-events/press-releases',
+  'https://ir.monterosatx.com/financials-and-filings/sec-filings',
+  // IFRX — InflaRx
+  'https://www.inflarx.de/Home/Investors/Press-Releases.html',
+  'https://www.inflarx.de/Home/Investors/Financial-Information.html',
+  // CGEM — Cullinan Therapeutics
+  'https://investors.cullinantherapeutics.com/news-releases',
+  'https://investors.cullinantherapeutics.com/sec-filings',
+  // NKTX — Nkarta
+  'https://ir.nkartatx.com/news-releases',
+  'https://ir.nkartatx.com/financial-information/sec-filings',
+  // XNCR — Xencor
+  'https://investors.xencor.com/press-releases',
+  'https://investors.xencor.com/financials-and-filings/sec-filings',
+  // KNSA — Kiniksa Pharmaceuticals
+  'https://investors.kiniksa.com/news-events/press-releases',
+  'https://investors.kiniksa.com/financial-information/sec-filings',
+  // VERA — Vera Therapeutics
+  'https://ir.veratx.com/news-events/news-releases',
+  'https://ir.veratx.com/financial-information/sec-filings',
+  // VOR — Vor Bio
+  'https://ir.vorbio.com/news-releases',
+  'https://ir.vorbio.com/sec-filings',
+  // GLPG — Galapagos
+  'https://www.glpg.com/press-releases/',
+  'https://www.glpg.com/investors/financials/sec-filings/',
+  'https://www.glpg.com/investors/financials/financial-reports/',
+  // ALMS — Alumis
+  'https://investors.alumis.com/news-events/news-releases',
+  'https://investors.alumis.com/financials-filings/sec-filings',
+  // QTTB — Q32 Bio
+  'https://ir.q32bio.com/news-and-events/news-releases',
+  'https://ir.q32bio.com/financial-and-filings/sec-filings',
+  // INCY — Incyte
+  'https://investor.incyte.com/press-releases',
+  'https://investor.incyte.com/financials/sec-filings',
+  'https://investor.incyte.com/financials/quarterly-results',
+];
+
 const result = await firecrawl.agent({
   maxCredits: 15000,
-  prompt: `Today is ${today}. Search for news, press releases, SEC 8-K filings, corporate presentations, scientific publications from PubMed, and clinical trial updates from clinicaltrials.gov published TODAY or within the last 24 hours.
+  urls: COMPETITOR_URLS,
+  strictConstrainToURLs: true,
+  prompt: `Today is ${today}. You are monitoring competitor activity for a biotech company. Visit each of the provided URLs and extract any press releases, SEC filings, financial reports, or quarterly results published TODAY (${today}) or yesterday.
 
-Competitors to monitor: AVTX, MLTX, ORKA, INSM, ACRS, ANAB, UCB, KYMR, GLUE, IFRX, CGEM, NKTX, Candid, XNCR, KNSA, VERA, VOR, GLPG, ALMS, QTTB, INCY.
+Competitors to monitor: AVTX, MLTX, ORKA, INSM, ACRS, ANAB, UCB, KYMR, GLUE, IFRX, CGEM, NKTX, XNCR, KNSA, VERA, VOR, GLPG, ALMS, QTTB, INCY.
 
 Keywords and synonyms to monitor: ${allAliasesForPrompt}.
 
-${AND_MODE
-  ? 'IMPORTANT: Only include findings where BOTH a competitor AND a keyword appear together in the same article. Do not include articles that mention only a competitor with no keyword, or only a keyword with no competitor.'
-  : 'Include findings that mention at least one competitor OR at least one keyword.'}
+IMPORTANT: Only extract articles that are genuinely new (published ${today} or the day before). Do not include older articles. For each finding, extract the exact URL of the specific article — not the listing page URL.
 
-IMPORTANT: For each finding, list ALL competitors and ALL keywords mentioned in that article as arrays — not just the first one found.
-
-SOURCE QUALITY: Only include primary sources — press releases, SEC filings, PubMed publications, ClinicalTrials.gov updates, company investor relations pages, and established newswires (Reuters, Bloomberg, PR Newswire, GlobeNewswire, Business Wire). Exclude blog posts, opinion pieces, editorials, sponsored content, and articles that primarily recap or reference events that occurred before ${today}.
-
-Only include articles published on or after ${today}. For each finding provide a summary, the exact publication date, and the source link.`,
+For each finding list ALL competitors and ALL keywords mentioned.`,
   schema: z.object({
     competitors: z.array(z.object({
       value: z.string(),
@@ -77,50 +141,51 @@ const allFindings = (result.data?.findings ?? []).map(f => ({
   confidence: scoreFindings(f),
 }));
 
-// Validate SEC EDGAR URLs — the AI often halluminates accession numbers and filenames.
-// HEAD-check the URL; if it fails, fall back to the company's EDGAR filing page (CIK only).
-// If no CIK can be found, drop the finding entirely.
+// HEAD-check all source URLs — drops findings with invented URLs that 404.
 const secPattern = /^https?:\/\/(?:www\.)?sec\.gov\/Archives\/edgar\/data\/(\d+)/i;
-await Promise.all(allFindings.map(async f => {
-  const m = (f.source_link ?? '').match(secPattern);
-  if (!m) return;
-  const cik = m[1];
+const urlCheckResults = await Promise.all(allFindings.map(async f => {
+  const url = f.source_link;
+  if (!url) return true;
   try {
-    const res = await fetch(f.source_link, { method: 'HEAD' });
-    if (!res.ok) f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=8-K&dateb=&owner=include&count=10`;
+    const res = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(8000) });
+    if (res.ok || res.status === 403 || res.status === 401) return true;
+    const secMatch = url.match(secPattern);
+    if (secMatch) {
+      f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${secMatch[1]}&type=8-K&dateb=&owner=include&count=10`;
+      return true;
+    }
+    return false;
   } catch {
-    f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=8-K&dateb=&owner=include&count=10`;
+    return true;
   }
 }));
+const urlValidated = allFindings.filter((_, i) => urlCheckResults[i]);
+const urlDropped = allFindings.length - urlValidated.length;
+if (urlDropped > 0) console.log(`URL check dropped ${urlDropped} finding(s) with broken source links.`);
 
-// Drop findings older than 2 days — only keep today and yesterday to account
-// for timezone differences. Filters out old articles the agent surface for the first time.
+// Drop findings older than 2 days
 const cutoff = new Date();
 cutoff.setDate(cutoff.getDate() - 2);
 const cutoffStr = cutoff.toISOString().slice(0, 10);
-const dateFiltered = allFindings.filter(f => {
+const dateFiltered = urlValidated.filter(f => {
   const pub = (f.publication_date ?? '').slice(0, 10);
-  if (!pub) return true; // no date — let other filters decide
+  if (!pub) return true;
   return pub >= cutoffStr;
 });
-const dateDropped = allFindings.length - dateFiltered.length;
+const dateDropped = urlValidated.length - dateFiltered.length;
 if (dateDropped > 0) console.log(`Date filter dropped ${dateDropped} finding(s) older than 2 days.`);
 
 // Filter stale and low-quality sources
 const qualityFindings = dateFiltered.filter(f => !isStaleContent(f));
-const staleDropped = allFindings.length - qualityFindings.length;
+const staleDropped = dateFiltered.length - qualityFindings.length;
 if (staleDropped > 0) console.log(`Quality filter dropped ${staleDropped} stale/low-quality finding(s).`);
 
-// Enforce AND logic in post-processing as a safety net
+// Enforce AND logic
 const filteredFindings = AND_MODE
   ? qualityFindings.filter(f => f.competitors[0] !== 'Keyword matched' && f.keywords.length)
   : qualityFindings;
 
-const andDropped = allFindings.length - filteredFindings.length;
-if (AND_MODE && andDropped > 0)
-  console.log(`AND filter dropped ${andDropped} finding(s) missing a competitor or keyword.`);
-
-// Deduplicate by URL — only report findings we haven't seen before
+// Deduplicate by URL
 const seenFile = 'seen_links.json';
 const seenLinks = new Set(
   fs.existsSync(seenFile) ? JSON.parse(fs.readFileSync(seenFile, 'utf8')) : []
@@ -131,12 +196,12 @@ newFindings.forEach(f => seenLinks.add(f.source_link));
 fs.writeFileSync(seenFile, JSON.stringify([...seenLinks], null, 2));
 
 const skipped = filteredFindings.length - newFindings.length;
-console.log(`All findings: ${allFindings.length} | After AND filter: ${filteredFindings.length} | New: ${newFindings.length} | Already seen: ${skipped}`);
+console.log(`All findings: ${allFindings.length} | URL validated: ${urlValidated.length} | Date filtered: ${dateFiltered.length} | New: ${newFindings.length} | Already seen: ${skipped}`);
 
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 
 if (newFindings.length === 0) {
-  console.log('No findings from the last 24 hours — skipping report and notification.');
+  console.log('No new findings — skipping report and notification.');
   fs.rmSync('results/latest.json', { force: true });
   process.exit(0);
 }

@@ -153,6 +153,18 @@ export function isStaleContent(finding) {
   ];
   if (GENERIC_PAGE_PATTERNS.some(p => p.test(link))) return true;
 
+  // Drop findings whose summary is raw scraped page content rather than a real
+  // summary — happens when the agent pulls navigation, contact, or footer text.
+  const RAW_PAGE_SIGNALS = [
+    'skip to main navigation', 'skip to content', 'impressum', 'privacy policy',
+    'contact us', 'cookie policy', '#### ', '### ', 'loading...', 'javascript',
+    'enable javascript', 'this page requires', '[linkedin]', '[facebook]', '[twitter]',
+  ];
+  if (RAW_PAGE_SIGNALS.some(s => summary.includes(s))) return true;
+
+  // Drop findings with very short or empty summaries — nothing useful to show.
+  if ((finding.summary ?? '').trim().length < 30) return true;
+
   return false;
 }
 

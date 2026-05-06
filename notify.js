@@ -28,6 +28,16 @@ if (!TEAMS_WEBHOOK) {
   process.exit(1);
 }
 
+function cleanSummary(raw) {
+  return (raw ?? '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')  // [text](url) → text
+    .replace(/#{1,6}\s*/g, '')                 // strip # headings
+    .replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1')  // strip bold/italic
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 280);
+}
+
 const topFindings = findings.slice(0, 5);
 
 const findingBlocks = topFindings.flatMap(f => {
@@ -35,7 +45,7 @@ const findingBlocks = topFindings.flatMap(f => {
   const kw   = f.keywords?.length ? ` · ${f.keywords.join(', ')}` : '';
   const items = [
     { type: 'TextBlock', text: `**${comp}** — ${f.source_type || 'Unknown'}${kw}`, wrap: true, weight: 'Bolder', size: 'Small' },
-    { type: 'TextBlock', text: f.summary || '', wrap: true, size: 'Small', color: 'Default' },
+    { type: 'TextBlock', text: cleanSummary(f.summary), wrap: true, size: 'Small', color: 'Default' },
   ];
   if (f.source_link) {
     items.push({ type: 'TextBlock', text: `[View Source →](${f.source_link})`, wrap: true, size: 'Small', color: 'Accent' });
@@ -138,7 +148,7 @@ if (RESEND_API_KEY && ALERT_EMAIL) {
                 </td>
               </tr>
               <tr>
-                <td style="padding-top:10px;color:#32373C;font-family:'Lato',Arial,sans-serif;font-size:14px;line-height:1.65;">${f.summary || ''}</td>
+                <td style="padding-top:10px;color:#32373C;font-family:'Lato',Arial,sans-serif;font-size:14px;line-height:1.65;">${cleanSummary(f.summary)}</td>
               </tr>
               <tr>
                 <td style="padding-top:10px;">

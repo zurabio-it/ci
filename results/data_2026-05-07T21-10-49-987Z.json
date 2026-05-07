@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ACRS",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Multiple sources identified during monitoring"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Multiple sources identified during monitoring"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "Mentioned in monitored findings"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "summary": "Incyte announced the grant of inducement equity awards to new employees under Nasdaq Listing Rule 5635(c)(4).",
+        "summary_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "source_link": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "source_link_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/press-releases/press-release-details/2026/Incyte-Reports-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635c4/default.aspx"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "Insmed reported financial results for the first quarter of 2026 and provided a business update, highlighting progress in its clinical programs including those related to COPD/bronchiectasis.",
+        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "summary": "Insmed collaborated with Ty Pennington to launch a new awareness campaign focused on the proper diagnosis of bronchiectasis, a condition often associated or confused with COPD.",
+        "summary_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_link": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_link_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "Halozyme and Oruka Therapeutics announced a global exclusive collaboration and license agreement to develop ORKA-001 using Hypercon technology for psoriasis.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ACRS"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "Aclaris Therapeutics reported its financial results for the first quarter ended March 31, 2026, and provided a corporate update.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "XNCR",
+          "INCY"
+        ],
+        "competitors_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "summary": "Xencor reported financial results for the first quarter of 2026 and provided an update on its pipeline of engineered antibodies, mentioning collaborations with Incyte.",
+        "summary_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_link": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "summary": "Vera Therapeutics provided a business update and reported financial results for the first quarter of 2026, focusing on its lead candidate atacicept.",
+        "summary_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-events/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "summary": "InflaRx announced that it will report its first quarter 2026 financial results on May 7, 2026.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7-2026.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "competitors": [
+          "GLPG"
+        ],
+        "competitors_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "keywords": [],
+        "keywords_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "summary": "Galapagos reported financial results for the first quarter of 2026 and provided a business update on its pipeline programs.",
+        "summary_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "source_link": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "source_link_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "source_domain": "www.glpg.com",
+        "source_domain_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-08T21:10:49.398Z",
+  "creditsUsed": 643
+}

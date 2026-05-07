@@ -1,0 +1,275 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "competitors": [
+          "ACRS"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "summary": "Aclaris Therapeutics reports first quarter 2026 financial results and provides corporate and clinical update.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "## Halozyme and Oruka Announce Global Collaboration and License Agreement to Develop ORKA-001 with Hypercon™ Technology",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "summary": "## Oruka Therapeutics Announces Pricing of Upsized $700 Million Underwritten Public Offering",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-pricing-upsized-700-million"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "- [Skip to primary navigation](https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update#genesis-mobile-nav-primary)\n- [Skip to main content](https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update#genesis-content)\n- [Skip to footer](https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update#genesis-footer-widge",
+        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "summary": "- [Skip to primary navigation](https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis#genesis-mobile-nav-primary)\n- [Skip to main content](https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis#genesis-content)\n- [Skip to footer](https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronc",
+        "summary_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_link": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_link_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "summary": "InflaRx reports favorable reactive metabolite profile for izicopan in human liver microsomes.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "summary": "Vera Therapeutics provides business update and reports first quarter 2026 financial results.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "summary": "Xencor reports first quarter 2026 financial results and provides business update.",
+        "summary_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_link": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "summary": "Incyte reports inducement grants under Nasdaq listing rule 5635(c)(4).",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://investor.insmed.com/sec",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/sec",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/sec",
+        "summary": "Insmed Incorporated filed its Quarterly Report for the period ended March 31, 2026.",
+        "summary_citation": "https://investor.insmed.com/sec",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/sec",
+        "source_link": "https://investor.insmed.com/sec",
+        "source_link_citation": "https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/sec"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://investor.insmed.com/sec",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/sec",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/sec",
+        "summary": "Insmed Incorporated filed a Form 8-K report of unscheduled material events or corporate events.",
+        "summary_citation": "https://investor.insmed.com/sec",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/sec",
+        "source_link": "https://investor.insmed.com/sec",
+        "source_link_citation": "https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/sec"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-08T21:56:29.476Z",
+  "creditsUsed": 972
+}

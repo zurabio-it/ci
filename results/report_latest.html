@@ -58,16 +58,16 @@
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-05-07, 5:46:36 p.m. &nbsp;|&nbsp; 1 findings</div>
+  <div class="meta">Generated 2026-05-07, 5:56:38 p.m. &nbsp;|&nbsp; 2 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">1</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">Total Findings</div></div>
     <div class="stat"><div class="num">1</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">0</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
     <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
-    <div class="stat"><div class="num">1</div><div class="label">SEC Filings</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">SEC Filings</div></div>
   </div>
   <div class="layout">
     <div class="sidebar">
@@ -75,15 +75,15 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="vor">VOR</option>
+          <option value="insm">INSM</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          
+          <option value="copd">COPD</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
-          <option value="SEC Filing">SEC Filing</option>
+          <option value="SEC Filing (10-Q)">SEC Filing (10-Q)</option><option value="SEC Filing (8-K)">SEC Filing (8-K)</option>
         </select>
         <select id="filter-area">
           <option value="">All Disease Areas</option>
@@ -122,10 +122,10 @@
         <h3>Findings by Competitor</h3>
         
     <div class="chart-row">
-      <div class="chart-label">VOR</div>
+      <div class="chart-label">INSM</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:100%"></div>
-        <span class="chart-count">1</span>
+        <span class="chart-count">2</span>
       </div>
     </div>
       </div>
@@ -134,29 +134,45 @@
       <div id="results-count"></div>
       <div id="findings-container">
         
-    <div class="disease-section" data-area="Other">
+    <div class="disease-section" data-area="HS">
       <div class="section-header">
-        <span class="section-dot" style="background:#6b7280"></span>
-        <span class="section-title">Other</span>
-        <span class="section-count">1</span>
+        <span class="section-dot" style="background:#7c3aed"></span>
+        <span class="section-title">Hidradenitis Suppurativa (HS)</span>
+        <span class="section-count">2</span>
       </div>
       <div class="grid section-grid">
         
     <div class="card"
-      data-competitors="vor"
-      data-source="SEC Filing"
-      data-keywords=""
-      data-confidence="80"
-      data-area="Other">
+      data-competitors="insm"
+      data-source="SEC Filing (10-Q)"
+      data-keywords="hidradenitis suppurativa|copd"
+      data-confidence="100"
+      data-area="HS">
       <div class="card-header">
-        <span class="badge" style="background:#6b7280">SEC Filing</span>
-        <span class="competitor-tag">VOR</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 80/100">High · 80</span>
+        <span class="badge" style="background:#6b7280">SEC Filing (10-Q)</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 100/100">High · 100</span>
       </div>
-      <p class="summary">Vor Bio filed a Schedule 13G/A, an amendment to a statement of beneficial ownership, with the SEC.</p>
-      <a class="source-link" href="https://ir.vorbio.com/sec-filings/sec-filing/schedule-13ga/0000315066-26-001325" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-05-06 · ir.vorbio.com</div>
+      <p class="summary">Insmed Incorporated filed its Quarterly Report for the period ended March 31, 2026.</p>
+      <a class="source-link" href="https://investor.insmed.com/sec" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · investor.insmed.com</div>
+    </div>
+    <div class="card"
+      data-competitors="insm"
+      data-source="SEC Filing (8-K)"
+      data-keywords="hidradenitis suppurativa|copd"
+      data-confidence="100"
+      data-area="HS">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing (8-K)</span>
+        <span class="competitor-tag">INSM</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 100/100">High · 100</span>
+      </div>
+      <p class="summary">Insmed Incorporated filed a Form 8-K report of unscheduled material events or corporate events.</p>
+      <a class="source-link" href="https://investor.insmed.com/sec" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · investor.insmed.com</div>
     </div>
       </div>
     </div>
@@ -170,7 +186,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 1 findings';
+    countEl.textContent = visible + ' of 2 findings';
   }
 
   function applyFilters() {

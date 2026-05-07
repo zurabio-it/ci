@@ -1,0 +1,284 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Source provided URLs for competitor monitoring."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "HS",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin 7 receptor",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "interleukin 17",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Source provided keywords for monitoring."
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Source provided keywords for monitoring."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "Halozyme and Oruka announced a global exclusive collaboration and license agreement to develop ORKA-001 (an IL-23p19 inhibitor) using Halozyme's Hypercon technology for psoriasis and related inflammatory diseases.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "summary": "InflaRx announced plans to develop izicopan (oral C5aR inhibitor) in ANCA-associated vasculitis (AAV) and other renal diseases. The company also noted it has largely concluded its interactions with the FDA regarding an optimized clinical development program for izicopan in hidradenitis suppurativa (HS).",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "summary": "InflaRx announced the pricing of an underwritten public offering of $150 million of its ordinary shares.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Pricing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-08T20:55:18.656Z",
+  "creditsUsed": 685
+}

@@ -72,7 +72,7 @@
         "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
         "keywords": [
           "IL-7R",
-          "IL-7R"
+          "interleukin-7 receptor"
         ],
         "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
         "summary": "Aclaris Therapeutics reported its Q1 2026 financial results and provided clinical updates on its pipeline, including bosakitug (an anti-IL-7R antibody) and ATI-2138 (an ITK/JAK3 inhibitor).",
@@ -82,9 +82,7 @@
         "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
         "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
         "source_domain": "investor.aclaristx.com",
-        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
-        "disease_area": "SSc",
-        "confidence": 95
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
       },
       {
         "source_type": "Press Release",
@@ -95,7 +93,7 @@
         "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
         "keywords": [
           "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa"
+          "HS"
         ],
         "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
         "summary": "Oruka Therapeutics and Halozyme announced a global collaboration to develop ORKA-001, a potentially best-in-class treatment for Hidradenitis suppurativa (HS) using Halozyme's ENHANZE technology.",
@@ -105,9 +103,7 @@
         "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
         "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
         "source_domain": "ir.orukatx.com",
-        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
-        "disease_area": "HS",
-        "confidence": 85
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
       },
       {
         "source_type": "Press Release",
@@ -125,9 +121,7 @@
         "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
         "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
         "source_domain": "www.ucb.com",
-        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
-        "disease_area": "Other",
-        "confidence": 85
+        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
       },
       {
         "source_type": "SEC Filing",
@@ -145,9 +139,7 @@
         "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
         "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
         "source_domain": "ir.avalotx.com",
-        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
-        "disease_area": "Other",
-        "confidence": 90
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
       },
       {
         "source_type": "Press Release",
@@ -165,9 +157,7 @@
         "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
         "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
         "source_domain": "investor.incyte.com",
-        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12",
-        "disease_area": "Other",
-        "confidence": 75
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12"
       }
     ]
   },

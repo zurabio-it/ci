@@ -70,6 +70,19 @@
   .tag-blue   { background: #dbeafe; color: #1d4ed8; }
   .tag-purple { background: #ede9fe; color: #7c3aed; }
   .tag-green  { background: #dcfce7; color: #16a34a; }
+  .tag-amber  { background: #fef3c7; color: #b45309; }
+
+  /* Plan cards */
+  .plans-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .plan-card  { border: 2px solid #e2e8f0; border-radius: 10px; padding: 16px 14px; position: relative; }
+  .plan-card.current { border-color: #6366f1; }
+  .plan-badge { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #6366f1; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .plan-name  { font-size: 0.8rem; font-weight: 700; color: #1e293b; margin-bottom: 4px; }
+  .plan-price { font-size: 1.3rem; font-weight: 800; color: #0f172a; }
+  .plan-price span { font-size: 0.75rem; font-weight: 500; color: #64748b; }
+  .plan-credits { font-size: 0.78rem; color: #64748b; margin-top: 4px; }
+  .plan-cpm   { font-size: 0.72rem; color: #94a3b8; margin-top: 2px; }
+  .plan-needed { margin-top: 8px; font-size: 0.72rem; font-weight: 700; padding: 3px 0; border-top: 1px solid #f1f5f9; }
 
   .divider { border: none; border-top: 1px solid #f1f5f9; margin: 16px 0; }
   .preset-btn { font-size: 0.75rem; padding: 4px 10px; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer; background: #f8fafc; color: #475569; }
@@ -106,6 +119,51 @@
       <div class="stat-box"><div class="stat-label">Median</div><div class="stat-val" id="stat-med">—</div></div>
       <div class="stat-box"><div class="stat-label">Average</div><div class="stat-val" id="stat-avg">—</div></div>
       <div class="stat-box"><div class="stat-label">Max</div><div class="stat-val" id="stat-max">—</div></div>
+    </div>
+  </div>
+
+  <!-- Pricing Plans -->
+  <div class="card grid-full">
+    <h2>Firecrawl Plans (Annual Billing)</h2>
+    <div class="plans-grid">
+
+      <div class="plan-card current">
+        <div class="plan-badge">Current Plan</div>
+        <div class="plan-name">Standard</div>
+        <div class="plan-price">$83<span>/mo</span></div>
+        <div class="plan-credits">100,000 credits/mo</div>
+        <div class="plan-cpm">$0.83 per 1k credits</div>
+        <div class="plan-needed" id="std-status" style="color:#64748b;">—</div>
+      </div>
+
+      <div class="plan-card" style="background:#fffbeb;border-color:#fcd34d;">
+        <div class="plan-name">Standard + Auto Recharge</div>
+        <div class="plan-price">$83<span>/mo base</span></div>
+        <div class="plan-credits">+35k credits @ $47 each<br>up to 4×/month max</div>
+        <div class="plan-cpm">Max: 240k credits · $271/mo</div>
+        <div class="plan-needed" id="ar-status" style="color:#64748b;">—</div>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-name">Growth</div>
+        <div class="plan-price">$333<span>/mo</span></div>
+        <div class="plan-credits">500,000 credits/mo</div>
+        <div class="plan-cpm">$0.67 per 1k credits</div>
+        <div class="plan-needed" id="growth-status" style="color:#64748b;">—</div>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-name">Scale</div>
+        <div class="plan-price">$599<span>/mo</span></div>
+        <div class="plan-credits">1,000,000 credits/mo</div>
+        <div class="plan-cpm">$0.60 per 1k credits</div>
+        <div class="plan-needed" id="scale-status" style="color:#64748b;">—</div>
+      </div>
+
+    </div>
+    <div style="margin-top:14px;padding:12px 16px;background:#f8fafc;border-radius:8px;font-size:0.8rem;color:#64748b;line-height:1.7;">
+      <strong style="color:#1e293b;">Auto Recharge:</strong> Triggers automatically when balance hits 0 · +35,000 credits for $47 · max 4 purchases/month →
+      max additional 140,000 credits for $188/month extra · <strong style="color:#1e293b;">total ceiling: 240,000 credits for $271/month</strong>
     </div>
   </div>
 
@@ -248,6 +306,22 @@ function setPreset(v) {
   updateCalc();
 }
 
+const PLANS = [
+  { id: 'std',    credits: 100000,  price: 83,  label: 'Standard' },
+  { id: 'ar',     credits: 240000,  price: 271, label: 'Standard + Auto Recharge (max)' },
+  { id: 'growth', credits: 500000,  price: 333, label: 'Growth' },
+  { id: 'scale',  credits: 1000000, price: 599, label: 'Scale' },
+];
+
+function planStatus(needed, plan) {
+  if (needed <= plan.credits) {
+    const cost = (needed / 1000 * (plan.price / (plan.credits / 1000))).toFixed(0);
+    return { text: `✓ Fits · ~$${Math.round(plan.price * needed / plan.credits)}/mo effective`, color: '#16a34a' };
+  }
+  const over = Math.round(needed / plan.credits * 10) / 10;
+  return { text: `✗ ${over}× over limit`, color: '#dc2626' };
+}
+
 function updateCalc() {
   const cr = parseInt(document.getElementById('credits-slider').value);
   document.getElementById('slider-val').textContent = cr.toLocaleString();
@@ -262,16 +336,15 @@ function updateCalc() {
 
   document.getElementById('gauge-wd').style.width      = Math.min(wdPct, 100) + '%';
   document.getElementById('gauge-wd').style.background = color(wdPct);
-  document.getElementById('gauge-wd-pct').textContent  = Math.round(wdPct) + '% of budget';
+  document.getElementById('gauge-wd-pct').textContent  = Math.round(wdPct) + '% of Standard budget';
   document.getElementById('wd-credits').textContent    = wdTotal.toLocaleString() + ' credits needed';
 
   document.getElementById('gauge-all').style.width      = Math.min(allPct, 100) + '%';
   document.getElementById('gauge-all').style.background = color(allPct);
-  document.getElementById('gauge-all-pct').textContent  = Math.round(allPct) + '% of budget';
+  document.getElementById('gauge-all-pct').textContent  = Math.round(allPct) + '% of Standard budget';
   document.getElementById('all-credits').textContent    = allTotal.toLocaleString() + ' credits needed';
 
   const maxRuns = Math.floor(BUDGET / cr);
-  // Window minutes per month (weekdays): (210 + 114) min/day × 21.7 days = 7030 min
   const windowMinPerMonth = 324 * (5 * 52 / 12);
   const interval = maxRuns > 0 ? Math.round(windowMinPerMonth / maxRuns) : 9999;
 
@@ -279,6 +352,13 @@ function updateCalc() {
   document.getElementById('budget-interval').textContent = interval < 60
     ? `every ${interval} min`
     : `every ${Math.round(interval/6)/10} hours`;
+
+  // Update plan badges based on weekday runs (primary scenario)
+  PLANS.forEach(plan => {
+    const s = planStatus(wdTotal, plan);
+    const el = document.getElementById(plan.id + '-status');
+    if (el) { el.textContent = s.text; el.style.color = s.color; }
+  });
 }
 
 updateCalc();

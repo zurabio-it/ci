@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "IFRX",
+        "value_citation": "Mentioned in articles found on May 6-7, 2026"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Mentioned in articles found on May 6-7, 2026"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Mentioned in articles found on May 6-7, 2026"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Mentioned in articles found on May 6-7, 2026"
+      }
+    ],
+    "keywords": [],
+    "findings": [
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Vor Bio SEC filings",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "Filing refers to VOR BIOPHARMA INC.",
+        "keywords": [],
+        "keywords_citation": "No keywords from the monitoring list were found in the SEC filing summary.",
+        "summary": "Vor Bio filed a Schedule 13G/A, an amendment to a statement of beneficial ownership, with the SEC.",
+        "summary_citation": "Vor Bio SEC filing listing",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "Filing Date: May 06, 2026",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/schedule-13ga/0000315066-26-001325",
+        "source_link_citation": "Direct link from SEC filings listing",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Derived from source link",
+        "disease_area": "Other",
+        "confidence": 80
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-08T21:46:26.553Z",
+  "creditsUsed": 12121
+}

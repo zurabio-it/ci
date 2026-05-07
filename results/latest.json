@@ -5,211 +5,93 @@
     "competitors": [
       {
         "value": "ACRS",
-        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
-        "value": "AVTX",
-        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
-      },
-      {
-        "value": "GLPG",
-        "value_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/"
-      },
-      {
-        "value": "GLUE",
-        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
+        "value": "IFRX",
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "INCY",
-        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-inducement-grants-under-nasdaq-listing-rule-12"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "INSM",
-        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "ORKA",
-        "value_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
-      },
-      {
-        "value": "UCB",
-        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "VERA",
-        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "XNCR",
-        "value_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results"
+        "value_citation": "Mentioned in monitored source(s)"
       }
     ],
     "keywords": [
       {
         "value": "BAFF",
-        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
         "value": "COPD",
-        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+        "value_citation": "Mentioned in monitored source(s)"
       },
       {
-        "value": "HS",
-        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in monitored source(s)"
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_type_citation": "Found in https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
         "competitors": [
-          "INSM"
+          "ACRS"
         ],
-        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "keywords": [
-          "COPD"
-        ],
-        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "summary": "Insmed reported first quarter 2026 financial results with total revenues of $306.0 million and reiterated its full-year revenue guidance for BRINSUPRI and ARIKAYCE.",
-        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "publication_date": "May 7, 2026",
-        "publication_date_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-        "source_domain": "investor.insmed.com",
-        "source_domain_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors_citation": "Extracted from https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
+        "keywords": [],
+        "keywords_citation": "Extracted from https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
+        "summary": "Aclaris Therapeutics Announces Positive Full Top Line First-in-Human Results from Phase 1a Healthy Volunteer Clinical Trial of ATI-052, a Novel Potential First-in-Class Anti-TSLP/IL-4Rα Bispecific Antibody, and Announces Lichen Planus as Lead Indication for ATI-2138, an Oral ITK/JAK3 Inhibitor _\\- Positive Full Results from Phase 1a Trial of Anti-TSLP/IL-4Rα Bispecific Antibody ATI-052 Exceed Aclaris’ Target Profile, Validating Potential Best-in-Class Potency Advantage and Opportunity for Extended Dosing -_ _\\- Estimated Half-Life of Approximately 45 Days; Unlocks Opportunity for up to Three-Month Dosing Interval -_",
+        "summary_citation": "Extracted from https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Found in https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
+        "source_link_citation": "Direct link to article",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "Domain of https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-announces-positive-full-top-line-first",
         "disease_area": "Other",
         "confidence": 85
       },
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
+        "source_type_citation": "Found in https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
         "competitors": [
-          "INSM"
+          "IFRX"
         ],
-        "competitors_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "keywords": [
-          "COPD"
-        ],
-        "keywords_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "summary": "Insmed partnered with Ty Pennington for the \"Suspect Bronchiectasis\" campaign to raise awareness and improve the diagnosis of bronchiectasis, which is often misdiagnosed as COPD.",
-        "summary_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "publication_date": "May 6, 2026",
-        "publication_date_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "source_link": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "source_link_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "source_domain": "investor.insmed.com",
-        "source_domain_citation": "https://investor.insmed.com/2026-05-06-Insmed-and-Ty-Pennington-Team-Up-to-Drive-Awareness-and-Proper-Diagnosis-of-Bronchiectasis",
-        "disease_area": "Other",
-        "confidence": 85
-      },
-      {
-        "source_type": "SEC Filing",
-        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "competitors": [
-          "AVTX"
-        ],
-        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "keywords": [],
-        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "summary": "A Form 144 was filed by Mittie Doyle, Senior Vice President at Avalo Therapeutics, Inc., notice of intent to sell 16,590 shares of common stock.",
-        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "publication_date": "May 6, 2026",
-        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "source_domain": "ir.avalotx.com",
-        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001950047-26-004154/primary_doc.html",
-        "disease_area": "Other",
-        "confidence": 80
-      },
-      {
-        "source_type": "Financial Report",
-        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
-        "competitors": [
-          "GLUE"
-        ],
-        "competitors_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "competitors_citation": "Extracted from https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
         "keywords": [
           "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
-        "summary": "Monte Rosa Therapeutics reported Q1 2026 financial results. Highlights include plans for Phase 2 study initiations in indications such as hidradenitis suppurativa.",
-        "summary_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "keywords_citation": "Extracted from https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "summary": "![](https://www.inflarx.de/.resources/inflarx-module/webresources/demo/logo-inflarx-black.svg) **Jena, Germany, May 1, 2026**– InflaRx N.V. (Nasdaq: IFRX), a biopharmaceutical company pioneering anti-inflammatory therapeutics by targeting the complement system, today announced that the Company will publish its financial and operating results for the first quarter 2026 on May 7, 2026, before the market opens. No conference call is planned. InflaRx (Nasdaq: IFRX) is a biopharmaceutical company pioneering anti-inflammatory therapeutics by applying its proprietary anti-C5a and anti-C5aR technologies to discover, develop and commercialize highly potent and specific inhibitors of the complement activation factor C5a and its receptor, C5aR. C5a is a powerful inflammatory mediator involved in the progression of a wide variety of inflammatory diseases. InflaRx‘s lead program is izicopan, an orally administered small molecule inhibitor of C5a-induced signaling via the C5a receptor, which has shown promising PK/PD characteristics as well as therapeutic potential in Phase 1 and Phase 2a clinical studies. The Company is developing izicopan for the treatment of several inflammatory diseases, including hidradenitis suppurativa. InflaRx also has developed vilobelimab, a novel, intravenously delivered, first-in-class, anti-C5a monoclonal antibody that selectively binds to free C5a and has demonstrated disease-modifying clinical activity and tolerability in multiple clinical studies.",
+        "summary_citation": "Extracted from https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
         "publication_date": "May 7, 2026",
-        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
-        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
-        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
-        "source_domain": "ir.monterosatx.com",
-        "source_domain_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "publication_date_citation": "Found in https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link_citation": "Direct link to article",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "Domain of https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
         "disease_area": "HS",
-        "confidence": 70
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "competitors": [
-          "XNCR"
-        ],
-        "competitors_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "keywords": [],
-        "keywords_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "summary": "Xencor reported first quarter 2026 financial results and provided updates on its clinical pipeline, including progress on XmAb819.",
-        "summary_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "publication_date": "May 6, 2026",
-        "publication_date_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "source_link": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "source_link_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "source_domain": "investors.xencor.com",
-        "source_domain_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
-        "disease_area": "Other",
-        "confidence": 75
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "competitors": [
-          "VERA"
-        ],
-        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "keywords": [
-          "BAFF"
-        ],
-        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "summary": "Vera Therapeutics reported first quarter 2026 financial results and highlights progress on its atacicept BLA for IgA Nephropathy.",
-        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "publication_date": "May 7, 2026",
-        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "source_domain": "ir.veratx.com",
-        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
-        "disease_area": "SSc",
         "confidence": 85
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "competitors": [
-          "GLPG"
-        ],
-        "competitors_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "keywords": [],
-        "keywords_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "summary": "Galapagos reported first quarter 2026 financial results, announced its rebranding as Lakefront Biotherapeutics.",
-        "summary_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "publication_date": "May 6, 2026",
-        "publication_date_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "source_link": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "source_link_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "source_domain": "glpg.com",
-        "source_domain_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
-        "disease_area": "Other",
-        "confidence": 75
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-08T20:31:35.371Z",
-  "creditsUsed": 3948
+  "expiresAt": "2026-05-08T20:39:41.724Z",
+  "creditsUsed": 569
 }

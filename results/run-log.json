@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-08T20:27:52.436Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "INSM"
+    ]
+  },
+  {
     "timestamp": "2026-05-08T20:12:10.669Z",
     "status": "clean",
     "findings": 0,

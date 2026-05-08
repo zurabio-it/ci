@@ -130,8 +130,19 @@ if (result.status === 'failed' || !result.success) {
   process.exit(1);
 }
 
+function cleanSummary(raw) {
+  return (raw ?? '')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')  // strip markdown images ![alt](url)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [text](url) → text
+    .replace(/#{1,6}\s*/g, '')               // strip headings
+    .replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1') // strip bold/italic
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 const allFindings = (result.data?.findings ?? []).map(f => ({
   ...f,
+  summary: cleanSummary(f.summary),
   keywords: (f.keywords ?? []).map(normalizeKeyword).filter(Boolean),
   competitors: (f.competitors ?? []).map(c => c?.trim()).filter(Boolean),
 })).map(f => ({

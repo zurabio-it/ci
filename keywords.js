@@ -161,6 +161,7 @@ export function isStaleContent(finding) {
     'skip to main navigation', 'skip to content', 'impressum', 'privacy policy',
     'contact us', 'cookie policy', '#### ', '### ', 'loading...', 'javascript',
     'enable javascript', 'this page requires', '[linkedin]', '[facebook]', '[twitter]',
+    '![](', '![ ](', 'webresources/', '.resources/',
   ];
   if (RAW_PAGE_SIGNALS.some(s => summary.includes(s))) return true;
 

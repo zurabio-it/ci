@@ -195,9 +195,31 @@ const dateFiltered = urlValidated.filter(f => {
 const dateDropped = urlValidated.length - dateFiltered.length;
 if (dateDropped > 0) console.log(`Date filter dropped ${dateDropped} finding(s) (too old or future-dated).`);
 
+// Cross-check the summary dateline against the extracted publication_date.
+// Press releases open with "City, Month D, YYYY–" — if that date is older than
+// the cutoff, the agent hallucinated a newer publication_date and the finding
+// should be dropped regardless of what publication_date says.
+const MONTH_NAMES = 'January|February|March|April|May|June|July|August|September|October|November|December';
+const DATELINE_RE = new RegExp(
+  `(?:^|\\n)[\\w][\\w ,]+,\\s+(${MONTH_NAMES})\\s+(\\d{1,2}),\\s+(20\\d{2})\\s*[\\u2013\\u2014-]`, 'i'
+);
+const MONTH_IDX = { january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11 };
+const datelineFiltered = dateFiltered.filter(f => {
+  const m = DATELINE_RE.exec(f.summary ?? '');
+  if (!m) return true;
+  const datelineDate = new Date(+m[3], MONTH_IDX[m[1].toLowerCase()], +m[2]).toISOString().slice(0, 10);
+  if (datelineDate < cutoffStr) {
+    console.log(`  Dateline-date dropped: summary says ${datelineDate} (cutoff ${cutoffStr}) — ${f.source_link}`);
+    return false;
+  }
+  return true;
+});
+const datelineDropped = dateFiltered.length - datelineFiltered.length;
+if (datelineDropped > 0) console.log(`Dateline check dropped ${datelineDropped} finding(s) with hallucinated publication dates.`);
+
 // Filter stale and low-quality sources
-const qualityFindings = dateFiltered.filter(f => !isStaleContent(f));
-const staleDropped = dateFiltered.length - qualityFindings.length;
+const qualityFindings = datelineFiltered.filter(f => !isStaleContent(f));
+const staleDropped = datelineFiltered.length - qualityFindings.length;
 if (staleDropped > 0) console.log(`Quality filter dropped ${staleDropped} stale/low-quality finding(s).`);
 
 // Enforce AND logic
@@ -216,7 +238,7 @@ newFindings.forEach(f => seenLinks.add(f.source_link));
 fs.writeFileSync(seenFile, JSON.stringify([...seenLinks], null, 2));
 
 const skipped = filteredFindings.length - newFindings.length;
-console.log(`All findings: ${allFindings.length} | URL validated: ${urlValidated.length} | Date filtered: ${dateFiltered.length} | New: ${newFindings.length} | Already seen: ${skipped}`);
+console.log(`All findings: ${allFindings.length} | URL validated: ${urlValidated.length} | Date filtered: ${dateFiltered.length} | Dateline checked: ${datelineFiltered.length} | New: ${newFindings.length} | Already seen: ${skipped}`);
 
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 

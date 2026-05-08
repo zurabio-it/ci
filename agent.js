@@ -141,21 +141,40 @@ const allFindings = (result.data?.findings ?? []).map(f => ({
   confidence: scoreFindings(f),
 }));
 
-// HEAD-check all source URLs — drops findings with invented URLs that 404.
+// URL-check all source URLs — drops findings with invented or redirected-to-error URLs.
+// Uses GET+redirect:follow so res.url reflects the final destination after any redirects,
+// catching cases where a plausible-looking URL silently lands on an error page (e.g. IFRX
+// returning /Home/ErrorPages/404.html with HTTP 200).
 const secPattern = /^https?:\/\/(?:www\.)?sec\.gov\/Archives\/edgar\/data\/(\d+)/i;
+const ERROR_URL_PATTERNS = [
+  '/errorpages/', '/404', '/not-found', '/notfound', '/error-page',
+  'page-not-found', '?error=', '/errors/', '/error.html', '/404.html',
+];
 const urlCheckResults = await Promise.all(allFindings.map(async f => {
   const url = f.source_link;
   if (!url) return true;
   try {
-    const res = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(8000) });
-    if (res.ok || res.status === 403 || res.status === 401) return true;
-    const secMatch = url.match(secPattern);
-    if (secMatch) {
-      f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${secMatch[1]}&type=8-K&dateb=&owner=include&count=10`;
-      return true;
+    const res = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(10000) });
+    // Cloudflare/bot-protection returns 403/401 — Firecrawl's browser can still access
+    // the page, so we can't verify the URL but shouldn't drop it.
+    if (res.status === 403 || res.status === 401) return true;
+    if (!res.ok) {
+      const secMatch = url.match(secPattern);
+      if (secMatch) {
+        f.source_link = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${secMatch[1]}&type=8-K&dateb=&owner=include&count=10`;
+        return true;
+      }
+      return false;
     }
-    return false;
+    // 200 OK — check if redirected to an error page (e.g. IFRX /Home/ErrorPages/404.html)
+    const finalUrl = (res.url ?? '').toLowerCase();
+    if (ERROR_URL_PATTERNS.some(p => finalUrl.includes(p))) {
+      console.log(`  Redirect-to-error dropped: ${url} → ${res.url}`);
+      return false;
+    }
+    return true;
   } catch {
+    // Timeout or connection error = bot-blocking, not a dead URL
     return true;
   }
 }));

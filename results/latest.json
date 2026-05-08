@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release / Financial Results",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "summary": "InflaRx announced the publication of its first quarter 2026 financial and operating results.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "disease_area": "Other",
+        "confidence": 75
+      },
+      {
+        "source_type": "Conference Call",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "summary": "InflaRx held a conference call on May 8, 2026, to discuss its first quarter 2026 financial results and provide a business update.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "disease_area": "Other",
+        "confidence": 80
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T10:44:12.756Z",
+  "creditsUsed": 4093
+}

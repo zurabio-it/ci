@@ -1,0 +1,349 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Provided competitor list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Provided competitor list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Provided keyword list"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Provided keyword list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-events/news-releases",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "summary": "Vera Therapeutics reported first quarter 2026 financial results and provided a business update. The FDA granted priority review to the BLA for atacicept in IgA Nephropathy with a PDUFA date of July 7, 2026.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "May 7, 2026",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "summary": "Incyte announced 24-week long-term data from the Phase 3 TRuE-AD4 trial of Opzelura (ruxolitinib) cream in adults with moderate atopic dermatitis.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "May 7, 2026",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-events/press-releases",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "Oruka Therapeutics and Halozyme announced a global collaboration and license agreement to develop ORKA-001 with Hypercon™ Technology for psoriatic disease.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "May 6, 2026",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/releases",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [],
+        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "Insmed reported first-quarter 2026 financial results and provided a business update.",
+        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "May 7, 2026",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/press-releases",
+        "competitors": [
+          "ACRS"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "summary": "Aclaris Therapeutics reported first quarter 2026 financial results and provided a corporate and clinical update.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "May 7, 2026",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.glpg.com/press-releases/",
+        "competitors": [
+          "GLPG"
+        ],
+        "competitors_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "keywords": [],
+        "keywords_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "summary": "Galapagos reported first quarter 2026 financial results and announced its name change to Lakefront Biotherapeutics was approved at the EGM.",
+        "summary_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "06May2026",
+        "source_link": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "source_link_citation": "https://www.glpg.com/press-releases/galapagos-reports-first-quarter-2026-financial-results-and-provides-business-update/",
+        "source_domain": "www.glpg.com",
+        "source_domain_citation": "https://www.glpg.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.xencor.com/press-releases",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "summary": "Xencor reported first quarter 2026 financial results. XmAb819 expansion results are expected in 2H26, and XmAb412 first-in-human study is on-track for 3Q26 start.",
+        "summary_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "May 06, 2026",
+        "source_link": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://investors.xencor.com/news-releases/news-release-details/xencor-reports-first-quarter-2026-financial-results",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "summary": "InflaRx announced the advancement of Izicopan in ANCA Associated Vasculitis and select renal diseases.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "publication_date": "2026-05-06",
+        "publication_date_citation": "May 06, 2026",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Advancement-of-Izicopan-in-ANCA-Associated-Vasculitis-and-Select-Renal-Diseases~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T02:02:19.971Z",
+  "creditsUsed": 4963
+}

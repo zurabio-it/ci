@@ -4,80 +4,76 @@
   "data": {
     "competitors": [
       {
-        "value": "AVTX",
-        "value_citation": "Found in Avalo Therapeutics filings on May 7, 2026."
-      },
-      {
-        "value": "INSM",
-        "value_citation": "Found in Insmed press releases and filings on May 7, 2026."
-      },
-      {
         "value": "ACRS",
-        "value_citation": "Found in Aclaris Therapeutics press releases on May 7 and May 8, 2026."
+        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
       },
       {
-        "value": "UCB",
-        "value_citation": "Found in UCB press release on May 7, 2026."
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
       },
       {
         "value": "GLUE",
-        "value_citation": "Found in Monte Rosa Therapeutics press release on May 7, 2026."
+        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
       },
       {
-        "value": "VERA",
-        "value_citation": "Found in Vera Therapeutics press release and filings on May 7, 2026."
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html"
       },
       {
         "value": "INCY",
-        "value_citation": "Found in Incyte press release on May 7, 2026."
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
       }
     ],
     "keywords": [
       {
-        "value": "Hidradenitis suppurativa",
-        "value_citation": "Mentioned in Avalo (AVTX) and Monte Rosa (GLUE) items."
-      },
-      {
-        "value": "HS",
-        "value_citation": "Mentioned in Avalo (AVTX) filing."
-      },
-      {
-        "value": "IL-17",
-        "value_citation": "Mentioned in Avalo (AVTX) filing."
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
       },
       {
         "value": "COPD",
-        "value_citation": "Mentioned in Insmed (INSM) items."
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
       },
       {
-        "value": "chronic obstructive pulmonary disease",
-        "value_citation": "Mentioned in Insmed (INSM) press release."
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
       }
     ],
     "findings": [
       {
-        "source_type": "SEC filing",
-        "source_type_citation": "Form 8-K: Current Report",
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
         "competitors": [
-          "INSM"
+          "IFRX"
         ],
-        "competitors_citation": "Insmed Incorporated",
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
         "keywords": [],
-        "keywords_citation": "None found",
-        "summary": "Current report filing by Insmed in connection with the announcement of its first-quarter 2026 financial results.",
-        "summary_citation": "Form 8-K: Report of unscheduled material events or corporate event",
-        "publication_date": "2026-05-07",
-        "publication_date_citation": "May 7, 2026",
-        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023772&type=HTML&symbol=INSM&cdn=5fbb15c5c631f775e809fc6ec36ab9dc&companyName=Insmed+Incorporated&formType=8-K&dateFiled=2026-05-07",
-        "source_link_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023772&type=HTML&symbol=INSM&cdn=5fbb15c5c631f775e809fc6ec36ab9dc&companyName=Insmed+Incorporated&formType=8-K&dateFiled=2026-05-07",
-        "source_domain": "investor.insmed.com",
-        "source_domain_citation": "investor.insmed.com",
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "summary": "InflaRx announced the closing of its $150 million underwritten offering of ordinary shares.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
+        "source_domain": "inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-Announces-Closing-of--150-Million-Underwritten-Offering-of-Ordinary-Shares~.html",
         "disease_area": "Other",
-        "confidence": 80
+        "confidence": 85
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-09T20:27:39.646Z",
-  "creditsUsed": 1965
+  "expiresAt": "2026-05-09T20:49:38.594Z",
+  "creditsUsed": 2750
 }

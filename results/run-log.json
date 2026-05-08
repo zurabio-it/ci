@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-08T20:49:51.376Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "IFRX"
+    ]
+  },
+  {
     "timestamp": "2026-05-08T20:27:52.436Z",
     "status": "findings",
     "findings": 1,

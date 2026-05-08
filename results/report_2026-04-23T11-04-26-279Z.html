@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .mobile-filter-toggle { display: none; width: 100%; padding: 10px 16px; background: #0f172a; color: white; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-bottom: 16px; align-items: center; justify-content: center; gap: 8px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; position: static; }
+    .sidebar.open { display: block; }
+    .mobile-filter-toggle { display: flex; }
+  }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .confidence-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 100px; white-space: nowrap; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-23, 7:04:26 a.m. &nbsp;|&nbsp; 9 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">9</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">2</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">6</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+  </div>
+  <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="incy">INCY</option><option value="keyword matched">Keyword matched</option><option value="xncr">XNCR</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="baff">BAFF</option><option value="copd">COPD</option><option value="il-17">IL-17</option><option value="il-33">IL-33</option><option value="polymyalgia rheumatica">Polymyalgia rheumatica</option><option value="systemic sclerosis">Systemic sclerosis</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="Corporate Presentation">Corporate Presentation</option><option value="Scientific Publication">Scientific Publication</option><option value="ClinicalTrial Update">ClinicalTrial Update</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <select id="filter-confidence">
+          <option value="0">All Confidence Levels</option>
+          <option value="70">High only (70+)</option>
+          <option value="45">Medium + High (45+)</option>
+        </select>
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">8</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:13%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">XNCR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:13%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card"
+      data-competitors="incy|xncr"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INCY</span><span class="competitor-tag">XNCR</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">Specialised Therapeutics announced that the Therapeutic Goods Administration (TGA) has registered Minjuvi (tafasitamab) for adult patients with relapsed or refractory follicular lymphoma in Australia. Incyte holds exclusive worldwide rights to develop and commercialize tafasitamab, which was licensed from Xencor.</p>
+      <a class="source-link" href="https://www.prnewswire.com/news-releases/minjuvi-tafasitamab-for-relapsed-or-refractory-follicular-lymphoma-approved-in-australia-302751394.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · prnewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="polymyalgia rheumatica|copd"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">Sanofi reported its Q1 2026 financial results, showing double-digit sales growth. The company highlighted that Kevzara sales growth was primarily driven by increased use in Polymyalgia Rheumatica. The report also mentions the development of the pipeline in COPD, including AERIFY trials for Dupixent.</p>
+      <a class="source-link" href="https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572-en.pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · sanofi.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="copd"
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">ENA Respiratory announced the appointment of Melissa Faris to its Board of Directors. The company is partnered with the COPD Foundation for the clinical development of INNA-051 in COPD.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/23/3279603/0/en/ena-respiratory-appoints-melissa-faris-to-board.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · globenewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Corporate Presentation"
+      data-keywords="il-33|copd"
+      data-confidence="40">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Corporate Presentation</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-33</span><span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#dc26261a;color:#dc2626;border:1px solid #dc262640" title="Confidence score: 40/100">Low · 40</span>
+      </div>
+      <p class="summary">Roche's Q1 2026 results presentation highlights its pipeline candidate RG6981, an anti-TSLP:IL-33 bispecific antibody being developed for COPD and Asthma, with First Patient In (FPI) expected in Q1 2026.</p>
+      <a class="source-link" href="https://roche.com/irp260423-a.pdf" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · roche.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Scientific Publication"
+      data-keywords="il-17"
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">A study published in PubMed describes the development of DNA aptamers that inhibit the binding to human interleukin-17A (IL-17A), a cytokine involved in inflammatory and autoimmune diseases.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42017161/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Scientific Publication"
+      data-keywords="il-17|baff"
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Scientific Publication</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-17</span><span class="keyword-tag">BAFF</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">Research titled 'Genetic Evidence Linking Immune Cell Subsets to Psoriatic Arthritis' identifies immune-mediated pathways involving the IL-23/IL-17 axis and BAFF-R (BAFF receptor) on IgD+CD24+ B-cell subsets.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42016305/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="ClinicalTrial Update"
+      data-keywords="systemic sclerosis"
+      data-confidence="65">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrial Update</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
+      </div>
+      <p class="summary">A study investigating the safety of anti-CD19 CAR-T cell therapy in patients with systemic sclerosis (SSc) was updated on ClinicalTrials.gov.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT07544225" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · clinicaltrials.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="ClinicalTrial Update"
+      data-keywords="systemic sclerosis"
+      data-confidence="65">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrial Update</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
+      </div>
+      <p class="summary">An update was posted for the study 'Objective Assessment of Skin Damage Using ADHELASKIN in Systemic Sclerosis (SSc)', which clinically manifests as skin fibrosis.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT07543679" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · clinicaltrials.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="ClinicalTrial Update"
+      data-keywords="copd"
+      data-confidence="65">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">ClinicalTrial Update</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 65/100">Medium · 65</span>
+      </div>
+      <p class="summary">ClinicalTrials.gov update for the study 'Enhanced COPD Management in Suspected Lung Cancer Patients', assessing early diagnosis and optimal treatment of COPD.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT07543601" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · clinicaltrials.gov</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleFilters() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('filter-toggle-btn');
+    sidebar.classList.toggle('open');
+    btn.textContent = sidebar.classList.contains('open') ? '✕ Hide Filters' : '☰ Show Filters';
+  }
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 9 findings';
+  }
+
+  function applyFilters() {
+    const comp     = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw       = document.getElementById('filter-keyword').value.toLowerCase();
+    const src      = document.getElementById('filter-source').value.toLowerCase();
+    const q        = document.getElementById('filter-search').value.toLowerCase();
+    const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    cards.forEach(card => {
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    document.getElementById('filter-confidence').value = '0';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-keyword').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-confidence').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

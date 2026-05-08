@@ -104,6 +104,8 @@ export const BLOCKED_DOMAINS = [
   'markets.businessinsider.com', 'thestreet.com', 'investorplace.com',
   'prnewswire.com.com', 'globenewswire.com.com',
   'ajmc.com', 'managedhealthcareexecutive.com', 'pharmacytimes.com',
+  'biospace.com', 'drugdiscoverytoday.com', 'clinicaltrialsarena.com',
+  'pharmaphorum.com', 'firstwordpharma.com', 'healio.com', 'mdedge.com',
 ];
 
 // Source types that must come directly from a trusted domain (competitor IR, newswire, or regulator).

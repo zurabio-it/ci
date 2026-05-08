@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .mobile-filter-toggle { display: none; width: 100%; padding: 10px 16px; background: #0f172a; color: white; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-bottom: 16px; align-items: center; justify-content: center; gap: 8px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; position: static; }
+    .sidebar.open { display: block; }
+    .mobile-filter-toggle { display: flex; }
+  }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .confidence-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 100px; white-space: nowrap; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-21, 10:49:41 p.m. &nbsp;|&nbsp; 8 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">8</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">6</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">SEC Filings</div></div>
+  </div>
+  <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="candid">Candid</option><option value="glpg">GLPG</option><option value="glue">GLUE</option><option value="keyword matched">Keyword matched</option><option value="orka">ORKA</option><option value="ucb">UCB</option><option value="vor">VOR</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="copd">COPD</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-33">IL-33</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="SEC Filing">SEC Filing</option><option value="News Article">News Article</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <select id="filter-confidence">
+          <option value="0">All Confidence Levels</option>
+          <option value="70">High only (70+)</option>
+          <option value="45">Medium + High (45+)</option>
+        </select>
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">VOR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ORKA</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLUE</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Candid</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLPG</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card"
+      data-competitors="ucb"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="75">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
+      </div>
+      <p class="summary">Antengene Corporation presented preclinical data from three novel programs (ATG-125, ATG-106, and ATG-112) at the AACR Annual Meeting 2026. The announcement highlights UCB as a partner on the ATG-201 program.</p>
+      <a class="source-link" href="https://www.prnewswire.com/news-releases/antengene-presents-three-novel-programs-at-aacr-2026-highlighting-next-generation-adc-and-antengager-tces-302745764.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · prnewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="vor"
+      data-source="SEC Filing"
+      data-keywords=""
+      data-confidence="80">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing</span>
+        <span class="competitor-tag">VOR</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 80/100">High · 80</span>
+      </div>
+      <p class="summary">Vor Biopharma Inc. filed a preliminary proxy statement (PRE 14A) for its 2026 Annual Meeting of Stockholders, scheduled for June 22, 2026.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1817229/000114036125027774/ny20051455x1_pre14a.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · sec.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="ucb"
+      data-source="Press Release"
+      data-keywords="hidradenitis suppurativa"
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">The Skin of Color Society (SOCS) 22nd Annual Scientific Symposium featured research on metabolic pathways of hidradenitis suppurativa (HS). UCB was highlighted as a partner-level sponsor of the symposium.</p>
+      <a class="source-link" href="https://www.prnewswire.com/news-releases/the-skin-of-color-society-socs-successfully-presents-landmark-symposium-championing-evidence-based-dermatology-and-collaboration-302748350.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · prnewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="News Article"
+      data-keywords="copd|il-33"
+      data-confidence="40">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">News Article</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#dc26261a;color:#dc2626;border:1px solid #dc262640" title="Confidence score: 40/100">Low · 40</span>
+      </div>
+      <p class="summary">AstraZeneca announced that its IL-33-targeting biologic tozorakimab met the primary endpoint in the Phase III MIRANDA trial, significantly reducing exacerbations in patients with COPD. This is the third positive pivotal Phase III win for tozorakimab in COPD.</p>
+      <a class="source-link" href="https://www.clinicaltrialsarena.com/news/astrazenecas-copd-drug-gains-third-phase-iii-win/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · clinicaltrialsarena.com</div>
+    </div>
+    <div class="card"
+      data-competitors="orka"
+      data-source="SEC Filing"
+      data-keywords=""
+      data-confidence="55">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing</span>
+        <span class="competitor-tag">ORKA</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 55/100">Medium · 55</span>
+      </div>
+      <p class="summary">Oruka Therapeutics filed a prospectus supplement regarding the potential resale of up to 39.4 million shares of common stock by selling stockholders, including Point72 and SILV Fund.</p>
+      <a class="source-link" href="https://www.stocktitan.net/sec-filings/ORKA/424b7-oruka-therapeutics-inc-prospectus-filed-pursuant-to-rule-424-b--7bec041fd98f.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · stocktitan.net</div>
+    </div>
+    <div class="card"
+      data-competitors="glue"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="75">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">GLUE</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics presented preclinical data for its CCNE1-directed molecular glue degrader (MGD) at the AACR 2026 Annual Meeting. The data showed deep tumor regressions in CCNE1-amplified in vivo models.</p>
+      <a class="source-link" href="https://www.globenewswire.com/news-release/2026/04/21/3276859/0/en/Monte-Rosa-Therapeutics-Presents-Preclinical-Data-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2026-on-the-Potential-of-its-Cyclin-E1-CCNE1-directed-Molecular-Gl.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · globenewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="candid"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="75">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Candid</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
+      </div>
+      <p class="summary">Candid announced the appointment of Andrew Shaw as Chief Product & Technology Officer to lead the scaling of Candid’s AI infrastructure.</p>
+      <a class="source-link" href="https://www.prnewswire.com/news-releases/candid-appoints-andrew-shaw-as-chief-product--technology-officer-to-accelerate-platform-growth-302747659.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · prnewswire.com</div>
+    </div>
+    <div class="card"
+      data-competitors="glpg"
+      data-source="SEC Filing"
+      data-keywords=""
+      data-confidence="80">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing</span>
+        <span class="competitor-tag">GLPG</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 80/100">High · 80</span>
+      </div>
+      <p class="summary">Galapagos NV made documents related to its Shareholders' Meetings available on the company's website as part of an SEC filing.</p>
+      <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1421876/000119312526130447/d54917dex999.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · sec.gov</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleFilters() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('filter-toggle-btn');
+    sidebar.classList.toggle('open');
+    btn.textContent = sidebar.classList.contains('open') ? '✕ Hide Filters' : '☰ Show Filters';
+  }
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 8 findings';
+  }
+
+  function applyFilters() {
+    const comp     = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw       = document.getElementById('filter-keyword').value.toLowerCase();
+    const src      = document.getElementById('filter-source').value.toLowerCase();
+    const q        = document.getElementById('filter-search').value.toLowerCase();
+    const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    cards.forEach(card => {
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    document.getElementById('filter-confidence').value = '0';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-keyword').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-confidence').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

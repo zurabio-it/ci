@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .mobile-filter-toggle { display: none; width: 100%; padding: 10px 16px; background: #0f172a; color: white; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-bottom: 16px; align-items: center; justify-content: center; gap: 8px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; position: static; }
+    .sidebar.open { display: block; }
+    .mobile-filter-toggle { display: flex; }
+  }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .confidence-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 100px; white-space: nowrap; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-22, 10:13:59 a.m. &nbsp;|&nbsp; 7 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">7</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">7</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+  </div>
+  <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="incy">INCY</option><option value="keyword matched">Keyword matched</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="baff">BAFF</option><option value="copd">COPD</option><option value="giant cell arteritis">Giant cell arteritis</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="il-33">IL-33</option><option value="systemic sclerosis">Systemic sclerosis</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="Scientific News">Scientific News</option><option value="Trade Publication">Trade Publication</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <select id="filter-confidence">
+          <option value="0">All Confidence Levels</option>
+          <option value="70">High only (70+)</option>
+          <option value="45">Medium + High (45+)</option>
+        </select>
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">5</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:40%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="il-33|copd"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-33</span><span class="keyword-tag">COPD</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">AstraZeneca announced that its IL-33-targeting biologic tozorakimab met the primary endpoint in the Phase III MIRANDA trial, showing a statistically significant reduction in moderate-to-severe COPD exacerbations.</p>
+      <a class="source-link" href="https://www.pharmiweb.com/press-release/2026-04-22/third-positive-pivotal-phase-iii-clinical-trial-of-astrazeneca-s-il-33-targeting-biologic-further-demonstrates-its-benefits-in-copd" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · pharmiweb.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="hidradenitis suppurativa|il-17"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">HKeybio launched the world's first non-human primate (NHP) model for Hidradenitis Suppurativa (HS), which is intended to facilitate more clinically relevant testing for drug candidates, including those targeting the IL-17 pathway.</p>
+      <a class="source-link" href="https://finance.yahoo.com/sectors/healthcare/articles/hkeybio-launches-worlds-first-nhp-123000729.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · finance.yahoo.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Scientific News"
+      data-keywords="systemic sclerosis"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#0891b2">Scientific News</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Systemic sclerosis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">A new Australian study published on April 22 confirmed that male patients with systemic sclerosis (SSc) tend to have a worse prognosis compared to female patients.</p>
+      <a class="source-link" href="https://thelimbic.com/rheumatology/male-ssc-carries-worse-prognosis-aus-study-confirms/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · thelimbic.com</div>
+    </div>
+    <div class="card"
+      data-competitors="incy"
+      data-source="Trade Publication"
+      data-keywords="hidradenitis suppurativa|il-17"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Trade Publication</span>
+        <span class="competitor-tag">INCY</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Dermatology Times published a journal digest discussing emerging therapies in Hidradenitis Suppurativa, noting the importance of maintenance therapy with IL-17 inhibitors and referencing ongoing progress in the HS pipeline (including Incyte's recent data).</p>
+      <a class="source-link" href="https://www.dermatologytimes.com/view/journal-digest-april-22-2026" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-21 · dermatologytimes.com</div>
+    </div>
+    <div class="card"
+      data-competitors="incy"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INCY</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Incyte announced full results from the Phase 3 frontMIND study evaluating tafasitamab in combination with R-CHOP in patients with previously untreated diffuse large B-cell lymphoma (DLBCL), to be presented at ASCO 2026.</p>
+      <a class="source-link" href="https://investor.incyte.com/press-releases" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · incyte.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="baff"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">BAFF</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Jade Biosciences appointed Edward R. Conner as Chief Medical Officer and highlighted its pipeline, which includes JADE201, an anti-BAFF-R monoclonal antibody for autoimmune diseases.</p>
+      <a class="source-link" href="https://markets.businessinsider.com/news/stocks/jade-biosciences-appoints-edward-r-conner-m-d-as-chief-medical-officer-1036048037" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · businessinsider.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="giant cell arteritis"
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Giant cell arteritis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Celltrion announced the US commercial availability of AVTOZMA SC, a subcutaneous tocilizumab biosimilar, indicated for conditions including Giant Cell Arteritis (GCA).</p>
+      <a class="source-link" href="https://www.celltrion.com/en-us/company/media-center/press-release" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-20 · celltrion.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleFilters() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('filter-toggle-btn');
+    sidebar.classList.toggle('open');
+    btn.textContent = sidebar.classList.contains('open') ? '✕ Hide Filters' : '☰ Show Filters';
+  }
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 7 findings';
+  }
+
+  function applyFilters() {
+    const comp     = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw       = document.getElementById('filter-keyword').value.toLowerCase();
+    const src      = document.getElementById('filter-source').value.toLowerCase();
+    const q        = document.getElementById('filter-search').value.toLowerCase();
+    const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    cards.forEach(card => {
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    document.getElementById('filter-confidence').value = '0';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-keyword').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-confidence').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

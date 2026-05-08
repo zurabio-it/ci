@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zura Bio — Competitive Intelligence Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #0f172a; color: white; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+  header .meta { font-size: 0.8rem; color: #94a3b8; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid #e2e8f0; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #0f172a; }
+  .stat .label { font-size: 0.78rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+  .sidebar { position: sticky; top: 24px; height: fit-content; }
+  .mobile-filter-toggle { display: none; width: 100%; padding: 10px 16px; background: #0f172a; color: white; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-bottom: 16px; align-items: center; justify-content: center; gap: 8px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; position: static; }
+    .sidebar.open { display: block; }
+    .mobile-filter-toggle { display: flex; }
+  }
+  .panel { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 16px; }
+  .panel h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #64748b; margin-bottom: 14px; }
+  select, input { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.875rem; color: #1e293b; background: #f8fafc; margin-bottom: 10px; }
+  button { width: 100%; padding: 9px; border: none; border-radius: 8px; background: #0f172a; color: white; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e293b; }
+  .chart-row { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.8rem; }
+  .chart-label { width: 60px; flex-shrink: 0; font-weight: 600; color: #475569; }
+  .chart-bar-wrap { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .chart-bar { height: 14px; background: linear-gradient(90deg, #3b82f6, #6366f1); border-radius: 4px; min-width: 4px; }
+  .chart-count { color: #64748b; font-size: 0.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: white; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .badge { font-size: 0.7rem; font-weight: 700; color: white; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .competitor-tag { font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #f1f5f9; padding: 3px 9px; border-radius: 100px; }
+  .keyword-tag { font-size: 0.75rem; color: #7c3aed; background: #ede9fe; padding: 3px 9px; border-radius: 100px; }
+  .summary { font-size: 0.875rem; color: #334155; line-height: 1.6; margin-bottom: 12px; }
+  .source-link { font-size: 0.8rem; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .source-link:hover { text-decoration: underline; }
+  .card-domain { font-size: 0.72rem; color: #94a3b8; margin-top: 6px; }
+  .confidence-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 100px; white-space: nowrap; }
+  .hidden { display: none !important; }
+  #results-count { font-size: 0.85rem; color: #64748b; margin-bottom: 16px; }
+  .no-results { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.95rem; grid-column: 1/-1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zura Bio — Competitive Intelligence</h1>
+  <div class="meta">Generated 2026-04-24, 10:08:14 a.m. &nbsp;|&nbsp; 9 findings</div>
+</header>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">9</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">5</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">7</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Clinical Trial Updates</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+  </div>
+  <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="panel">
+        <h3>Filter</h3>
+        <select id="filter-competitor">
+          <option value="">All Competitors</option>
+          <option value="alms">ALMS</option><option value="candid">Candid</option><option value="glue">GLUE</option><option value="kymr">KYMR</option><option value="keyword matched">Keyword matched</option><option value="ucb">UCB</option>
+        </select>
+        <select id="filter-keyword">
+          <option value="">All Keywords</option>
+          <option value="copd">COPD</option><option value="giant cell arteritis">Giant cell arteritis</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="il-33">IL-33</option><option value="polymyalgia rheumatica">Polymyalgia rheumatica</option><option value="systemic sclerosis">Systemic sclerosis</option>
+        </select>
+        <select id="filter-source">
+          <option value="">All Source Types</option>
+          <option value="Press Release">Press Release</option><option value="Clinical Trial Update">Clinical Trial Update</option><option value="Publication">Publication</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search summaries...">
+        <select id="filter-confidence">
+          <option value="0">All Confidence Levels</option>
+          <option value="70">High only (70+)</option>
+          <option value="45">Medium + High (45+)</option>
+        </select>
+        <button onclick="resetFilters()">Reset Filters</button>
+      </div>
+      <div class="panel">
+        <h3>Findings by Competitor</h3>
+        
+    <div class="chart-row">
+      <div class="chart-label">Keyword matched</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:100%"></div>
+        <span class="chart-count">4</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">GLUE</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Candid</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">KYMR</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">ALMS</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">UCB</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:25%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div>
+      <div id="results-count"></div>
+      <div class="grid" id="card-grid">
+        
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="copd|il-33"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">COPD</span><span class="keyword-tag">IL-33</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">AstraZeneca reported that its IL-33 inhibitor reached primary endpoints in a third Phase III clinical trial for COPD, demonstrating significant benefits for patients.</p>
+      <a class="source-link" href="https://www.yahoo.com/news/articles/astrazeneca-copd-drug-gains-third-103024183.html" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-23 · yahoo.com</div>
+    </div>
+    <div class="card"
+      data-competitors="candid"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Candid</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">Candid Therapeutics advanced its portfolio of novel T-cell engagers into clinical evaluation across five autoimmune diseases based on positive clinical data.</p>
+      <a class="source-link" href="https://www.biospace.com/press-releases/candid-therapeutics-advances-portfolio-of-novel-t-cell-engagers-into-five-autoimmune-diseases-for-clinical-evaluation" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-23 · biospace.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="il-17"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">Scinai Immunotherapeutics secured $2.61 million to fund its immunology pipeline, focusing on its IL-17 directed therapies.</p>
+      <a class="source-link" href="https://www.scinai.com/press-releases/scinai-immunotherapeutics-announces-261-million-private-placement-financing" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-23 · scinai.com</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Press Release"
+      data-keywords="systemic sclerosis|systemic sclerosis"
+      data-confidence="60">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Systemic sclerosis</span><span class="keyword-tag">Systemic sclerosis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 60/100">Medium · 60</span>
+      </div>
+      <p class="summary">AbbVie's Rinvoq received EMA Orphan Drug Designation for Systemic Sclerosis, marking a milestone in its development for fibrotic diseases.</p>
+      <a class="source-link" href="https://allsci.com/news/orphan-drug-designations/abbvies-rinvoq-secures-ema-orphan-drug-designation-for-systemic-sclerosis/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-23 · allsci.com</div>
+    </div>
+    <div class="card"
+      data-competitors="kymr|glue"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">KYMR</span><span class="competitor-tag">GLUE</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Gilead Sciences exercised its option to license Kymera's CDK2 molecular glue degrader KT-200, resulting in a $45 million payment to Kymera.</p>
+      <a class="source-link" href="https://www.biospace.com/press-releases/kymera-therapeutics-announces-gilead-sciences-option-exercise-to-license-kt-200-oral-cdk2-molecular-glue-degrader-development-candidate" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · biospace.com</div>
+    </div>
+    <div class="card"
+      data-competitors="glue"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">GLUE</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">Monte Rosa Therapeutics reached a supply agreement with J&J to support a Phase 2 trial of its GSPT1-directed molecular glue degrader MRT-2359.</p>
+      <a class="source-link" href="https://www.rttnews.com/3631113/monte-rosa-signs-supply-agreement-with-jnj-for-phase-2-prostate-cancer-study-stock-up.aspx" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · rttnews.com</div>
+    </div>
+    <div class="card"
+      data-competitors="alms"
+      data-source="Clinical Trial Update"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa"
+      data-confidence="85">
+      <div class="card-header">
+        <span class="badge" style="background:#9333ea">Clinical Trial Update</span>
+        <span class="competitor-tag">ALMS</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 85/100">High · 85</span>
+      </div>
+      <p class="summary">Almirall updated the clinical trial record for NCT07547813, a Phase 2 study evaluating LAD328 in adults with moderate-to-severe Hidradenitis Suppurativa.</p>
+      <a class="source-link" href="https://clinicaltrials.gov/study/NCT07547813" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · clinicaltrials.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="keyword matched"
+      data-source="Publication"
+      data-keywords="polymyalgia rheumatica|polymyalgia rheumatica|giant cell arteritis|giant cell arteritis"
+      data-confidence="55">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">Publication</span>
+        <span class="competitor-tag">Keyword matched</span>
+        <span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">Polymyalgia rheumatica</span><span class="keyword-tag">Giant cell arteritis</span><span class="keyword-tag">Giant cell arteritis</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 55/100">Medium · 55</span>
+      </div>
+      <p class="summary">A new study comparing FAPI and FDG-PET imaging for PMR and GCA was indexed on PubMed, providing prospective evidence for imaging in vasculitis.</p>
+      <a class="source-link" href="https://pubmed.ncbi.nlm.nih.gov/42020812/" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · pubmed.ncbi.nlm.nih.gov</div>
+    </div>
+    <div class="card"
+      data-competitors="ucb"
+      data-source="Press Release"
+      data-keywords=""
+      data-confidence="50">
+      <div class="card-header">
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">UCB</span>
+        
+        <span class="confidence-badge" style="margin-left:auto;background:#d977061a;color:#d97706;border:1px solid #d9770640" title="Confidence score: 50/100">Medium · 50</span>
+      </div>
+      <p class="summary">UCB announced a $1.1 billion collaboration with Antengene to develop a bispecific T-cell engager for autoimmune indications.</p>
+      <a class="source-link" href="https://www.bioworld.com/articles/729298-ucb-inks-11b-deal-for-antengenes-autoimmune-bispecific-tce" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-04-22 · bioworld.com</div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleFilters() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('filter-toggle-btn');
+    sidebar.classList.toggle('open');
+    btn.textContent = sidebar.classList.contains('open') ? '✕ Hide Filters' : '☰ Show Filters';
+  }
+  const cards = document.querySelectorAll('.card');
+  const countEl = document.getElementById('results-count');
+
+  function updateCount() {
+    const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
+    countEl.textContent = visible + ' of 9 findings';
+  }
+
+  function applyFilters() {
+    const comp     = document.getElementById('filter-competitor').value.toLowerCase();
+    const kw       = document.getElementById('filter-keyword').value.toLowerCase();
+    const src      = document.getElementById('filter-source').value.toLowerCase();
+    const q        = document.getElementById('filter-search').value.toLowerCase();
+    const minConf  = parseInt(document.getElementById('filter-confidence').value) || 0;
+    cards.forEach(card => {
+      const comps = card.dataset.competitors?.split('|') ?? [];
+      const kws   = card.dataset.keywords?.split('|') ?? [];
+      const matchComp = !comp || comps.some(c => c === comp);
+      const matchKw   = !kw   || kws.some(k => k === kw);
+      const matchSrc  = !src  || card.dataset.source?.toLowerCase() === src;
+      const matchQ    = !q    || card.querySelector('.summary')?.textContent.toLowerCase().includes(q);
+      const matchConf = parseInt(card.dataset.confidence ?? 0) >= minConf;
+      card.classList.toggle('hidden', !(matchComp && matchKw && matchSrc && matchQ && matchConf));
+    });
+    updateCount();
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-competitor').value = '';
+    document.getElementById('filter-keyword').value = '';
+    document.getElementById('filter-source').value = '';
+    document.getElementById('filter-search').value = '';
+    document.getElementById('filter-confidence').value = '0';
+    applyFilters();
+  }
+
+  document.getElementById('filter-competitor').addEventListener('change', applyFilters);
+  document.getElementById('filter-keyword').addEventListener('change', applyFilters);
+  document.getElementById('filter-source').addEventListener('change', applyFilters);
+  document.getElementById('filter-confidence').addEventListener('change', applyFilters);
+  document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+  updateCount();
+</script>
+</body>
+</html>

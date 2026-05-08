@@ -18,20 +18,7 @@ async function postToTeams(card) {
 }
 
 if (!fs.existsSync('results/latest.json')) {
-  console.log('No new findings — sending clean-run notice to Teams.');
-  await postToTeams({
-    type: 'AdaptiveCard',
-    $schema: 'http://adaptivecards.io/schemas/adaptive-card.json',
-    version: '1.4',
-    body: [
-      { type: 'TextBlock', text: 'Zura Bio — Competitive Intelligence', weight: 'Bolder', size: 'Large' },
-      { type: 'TextBlock', text: `✅ Scan complete — no new articles · ${runDate}`, wrap: true, color: 'Good' },
-      { type: 'TextBlock', text: 'All 20 competitor IR pages were checked. Nothing new since the last report.', wrap: true, size: 'Small', color: 'Default' },
-    ],
-    actions: [
-      { type: 'Action.OpenUrl', title: '📅 Historical Dashboard', url: HISTORICAL_URL },
-    ],
-  });
+  console.log('No new findings — skipping notification. Check ci.zurabio.com/status.html for run history.');
   process.exit(0);
 }
 

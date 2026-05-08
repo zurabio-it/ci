@@ -182,17 +182,18 @@ const urlValidated = allFindings.filter((_, i) => urlCheckResults[i]);
 const urlDropped = allFindings.length - urlValidated.length;
 if (urlDropped > 0) console.log(`URL check dropped ${urlDropped} finding(s) with broken source links.`);
 
-// Drop findings older than 2 days
+// Drop findings older than 2 days or with future publish dates (hallucination signal)
 const cutoff = new Date();
 cutoff.setDate(cutoff.getDate() - 2);
 const cutoffStr = cutoff.toISOString().slice(0, 10);
 const dateFiltered = urlValidated.filter(f => {
   const pub = (f.publication_date ?? '').slice(0, 10);
   if (!pub) return true;
+  if (pub > today) { console.log(`  Future date dropped: ${pub} — ${f.source_link}`); return false; }
   return pub >= cutoffStr;
 });
 const dateDropped = urlValidated.length - dateFiltered.length;
-if (dateDropped > 0) console.log(`Date filter dropped ${dateDropped} finding(s) older than 2 days.`);
+if (dateDropped > 0) console.log(`Date filter dropped ${dateDropped} finding(s) (too old or future-dated).`);
 
 // Filter stale and low-quality sources
 const qualityFindings = dateFiltered.filter(f => !isStaleContent(f));

@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "summary": "Vera Therapeutics announced inducement grants for new employees under Nasdaq Listing Rule 5635(c)(4). The company develops atacicept, which targets BAFF and APRIL.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "source_domain": "veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-inducement-grants-under-nasdaq-9",
+        "disease_area": "SSc",
+        "confidence": 95
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T21:58:50.981Z",
+  "creditsUsed": 1454
+}

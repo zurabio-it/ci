@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-08T21:59:03.681Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "VERA"
+    ]
+  },
+  {
     "timestamp": "2026-05-08T20:57:30.726Z",
     "status": "clean",
     "findings": 0,

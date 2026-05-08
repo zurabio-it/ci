@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="300">
+  <title>Zura Bio CI — Status</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Lato', Arial, sans-serif; background: #f4f6f9; color: #1e293b; min-height: 100vh; }
+
+    .header { background: #fff; border-bottom: 3px solid #0052CC; padding: 20px 32px; display: flex; align-items: center; justify-content: space-between; }
+    .header img { height: 36px; }
+    .header-right { text-align: right; }
+    .header-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #888; }
+    .header-links { margin-top: 4px; }
+    .header-links a { color: #0052CC; font-size: 13px; font-weight: 600; text-decoration: none; margin-left: 16px; }
+
+    .container { max-width: 960px; margin: 0 auto; padding: 32px 24px; }
+
+    .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .stat-card { background: #fff; border-radius: 8px; padding: 20px 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .stat-value { font-family: 'Poppins', sans-serif; font-size: 28px; font-weight: 700; color: #0052CC; }
+    .stat-label { font-size: 12px; color: #888; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .status-indicator { font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 600; padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; }
+    .status-clean { background: #f0fdf4; color: #16a34a; }
+    .status-findings { background: #eff6ff; color: #0052CC; }
+
+    .section-title { font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; color: #374151; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 13px; }
+    thead tr { background: #f8fafc; border-bottom: 2px solid #e2e8f0; }
+    th { padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.06em; }
+    td { padding: 10px 16px; border-bottom: 1px solid #f1f5f9; color: #374151; }
+    tr:last-child td { border-bottom: none; }
+    tr.row-findings td { background: #fafcff; }
+    .competitors { color: #888; font-size: 12px; }
+    td a { color: #0052CC; text-decoration: none; font-weight: 600; font-size: 12px; }
+
+    .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+    .badge-clean { background: #f0fdf4; color: #16a34a; }
+    .badge-findings { background: #eff6ff; color: #0052CC; }
+
+    .footer { text-align: center; padding: 24px; color: #aaa; font-size: 12px; }
+    .footer span { color: #ccc; margin: 0 8px; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://zurabio.com/wp-content/uploads/zurabio-logo.png" alt="Zura Bio">
+  <div class="header-right">
+    <div class="header-label">Competitive Intelligence · Run Status</div>
+    <div class="header-links">
+      <a href="index.html">Latest Report</a>
+      <a href="historical.html">Historical</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="status-indicator status-findings">● 6 new findings found</div>
+
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-value">1</div>
+      <div class="stat-label">Runs in last 24 hours</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">6</div>
+      <div class="stat-label">Findings in last 24 hours</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">May 8</div>
+      <div class="stat-label">Last finding date</div>
+    </div>
+  </div>
+
+  <div class="section-title">Recent Runs</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Time (ET)</th>
+        <th>Status</th>
+        <th>Competitors</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+  <tr class="row-findings">
+    <td>May 8, 2026, 12:17 p.m.</td>
+    <td><span class="badge badge-findings">6 findings</span></td>
+    <td class="competitors">Lilly, Sun Pharma, Novartis, Travere, Roche, Sanofi, AstraZeneca, Vertex, Biogen, Takeda, Eli Lilly, Astellas, Boehringer Ingelheim</td>
+    <td><a href="historical.html">View →</a></td>
+  </tr></tbody>
+  </table>
+
+</div>
+
+<div class="footer">
+  Zura Bio Competitive Intelligence <span>·</span> Auto-refreshes every 5 minutes <span>·</span> Last updated May 8, 2026, 12:17 p.m.
+</div>
+
+</body>
+</html>

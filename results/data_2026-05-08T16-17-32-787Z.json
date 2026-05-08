@@ -1,0 +1,349 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "Astellas",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "AstraZeneca",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Biogen",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Boehringer Ingelheim",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Eli Lilly",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Lilly",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Novartis",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Roche",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Sanofi",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Sun Pharma",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Takeda",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Travere",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Vertex",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "competitors": [],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "summary": "Aclaris Therapeutics announced that its management will participate in the 2026 Bank of America Healthcare Conference, featuring a fireside chat with CEO Dr. Neal Walker on May 13, 2026.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "competitors": [],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "summary": "InflaRx Announces Closing of $150 Million Underwritten Offering of Ordinary Shares.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "competitors": [],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "summary": "This prospectus supplement relates to Avalo Therapeutics' public offering of 19,730,000 shares of common stock and pre-funded warrants. The document highlights the company's lead candidate, AVTX-009 (abdakibart), a monoclonal antibody being developed for the treatment of moderate to severe Hidradenitis Suppurativa (HS). It notes that Avalo recently achieved positive topline results in the Phase 2 LOTUS trial for HS.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "competitors": [],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "keywords": [],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "summary": "This Current Report on Form 8-K reports that Avalo Therapeutics entered into an underwriting agreement on May 5, 2026, with Leerink Partners, TD Securities, and BofA Securities for its public offering. The filing also incorporates by reference financial results for the first quarter ended March 31, 2026.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors": [],
+        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [],
+        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "Insmed reported its financial results for the first quarter of 2026 and provided an update on its business operations and clinical pipeline. The company also announced a conference call to discuss these results.",
+        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "competitors": [],
+        "competitors_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "keywords": [],
+        "keywords_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "summary": "Insmed's quarterly report for the period ended March 31, 2026, provides a comprehensive overview of the company's financial condition, including its balance sheet, cash flows, and management's discussion and analysis of financial results.",
+        "summary_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "source_link_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "source_domain": "app.quotemedia.com",
+        "source_domain_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "competitors": [
+          "Lilly",
+          "Sun Pharma"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "summary": "Aclaris reported Q1 2026 financial results and provided a clinical update. Highlights include positive Phase 1a results for ATI-052 (a bispecific anti-TSLP/IL-4Rα antibody) and the selection of lichen planus as the lead indication for ATI-2138 (an oral ITK/JAK3 inhibitor). The company also announced plans to file an IND for ATI-9494 in the second half of 2026.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "competitors": [
+          "Lilly",
+          "Sun Pharma"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "summary": "Aclaris filed a Form 8-K to report its first quarter 2026 financial results and provide a corporate update, as detailed in the accompanying press release.",
+        "summary_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_link": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_link_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "competitors": [
+          "Lilly",
+          "Sun Pharma"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "summary": "Aclaris filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026, which includes detailed financial information and updates on its clinical development programs.",
+        "summary_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_link": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_link_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "competitors": [],
+        "competitors_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "keywords": [],
+        "keywords_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "summary": "UCB announced a new strategic alliance with Cancer Research UK and Cancer Research Horizons to advance novel investigational oncology candidates. The collaboration expands an existing partnership to include earlier-stage discovery and preclinical programs, with UCB nominating two additional projects for joint development through Phase 1/2 clinical trials.",
+        "summary_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_domain": "www.ucb.com",
+        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "competitors": [],
+        "competitors_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "summary": "Monte Rosa Therapeutics reported its first quarter 2026 financial results and provided a corporate update. A key business highlight is the planned initiation of a Phase 2 study for MRT-8102, a NEK7-directed molecular glue degrader, in patients with moderate to severe hidradenitis suppurativa in the first half of 2027. The company also highlighted positive interim clinical data for MRT-8102 in subjects with elevated cardiovascular risk and the progress of its VAV1-directed program (MRT-6160) in collaboration with Novartis.",
+        "summary_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_domain": "ir.monterosatx.com",
+        "source_domain_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "News Release",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "competitors": [
+          "Novartis",
+          "Travere",
+          "Roche",
+          "AstraZeneca",
+          "Sanofi"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "summary": "Vera reported Q1 2026 financial results and progress on its lead candidate, atacicept. The FDA has granted priority review to the atacicept BLA for IgA Nephropathy (IgAN) with a PDUFA date of July 7, 2026. Commercial launch in the U.S. is planned for mid-2026. Additionally, results from the PIONEER Phase 2 basket trial are expected in Q2 2026.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10686/html",
+        "competitors": [
+          "Novartis",
+          "Travere",
+          "Roche",
+          "Sanofi",
+          "AstraZeneca",
+          "Vertex",
+          "Biogen",
+          "Takeda",
+          "Eli Lilly",
+          "Astellas",
+          "Boehringer Ingelheim"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10686/html",
+        "keywords": [
+          "BAFF",
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.veratx.com/node/10686/html",
+        "summary": "The quarterly report details Vera's focus on developing atacicept, a dual inhibitor of BAFF and APRIL. The document mentions potential applications for atacicept in various immunological diseases, including systemic sclerosis. It also provides a detailed competitive landscape for its target indications, noting numerous pharmaceutical companies with programs in clinical development.",
+        "summary_citation": "https://ir.veratx.com/node/10686/html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/node/10686/html",
+        "source_link": "https://ir.veratx.com/node/10686/html",
+        "source_link_citation": "https://ir.veratx.com/node/10686/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10686/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "competitors": [],
+        "competitors_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "summary": "Incyte Announces Positive Results from Phase 3 Program for Opzelura (ruxolitinib) Cream in Adults with Moderate Atopic Dermatitis.",
+        "summary_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_link": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_link_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T16:17:31.115Z",
+  "creditsUsed": 7114
+}

@@ -1,0 +1,222 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "Astellas",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "AstraZeneca",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Biogen",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Boehringer Ingelheim",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Eli Lilly",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Lilly",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Novartis",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Roche",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Sanofi",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Sun Pharma",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Takeda",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Travere",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Vertex",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Mentioned in competitors' IR news or filings"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "summary": "Aclaris Therapeutics announced that its management will participate in the 2026 Bank of America Healthcare Conference, featuring a fireside chat with CEO Dr. Neal Walker on May 13, 2026.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-participate-2026-bank-america-healthcare",
+        "disease_area": "Other",
+        "confidence": 85
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "keywords": [],
+        "keywords_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "summary": "InflaRx Announces Closing of $150 Million Underwritten Offering of Ordinary Shares.",
+        "summary_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "publication_date": "2026-05-08",
+        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_link_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html",
+        "disease_area": "Other",
+        "confidence": 85
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "competitors": [
+          "Lilly",
+          "Sun Pharma"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "summary": "Aclaris filed a Form 8-K to report its first quarter 2026 financial results and provide a corporate update, as detailed in the accompanying press release.",
+        "summary_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_link": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_link_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/8-k/0001104659-26-056669",
+        "disease_area": "Other",
+        "confidence": 80
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "competitors": [
+          "Lilly",
+          "Sun Pharma"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "summary": "Aclaris filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026, which includes detailed financial information and updates on its clinical development programs.",
+        "summary_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_link": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_link_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/sec-filings/sec-filing/10-q/0001104659-26-057202",
+        "disease_area": "Other",
+        "confidence": 80
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10686/html",
+        "competitors": [
+          "Novartis",
+          "Travere",
+          "Roche",
+          "Sanofi",
+          "AstraZeneca",
+          "Vertex",
+          "Biogen",
+          "Takeda",
+          "Eli Lilly",
+          "Astellas",
+          "Boehringer Ingelheim"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10686/html",
+        "keywords": [
+          "BAFF",
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.veratx.com/node/10686/html",
+        "summary": "The quarterly report details Vera's focus on developing atacicept, a dual inhibitor of BAFF and APRIL. The document mentions potential applications for atacicept in various immunological diseases, including systemic sclerosis. It also provides a detailed competitive landscape for its target indications, noting numerous pharmaceutical companies with programs in clinical development.",
+        "summary_citation": "https://ir.veratx.com/node/10686/html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/node/10686/html",
+        "source_link": "https://ir.veratx.com/node/10686/html",
+        "source_link_citation": "https://ir.veratx.com/node/10686/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10686/html",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "competitors": [
+          "Keyword matched"
+        ],
+        "competitors_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "summary": "Incyte Announces Positive Results from Phase 3 Program for Opzelura (ruxolitinib) Cream in Adults with Moderate Atopic Dermatitis.",
+        "summary_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_link": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_link_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-positive-results-phase-3-program-opzelura",
+        "disease_area": "Other",
+        "confidence": 75
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T16:17:31.115Z",
+  "creditsUsed": 7114
+}

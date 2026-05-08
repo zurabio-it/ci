@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-05-08T16:17:43.823Z",
+    "status": "findings",
+    "findings": 6,
+    "competitors": [
+      "Lilly",
+      "Sun Pharma",
+      "Novartis",
+      "Travere",
+      "Roche",
+      "Sanofi",
+      "AstraZeneca",
+      "Vertex",
+      "Biogen",
+      "Takeda",
+      "Eli Lilly",
+      "Astellas",
+      "Boehringer Ingelheim"
+    ]
+  }
+]

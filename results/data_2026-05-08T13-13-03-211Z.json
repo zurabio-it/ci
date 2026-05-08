@@ -1,0 +1,184 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INSM",
+        "value_citation": "Source: https://investor.insmed.com/releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Source: https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Source: https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Source: https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "Insmed reported its first-quarter 2026 financial results, highlighting a 42% increase in global net sales for ARIKAYCE and the successful completion of the Phase 3 ASPEN trial. The company also discussed its pipeline, including brensocatib for non-cystic fibrosis bronchiectasis and COPD.",
+        "summary_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source: https://investor.insmed.com/sec",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Source: https://investor.insmed.com/sec",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Source: https://investor.insmed.com/sec",
+        "summary": "Insmed filed a Form 10-Q for the quarter ended March 31, 2026, detailing its financial performance and risk factors, including clinical developments for brensocatib in COPD.",
+        "summary_citation": "Source: https://investor.insmed.com/sec",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://investor.insmed.com/sec",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "source_link_citation": "Source: https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "Source: https://investor.insmed.com/sec"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "summary": "Vera Therapeutics announced its Q1 2026 financial results and provided an update on its lead candidate, atacicept, a dual inhibitor of BAFF and APRIL, which is currently in the Phase 3 ORIGIN trial for IgA nephropathy.",
+        "summary_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "summary": "Vera Therapeutics filed a Form 8-K on May 7, 2026, which included a press release and investor presentation detailing its Q1 2026 results and business updates.",
+        "summary_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "source_link": "https://ir.veratx.com/sec-filing/8-k/0001193125-26-210351",
+        "source_link_citation": "Source: https://ir.veratx.com/financial-information/sec-filings",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "Source: https://ir.veratx.com/financial-information/sec-filings"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "competitors": [
+          "ACRS"
+        ],
+        "competitors_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "keywords": [],
+        "keywords_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "summary": "Aclaris Therapeutics reported first-quarter 2026 financial results, highlighting its focus on developing treatments for immuno-inflammatory diseases and providing updates on its corporate and clinical strategies.",
+        "summary_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "Source: https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "competitors": [
+          "IFRX"
+        ],
+        "competitors_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "summary": "InflaRx reported its first-quarter 2026 financial results, highlighting progress with its lead candidate vilobelimab, which is being investigated in various inflammatory conditions including Hidradenitis Suppurativa.",
+        "summary_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link": "https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_link_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html",
+        "source_domain": "www.inflarx.de",
+        "source_domain_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "keywords": [],
+        "keywords_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "summary": "Incyte announced 24-week long-term data from its Phase 3 TRuE-AD4 trial of Opzelura (ruxolitinib) cream in adults with moderate atopic dermatitis, demonstrating sustained efficacy and a manageable safety profile.",
+        "summary_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Source: https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T13:13:01.965Z",
+  "creditsUsed": 396
+}

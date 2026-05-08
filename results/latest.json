@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "INSM",
+        "value_citation": "Source: https://investor.insmed.com/releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Source: https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Source: https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Source: https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "Source: https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Source: https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Source: https://www.inflarx.de/Home/Investors/Press-Releases/Press-Release~2026-05-InflaRx-to-Report-First-Quarter-2026-Results-on-May-7--2026~.html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source: https://investor.insmed.com/sec",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Source: https://investor.insmed.com/sec",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "Source: https://investor.insmed.com/sec",
+        "summary": "Insmed filed a Form 10-Q for the quarter ended March 31, 2026, detailing its financial performance and risk factors, including clinical developments for brensocatib in COPD.",
+        "summary_citation": "Source: https://investor.insmed.com/sec",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "Source: https://investor.insmed.com/sec",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320023756&type=HTML&symbol=INSM&cdn=9a57afd535545fad547bd98d3758354c&companyName=Insmed+Incorporated&formType=10-Q&dateFiled=2026-05-07",
+        "source_link_citation": "Source: https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "Source: https://investor.insmed.com/sec",
+        "disease_area": "Other",
+        "confidence": 90
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T13:13:01.965Z",
+  "creditsUsed": 396
+}

@@ -58,16 +58,16 @@
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-05-08, 6:44:23 a.m. &nbsp;|&nbsp; 2 findings</div>
+  <div class="meta">Generated 2026-05-08, 6:55:57 a.m. &nbsp;|&nbsp; 4 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">2</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">1</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">0</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
     <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
-    <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
+    <div class="stat"><div class="num">3</div><div class="label">SEC Filings</div></div>
   </div>
   <div class="layout">
     <div class="sidebar">
@@ -75,15 +75,15 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="ifrx">IFRX</option>
+          <option value="avtx">AVTX</option><option value="incy">INCY</option><option value="vera">VERA</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          
+          <option value="baff">BAFF</option><option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option><option value="systemic sclerosis">Systemic sclerosis</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
-          <option value="Conference Call">Conference Call</option><option value="Press Release / Financial Results">Press Release / Financial Results</option>
+          <option value="SEC Filing (424B5)">SEC Filing (424B5)</option><option value="SEC Filing (8-K)">SEC Filing (8-K)</option><option value="SEC Filing (10-Q)">SEC Filing (10-Q)</option><option value="Press Release">Press Release</option>
         </select>
         <select id="filter-area">
           <option value="">All Disease Areas</option>
@@ -122,10 +122,24 @@
         <h3>Findings by Competitor</h3>
         
     <div class="chart-row">
-      <div class="chart-label">IFRX</div>
+      <div class="chart-label">VERA</div>
       <div class="chart-bar-wrap">
         <div class="chart-bar" style="width:100%"></div>
         <span class="chart-count">2</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">AVTX</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">INCY</div>
+      <div class="chart-bar-wrap">
+        <div class="chart-bar" style="width:50%"></div>
+        <span class="chart-count">1</span>
       </div>
     </div>
       </div>
@@ -134,45 +148,97 @@
       <div id="results-count"></div>
       <div id="findings-container">
         
-    <div class="disease-section" data-area="Other">
+    <div class="disease-section" data-area="HS">
       <div class="section-header">
-        <span class="section-dot" style="background:#6b7280"></span>
-        <span class="section-title">Other</span>
+        <span class="section-dot" style="background:#7c3aed"></span>
+        <span class="section-title">Hidradenitis Suppurativa (HS)</span>
+        <span class="section-count">1</span>
+      </div>
+      <div class="grid section-grid">
+        
+    <div class="card"
+      data-competitors="avtx"
+      data-source="SEC Filing (424B5)"
+      data-keywords="hidradenitis suppurativa|il-17"
+      data-confidence="90"
+      data-area="HS">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing (424B5)</span>
+        <span class="competitor-tag">AVTX</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 90/100">High · 90</span>
+      </div>
+      <p class="summary">Avalo Therapeutics filed a Prospectus Supplement for the offering of common stock and warrants. The document details the company's clinical development plans for abdakibart (AVTX-009) in Hidradenitis Suppurativa (HS) and discusses its mechanism involving the inhibition of inflammatory cytokines including IL-17.</p>
+      <a class="source-link" href="https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · ir.avalotx.com</div>
+    </div>
+      </div>
+    </div>
+    <div class="disease-section" data-area="SSc">
+      <div class="section-header">
+        <span class="section-dot" style="background:#2563eb"></span>
+        <span class="section-title">Systemic Sclerosis (SSc)</span>
         <span class="section-count">2</span>
       </div>
       <div class="grid section-grid">
         
     <div class="card"
-      data-competitors="ifrx"
-      data-source="Conference Call"
-      data-keywords=""
-      data-confidence="80"
-      data-area="Other">
+      data-competitors="vera"
+      data-source="SEC Filing (8-K)"
+      data-keywords="baff"
+      data-confidence="90"
+      data-area="SSc">
       <div class="card-header">
-        <span class="badge" style="background:#ea580c">Conference Call</span>
-        <span class="competitor-tag">IFRX</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 80/100">High · 80</span>
+        <span class="badge" style="background:#6b7280">SEC Filing (8-K)</span>
+        <span class="competitor-tag">VERA</span>
+        <span class="keyword-tag">BAFF</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 90/100">High · 90</span>
       </div>
-      <p class="summary">InflaRx held a conference call on May 8, 2026, to discuss its first quarter 2026 financial results and provide a business update.</p>
-      <a class="source-link" href="https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-05-08 · www.inflarx.de</div>
+      <p class="summary">Vera Therapeutics filed a Form 8-K with the SEC on May 7, 2026, which included its first quarter 2026 financial results and business update press release as an exhibit. The report discusses the FDA's priority review of atacicept for IgA Nephropathy.</p>
+      <a class="source-link" href="https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · ir.veratx.com</div>
     </div>
     <div class="card"
-      data-competitors="ifrx"
-      data-source="Press Release / Financial Results"
+      data-competitors="vera"
+      data-source="SEC Filing (10-Q)"
+      data-keywords="systemic sclerosis|baff"
+      data-confidence="90"
+      data-area="SSc">
+      <div class="card-header">
+        <span class="badge" style="background:#6b7280">SEC Filing (10-Q)</span>
+        <span class="competitor-tag">VERA</span>
+        <span class="keyword-tag">Systemic sclerosis</span><span class="keyword-tag">BAFF</span>
+        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 90/100">High · 90</span>
+      </div>
+      <p class="summary">Vera Therapeutics filed its Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. The report provides a comprehensive review of the company's financial position and clinical development programs, including the status of atacicept for IgA Nephropathy and its potential application in other autoimmune conditions such as systemic sclerosis.</p>
+      <a class="source-link" href="https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · ir.veratx.com</div>
+    </div>
+      </div>
+    </div>
+    <div class="disease-section" data-area="Other">
+      <div class="section-header">
+        <span class="section-dot" style="background:#6b7280"></span>
+        <span class="section-title">Other</span>
+        <span class="section-count">1</span>
+      </div>
+      <div class="grid section-grid">
+        
+    <div class="card"
+      data-competitors="incy"
+      data-source="Press Release"
       data-keywords=""
       data-confidence="75"
       data-area="Other">
       <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release / Financial Results</span>
-        <span class="competitor-tag">IFRX</span>
+        <span class="badge" style="background:#2563eb">Press Release</span>
+        <span class="competitor-tag">INCY</span>
         
         <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
       </div>
-      <p class="summary">InflaRx announced the publication of its first quarter 2026 financial and operating results.</p>
-      <a class="source-link" href="https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-05-07 · www.inflarx.de</div>
+      <p class="summary">Incyte announced 24-week long-term data from its Phase 3 TRuE-AD4 trial evaluating Opzelura (ruxolitinib) cream in adults with moderate atopic dermatitis. The data, presented at the 2026 EADV Symposium, showed that the majority of patients who achieved EASI50 at Week 8 maintained disease control through Week 24 when using Opzelura as-needed. Specifically, 84.3% achieved EASI75 and 70.6% achieved IGA-TS at Week 24. The treatment was well-tolerated with no new safety signals.</p>
+      <a class="source-link" href="https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial" target="_blank" rel="noopener">View Source →</a>
+      <div class="card-domain">📅 2026-05-07 · investor.incyte.com</div>
     </div>
       </div>
     </div>
@@ -186,7 +252,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 2 findings';
+    countEl.textContent = visible + ' of 4 findings';
   }
 
   function applyFilters() {

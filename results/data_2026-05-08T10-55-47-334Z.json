@@ -1,0 +1,275 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "keywords": [
+          "COPD"
+        ],
+        "keywords_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "summary": "Insmed reported its Q1 2026 financial results, highlighting total revenues of $306.0 million, driven by BRINSUPRI (brensocatib) and ARIKAYCE. The company provided a business update on its clinical pipeline, including the Phase 3 ASPEN study and upcoming commercial launch preparations.",
+        "summary_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_link_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://investor.insmed.com/sec",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://investor.insmed.com/sec",
+        "keywords": [],
+        "keywords_citation": "https://investor.insmed.com/sec",
+        "summary": "Insmed's Quarterly Report for the period ended March 31, 2026, providing a detailed overview of the company's financial position and results of operations.",
+        "summary_citation": "https://investor.insmed.com/sec",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.insmed.com/sec",
+        "source_link": "https://investor.insmed.com/sec",
+        "source_link_citation": "https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/sec"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "competitors": [
+          "ACRS"
+        ],
+        "competitors_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "summary": "Aclaris Therapeutics reported first-quarter 2026 financial results and provided a clinical update on its pipeline, including ATI-2173 and its bispecific antibody program ATI-052.",
+        "summary_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_link_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "keywords": [],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "summary": "Avalo Therapeutics filed a Current Report on Form 8-K regarding its $375 million public offering of common stock and pre-funded warrants.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
+      },
+      {
+        "source_type": "SEC Filing (424B5)",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "summary": "Avalo Therapeutics filed a Prospectus Supplement for the offering of common stock and warrants. The document details the company's clinical development plans for abdakibart (AVTX-009) in Hidradenitis Suppurativa (HS) and discusses its mechanism involving the inhibition of inflammatory cytokines including IL-17.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "competitors": [
+          "UCB"
+        ],
+        "competitors_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "keywords": [],
+        "keywords_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "summary": "UCB announced a new multi-project strategic alliance with Cancer Research UK and Cancer Research Horizons to accelerate the development of novel cancer therapies. The collaboration expands on a successful multi-project collaboration and will advance a pipeline of novel investigational oncology candidates from research through early clinical development. UCB has nominated two projects to enter the alliance.",
+        "summary_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_link": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_link_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies",
+        "source_domain": "www.ucb.com",
+        "source_domain_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "competitors": [
+          "GLUE"
+        ],
+        "competitors_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "keywords": [
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "summary": "Monte Rosa Therapeutics reported Q1 2026 financial results and provided business highlights. Key updates include progress on MRT-8102 (NEK7-directed molecular glue degrader) which demonstrated profound CRP reductions in a Phase 1 study. The company plans to initiate multiple Phase 2 studies for MRT-8102, including in patients with moderate to severe hidradenitis suppurativa in H1 2027. Additionally, Novartis is expected to initiate Phase 2 studies for the VAV1-directed MGD MRT-6160 in immune-mediated diseases in 2026. The company ended the quarter with $671 million in cash, supporting operations into 2029.",
+        "summary_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_link": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_link_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial",
+        "source_domain": "ir.monterosatx.com",
+        "source_domain_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "summary": "Vera Therapeutics provided a business update and reported first quarter 2026 financial results. The company highlighted that the FDA has granted priority review to its Biologics License Application (BLA) for atacicept in patients with IgA Nephropathy (IgAN), with a PDUFA date of July 7, 2026. The company remains on track for potential U.S. launch and is also evaluating atacicept for other immunological diseases.",
+        "summary_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_link_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "summary": "Vera Therapeutics filed a Form 8-K with the SEC on May 7, 2026, which included its first quarter 2026 financial results and business update press release as an exhibit. The report discusses the FDA's priority review of atacicept for IgA Nephropathy.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "keywords": [
+          "Systemic sclerosis",
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "summary": "Vera Therapeutics filed its Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. The report provides a comprehensive review of the company's financial position and clinical development programs, including the status of atacicept for IgA Nephropathy and its potential application in other autoimmune conditions such as systemic sclerosis.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "summary": "Incyte announced 24-week long-term data from its Phase 3 TRuE-AD4 trial evaluating Opzelura (ruxolitinib) cream in adults with moderate atopic dermatitis. The data, presented at the 2026 EADV Symposium, showed that the majority of patients who achieved EASI50 at Week 8 maintained disease control through Week 24 when using Opzelura as-needed. Specifically, 84.3% achieved EASI75 and 70.6% achieved IGA-TS at Week 24. The treatment was well-tolerated with no new safety signals.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-09T10:55:45.934Z",
+  "creditsUsed": 2093
+}

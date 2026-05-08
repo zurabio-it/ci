@@ -5,87 +5,147 @@
     "competitors": [
       {
         "value": "AVTX",
-        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings"
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056482/tm2613717d1_8k.htm"
       },
       {
-        "value": "INSM",
-        "value_citation": "https://investor.insmed.com/releases"
-      },
-      {
-        "value": "ACRS",
-        "value_citation": "https://investor.aclaristx.com/press-releases"
-      },
-      {
-        "value": "UCB",
-        "value_citation": "https://www.ucb.com/newsroom/press-releases"
-      },
-      {
-        "value": "IFRX",
-        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-releases/news-release-details/monte-rosa-therapeutics-announces-first-quarter-2026-financial"
       },
       {
         "value": "VERA",
-        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+        "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-first-quarter-2026-financial"
       },
       {
         "value": "INCY",
-        "value_citation": "https://investor.incyte.com/press-releases"
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases/article/ucb-cancer-research-uk-and-cancer-research-horizons-announce-new-strategic-alliance-to-accelerate-development-of-novel-cancer-therapies"
       }
     ],
     "keywords": [
       {
-        "value": "COPD",
-        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
       },
       {
         "value": "BAFF",
         "value_citation": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-first-3"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investor.insmed.com/2026-05-07-Insmed-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update"
       }
     ],
     "findings": [
       {
-        "source_type": "Press Release / Financial Results",
-        "source_type_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "source_type": "SEC Filing (424B5)",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
         "competitors": [
-          "IFRX"
+          "AVTX"
         ],
-        "competitors_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "keywords": [],
-        "keywords_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "summary": "InflaRx announced the publication of its first quarter 2026 financial and operating results.",
-        "summary_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "summary": "Avalo Therapeutics filed a Prospectus Supplement for the offering of common stock and warrants. The document details the company's clinical development plans for abdakibart (AVTX-009) in Hidradenitis Suppurativa (HS) and discusses its mechanism involving the inhibition of inflammatory cytokines including IL-17.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
         "publication_date": "2026-05-07",
-        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "source_link": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "source_link_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "source_domain": "www.inflarx.de",
-        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~First-Quarter-2026-financial-and-operating-results~.html",
-        "disease_area": "Other",
-        "confidence": 75
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001104659-26-056481/tm2613419-3_424b5.htm",
+        "disease_area": "HS",
+        "confidence": 90
       },
       {
-        "source_type": "Conference Call",
-        "source_type_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
         "competitors": [
-          "IFRX"
+          "VERA"
         ],
-        "competitors_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "summary": "Vera Therapeutics filed a Form 8-K with the SEC on May 7, 2026, which included its first quarter 2026 financial results and business update press release as an exhibit. The report discusses the FDA's priority review of atacicept for IgA Nephropathy.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/8-k/0001193125-26-210351",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "keywords": [
+          "Systemic sclerosis",
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "summary": "Vera Therapeutics filed its Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. The report provides a comprehensive review of the company's financial position and clinical development programs, including the status of atacicept for IgA Nephropathy and its potential application in other autoimmune conditions such as systemic sclerosis.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
         "keywords": [],
-        "keywords_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
-        "summary": "InflaRx held a conference call on May 8, 2026, to discuss its first quarter 2026 financial results and provide a business update.",
-        "summary_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
-        "publication_date": "2026-05-08",
-        "publication_date_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
-        "source_link": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
-        "source_link_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
-        "source_domain": "www.inflarx.de",
-        "source_domain_citation": "https://www.inflarx.de/Home/Investors/Events/Event---Presentation~InflaRx-Conference-Call~.html",
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "summary": "Incyte announced 24-week long-term data from its Phase 3 TRuE-AD4 trial evaluating Opzelura (ruxolitinib) cream in adults with moderate atopic dermatitis. The data, presented at the 2026 EADV Symposium, showed that the majority of patients who achieved EASI50 at Week 8 maintained disease control through Week 24 when using Opzelura as-needed. Specifically, 84.3% achieved EASI75 and 70.6% achieved IGA-TS at Week 24. The treatment was well-tolerated with no new safety signals.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "publication_date": "2026-05-07",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
         "disease_area": "Other",
-        "confidence": 80
+        "confidence": 75
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-09T10:44:12.756Z",
-  "creditsUsed": 4093
+  "expiresAt": "2026-05-09T10:55:45.934Z",
+  "creditsUsed": 2093
 }

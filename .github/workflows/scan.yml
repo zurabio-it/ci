@@ -64,7 +64,9 @@ jobs:
         run: |
           git config user.name "Zura Bio CI Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_links.json results/latest.json results/report_latest.html results/historical.html results/credit-calculator.html results/status.html results/run-log.json results/CNAME results/data_*.json
+          git add seen_links.json results/historical.html results/credit-calculator.html results/status.html results/run-log.json results/CNAME
+          git add results/data_*.json 2>/dev/null || true
+          git add results/latest.json results/report_latest.html 2>/dev/null || true
           git diff --staged --quiet && echo "Nothing to commit" || git commit -m "Daily scan $(date -u +'%Y-%m-%d')"
           git pull --rebase origin main
           git push

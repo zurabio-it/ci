@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "MLTX",
+        "value_citation": "Found in the May 10, 2026 press release from MoonLake Immunotherapeutics."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in the May 10, 2026 MoonLake press release as the target indication."
+      },
+      {
+        "value": "HS",
+        "value_citation": "Used as a synonym for Hidradenitis suppurativa in the MoonLake press release."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned as the target pathway for sonelokimab in the MoonLake press release."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "The article is titled 'MoonLake Immunotherapeutics Announces Positive Outcome from its Final Pre-BLA Meeting with the U.S. FDA and Reports First Quarter 2026 Financial Results' and is a corporate news release.",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "The press release is issued by MoonLake Immunotherapeutics (NASDAQ: MLTX).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "The article mentions 'hidradenitis suppurativa (HS)' as the lead indication and states that 'sonelokimab inhibits IL-17A and IL-17F'.",
+        "summary": "MoonLake announced a positive final pre-BLA meeting with the FDA for sonelokimab (SLK) in Hidradenitis Suppurativa (HS). The FDA aligned on submission plans, including the use of MIRA trial data and VELA-TEEN data for a label including patients 12 and older. The BLA submission is planned for late September 2026. The company also reported Q1 2026 financial results with $357.9 million in cash.",
+        "summary_citation": "The summary is derived from the bullet points and body text: 'MoonLake conducted a positive final pre-BLA... meeting with the FDA...', 'submission to the FDA is planned for the end of September 2026', and 'MoonLake ended the first quarter with $357.9 million in cash'.",
+        "publication_date": "2026-05-10",
+        "publication_date_citation": "The article date is explicitly stated as 'May 10 2026'.",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "Exact URL of the article.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "Domain of the press release link."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T11:36:12.029Z",
+  "creditsUsed": 805
+}

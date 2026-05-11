@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "IL-17A",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "IL-17F",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17",
+          "IL-17A",
+          "IL-17F"
+        ],
+        "keywords_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "summary": "MoonLake Immunotherapeutics announced a positive final pre-BLA meeting with the FDA for sonelokimab in hidradenitis suppurativa (HS), aligning on submission plans for September 2026 and a label strategy including patients aged 12 and above. The company also reported first quarter 2026 financial results with $357.9 million in cash and cash equivalents.",
+        "summary_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "publication_date": "2026-05-10",
+        "publication_date_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T12:38:16.305Z",
+  "creditsUsed": 661
+}

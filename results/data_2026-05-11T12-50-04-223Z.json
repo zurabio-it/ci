@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "MLTX",
+        "value_citation": "MoonLake Immunotherapeutics (MLTX) is the primary company reporting news."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned as the lead indication for sonelokimab in the MoonLake press release."
+      },
+      {
+        "value": "HS",
+        "value_citation": "Abbreviation used for Hidradenitis suppurativa throughout the release."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned as the target (IL-17A and IL-17F) for sonelokimab."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "MoonLake press release titled \"MoonLake Immunotherapeutics Announces Positive Outcome from its Final Pre-BLA Meeting with the U.S. FDA and Reports First Quarter 2026 Financial Results\" dated May 10, 2026.",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "The press release specifically reports on MoonLake Immunotherapeutics (MLTX). It also mentions adalimumab, secukinumab, and risankizumab as reference/control arms.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "The press release mentions \"hidradenitis suppurativa (HS)\" as the lead indication and \"IL-17A and IL-17F\" as the mechanism of action for sonelokimab.",
+        "summary": "MoonLake announced a positive outcome from its final pre-BLA meeting with the FDA for sonelokimab in HS, with a BLA submission planned for September 2026. The company also reported Q1 2026 financial results with $357.9 million in cash.",
+        "summary_citation": "Summary based on the bullet points and financial results section of the MoonLake press release dated May 10, 2026.",
+        "publication_date": "2026-05-10",
+        "publication_date_citation": "The press release is dated \"May 10 2026\" in the header and \"May 10, 2026\" in the dateline.",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "Direct URL to the press release on the MoonLake IR website.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "Domain of the source URL provided."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T12:50:03.435Z",
+  "creditsUsed": 585
+}

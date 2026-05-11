@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-11, 9:15:39 a.m. &nbsp;|&nbsp; 75 runs &nbsp;|&nbsp; 405 unique findings</div>
+  <div class="meta">Generated 2026-05-11, 9:49:26 a.m. &nbsp;|&nbsp; 76 runs &nbsp;|&nbsp; 406 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">405</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">75</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">406</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">76</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">72</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">52</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">405</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">406</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -93,11 +93,11 @@
         <div class="divider">— or set custom range —</div>
         <div class="date-row">
           <label>From</label>
-          <input type="date" id="date-from" min="2026-01-21" max="2026-05-10">
+          <input type="date" id="date-from" min="2026-01-21" max="2026-05-11">
         </div>
         <div class="date-row">
           <label>To</label>
-          <input type="date" id="date-to" min="2026-01-21" max="2026-05-10">
+          <input type="date" id="date-to" min="2026-01-21" max="2026-05-11">
         </div>
       </div>
       <div class="panel">
@@ -2991,10 +2991,27 @@
     <div class="section-header">
       <span class="section-dot" style="background:#6b7280"></span>
       <span class="section-title">Other</span>
-      <span class="section-count">240</span>
+      <span class="section-count">241</span>
     </div>
     <div class="grid section-grid">
       
+  <div class="card"
+    data-competitors="anab"
+    data-keywords=""
+    data-source="Press Release"
+    data-date="2026-05-11"
+    data-confidence="85"
+    data-area="Other">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">ANAB</span>
+      
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 85/100">High · 85</span>
+    </div>
+    <p class="summary">AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors, adding leadership expertise in finance, business development, and royalty management.</p>
+    <a class="source-link" href="https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-11 · ir.anaptysbio.com</div>
+  </div>
   <div class="card"
     data-competitors="ifrx"
     data-keywords=""
@@ -7088,7 +7105,7 @@
   const countEl = document.getElementById('results-count');
 
   const DATA_MIN = '2026-01-21';
-  const DATA_MAX = '2026-05-10';
+  const DATA_MAX = '2026-05-11';
 
   function toISO(d) { return d.toISOString().slice(0, 10); }
 
@@ -7122,7 +7139,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 405 findings';
+    countEl.textContent = visible + ' of 406 findings';
   }
 
   function applyFilters() {

@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "summary": "MoonLake Immunotherapeutics announced a positive final pre-BLA meeting with the FDA regarding sonelokimab (SLK) for hidradenitis suppurativa (HS). The FDA aligned on submission plans, including the use of MIRA and VELA trial data. BLA submission is expected by end of September 2026. The company also reported Q1 2026 financial results with a cash balance of $357.9 million.",
+        "summary_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "publication_date": "2026-05-10",
+        "publication_date_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T11:07:56.583Z",
+  "creditsUsed": 1428
+}

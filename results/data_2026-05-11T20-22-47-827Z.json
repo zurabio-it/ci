@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Identified in monitoring of ANAB news"
+      },
+      {
+        "value": "AnaptysBio",
+        "value_citation": "Identified in monitoring of AnaptysBio news"
+      },
+      {
+        "value": "Cullinan Oncology",
+        "value_citation": "Identified in monitoring of Cullinan Oncology news"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Identified in monitoring of MLTX news"
+      },
+      {
+        "value": "MoonLake",
+        "value_citation": "Identified in monitoring of MoonLake news"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "Identified in monitoring of keywords in HS news"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Identified in monitoring of keywords in Hidradenitis suppurativa news"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Identified in monitoring of keywords in IL-17 news"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as a press release from the title and GlobeNewswire distribution.",
+        "competitors": [
+          "MLTX",
+          "MoonLake"
+        ],
+        "competitors_citation": "Directly mentioned as the subject of the press release.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Mentioned in the title and throughout the text regarding the sonelokimab program.",
+        "summary": "MoonLake announced a positive outcome from its final pre-BLA meeting with the FDA for sonelokimab in hidradenitis suppurativa (HS). The FDA aligned on submission plans, including the use of MIRA and VELA-TEEN trial data, supporting a label for patients aged 12 and older. MoonLake plans to submit the BLA in September 2026. The company also reported Q1 2026 financial results with $357.9 million in cash.",
+        "summary_citation": "Summarized from the press release dated May 10, 2026.",
+        "publication_date": "May 10, 2026",
+        "publication_date_citation": "Date stated on the press release: May 10, 2026.",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "Direct URL to the specific press release.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "Domain of the MoonLake investor relations website."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as a press release from the title and GlobeNewswire distribution.",
+        "competitors": [
+          "ANAB",
+          "AnaptysBio",
+          "Cullinan Oncology"
+        ],
+        "competitors_citation": "AnaptysBio is the subject; Cullinan Oncology is mentioned in the biographical information for Owen Hughes.",
+        "keywords": [],
+        "keywords_citation": "No keywords from the monitored list were mentioned in this specific announcement.",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors. Mr. Murphy previously served as CFO and CBO of Third Harmonic Bio and held leadership roles at Horizon Therapeutics. Mr. Hughes is currently the CEO of XOMA Royalty and was previously CEO of Cullinan Oncology.",
+        "summary_citation": "Summarized from the press release dated May 11, 2026.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date stated on the press release: May 11, 2026.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "Direct URL to the specific press release.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "Domain of the AnaptysBio investor relations website."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T20:22:45.774Z",
+  "creditsUsed": 3740
+}

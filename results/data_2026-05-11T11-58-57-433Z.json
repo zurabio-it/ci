@@ -1,0 +1,152 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Self-assigned based on query"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Self-assigned based on query"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "summary": "MoonLake Immunotherapeutics announced a positive outcome from its final pre-BLA meeting with the FDA regarding sonelokimab (SLK) in adult and adolescent Hidradenitis Suppurativa (HS). The FDA agreed on the submission plans, including the use of MIRA and VELA trial data, and a BLA submission is planned for the end of September 2026. MoonLake also reported Q1 2026 financial results with $357.9 million in cash and cash equivalents.",
+        "summary_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "publication_date": "2026-05-10",
+        "publication_date_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_link_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T11:58:57.057Z",
+  "creditsUsed": 1095
+}

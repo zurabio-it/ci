@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-11T10:06:17.396Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "MLTX"
+    ]
+  },
+  {
     "timestamp": "2026-05-08T21:59:03.681Z",
     "status": "findings",
     "findings": 1,

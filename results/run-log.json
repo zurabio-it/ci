@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-05-11T20:50:36.967Z",
+    "status": "findings",
+    "findings": 3,
+    "competitors": [
+      "MLTX",
+      "ANAB"
+    ]
+  },
+  {
     "timestamp": "2026-05-11T20:22:58.024Z",
     "status": "clean",
     "findings": 0,

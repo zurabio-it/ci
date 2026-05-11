@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa (HS)",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-immunotherapeutics-announces-positive-outcome-its-final"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "summary": "MoonLake Immunotherapeutics filed an 8-K form reporting its first quarter 2026 financial results and the positive outcome of its pre-BLA meeting with the FDA.",
+        "summary_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "source_link": "https://ir.moonlaketx.com/node/9226/html",
+        "source_link_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/node/9226/html",
+        "disease_area": "HS",
+        "confidence": 100
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "summary": "MoonLake Immunotherapeutics filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026, providing detailed financial statements and business updates.",
+        "summary_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "source_link": "https://ir.moonlaketx.com/node/9231/html",
+        "source_link_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/node/9231/html",
+        "disease_area": "HS",
+        "confidence": 100
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "summary": "AnaptysBio filed an 8-K form reporting the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "source_link": "https://ir.anaptysbio.com/node/11456/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "disease_area": "Other",
+        "confidence": 90
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T20:50:24.922Z",
+  "creditsUsed": 1530
+}

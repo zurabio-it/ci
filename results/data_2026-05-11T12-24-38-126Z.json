@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [],
+    "keywords": [],
+    "findings": []
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-12T12:24:36.198Z",
+  "creditsUsed": 4544
+}

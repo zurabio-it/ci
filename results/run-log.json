@@ -1,6 +1,21 @@
 [
   {
-    "timestamp": "2026-05-12T21:30:57.106Z",
+    "timestamp": "2026-05-12T21:52:22.149Z",
+    "status": "findings",
+    "findings": 7,
+    "competitors": [
+      "NKTX",
+      "ANAB",
+      "INCY",
+      "UCB",
+      "XNCR",
+      "AVTX",
+      "KYMR",
+      "VERA"
+    ]
+  },
+  {
+    "timestamp": "2026-05-12T21:13:47.898Z",
     "status": "clean",
     "findings": 0,
     "competitors": []

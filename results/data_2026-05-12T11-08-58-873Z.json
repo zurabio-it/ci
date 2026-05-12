@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988"
+      }
+    ],
+    "keywords": [],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "competitors": [
+          "ANAB",
+          "CGEM"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors. Mr. Hughes was previously the CEO and co-founder of Cullinan Oncology (CGEM).",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "summary": "SEC Form 4 filing for Incyte Corporation reporting a change in beneficial ownership of securities for an insider (Statement of changes in beneficial ownership of securities).",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "summary": "SEC Schedule 13D/A filing for Incyte Corporation regarding the beneficial ownership of its securities.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T11:08:56.821Z",
+  "creditsUsed": 3222
+}

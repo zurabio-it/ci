@@ -1,0 +1,262 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Found in findings for ANAB."
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Found in findings for AVTX."
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Found in findings for INCY."
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Found in findings for MLTX."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Found in findings for UCB."
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Found in findings for XNCR."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "Mentioned in findings relating to sonelokimab/MoonLake."
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Mentioned in findings relating to sonelokimab/MoonLake."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Mentioned in findings relating to sonelokimab/MoonLake."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "MoonLake Immunotherapeutics Form 10-Q filed on May 11, 2026",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "The report is filed by MoonLake Immunotherapeutics (MLTX).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "The quarterly report details the clinical development of sonelokimab for hidradenitis suppurativa (HS) and its mechanism as an IL-17 inhibitor.",
+        "summary": "MoonLake Immunotherapeutics reported its first quarter 2026 financial results, ending the period with $357.9 million in cash and cash equivalents. The report also highlights the positive outcome of the pre-BLA meeting for sonelokimab in HS and the progress of other clinical trials in psoriatic arthritis (PsA).",
+        "summary_citation": "MoonLake Immunotherapeutics Form 10-Q for the quarter ended March 31, 2026, filed May 11, 2026.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "The filing date of the Form 10-Q is May 11, 2026.",
+        "source_link": "https://ir.moonlaketx.com/sec-filings/sec-filing/10-q/0001821586-26-000007",
+        "source_link_citation": "Official SEC filing URL on the MoonLake investor relations website.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "The filing is hosted on MoonLake's investor relations domain."
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "MoonLake Immunotherapeutics Form 8-K filed on May 11, 2026",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "The report is filed by MoonLake Immunotherapeutics (MLTX).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "The report discusses sonelokimab (SLK), an IL-17 inhibitor, for the treatment of hidradenitis suppurativa (HS).",
+        "summary": "MoonLake Immunotherapeutics announced a positive outcome from its final pre-BLA meeting with the FDA for sonelokimab in hidradenitis suppurativa. The FDA aligned on submission plans and the label strategy, which is expected to include both adult and adolescent patients (12 years and older). The BLA submission is planned for September 2026.",
+        "summary_citation": "MoonLake Immunotherapeutics Form 8-K and attached Press Release dated May 10, 2026, filed May 11, 2026.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "The filing date of the Form 8-K is May 11, 2026.",
+        "source_link": "https://ir.moonlaketx.com/sec-filings/sec-filing/8-k/0001821586-26-000005",
+        "source_link_citation": "Official SEC filing URL on the MoonLake investor relations website.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "The filing is hosted on MoonLake's investor relations domain."
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "AVTX Form 4 filed on May 11, 2026",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "The filing is for Avalo Therapeutics (AVTX), which is one of the monitored competitors.",
+        "keywords": [],
+        "keywords_citation": "No keywords from the provided list were found in the AVTX Form 4 filing.",
+        "summary": "SEC Form 4 reporting a sale of common stock by Avalo Therapeutics' Chief Financial Officer, Christopher Sullivan, on May 7, 2026, pursuant to a Rule 10b5-1 trading plan.",
+        "summary_citation": "SEC Form 4 for Avalo Therapeutics, filed May 11, 2026.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "The filing date recorded by the SEC for this Form 4 is May 11, 2026.",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_link_citation": "Direct link to the Form 4 filing on the Avalo investor relations website.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "The filing is hosted on the official Avalo investor relations domain."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "The document title and header indicate it is a news release from AnaptysBio.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "The press release mentions AnaptysBio, Inc. (Nasdaq: ANAB).",
+        "keywords": [],
+        "keywords_citation": "No specified keywords were found in the press release.",
+        "summary": "AnaptysBio announced the appointment of Chris Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors.",
+        "summary_citation": "The headline and first paragraph of the press release detail the appointments.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "The press release is dated May 11, 2026.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "This is the direct URL to the press release on the company's investor relations site.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "The domain is the official investor relations site for AnaptysBio."
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "The document is a Form 8-K current report filed with the SEC.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "The filing identifies the registrant as AnaptysBio, Inc. (ANAB).",
+        "keywords": [],
+        "keywords_citation": "No specified keywords were found in the 8-K filing.",
+        "summary": "Current report on Form 8-K reporting the appointment of Christopher M. Murphy as Chief Financial Officer.",
+        "summary_citation": "Item 5.02 of the 8-K describes the appointment of the new CFO.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "The date of the report and the filing date is May 11, 2026.",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-216745",
+        "source_link_citation": "This is the URL to the 8-K filing on the company's investor relations site.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "The domain is the official investor relations site for AnaptysBio."
+      },
+      {
+        "source_type": "Financial Report (10-Q)",
+        "source_type_citation": "The document is a Form 10-Q quarterly report filed with the SEC.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "The filing identifies the registrant as AnaptysBio, Inc. (ANAB).",
+        "keywords": [],
+        "keywords_citation": "No specified keywords were found in the 10-Q filing.",
+        "summary": "Quarterly report for the period ended March 31, 2026, detailing financial results, the spin-off of First Tracks Biotherapeutics, and royalty collaborations for Jemperli and imsidolimab.",
+        "summary_citation": "The cover page and the 'Business Update' section of the 10-Q describe the company's status and financial results.",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "The filing date is May 12, 2026.",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "This is the URL to the 10-Q filing on the company's investor relations site.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "The domain is the official investor relations site for AnaptysBio."
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "The document is a Form 8-K current report filed with the SEC.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "The filing identifies the registrant as AnaptysBio, Inc. (ANAB).",
+        "keywords": [],
+        "keywords_citation": "No specified keywords were found in the 8-K or the attached press release.",
+        "summary": "Current report on Form 8-K announcing financial results for the first quarter ended March 31, 2026, and providing a business update.",
+        "summary_citation": "Item 2.02 and Exhibit 99.1 of the 8-K detail the earnings results and business update.",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "The date of the report and the filing date is May 12, 2026.",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link_citation": "This is the URL to the 8-K filing on the company's investor relations site.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "The domain is the official investor relations site for AnaptysBio."
+      },
+      {
+        "source_type": "SEC Filing (Form 10-Q and Form 8-K)",
+        "source_type_citation": "MoonLake Immunotherapeutics filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026, and a Current Report on Form 8-K on May 11, 2026.",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "The filing is from MoonLake Immunotherapeutics (MLTX).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "The filing discusses 'sonelokimab (SLK) in hidradenitis suppurativa (HS)' and its mechanism as a 'tri-specific IL-17A and IL-17F inhibiting Nanobody'.",
+        "summary": "MoonLake announced a positive outcome from its final pre-BLA meeting with the FDA for sonelokimab in hidradenitis suppurativa, with a planned BLA submission for the end of September 2026. The company also reported first quarter 2026 financial results, with cash and equivalents totaling $357.9 million and a cash runway into 2027.",
+        "summary_citation": "MoonLake announced a positive outcome of its final pre-BLA meeting held on April 1, 2026, with the FDA on the HS program... BLA submission to the FDA is planned for the end of September 2026... ending the first quarter with $357.9 million in cash, cash equivalents and short-term marketable debt securities.",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "MoonLake filed the 8-K and 10-Q on May 11, 2026.",
+        "source_link": "https://ir.moonlaketx.com/node/9231/html",
+        "source_link_citation": "MoonLake Immunotherapeutics 10-Q for Q1 2026.",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "The documents were accessed through the investor relations website of MoonLake Immunotherapeutics."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Press Release",
+        "competitors": [
+          "UCB",
+          "XNCR",
+          "INCY"
+        ],
+        "competitors_citation": "Incyte (Nasdaq:INCY) today announced... from UCB... from Xencor, Inc. ... Xencor, Inc. (Nasdaq: XNCR)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the specified list were found in the press release.",
+        "summary": "Incyte announced that over 20 abstracts from its hematology and oncology franchises will be presented at the European Hematology Association (EHA) 2026 Congress, including Phase 3 data for tafasitamab and Phase 2/3 data for INCA033989.",
+        "summary_citation": "Incyte (Nasdaq:INCY) today announced that data from key programs in its Hematology and Oncology franchises will be presented at the European Hematology Association (EHA) 2026 Congress, to be held June 11 - 14, 2026, in Stockholm, Sweden.",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "May 12, 2026 at 9:30 AM EDT",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Form 4",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Issuer INCYTE CORP",
+        "keywords": [],
+        "keywords_citation": "No keywords from the specified list were found in the filing.",
+        "summary": "Form 4 filing for Pablo J Cagnoni (President and Global Head of R&D at Incyte) reporting an insider transaction (changes in beneficial ownership) of common stock.",
+        "summary_citation": "Form 4 ... Filing Date May 11, 2026 ... Company Incyte ... Issuer INCYTE CORP ... Pablo J Cagnoni",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Filing Date May 11, 2026",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "SCHEDULE 13D/A",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Issuer INCYTE CORP",
+        "keywords": [],
+        "keywords_citation": "No keywords from the specified list were found in the filing.",
+        "summary": "Schedule 13D/A filing (Amendment No. 33) by Baker Bros. Advisors LP reporting updated beneficial ownership of Incyte common stock.",
+        "summary_citation": "Form SCHEDULE 13D/A ... Filing Date May 11, 2026 ... Baker Bros. Advisors LP ... Incyte Common Stock",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Filing Date May 11, 2026",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T21:13:35.920Z",
+  "creditsUsed": 8669
+}

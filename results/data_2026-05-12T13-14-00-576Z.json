@@ -1,0 +1,281 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring list from query"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin 7 receptor",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "interleukin 17",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Monitoring list from query"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Monitoring list from query"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "The press release title and content mention AnaptysBio.",
+        "keywords": [],
+        "keywords_citation": "The press release content was searched for keywords, but none were found.",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes as a member of its Board of Directors. The company is focusing on managing financial collaborations for Jemperli and imsidolimab.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "The article is dated May 11, 2026 on the news listing page.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "https://ir.anaptysbio.com/news",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "Source URL domain"
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "https://investor.incyte.com/financials/sec-filings",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "The filing is by Incyte Corporation.",
+        "keywords": [],
+        "keywords_citation": "The filing content was searched for keywords, but none were found.",
+        "summary": "Statement of changes in beneficial ownership of securities (Form 4) filed by Incyte.",
+        "summary_citation": "https://investor.incyte.com/node/26601/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "The filing is dated May 11, 2026 in the SEC filings list.",
+        "source_link": "https://investor.incyte.com/node/26601/html",
+        "source_link_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Source URL domain"
+      },
+      {
+        "source_type": "SEC Filing (Schedule 13D/A)",
+        "source_type_citation": "https://investor.incyte.com/financials/sec-filings",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "The filing is regarding Incyte Corporation.",
+        "keywords": [],
+        "keywords_citation": "The filing content was searched for keywords, but none were found.",
+        "summary": "Schedule 13D/A filing for Incyte regarding beneficial ownership.",
+        "summary_citation": "https://investor.incyte.com/node/26606/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "The filing is dated May 11, 2026 in the SEC filings list.",
+        "source_link": "https://investor.incyte.com/node/26606/html",
+        "source_link_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Source URL domain"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T13:13:59.639Z",
+  "creditsUsed": 4077
+}

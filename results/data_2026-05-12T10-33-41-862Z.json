@@ -1,0 +1,203 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://ir.avalotx.com"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.avalotx.com"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "summary": "Anaptys appoints Chris Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors to strengthen its leadership team with additional business development and finance expertise.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "https://ir.anaptysbio.com/news",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "summary": "Form 8-K reporting unscheduled material events or corporate events, likely related to the appointment of a new CFO and board member.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11456/html",
+        "source_link": "https://ir.anaptysbio.com/node/11456/html",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/financials/sec-filings",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "summary": "Statement of changes in beneficial ownership of securities (Form 4).",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/financials/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/financials/sec-filings",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "summary": "Amended statement of beneficial ownership of securities (Schedule 13D/A).",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/financials/sec-filings"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T10:33:28.012Z",
+  "creditsUsed": 2928
+}

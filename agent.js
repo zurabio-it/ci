@@ -161,14 +161,32 @@ const ERROR_URL_PATTERNS = [
   '/errorpages/', '/404', '/not-found', '/notfound', '/error-page',
   'page-not-found', '?error=', '/errors/', '/error.html', '/404.html',
 ];
+
+// Fallback map: hostname → primary IR listing page. Used when Cloudflare blocks URL
+// verification (403/401) — replaces the unverifiable article URL with the known IR
+// listing page so "View Source" always points somewhere real and useful.
+const DOMAIN_LISTING_FALLBACK = {};
+for (const url of COMPETITOR_URLS) {
+  try {
+    const { hostname } = new URL(url);
+    if (!DOMAIN_LISTING_FALLBACK[hostname]) DOMAIN_LISTING_FALLBACK[hostname] = url;
+  } catch {}
+}
+
 const urlCheckResults = await Promise.all(allFindings.map(async f => {
   const url = f.source_link;
   if (!url) return true;
   try {
     const res = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(10000) });
-    // Cloudflare/bot-protection returns 403/401 — Firecrawl's browser can still access
-    // the page, so we can't verify the URL but shouldn't drop it.
-    if (res.status === 403 || res.status === 401) return true;
+    // Cloudflare/bot-protection returns 403/401 — can't verify the specific article URL.
+    // Replace with the known IR listing page so "View Source" is always a working link.
+    if (res.status === 403 || res.status === 401) {
+      try {
+        const fallback = DOMAIN_LISTING_FALLBACK[new URL(url).hostname];
+        if (fallback) { f.source_link = fallback; console.log(`  Cloudflare fallback: ${url} → ${fallback}`); }
+      } catch {}
+      return true;
+    }
     if (!res.ok) {
       const secMatch = url.match(secPattern);
       if (secMatch) {

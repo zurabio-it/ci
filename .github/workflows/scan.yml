@@ -68,7 +68,7 @@ jobs:
           git add results/data_*.json 2>/dev/null || true
           git add results/latest.json results/report_latest.html 2>/dev/null || true
           git diff --staged --quiet && echo "Nothing to commit" || git commit -m "Daily scan $(date -u +'%Y-%m-%d')"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
 
       - name: Setup Pages

@@ -1,0 +1,248 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Source document mentioning ANAB"
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Source document mentioning AVTX"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Source document mentioning CGEM"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Source document mentioning INCY"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Source document mentioning INSM"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Source document mentioning MLTX"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Source document mentioning NKTX"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa (HS)",
+        "value_citation": "Source document mentioning Hidradenitis suppurativa (HS)"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Source document mentioning IL-17"
+      },
+      {
+        "value": "Systemic sclerosis (SSc)",
+        "value_citation": "Source document mentioning Systemic sclerosis (SSc)"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source document type for Form 4: Statement of changes in beneficial ownership of securities",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Form 4: Statement of changes in beneficial ownership of securities",
+        "keywords": [],
+        "keywords_citation": "Keywords mentioned in Form 4: Statement of changes in beneficial ownership of securities",
+        "summary": "Routine Form 4 filing for Christopher Ryan Sullivan, Chief Financial Officer of Avalo Therapeutics, Inc., reporting a transaction in the company's common stock.",
+        "summary_citation": "Summary of Form 4: Statement of changes in beneficial ownership of securities",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_link_citation": "URL of the article: https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Domain of the source: ir.avalotx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source document type for Anaptys Appoints Chris Murphy as Chief Financial Officer and Owen Hughes to Board of Directors",
+        "competitors": [
+          "ANAB",
+          "CGEM"
+        ],
+        "competitors_citation": "Competitors mentioned in Anaptys Appoints Chris Murphy as Chief Financial Officer and Owen Hughes to Board of Directors",
+        "keywords": [],
+        "keywords_citation": "Keywords mentioned in Anaptys Appoints Chris Murphy as Chief Financial Officer and Owen Hughes to Board of Directors",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors. The press release also mentions Owen Hughes was the co-founder of Cullinan Oncology (CGEM).",
+        "summary_citation": "Summary of Anaptys Appoints Chris Murphy as Chief Financial Officer and Owen Hughes to Board of Directors",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "URL of the article: https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "Domain of the source: ir.anaptysbio.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source document type for Form 4: Statement of changes in beneficial ownership of securities",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Competitors mentioned in Form 4: Statement of changes in beneficial ownership of securities",
+        "keywords": [],
+        "keywords_citation": "Keywords mentioned in Form 4: Statement of changes in beneficial ownership of securities",
+        "summary": "Routine Form 4 filing for Incyte Corporation reporting changes in beneficial ownership by a reporting person.",
+        "summary_citation": "Summary of Form 4: Statement of changes in beneficial ownership of securities",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "URL of the article: https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Domain of the source: investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source document type for SCHEDULE 13D/A - Incyte Corp",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Competitors mentioned in SCHEDULE 13D/A - Incyte Corp",
+        "keywords": [],
+        "keywords_citation": "Keywords mentioned in SCHEDULE 13D/A - Incyte Corp",
+        "summary": "Amendment No. 33 to Schedule 13D filed by Baker Bros. Advisors LP reporting a beneficial ownership stake of approximately 30.8 million shares of Incyte Corporation.",
+        "summary_citation": "Summary of SCHEDULE 13D/A - Incyte Corp",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "URL of the article: https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Domain of the source: investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source document type for Form 8-K - Current Report",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Form 8-K - Current Report",
+        "keywords": [
+          "Hidradenitis suppurativa (HS)",
+          "IL-17"
+        ],
+        "keywords_citation": "Keywords mentioned in Form 8-K - Current Report",
+        "summary": "MoonLake Immunotherapeutics filed a Form 8-K on May 11, 2026, announcing a positive outcome from its final pre-BLA meeting with the U.S. FDA for sonelokimab in hidradenitis suppurativa (HS). The FDA and MoonLake aligned on submission plans, label strategy, and the inclusion of adolescent data. The BLA submission is planned for late September 2026. The filing also included the company's Q1 2026 financial results.",
+        "summary_citation": "Summary of Form 8-K - Current Report",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://ir.moonlaketx.com/sec-filings/sec-filing/8-k/0001821586-26-000005",
+        "source_link": "https://ir.moonlaketx.com/sec-filings/sec-filing/8-k/0001821586-26-000005",
+        "source_link_citation": "URL of the article: https://ir.moonlaketx.com/sec-filings/sec-filing/8-k/0001821586-26-000005",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "Domain of the source: ir.moonlaketx.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Source document type for Form 10-Q - Quarterly Report",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Form 10-Q - Quarterly Report",
+        "keywords": [
+          "Hidradenitis suppurativa (HS)",
+          "IL-17"
+        ],
+        "keywords_citation": "Keywords mentioned in Form 10-Q - Quarterly Report",
+        "summary": "MoonLake Immunotherapeutics filed its Form 10-Q for the quarter ended March 31, 2026, on May 11, 2026. The company reported a net loss of $69.7 million for the quarter and held $357.9 million in cash and cash equivalents. The report highlights the development of sonelokimab, an IL-17A and IL-17F inhibitor, in various inflammatory indications including hidradenitis suppurativa (HS).",
+        "summary_citation": "Summary of Form 10-Q - Quarterly Report",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://ir.moonlaketx.com/sec-filings/sec-filing/10-q/0001821586-26-000007",
+        "source_link": "https://ir.moonlaketx.com/sec-filings/sec-filing/10-q/0001821586-26-000007",
+        "source_link_citation": "URL of the article: https://ir.moonlaketx.com/sec-filings/sec-filing/10-q/0001821586-26-000007",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "Domain of the source: ir.moonlaketx.com"
+      },
+      {
+        "source_type": "SEC filing",
+        "source_type_citation": "Source document type for 144 - Non-EDGAR filing submitted by \"insiders\" prior to intended sale of restricted stock",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "Competitors mentioned in 144 - Non-EDGAR filing submitted by \"insiders\" prior to intended sale of restricted stock",
+        "keywords": [],
+        "keywords_citation": "Keywords mentioned in 144 - Non-EDGAR filing submitted by \"insiders\" prior to intended sale of restricted stock",
+        "summary": "A Form 144 filing submitted by an insider of Insmed Incorporated regarding the intended sale of restricted stock.",
+        "summary_citation": "Summary of 144 - Non-EDGAR filing submitted by \"insiders\" prior to intended sale of restricted stock",
+        "publication_date": "May 11, 2026",
+        "publication_date_citation": "Date listed on https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320035507&type=HTML&symbol=INSM&cdn=110f0813932066c4006fc104bcae0457&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-11",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320035507&type=HTML&symbol=INSM&cdn=110f0813932066c4006fc104bcae0457&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-11",
+        "source_link_citation": "URL of the article: https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320035507&type=HTML&symbol=INSM&cdn=110f0813932066c4006fc104bcae0457&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-11",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "Domain of the source: investor.insmed.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source document type for Nkarta Reports First Quarter 2026 Financial Results and Corporate Highlights",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Nkarta Reports First Quarter 2026 Financial Results and Corporate Highlights",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "Keywords mentioned in Nkarta Reports First Quarter 2026 Financial Results and Corporate Highlights",
+        "summary": "Nkarta reported financial results for the first quarter of 2026 and provided a business update. The company reached an agreement with the FDA to amend its clinical protocols for NKX019, allowing for outpatient dosing and the expansion of the Ntrust-2 study to include rheumatoid arthritis. Initial clinical data from the Ntrust-1 and Ntrust-2 trials are expected in 2026. The company ended the quarter with $266.7 million in cash, expected to fund operations into 2029.",
+        "summary_citation": "Summary of Nkarta Reports First Quarter 2026 Financial Results and Corporate Highlights",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "Date listed on https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "URL of the article: https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "Domain of the source: ir.nkartatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source document type for Nkarta, Inc. Form 8-K: Current report",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Nkarta, Inc. Form 8-K: Current report",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "Keywords mentioned in Nkarta, Inc. Form 8-K: Current report",
+        "summary": "Nkarta, Inc. filed a Current Report on Form 8-K to report its financial results for the first quarter ended March 31, 2026, as announced in its press release.",
+        "summary_citation": "Summary of Nkarta, Inc. Form 8-K: Current report",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "Date listed on https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_link": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_link_citation": "URL of the article: https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "Domain of the source: ir.nkartatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Source document type for Nkarta, Inc. Form 10-Q: Quarterly report",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "Competitors mentioned in Nkarta, Inc. Form 10-Q: Quarterly report",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "Keywords mentioned in Nkarta, Inc. Form 10-Q: Quarterly report",
+        "summary": "Nkarta, Inc. filed its quarterly report for the period ended March 31, 2026. The filing provides a detailed overview of the company's financial condition, results of operations, and progress on its clinical programs, including NKX019 for autoimmune diseases like systemic sclerosis.",
+        "summary_citation": "Summary of Nkarta, Inc. Form 10-Q: Quarterly report",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "Date listed on https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_link": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_link_citation": "URL of the article: https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "Domain of the source: ir.nkartatx.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T21:30:46.001Z",
+  "creditsUsed": 12640
+}

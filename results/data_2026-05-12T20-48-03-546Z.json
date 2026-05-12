@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AnaptysBio (ANAB)",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "value": "Cullinan Therapeutics (CGEM)",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "value": "Incyte (INCY)",
+        "value_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988"
+      },
+      {
+        "value": "Avalo Therapeutics (AVTX)",
+        "value_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html"
+      }
+    ],
+    "keywords": [],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "competitors": [
+          "AnaptysBio (ANAB)",
+          "Cullinan Therapeutics (CGEM)"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes as a member of its Board of Directors. Christopher Murphy previously served at Third Harmonic Bio and Horizon Therapeutics. Owen Hughes is currently the CEO of XOMA Royalty and previously held leadership roles at Sail Bio and Cullinan Oncology.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen"
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "competitors": [
+          "Incyte (INCY)"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "summary": "Statement of changes in beneficial ownership of securities (Form 4) filed by Incyte.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988"
+      },
+      {
+        "source_type": "SEC Filing (Schedule 13D/A)",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "competitors": [
+          "Incyte (INCY)"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "summary": "Schedule 13D/A filing by Incyte relating to beneficial ownership.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726"
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "competitors": [
+          "Avalo Therapeutics (AVTX)"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "keywords": [],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "summary": "Statement of changes in beneficial ownership of securities (Form 4) filed by Avalo Therapeutics.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001810417-26-000012/form4-05112026_040503.html"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T20:48:02.502Z",
+  "creditsUsed": 2434
+}

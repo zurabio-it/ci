@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-12T12:34:38.000Z",
+    "status": "findings",
+    "findings": 2,
+    "competitors": [
+      "INCY"
+    ]
+  },
+  {
     "timestamp": "2026-05-12T11:52:04.466Z",
     "status": "findings",
     "findings": 2,

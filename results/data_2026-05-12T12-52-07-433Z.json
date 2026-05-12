@@ -1,0 +1,186 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Avalo Therapeutics ticker"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "MoonLake Immunotherapeutics ticker"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Oruka Therapeutics ticker"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Insmed ticker"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Aclaris Therapeutics ticker"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "AnaptysBio ticker"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "UCB ticker"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Kymera Therapeutics ticker"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monte Rosa Therapeutics ticker"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "InflaRx ticker"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Cullinan Therapeutics ticker"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Nkarta ticker"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Xencor ticker"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Kiniksa Pharmaceuticals ticker"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Vera Therapeutics ticker"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Vor Bio ticker"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Galapagos ticker"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Alumis ticker"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Q32 Bio ticker"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Incyte ticker"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Keyword"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Keyword"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "competitors": [
+          "ANAB",
+          "CGEM"
+        ],
+        "competitors_citation": "Release mentions AnaptysBio and Owen Hughes as former CEO of Cullinan Oncology (now Cullinan Therapeutics).",
+        "keywords": [],
+        "keywords_citation": "No keywords from the provided list were mentioned in this leadership announcement.",
+        "summary": "AnaptysBio announced the appointment of Christopher Murphy as Chief Financial Officer and Owen Hughes to its Board of Directors to strengthen expertise in finance and royalty management.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "Date stated on the press release as May 11, 2026.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-appoints-chris-murphy-chief-financial-officer-and-owen",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "ir.anaptysbio.com"
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Filing is for Incyte Corporation (INCY).",
+        "keywords": [],
+        "keywords_citation": "SEC Form 4 filings for beneficial ownership typically do not contain clinical keywords.",
+        "summary": "Incyte Corporation filed SEC Form 4 reporting changes in beneficial ownership of securities.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "Filing date: May 11, 2026.",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/4/0001193125-26-216988",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing (Schedule 13D/A)",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Filing is for Incyte Corporation (INCY).",
+        "keywords": [],
+        "keywords_citation": "SEC Schedule 13D/A filings for ownership changes typically do not contain clinical keywords.",
+        "summary": "Incyte Corporation filed SEC Schedule 13D/A reporting changes in the beneficial ownership interest of a significant shareholder.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "publication_date": "2026-05-11",
+        "publication_date_citation": "Filing date: May 11, 2026.",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13da/0001104659-26-058726",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-13T12:52:05.684Z",
+  "creditsUsed": 659
+}

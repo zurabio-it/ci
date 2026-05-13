@@ -4,6 +4,7 @@ import { KEYWORD_ALIASES } from './keywords.js';
 
 const TEAMS_WEBHOOK = process.env.TEAMS_DEV_WEBHOOK_URL;
 const SEEN_FILE = 'seen_links_rss.json';
+const CUTOFF_HOURS = 48;
 
 // 17 competitors with RSS feeds (INSM, UCB, IFRX have no RSS)
 const RSS_FEEDS = [
@@ -60,19 +61,21 @@ function parseItems(xml) {
 }
 
 function itemLink(item) {
-  // Some feeds put the URL in guid, some in link
   const g = item.guid;
   const guidStr = typeof g === 'string' ? g : g?.['#text'] ?? '';
   return item.link || guidStr || '';
 }
 
-// Load seen links — on first run (no file yet), seed mode: record everything, send nothing
-const isFirstRun = !fs.existsSync(SEEN_FILE);
-const seenLinks = new Set(isFirstRun ? [] : JSON.parse(fs.readFileSync(SEEN_FILE, 'utf8')));
-
-if (isFirstRun) {
-  console.log('First run — seeding seen_links_rss.json without alerting.');
+function isRecent(pubDateStr) {
+  if (!pubDateStr) return true; // no date — include to be safe
+  const pub = new Date(pubDateStr);
+  if (isNaN(pub.getTime())) return true; // unparseable — include to be safe
+  return (Date.now() - pub.getTime()) < CUTOFF_HOURS * 60 * 60 * 1000;
 }
+
+const seenLinks = new Set(
+  fs.existsSync(SEEN_FILE) ? JSON.parse(fs.readFileSync(SEEN_FILE, 'utf8')) : []
+);
 
 // Fetch all feeds concurrently
 console.log(`Checking ${RSS_FEEDS.length} RSS feeds...`);
@@ -101,13 +104,9 @@ for (const result of fetchResults) {
   for (const item of items) {
     const link = itemLink(item);
     if (!link) continue;
-
-    if (isFirstRun) {
-      seenLinks.add(link);
-      continue;
-    }
-
     if (seenLinks.has(link)) continue;
+    if (!isRecent(item.pubDate)) continue;
+
     seenLinks.add(link);
 
     const title = stripHtml(item.title ?? '');
@@ -116,18 +115,12 @@ for (const result of fetchResults) {
 
     if (keywords.length === 0) continue;
 
-    const pubDate = item.pubDate ?? '';
-    newFindings.push({ ticker: feed.ticker, name: feed.name, title, link, pubDate, keywords });
+    newFindings.push({ ticker: feed.ticker, name: feed.name, title, link, pubDate: item.pubDate ?? '', keywords });
   }
 }
 
 // Persist updated seen links
 fs.writeFileSync(SEEN_FILE, JSON.stringify([...seenLinks], null, 2));
-
-if (isFirstRun) {
-  console.log(`Seeded ${seenLinks.size} links from ${RSS_FEEDS.length - feedErrors} feeds. Future runs will alert on new articles.`);
-  process.exit(0);
-}
 
 console.log(`RSS check complete — ${newFindings.length} new keyword-matched finding(s) (${feedErrors} feed error(s)).`);
 

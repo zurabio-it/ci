@@ -161,6 +161,8 @@ const ERROR_URL_PATTERNS = [
   '/errorpages/', '/404', '/not-found', '/notfound', '/error-page',
   'page-not-found', '?error=', '/errors/', '/error.html', '/404.html',
 ];
+// Slug endings that signal a truncated URL — agent cut the title short mid-word.
+const TRUNCATED_SLUG_RE = /[-/](and|or|the|a|an|for|with|of|to|in|on|its|as|at|by|from|that|this|provides|announces|reports|updates?|results?)$/i;
 
 // Fallback map: hostname → primary IR listing page. Used when Cloudflare blocks URL
 // verification (403/401) — replaces the unverifiable article URL with the known IR
@@ -176,6 +178,15 @@ for (const url of COMPETITOR_URLS) {
 const urlCheckResults = await Promise.all(allFindings.map(async f => {
   const url = f.source_link;
   if (!url) return true;
+  // Drop URLs whose slug ends in a connecting word — signals the agent truncated the title.
+  if (TRUNCATED_SLUG_RE.test(url.toLowerCase().replace(/\/$/, ''))) {
+    try {
+      const fallback = DOMAIN_LISTING_FALLBACK[new URL(url).hostname];
+      if (fallback) { f.source_link = fallback; console.log(`  Truncated URL fallback: ${url} → ${fallback}`); return true; }
+    } catch {}
+    console.log(`  Truncated URL dropped: ${url}`);
+    return false;
+  }
   try {
     const res = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(10000) });
     // Cloudflare/bot-protection returns 403/401 — can't verify the specific article URL.

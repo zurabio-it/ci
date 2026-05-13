@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-05-13T12:44:43.996Z",
+    "status": "findings",
+    "findings": 3,
+    "competitors": [
+      "ANAB",
+      "VERA"
+    ]
+  },
+  {
     "timestamp": "2026-05-13T12:23:44.705Z",
     "status": "clean",
     "findings": 0,

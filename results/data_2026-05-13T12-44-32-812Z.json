@@ -1,0 +1,244 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo reported Q1 2026 financial results and updates, including positive Phase 2 LOTUS trial results for abdakibart in moderate to severe hidradenitis suppurativa (HS), showing a 42.5% HiSCR75 response rate. The company completed a $431.3 million offering and plans to advance into Phase 3 for HS.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "AnaptysBio announced its first quarter 2026 financial results and provided a business update on its pipeline and corporate progress.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "XNCR",
+          "UCB"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announced the acceptance of over 20 abstracts for presentation at the EHA 2026 Congress. Key highlights include Phase 3 frontMIND data for tafasitamab in first-line DLBCL and data for INCA033989 in myeloproliferative neoplasms (MPNs).",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "summary": "Quarterly report (Form 10-Q) for AnaptysBio for the period ended March 31, 2026, providing a detailed view of the company's financial position and operations.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11471/html"
+      },
+      {
+        "source_type": "SEC Filing (144)",
+        "source_type_citation": "https://ir.veratx.com/node/10701/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10701/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10701/html",
+        "summary": "Form 144 filing by Vera Therapeutics regarding a prior intended sale of restricted stock by insiders.",
+        "summary_citation": "https://ir.veratx.com/node/10701/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.veratx.com/node/10701/html",
+        "source_link": "https://ir.veratx.com/node/10701/html",
+        "source_link_citation": "https://ir.veratx.com/node/10701/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10701/html"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "summary": "Form 8-K report of unscheduled material events or corporate events for AnaptysBio.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11466/html"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T12:44:32.596Z",
+  "creditsUsed": 2315
+}

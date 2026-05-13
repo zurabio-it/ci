@@ -1,0 +1,191 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "summary": "Quarterly report (Form 10-Q) for AnaptysBio for the period ended March 31, 2026, providing a detailed view of the company's financial position and operations.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "disease_area": "Other",
+        "confidence": 80
+      },
+      {
+        "source_type": "SEC Filing (144)",
+        "source_type_citation": "https://ir.veratx.com/node/10701/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10701/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10701/html",
+        "summary": "Form 144 filing by Vera Therapeutics regarding a prior intended sale of restricted stock by insiders.",
+        "summary_citation": "https://ir.veratx.com/node/10701/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.veratx.com/node/10701/html",
+        "source_link": "https://ir.veratx.com/node/10701/html",
+        "source_link_citation": "https://ir.veratx.com/node/10701/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10701/html",
+        "disease_area": "Other",
+        "confidence": 80
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "summary": "Form 8-K report of unscheduled material events or corporate events for AnaptysBio.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "disease_area": "Other",
+        "confidence": 80
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T12:44:32.596Z",
+  "creditsUsed": 2315
+}

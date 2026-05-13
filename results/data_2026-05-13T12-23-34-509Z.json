@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Found in monitored press releases."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Found in monitored press releases."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Found in monitored press releases."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Avalo Therapeutics investor relations website.",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Mentioned as the reporting entity.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Article highlights positive Phase 2 results for abdakibart (anti-IL-17) in Hidradenitis suppurativa.",
+        "summary": "Avalo Therapeutics reported Q1 2026 results and positive Phase 2 LOTUS trial data for abdakibart in moderate to severe Hidradenitis Suppurativa (HS). The trial met its primary endpoint of HiSCR75 at week 12. Avalo plans to advance to a registrational Phase 3 program. The company also raised $431.3 million in a public offering.",
+        "summary_citation": "Summarized from the press release text.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Date stated in the press release header.",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Derived from the source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "AnaptysBio investor relations website.",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Mentioned as the reporting entity.",
+        "keywords": [],
+        "keywords_citation": "No monitored keywords were mentioned in the pipeline/royalty update.",
+        "summary": "AnaptysBio announced Q1 2026 financial results and a transition to a pure-play royalty management company following the spin-off of its biopharma operations into First Tracks Biotherapeutics. Key focuses include Jemperli (GSK) royalties and the upcoming PDUFA for imsidolimab.",
+        "summary_citation": "Summarized from the press release text.",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date stated in the press release header.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "Derived from the source link."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Incyte investor relations website.",
+        "competitors": [
+          "INCY",
+          "UCB",
+          "XNCR"
+        ],
+        "competitors_citation": "Mentioned as reporting entity (INCY) or in collaboration contexts (UCB, Xencor).",
+        "keywords": [],
+        "keywords_citation": "No monitored keywords were mentioned in the abstracts list.",
+        "summary": "Incyte announced that over 20 abstracts have been accepted for presentation at the EHA 2026 Congress. Highlights include Phase 3 frontMIND data for tafasitamab in 1L DLBCL and updates for INCA033989, axatilimab, ponatinib, and ruxolitinib. UCB was mentioned as the original developer of axatilimab, and Xencor in relation to tafasitamab technology.",
+        "summary_citation": "Summarized from the press release text.",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date stated in the press release header.",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Derived from the source link."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T12:23:33.151Z",
+  "creditsUsed": 1380
+}

@@ -1,0 +1,317 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Mentioned in monitored source"
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Mentioned in monitored source"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Mentioned in monitored source"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Mentioned in monitored source"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Mentioned in monitored source"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Mentioned in monitored source"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "Verbatim mention in monitored source"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Verbatim mention in monitored source"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Verbatim mention in monitored source"
+      },
+      {
+        "value": "hidradenitis suppurativa",
+        "value_citation": "Verbatim mention in monitored source"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Verbatim mention in monitored source"
+      },
+      {
+        "value": "systemic sclerosis",
+        "value_citation": "Verbatim mention in monitored source"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "HS",
+          "hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "No Title: [Skip to content](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results#lfg-main-content)  ## Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update  May 13, 2026  [PDF Version](https://ir.orukatx.com/node/17096/pdf)  _ORKA-001 EVERLAST-A 16-week data showed 63.5% PASI 100 rate and a favorable tolerability profile, with longer-term data expected in 2H 2026_  _ORCA-SURGE Phase 2 trial of ORK...",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "No Title: [Skip to content](https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license#lfg-main-content)  ## Halozyme and Oruka Announce Global Collaboration and License Agreement to Develop ORKA-001 with Hypercon™ Technology  May 6, 2026  [PDF Version](https://ir.orukatx.com/node/17076/pdf)  _Agreement provides exclusive rights for IL-23p19 in psoriatic disease and option for one additional target_  **SAN DIEGO and MENLO PARK, Calif., May 6, 202...",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "Anaptys Announces First Quarter 2026 Financial Results and Provides Business Update: ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)  The cookies we use  We use cookies to enhance your browsing experience and analyze our traffic. By clicking “Accept All Cookies,” you consent to our use of cookies as set forth in our [Privacy Policy](https://www.anaptysbio.com/privacy-policy/).  CustomizeAccept Essential Cookies OnlyAccept All Cookies  Customize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)  We use cookies to help you nav...",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "UCB",
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Press Release: [Skip to content](https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation#lfg-main-content)  ![magnifying glass icon](https://investor.incyte.com/sites/g/files/knoqqb107111/themes/site/nir_pid7608/dist/portals/default/skins/incyteCorporate/images/Magnifying-Glass.png)  [Home](https://www.incyte.com/) > > [Investors](https://investor.incyte.com/) > > [Press Releases](https://investor.incyte.com/news-releases/news-release-details/incy...",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "summary": "Press Release: [Skip to content](https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial#lfg-main-content)  ![magnifying glass icon](https://investor.incyte.com/sites/g/files/knoqqb107111/themes/site/nir_pid7608/dist/portals/default/skins/incyteCorporate/images/Magnifying-Glass.png)  [Home](https://www.incyte.com/) > > [Investors](https://investor.incyte.com/) > > [Press Releases](https://investor.incyte.com/news-releases/news-release-detail...",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-24-week-long-term-data-phase-3-true-ad4-trial"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "summary": "No Title: ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)  The cookies we use  We use cookies to enhance your browsing experience and analyze our traffic. By clicking “Accept All Cookies,” you consent to our use of cookies as set forth in our [Privacy Policy](https://www.anaptysbio.com/privacy-policy/).  CustomizeAccept Essential Cookies OnlyAccept All Cookies  Customize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)  We use cookies to help you nav...",
+        "summary_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link": "https://ir.anaptysbio.com/node/11466/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11466/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11466/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "summary": "This letter confirms the agreement (“Agreement”) between you and AnaptysBio, Inc. (the “Company”) concerning the terms of your mutual separation and offers you the separation compensation below in exchange for a general release of claims and covenant not to sue. If you choose to enter into this Agreement, please sign below on March 26, 2026.: ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)  The cookies we use  We use cookies to enhance your browsing experience and analyze our traffic. By clicking “Accept All Cookies,” you consent to our use of cookies as set forth in our [Privacy Policy](https://www.anaptysbio.com/privacy-policy/).  CustomizeAccept Essential Cookies OnlyAccept All Cookies  Customize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)  We use cookies to help you nav...",
+        "summary_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link": "https://ir.anaptysbio.com/node/11471/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11471/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11471/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/node/10071/html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/node/10071/html",
+        "keywords": [
+          "systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/node/10071/html",
+        "summary": "No Title: ![Nkarta, Inc.](https://ir.nkartatx.com/sites/g/files/knoqqb54386/files/logo_1.png)  View:  [Download DOC](https://ir.nkartatx.com/static-files/5d7a70fb-fef5-4e18-b5de-0217fc8c0349 \"0001787400-26-000012.rtf\")  [Download PDF](https://ir.nkartatx.com/static-files/d0910d40-86ff-4c43-92da-2b598efb941a \"0001787400-26-000012.pdf\")  [Download XLS](https://ir.nkartatx.com/static-files/0a11dfbf-ad72-420c-9543-bd2bec316b1d \"0001787400-26-000012.xls\")  [Download XBRL](https://ir.nkartatx.com/sec-filings/se...",
+        "summary_citation": "https://ir.nkartatx.com/node/10071/html",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_link": "https://ir.nkartatx.com/node/10071/html",
+        "source_link_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/node/10071/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/node/10076/html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/node/10076/html",
+        "keywords": [
+          "scleroderma",
+          "systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/node/10076/html",
+        "summary": "No Title: Skip to main contentEnable accessibility for low visionOpen the accessibility menu  ![Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)  ![](https://cdn.userway.org/widgetapp/images/body_wh.svg)  ![Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)  ![Nkarta, Inc.](https://ir.nkartatx.com/sites/g/files/knoqqb54386/files/logo_1.png)  View:  [Download DOC](https://ir.nkartatx.com/static-files/a3d142b2-e455-4c64-a53c-1eb571baacf6 \"0001787...",
+        "summary_citation": "https://ir.nkartatx.com/node/10076/html",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/node/10076/html",
+        "source_link": "https://ir.nkartatx.com/node/10076/html",
+        "source_link_citation": "https://ir.nkartatx.com/node/10076/html",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/node/10076/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "IL-17",
+          "HS",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates: # Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates  May 13, 2026 7:00am EDT  - _Achieved positive topline results in Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS) and plan to advance into a registrational phase 3 program_ - _Completed public offering of equity securities for gross proceeds of_ _$431.3 million_ - _Cash, cash equivalents, and short-term investments of $82 million as of March 31, 2026, not including...",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "keywords": [
+          "HS",
+          "hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "summary": "Avalo Therapeutics Announces Pricing of $375 Million Public Offering: # Avalo Therapeutics Announces Pricing of $375 Million Public Offering  May 05, 2026 11:33pm EDT  WAYNE, Pa., May 05, 2026 (GLOBE NEWSWIRE) -- Avalo Therapeutics, Inc. (NASDAQ: AVTX) (“Avalo”), a clinical-stage biotechnology company fully dedicated to developing IL-1β based treatments for immune-mediated inflammatory diseases, today announced the pricing of its underwritten public offering of 19,730,000 shares of common stock and, in lieu of common stock to certain investors, pre-funded warrants...",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/222/avalo-therapeutics-announces-pricing-of-375-million-public-offering"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "summary": "Investors: [Skip to content](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and#lfg-main-content)  [![logo](https://ir.nkartatx.com/sites/g/files/knoqqb54386/themes/site/nir_pid3714/dist/images/logo-new.svg)](https://www.nkartatx.com/)[menu](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and# \"menu\")[mobile menu](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-re...",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "keywords": [
+          "systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "summary": "Investors: [Skip to content](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019#lfg-main-content)  [![logo](https://ir.nkartatx.com/sites/g/files/knoqqb54386/themes/site/nir_pid3714/dist/images/logo-new.svg)](https://www.nkartatx.com/)[menu](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019# \"menu\")[mobile menu](https://ir.nkartatx.com/news-releases/news-release-details/nkarta-an...",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-announces-fda-agreement-outpatient-dosing-nkx019"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T21:44:07.580Z",
+  "creditsUsed": 1159
+}

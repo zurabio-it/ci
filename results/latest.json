@@ -4,42 +4,38 @@
   "data": {
     "competitors": [
       {
-        "value": "AVTX",
-        "value_citation": "News/Filings published May 12-13, 2026"
-      },
-      {
-        "value": "ORKA",
-        "value_citation": "News/Filings published May 12-13, 2026"
-      },
-      {
-        "value": "NKTX",
-        "value_citation": "News/Filings published May 12-13, 2026"
-      },
-      {
         "value": "ANAB",
-        "value_citation": "News/Filings published May 12-13, 2026"
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
       },
       {
         "value": "INCY",
-        "value_citation": "News/Filings published May 12-13, 2026"
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
       }
     ],
     "keywords": [
       {
         "value": "HS",
-        "value_citation": "News/Filings published May 12-13, 2026"
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       },
       {
         "value": "Hidradenitis suppurativa",
-        "value_citation": "News/Filings published May 12-13, 2026"
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       },
       {
         "value": "IL-17",
-        "value_citation": "News/Filings published May 12-13, 2026"
-      },
-      {
-        "value": "Systemic sclerosis",
-        "value_citation": "News/Filings published May 12-13, 2026"
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       }
     ],
     "findings": [
@@ -49,47 +45,26 @@
         "competitors": [
           "ORKA"
         ],
-        "competitors_citation": "Source document",
+        "competitors_citation": "Article reports financial results and updates for Oruka Therapeutics (ORKA).",
         "keywords": [
           "Hidradenitis suppurativa",
-          "Hidradenitis suppurativa",
-          "IL-17"
+          "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "Source document mentions treatment of chronic skin diseases and IL-17 is mentioned in the broader text",
-        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update. Highlights include interim 16-week data for ORKA-001 (IL-23p19) showing high PASI 100 rates in psoriasis patients. The company also initiated the Phase 2 ORCA-SURGE trial for ORKA-002.",
-        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords_citation": "Article mentions quarterly dosing for ORKA-001 in 'hidradenitis suppurativa (HS)'.",
+        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update, noting that its lead asset ORKA-001 is on track for quarterly dosing in hidradenitis suppurativa (HS).",
+        "summary_citation": "Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update, May 13, 2026.",
         "publication_date": "2026-05-13",
-        "publication_date_citation": "Date listed on press release",
+        "publication_date_citation": "May 13, 2026 quoted from source header.",
         "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
-        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "Direct URL to the press release.",
         "source_domain": "ir.orukatx.com",
-        "source_domain_citation": "ir.orukatx.com",
+        "source_domain_citation": "Domain identified from the source URL.",
         "disease_area": "HS",
         "confidence": 95
-      },
-      {
-        "source_type": "Press Release",
-        "source_type_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
-        "competitors": [
-          "INCY"
-        ],
-        "competitors_citation": "Source document",
-        "keywords": [],
-        "keywords_citation": "No keywords from list found in snippet",
-        "summary": "Incyte announced that more than 20 abstracts from its Hematology and Oncology franchises have been accepted for presentation at the EHA 2026 Congress, including pivotal Phase 3 frontMIND trial data.",
-        "summary_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
-        "publication_date": "2026-05-12",
-        "publication_date_citation": "Date listed on press release",
-        "source_link": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
-        "source_link_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
-        "source_domain": "investor.incyte.com",
-        "source_domain_citation": "investor.incyte.com",
-        "disease_area": "Other",
-        "confidence": 75
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-14T20:31:04.207Z",
-  "creditsUsed": 5106
+  "expiresAt": "2026-05-14T20:40:16.091Z",
+  "creditsUsed": 1076
 }

@@ -1,0 +1,127 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Article reports financial results and updates for Avalo Therapeutics (AVTX).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Article highlights results in 'moderate to severe hidradenitis suppurativa (HS)' and mentions 'proinflammatory cytokines, including IL-6, TNF-α, and IL-17'.",
+        "summary": "Avalo Therapeutics reported Q1 2026 financial results and positive topline data from the Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS), with plans to advance into a Phase 3 program.",
+        "summary_citation": "Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates, May 13, 2026.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "May 13, 2026 quoted from source header.",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Domain identified from the source URL."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "Article reports financial results and updates for Oruka Therapeutics (ORKA).",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "Article mentions quarterly dosing for ORKA-001 in 'hidradenitis suppurativa (HS)'.",
+        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update, noting that its lead asset ORKA-001 is on track for quarterly dosing in hidradenitis suppurativa (HS).",
+        "summary_citation": "Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update, May 13, 2026.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "May 13, 2026 quoted from source header.",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "Domain identified from the source URL."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Article reports financial results and updates for AnaptysBio (ANAB).",
+        "keywords": [],
+        "keywords_citation": "No monitored keywords were found in this specific press release.",
+        "summary": "AnaptysBio reported Q1 2026 financial results and provided a business update, highlighting the completion of the spin-off of First Tracks Biotherapeutics and its focus on managing royalty streams for Jemperli and imsidolimab.",
+        "summary_citation": "Anaptys Announces First Quarter 2026 Financial Results and Provides Business Update, May 12, 2026.",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "May 12, 2026 quoted from source header.",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "Domain identified from the source URL."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "UCB"
+        ],
+        "competitors_citation": "Article reports on Incyte (INCY) and mentions that axatilimab was licensed from UCB.",
+        "keywords": [],
+        "keywords_citation": "No monitored keywords were found in this specific press release.",
+        "summary": "Incyte announced that more than 20 abstracts have been accepted for presentation at the European Hematology Association (EHA) 2026 Congress, showcasing data from its hematology and oncology franchises including Monjuvi and Niktimvo (axatilimab).",
+        "summary_citation": "Incyte Announces More Than 20 Abstracts Accepted for Presentation at the European Hematology Association (EHA) 2026 Congress, May 12, 2026.",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "May 12, 2026 quoted from source header.",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "Domain identified from the source URL."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T20:40:16.091Z",
+  "creditsUsed": 1076
+}

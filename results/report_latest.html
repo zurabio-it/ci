@@ -58,13 +58,13 @@
 <body>
 <header>
   <h1>Zura Bio — Competitive Intelligence</h1>
-  <div class="meta">Generated 2026-05-13, 4:31:20 p.m. &nbsp;|&nbsp; 2 findings</div>
+  <div class="meta">Generated 2026-05-13, 4:40:27 p.m. &nbsp;|&nbsp; 1 findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num">2</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">2</div><div class="label">Competitors Detected</div></div>
-    <div class="stat"><div class="num">2</div><div class="label">Keywords Matched</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Competitors Detected</div></div>
+    <div class="stat"><div class="num">1</div><div class="label">Keywords Matched</div></div>
     <div class="stat"><div class="num">0</div><div class="label">PubMed Publications</div></div>
     <div class="stat"><div class="num">0</div><div class="label">Clinical Trial Updates</div></div>
     <div class="stat"><div class="num">0</div><div class="label">SEC Filings</div></div>
@@ -75,11 +75,11 @@
         <h3>Filter</h3>
         <select id="filter-competitor">
           <option value="">All Competitors</option>
-          <option value="incy">INCY</option><option value="orka">ORKA</option>
+          <option value="orka">ORKA</option>
         </select>
         <select id="filter-keyword">
           <option value="">All Keywords</option>
-          <option value="hidradenitis suppurativa">Hidradenitis suppurativa</option><option value="il-17">IL-17</option>
+          <option value="hidradenitis suppurativa">Hidradenitis suppurativa</option>
         </select>
         <select id="filter-source">
           <option value="">All Source Types</option>
@@ -128,13 +128,6 @@
         <span class="chart-count">1</span>
       </div>
     </div>
-    <div class="chart-row">
-      <div class="chart-label">INCY</div>
-      <div class="chart-bar-wrap">
-        <div class="chart-bar" style="width:100%"></div>
-        <span class="chart-count">1</span>
-      </div>
-    </div>
       </div>
     </div>
     <div>
@@ -152,44 +145,18 @@
     <div class="card"
       data-competitors="orka"
       data-source="Press Release"
-      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa|il-17"
+      data-keywords="hidradenitis suppurativa|hidradenitis suppurativa"
       data-confidence="95"
       data-area="HS">
       <div class="card-header">
         <span class="badge" style="background:#2563eb">Press Release</span>
         <span class="competitor-tag">ORKA</span>
-        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+        <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">Hidradenitis suppurativa</span>
         <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 95/100">High · 95</span>
       </div>
-      <p class="summary">Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update. Highlights include interim 16-week data for ORKA-001 (IL-23p19) showing high PASI 100 rates in psoriasis patients. The company also initiated the Phase 2 ORCA-SURGE trial for ORKA-002.</p>
+      <p class="summary">Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update, noting that its lead asset ORKA-001 is on track for quarterly dosing in hidradenitis suppurativa (HS).</p>
       <a class="source-link" href="https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results" target="_blank" rel="noopener">View Source →</a>
       <div class="card-domain">📅 2026-05-13 · ir.orukatx.com</div>
-    </div>
-      </div>
-    </div>
-    <div class="disease-section" data-area="Other">
-      <div class="section-header">
-        <span class="section-dot" style="background:#6b7280"></span>
-        <span class="section-title">Other</span>
-        <span class="section-count">1</span>
-      </div>
-      <div class="grid section-grid">
-        
-    <div class="card"
-      data-competitors="incy"
-      data-source="Press Release"
-      data-keywords=""
-      data-confidence="75"
-      data-area="Other">
-      <div class="card-header">
-        <span class="badge" style="background:#2563eb">Press Release</span>
-        <span class="competitor-tag">INCY</span>
-        
-        <span class="confidence-badge" style="margin-left:auto;background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence score: 75/100">High · 75</span>
-      </div>
-      <p class="summary">Incyte announced that more than 20 abstracts from its Hematology and Oncology franchises have been accepted for presentation at the EHA 2026 Congress, including pivotal Phase 3 frontMIND trial data.</p>
-      <a class="source-link" href="https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european" target="_blank" rel="noopener">View Source →</a>
-      <div class="card-domain">📅 2026-05-12 · investor.incyte.com</div>
     </div>
       </div>
     </div>
@@ -203,7 +170,7 @@
 
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
-    countEl.textContent = visible + ' of 2 findings';
+    countEl.textContent = visible + ' of 1 findings';
   }
 
   function applyFilters() {

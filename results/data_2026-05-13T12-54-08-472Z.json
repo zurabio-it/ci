@@ -1,0 +1,228 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa (HS)",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Systemic sclerosis (SSc)",
+        "value_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa (HS)",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reported its first quarter 2026 financial results and provided business updates. A major highlight was the positive topline results from the Phase 2 LOTUS trial of abdakibart in patients with moderate to severe hidradenitis suppurativa (HS), where it met the primary endpoint of HiSCR75 at Week 16. The company also announced plans to advance abdakibart into a registrational Phase 3 program and highlighted a successful public offering of $431.3 million. As of March 31, 2026, Avalo had $82.0 million in cash, which does not include the subsequent financing proceeds expected to fund operations into 2029.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "AnaptysBio reported financial results for the first quarter of 2026 and provided a business update. The company completed the spin-off of its biopharma operations into First Tracks Biotherapeutics and now focuses on managing financial collaborations for Jemperli (with GSK) and imsidolimab (with Vanda). It also announced the appointment of Chris Murphy as CFO and new board members.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "summary": "AnaptysBio filed a Form 8-K on May 12, 2026, reporting its financial results for the first quarter ended March 31, 2026, and providing other corporate updates.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "summary": "AnaptysBio filed its Form 10-Q for the quarterly period ended March 31, 2026. The filing includes financial results, a discussion of the spin-off of First Tracks Biotherapeutics, and details on royalty revenues from its Jemperli collaboration.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "summary": "Nkarta, Inc. reported financial results for the first quarter ended March 31, 2026. The company highlighted ongoing enrollment in Ntrust-1 and Ntrust-2 studies for autoimmune diseases, regulatory agreement for outpatient dosing in community settings, and expectations for initial clinical data presentation in 2026. Cash balance was $266.7 million.",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "summary": "Nkarta, Inc. filed a Form 8-K on May 12, 2026, reporting unscheduled material events or corporate events. This filing typically includes the company's quarterly financial results press release as an exhibit.",
+        "summary_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_link": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_link_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/8-k/0001787400-26-000012"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "keywords": [
+          "Systemic sclerosis (SSc)"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "summary": "Nkarta, Inc. filed a Form 10-Q on May 12, 2026, which is a quarterly report providing a continuing view of the company's financial position for the quarter ended March 31, 2026. It mentions systemic sclerosis as one of the indications in their clinical studies.",
+        "summary_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_link": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_link_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/sec-filings/sec-filing/10-q/0001787400-26-000013"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "summary": "Vera Therapeutics filed a Form 144 on May 12, 2026, which is a notice of the proposed sale of restricted securities by an insider of the company.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "UCB",
+          "XNCR",
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announced that more than 20 abstracts from its hematology and oncology franchises have been accepted for presentation at the European Hematology Association (EHA) 2026 Congress. Key data includes Phase 3 frontMIND trial results for tafasitamab in first-line diffuse large B-cell lymphoma (DLBCL) and updates on INCA033989 for myeloproliferative neoplasms (MPNs). The presentations will also cover axatilimab, ponatinib, and ruxolitinib in various hematologic conditions.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T12:54:06.845Z",
+  "creditsUsed": 2148
+}

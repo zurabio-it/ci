@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-13, 8:44:43 a.m. &nbsp;|&nbsp; 104 runs &nbsp;|&nbsp; 435 unique findings</div>
+  <div class="meta">Generated 2026-05-13, 8:54:18 a.m. &nbsp;|&nbsp; 105 runs &nbsp;|&nbsp; 436 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">435</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">104</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">436</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">105</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">72</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">52</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">435</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">436</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -3093,7 +3093,7 @@
     <div class="section-header">
       <span class="section-dot" style="background:#6b7280"></span>
       <span class="section-title">Other</span>
-      <span class="section-count">264</span>
+      <span class="section-count">265</span>
     </div>
     <div class="grid section-grid">
       
@@ -3283,6 +3283,23 @@
     <p class="summary">Form 8-K report of unscheduled material events or corporate events for AnaptysBio.</p>
     <a class="source-link" href="https://ir.anaptysbio.com/node/11466/html" target="_blank" rel="noopener">View Source →</a>
     <div class="card-domain">📅 2026-05-12 · ir.anaptysbio.com</div>
+  </div>
+  <div class="card"
+    data-competitors="vera"
+    data-keywords=""
+    data-source="SEC Filing"
+    data-date="2026-05-12"
+    data-confidence="80"
+    data-area="Other">
+    <div class="card-header">
+      <span class="badge" style="background:#6b7280">SEC Filing</span>
+      <span class="competitor-tag">VERA</span>
+      
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 80/100">High · 80</span>
+    </div>
+    <p class="summary">Vera Therapeutics filed a Form 144 on May 12, 2026, which is a notice of the proposed sale of restricted securities by an insider of the company.</p>
+    <a class="source-link" href="https://ir.veratx.com/sec-filings/sec-filing/144/0001950047-26-004408" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-12 · ir.veratx.com</div>
   </div>
   <div class="card"
     data-competitors="anab"
@@ -7632,7 +7649,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 435 findings';
+    countEl.textContent = visible + ' of 436 findings';
   }
 
   function applyFilters() {

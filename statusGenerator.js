@@ -20,7 +20,9 @@ const log = fs.existsSync(RUN_LOG_FILE)
   ? JSON.parse(fs.readFileSync(RUN_LOG_FILE, 'utf8'))
   : [];
 
-log.unshift({ timestamp, status: hasFindings ? 'findings' : 'clean', findings: findingsCount, competitors });
+const jobStatus = (process.env.JOB_STATUS ?? 'success').toLowerCase();
+const runStatus = jobStatus === 'failure' ? 'failed' : jobStatus === 'cancelled' ? 'cancelled' : hasFindings ? 'findings' : 'clean';
+log.unshift({ timestamp, status: runStatus, findings: findingsCount, competitors });
 const trimmed = log.slice(0, 200);
 fs.writeFileSync(RUN_LOG_FILE, JSON.stringify(trimmed, null, 2));
 
@@ -35,14 +37,14 @@ function fmtTime(iso) {
 }
 
 function statusBadge(run) {
-  if (run.status === 'findings') {
-    return `<span class="badge badge-findings">${run.findings} finding${run.findings !== 1 ? 's' : ''}</span>`;
-  }
+  if (run.status === 'findings') return `<span class="badge badge-findings">${run.findings} finding${run.findings !== 1 ? 's' : ''}</span>`;
+  if (run.status === 'failed') return `<span class="badge badge-failed">Failed</span>`;
+  if (run.status === 'cancelled') return `<span class="badge badge-cancelled">Cancelled</span>`;
   return `<span class="badge badge-clean">Clean</span>`;
 }
 
 const rows = trimmed.slice(0, 50).map(run => `
-  <tr class="${run.status === 'findings' ? 'row-findings' : ''}">
+  <tr class="${run.status === 'findings' ? 'row-findings' : run.status === 'failed' ? 'row-failed' : ''}">
     <td>${fmtTime(run.timestamp)}</td>
     <td>${statusBadge(run)}</td>
     <td class="competitors">${run.competitors?.join(', ') || '—'}</td>
@@ -97,6 +99,9 @@ const html = `<!DOCTYPE html>
     .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
     .badge-clean { background: #f0fdf4; color: #16a34a; }
     .badge-findings { background: #eff6ff; color: #0052CC; }
+    .badge-failed { background: #fef2f2; color: #dc2626; }
+    .badge-cancelled { background: #f9fafb; color: #9ca3af; }
+    tr.row-failed td { background: #fff8f8; }
 
     .footer { text-align: center; padding: 24px; color: #aaa; font-size: 12px; }
     .footer span { color: #ccc; margin: 0 8px; }

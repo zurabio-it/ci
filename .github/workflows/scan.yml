@@ -57,18 +57,15 @@ jobs:
       - name: Regenerate historical dashboard
         run: node historical.js
 
-      - name: Update status page
-        run: node statusGenerator.js
-
       - name: Commit state back to main
         run: |
           git config user.name "Zura Bio CI Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_links.json results/historical.html results/credit-calculator.html results/status.html results/run-log.json results/CNAME
+          git add seen_links.json results/historical.html results/credit-calculator.html results/CNAME
           git add results/data_*.json 2>/dev/null || true
           git add results/latest.json results/report_latest.html 2>/dev/null || true
           git diff --staged --quiet && echo "Nothing to commit" || git commit -m "Daily scan $(date -u +'%Y-%m-%d')"
-          git pull --rebase -X theirs origin main
+          git pull --no-rebase -X ours origin main
           git push
 
       - name: Setup Pages
@@ -82,3 +79,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Record run status
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          git config user.name "Zura Bio CI Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          node statusGenerator.js
+          git add results/run-log.json results/status.html 2>/dev/null || true
+          git diff --staged --quiet && echo "Nothing to commit" || (git pull --no-rebase -X ours origin main && git commit -m "Run status $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git push)

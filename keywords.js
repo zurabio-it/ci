@@ -1,6 +1,6 @@
 // AND mode: findings must mention a competitor AND a keyword together.
 // Set to false for OR mode (either alone qualifies — broader but noisier).
-export const AND_MODE = false;
+export const AND_MODE = true;
 
 // Canonical keyword name → all aliases to search for
 export const KEYWORD_ALIASES = {

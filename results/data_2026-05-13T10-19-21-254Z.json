@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ],
+    "keywords": [],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "AnaptysBio announced first quarter 2026 financial results and provided a business update, including the spin-off of First Tracks Biotherapeutics and leadership changes.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "summary": "Form 8-K filed by AnaptysBio reporting unscheduled material events or corporate events.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "summary": "Form 10-Q Quarterly Report for the period ended March 31, 2026, filed by AnaptysBio.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "UCB"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announced more than 20 abstracts accepted for presentation at EHA 2026, including data on axatilimab, which is co-developed with Syndax and licensed from UCB.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "May 12, 2026",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T10:19:19.845Z",
+  "creditsUsed": 4169
+}

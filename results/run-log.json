@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-05-13T11:09:59.197Z",
+    "status": "findings",
+    "findings": 3,
+    "competitors": [
+      "AVTX",
+      "INCY",
+      "XNCR",
+      "UCB",
+      "ANAB"
+    ]
+  },
+  {
     "timestamp": "2026-05-13T10:19:31.454Z",
     "status": "clean",
     "findings": 0,

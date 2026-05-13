@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-13, 6:19:31 a.m. &nbsp;|&nbsp; 97 runs &nbsp;|&nbsp; 431 unique findings</div>
+  <div class="meta">Generated 2026-05-13, 7:09:59 a.m. &nbsp;|&nbsp; 98 runs &nbsp;|&nbsp; 432 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">431</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">97</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">432</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">98</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">72</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">52</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">431</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">432</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -93,11 +93,11 @@
         <div class="divider">— or set custom range —</div>
         <div class="date-row">
           <label>From</label>
-          <input type="date" id="date-from" min="2026-01-21" max="2026-05-12">
+          <input type="date" id="date-from" min="2026-01-21" max="2026-05-13">
         </div>
         <div class="date-row">
           <label>To</label>
-          <input type="date" id="date-to" min="2026-01-21" max="2026-05-12">
+          <input type="date" id="date-to" min="2026-01-21" max="2026-05-13">
         </div>
       </div>
       <div class="panel">
@@ -156,10 +156,27 @@
     <div class="section-header">
       <span class="section-dot" style="background:#7c3aed"></span>
       <span class="section-title">Hidradenitis Suppurativa (HS)</span>
-      <span class="section-count">92</span>
+      <span class="section-count">93</span>
     </div>
     <div class="grid section-grid">
       
+  <div class="card"
+    data-competitors="avtx"
+    data-keywords="hidradenitis suppurativa|il-17"
+    data-source="Press Release"
+    data-date="2026-05-13"
+    data-confidence="95"
+    data-area="HS">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">AVTX</span>
+      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 95/100">High · 95</span>
+    </div>
+    <p class="summary">Avalo Therapeutics reported Q1 2026 financial results and provided business updates. A key highlight was achieving positive topline results in the Phase 2 LOTUS trial of abdakibart for moderate to severe hidradenitis suppurativa (HS), with plans to advance into a registrational Phase 3 program. The company reported $82 million in cash as of March 31, 2026.</p>
+    <a class="source-link" href="https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-13 · ir.avalotx.com</div>
+  </div>
   <div class="card"
     data-competitors="mltx"
     data-keywords="hidradenitis suppurativa|hs|il-17"
@@ -7530,7 +7547,7 @@
   const countEl = document.getElementById('results-count');
 
   const DATA_MIN = '2026-01-21';
-  const DATA_MAX = '2026-05-12';
+  const DATA_MAX = '2026-05-13';
 
   function toISO(d) { return d.toISOString().slice(0, 10); }
 
@@ -7564,7 +7581,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 431 findings';
+    countEl.textContent = visible + ' of 432 findings';
   }
 
   function applyFilters() {

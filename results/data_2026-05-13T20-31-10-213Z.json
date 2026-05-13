@@ -1,0 +1,169 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "News/Filings published May 12-13, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "Source document mentions abdakibart (IL-1beta) and Phase 2 trial results in HS",
+        "summary": "Avalo Therapeutics announced positive topline results from the Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS). The study met its primary endpoints, and the company plans to advance to a registrational Phase 3 program. Avalo also completed a public offering for $431.3 million.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Date listed on press release",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "ir.avalotx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "Source document mentions treatment of chronic skin diseases and IL-17 is mentioned in the broader text",
+        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update. Highlights include interim 16-week data for ORKA-001 (IL-23p19) showing high PASI 100 rates in psoriasis patients. The company also initiated the Phase 2 ORCA-SURGE trial for ORKA-002.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Date listed on press release",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "ir.orukatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "Source document mentions clinical trials for NKX019 in systemic sclerosis",
+        "summary": "Nkarta reported Q1 2026 financial results and corporate highlights, including ongoing enrollment in Ntrust-1 and Ntrust-2 clinical trials for NKX019 in autoimmune diseases like systemic sclerosis and ANCA-associated vasculitis.",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date listed on press release",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "ir.nkartatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [],
+        "keywords_citation": "No keywords from list found in snippet",
+        "summary": "AnaptysBio reported Q1 2026 financial results and provided a business update. The company completed the spin-off of First Tracks Biotherapeutics and announced the appointment of Chris Murphy as CFO.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date listed on press release",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "ir.anaptysbio.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [],
+        "keywords_citation": "No keywords from list found in snippet",
+        "summary": "Incyte announced that more than 20 abstracts from its Hematology and Oncology franchises have been accepted for presentation at the EHA 2026 Congress, including pivotal Phase 3 frontMIND trial data.",
+        "summary_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date listed on press release",
+        "source_link": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
+        "source_link_citation": "https://investor.incyte.com/press-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation-european",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "Source document",
+        "keywords": [],
+        "keywords_citation": "No keywords from list found in snippet",
+        "summary": "AnaptysBio filed a Form 8-K reporting Q1 2026 financial results and business updates.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "Date listed on filing",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "ir.anaptysbio.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T20:31:04.207Z",
+  "creditsUsed": 5106
+}

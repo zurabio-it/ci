@@ -90,7 +90,7 @@ Keywords and synonyms to monitor: ${allAliasesForPrompt}.
 
 IMPORTANT: Only extract articles that are genuinely new (published ${today} or the day before). Do not include older articles. For each finding, extract the exact URL of the specific article — not the listing page URL.
 
-For each finding list ALL competitors and ALL keywords mentioned.`,
+For each finding list ALL competitors and ALL keywords mentioned. Only extract keywords that are explicitly stated verbatim in the article text — never infer, associate, or extrapolate keywords based on disease area or drug class.`,
   schema: z.object({
     competitors: z.array(z.object({
       value: z.string(),

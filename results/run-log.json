@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-05-13T20:31:31.167Z",
+    "status": "findings",
+    "findings": 2,
+    "competitors": [
+      "ORKA",
+      "INCY"
+    ]
+  },
+  {
     "timestamp": "2026-05-13T13:48:54.439Z",
     "status": "findings",
     "findings": 3,

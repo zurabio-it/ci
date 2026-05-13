@@ -1,0 +1,173 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reports first quarter 2026 financial results and recent business updates, including positive topline results in the Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS) and plans to advance into a registrational Phase 3 program. The trial evaluated abdakibart, an anti-IL-17 monoclonal antibody.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "Oruka Therapeutics reports first quarter 2026 financial results and corporate update. Mentions ORKA-001 EVERLAST-A 16-week data and the ORCA-SURGE Phase 2 trial for hidradenitis suppurativa (HS).",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "summary": "Nkarta reports first quarter 2026 financial results and corporate highlights, including updates on the Ntrust-2 study which includes patients with systemic sclerosis.",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "Anaptys Announces First Quarter 2026 Financial Results and Provides Business Update.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "UCB"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announces more than 20 abstracts accepted for presentation at EHA 2026. Mention of UCB in relation to axatilimab licensing history.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "summary": "AnaptysBio Form 10-Q filing for the quarterly period ended March 31, 2026.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T21:09:27.493Z",
+  "creditsUsed": 612
+}

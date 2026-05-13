@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reported Q1 2026 financial results and provided an update on its Phase 2 LOTUS trial for abdakibart in hidradenitis suppurativa (HS), which recently achieved positive topline results.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "AnaptysBio reported Q1 2026 financial results and confirmed the completion of its transition to a royalty management company following the spin-off of its biopharma operations.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "summary": "AnaptysBio filed its Form 10-Q for the quarter ended March 31, 2026, detailing its financial position and business model as a royalty-focused entity.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "UCB"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announced the acceptance of over 20 abstracts for presentation at the EHA 2026 Congress, including data on tafasitamab and INCA033989. The release notes that axatilimab was licensed from UCB.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T11:51:41.019Z",
+  "creditsUsed": 722
+}

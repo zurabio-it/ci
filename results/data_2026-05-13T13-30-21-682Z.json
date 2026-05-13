@@ -1,0 +1,135 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reported its first quarter 2026 financial results and provided recent business updates. The most significant news is the positive topline results from the Phase 2 LOTUS trial of abdakibart (AVTX-009) in patients with moderate to severe hidradenitis suppurativa (HS). The trial met its primary endpoint, with abdakibart showing a statistically significant absolute improvement in HiSCR75 response rates compared to placebo at Week 16. Avalo plans to advance abdakibart into a registrational Phase 3 program. The company also highlighted a major public offering completed on May 7, 2026, which raised $431.3 million in gross proceeds.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "summary": "AnaptysBio announced its first quarter 2026 financial results and provided an update on its transitioned business model. Following the spin-off of its biopharma operations into First Tracks Biotherapeutics on April 20, 2026, AnaptysBio now focuses on managing financial collaborations, primarily the royalties for Jemperli (with GSK) and imsidolimab (with Vanda). Jemperli royalties for Q1 2026 reached $313 million, and the company expects significant growth through 2029. Imsidolimab has an upcoming PDUFA date of December 12, 2026, for GPP.",
+        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "summary": "The Current Report on Form 8-K filed by AnaptysBio on May 12, 2026, discloses the company's financial results for the quarter ended March 31, 2026, and provides a business update. The filing covers the strategic shift to a royalty-management model and the completion of the First Tracks Biotherapeutics spin-off.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/8-k/0001193125-26-219500"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "summary": "The Quarterly Report on Form 10-Q filed by AnaptysBio on May 12, 2026, provides a detailed financial analysis of the company's performance for the first quarter of 2026. It includes financial statements, management's discussion of results, and details on the royalty income derived from its collaborations with GSK and Vanda.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/10-q/0001193125-26-219515"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "competitors": [
+          "INCY",
+          "UCB",
+          "XNCR"
+        ],
+        "competitors_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "summary": "Incyte announced that more than 20 abstracts from its Hematology and Oncology pipeline have been accepted for presentation at the EHA 2026 Congress. A key highlight is the Phase 3 frontMIND trial data for tafasitamab in first-line DLBCL, which will be featured in a Plenary Session. The congress will also feature data for INCA033989 in myeloproliferative neoplasms and updates on several other oncology programs including axatilimab. Mentions of collaborations or products related to UCB and Xencor (XNCR) are included in the context of pipeline development or comparative highlights.",
+        "summary_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_link_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-more-20-abstracts-accepted-presentation"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T13:30:20.975Z",
+  "creditsUsed": 4988
+}

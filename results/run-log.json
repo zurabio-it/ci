@@ -1,5 +1,16 @@
 [
   {
+    "timestamp": "2026-05-13T13:17:25.027Z",
+    "status": "findings",
+    "findings": 7,
+    "competitors": [
+      "NKTX",
+      "VOR",
+      "AVTX",
+      "ANAB"
+    ]
+  },
+  {
     "timestamp": "2026-05-13T12:54:18.683Z",
     "status": "clean",
     "findings": 0,

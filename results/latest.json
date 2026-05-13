@@ -1,0 +1,265 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "https://ir.moonlaketx.com/press-releases"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-events/press-releases"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://investor.insmed.com/releases"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "https://investor.aclaristx.com/press-releases"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/news"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://www.ucb.com/newsroom/press-releases"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-events/press-releases"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/news-and-events/press-releases"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "https://www.inflarx.de/Home/Investors/Press-Releases.html"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "https://investors.cullinantherapeutics.com/news-releases"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/news-releases"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/press-releases"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "https://investors.kiniksa.com/news-events/press-releases"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/news-events/news-releases"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "https://www.glpg.com/press-releases/"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "https://ir.q32bio.com/news-and-events/news-releases"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/press-releases"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "summary": "Nkarta reported Q1 2026 financial results and update on Ntrust clinical trials, which are enrolling patients with systemic sclerosis.",
+        "summary_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/news-releases/news-release-details/nkarta-reports-first-quarter-2026-financial-results-and",
+        "disease_area": "SSc",
+        "confidence": 85
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/node/10076/html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/node/10076/html",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/node/10076/html",
+        "summary": "Nkarta's Form 10-Q for Q1 2026 mentions enrollment of patients with systemic sclerosis in the Ntrust-1 and Ntrust-2 clinical trials.",
+        "summary_citation": "https://ir.nkartatx.com/node/10076/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.nkartatx.com/node/10076/html",
+        "source_link": "https://ir.nkartatx.com/node/10076/html",
+        "source_link_citation": "https://ir.nkartatx.com/node/10076/html",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/node/10076/html",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "summary": "Vor Bio's Q1 2026 corporate update mentions Telitacicept, an investigational therapy targeting BAFF and APRIL for Sjögren’s disease.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "disease_area": "SSc",
+        "confidence": 95
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "summary": "Vor Bio's 10-Q filing for the period ended March 31, 2026, details the development of Telitacicept and its mechanism targeting BAFF.",
+        "summary_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "disease_area": "SSc",
+        "confidence": 100
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "summary": "Form 8-K filing from Avalo Therapeutics containing the Q1 2026 financial results press release and updates on abdakibart in HS.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "disease_area": "HS",
+        "confidence": 100
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/node/10071/html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/node/10071/html",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/node/10071/html",
+        "summary": "Form 8-K filing from Nkarta associated with the Q1 2026 financial results and mentions of systemic sclerosis.",
+        "summary_citation": "https://ir.nkartatx.com/node/10071/html",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_link": "https://ir.nkartatx.com/node/10071/html",
+        "source_link_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/node/10071/html",
+        "disease_area": "SSc",
+        "confidence": 90
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings",
+        "summary": "Form 8-K filing (Report of unscheduled material events) submitted by AnaptysBio on May 12, 2026.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings",
+        "publication_date": "2026-05-12",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings",
+        "source_link": "https://ir.anaptysbio.com/sec-filings",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings",
+        "disease_area": "Other",
+        "confidence": 80
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-14T13:17:12.607Z",
+  "creditsUsed": 2835
+}

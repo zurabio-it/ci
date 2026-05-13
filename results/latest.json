@@ -4,288 +4,67 @@
   "data": {
     "competitors": [
       {
-        "value": "AVTX",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "MLTX",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "ORKA",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "INSM",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "ACRS",
-        "value_citation": "Monitoring list"
-      },
-      {
         "value": "ANAB",
-        "value_citation": "Monitoring list"
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
       },
       {
-        "value": "UCB",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "KYMR",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "GLUE",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IFRX",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "CGEM",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "NKTX",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "XNCR",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "KNSA",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "VERA",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "VOR",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "GLPG",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "ALMS",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "QTTB",
-        "value_citation": "Monitoring list"
+        "value": "AVTX",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
       },
       {
         "value": "INCY",
-        "value_citation": "Monitoring list"
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Identified as an active competitor in reports published on May 12 or 13, 2026."
       }
     ],
     "keywords": [
       {
-        "value": "Hidradenitis suppurativa",
-        "value_citation": "Monitoring list"
-      },
-      {
         "value": "HS",
-        "value_citation": "Monitoring list"
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       },
       {
-        "value": "acne inversa",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "Systemic sclerosis",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "scleroderma",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "SSc",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "Polymyalgia rheumatica",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "PMR",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "Giant cell arteritis",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "GCA",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "temporal arteritis",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "COPD",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "chronic obstructive pulmonary disease",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "emphysema",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "chronic bronchitis",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IL-33",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IL33",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin-33",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin 33",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IL-7R",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IL7R",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin-7 receptor",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin 7 receptor",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "CD127",
-        "value_citation": "Monitoring list"
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       },
       {
         "value": "IL-17",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "IL17",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin-17",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "interleukin 17",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "BAFF",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "Baff",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "BLyS",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "B-lymphocyte stimulator",
-        "value_citation": "Monitoring list"
-      },
-      {
-        "value": "TNFSF13B",
-        "value_citation": "Monitoring list"
+        "value_citation": "Identified as a relevant keyword in reports published on May 12 or 13, 2026."
       }
     ],
     "findings": [
       {
         "source_type": "Press Release",
-        "source_type_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
         "competitors": [
-          "ANAB"
+          "ORKA"
         ],
-        "competitors_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
+        "competitors_citation": "Article reports financial results and updates for Oruka Therapeutics (ORKA).",
         "keywords": [
           "Hidradenitis suppurativa",
-          "IL-33",
-          "IL-7R"
+          "Hidradenitis suppurativa"
         ],
-        "keywords_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
-        "summary": "AnaptysBio reported first quarter 2026 financial results and provided a business update on its pipeline, including its checkpoint agonist rosnilimab and its inflammatory disease portfolio targeting IL-33 and IL-7R, and the ongoing development of imsidolimab for Hidradenitis suppurativa.",
-        "summary_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
-        "publication_date": "2026-05-12",
-        "publication_date_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
-        "source_link": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
-        "source_link_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
-        "source_domain": "ir.anaptysbio.com",
-        "source_domain_citation": "https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-announces-first-quarter-2026-financial-results-and-provides",
+        "keywords_citation": "Article mentions quarterly dosing for ORKA-001 in 'hidradenitis suppurativa (HS)'.",
+        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update, noting that its lead asset ORKA-001 is on track for quarterly dosing in hidradenitis suppurativa (HS).",
+        "summary_citation": "Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update, May 13, 2026.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "May 13, 2026 quoted from source header.",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "Direct URL to the press release.",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "Domain identified from the source URL.",
         "disease_area": "HS",
-        "confidence": 85
-      },
-      {
-        "source_type": "SEC Filing",
-        "source_type_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "competitors": [
-          "NKTX"
-        ],
-        "competitors_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "keywords": [],
-        "keywords_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "summary": "Nkarta filed Form 8-K and 10-Q reporting financial results for the quarter ended March 31, 2026.",
-        "summary_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "publication_date": "2026-05-12",
-        "publication_date_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "source_link": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "source_link_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "source_domain": "ir.nkartatx.com",
-        "source_domain_citation": "https://ir.nkartatx.com/financial-information/sec-filings",
-        "disease_area": "Other",
-        "confidence": 80
-      },
-      {
-        "source_type": "SEC Filing",
-        "source_type_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "competitors": [
-          "VERA"
-        ],
-        "competitors_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "keywords": [],
-        "keywords_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "summary": "Vera Therapeutics filed Form 144 on May 12, 2026.",
-        "summary_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "publication_date": "2026-05-12",
-        "publication_date_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "source_link": "https://ir.veratx.com/financial-information/sec-filings",
-        "source_link_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "source_domain": "ir.veratx.com",
-        "source_domain_citation": "https://ir.veratx.com/financial-information/sec-filings",
-        "disease_area": "Other",
-        "confidence": 80
+        "confidence": 95
       }
     ]
   },
   "model": "spark-1-mini",
-  "expiresAt": "2026-05-14T13:48:41.926Z",
-  "creditsUsed": 3244
+  "expiresAt": "2026-05-14T20:40:16.091Z",
+  "creditsUsed": 1076
 }

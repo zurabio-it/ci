@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mendable/firecrawl-js": "^4.18.3",
+    "fast-xml-parser": "^5.8.0",
     "node-fetch": "^3.3.0",
     "zod": "^3.22.0"
   }

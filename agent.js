@@ -162,7 +162,7 @@ const ERROR_URL_PATTERNS = [
   'page-not-found', '?error=', '/errors/', '/error.html', '/404.html',
 ];
 // Slug endings that signal a truncated URL — agent cut the title short mid-word.
-const TRUNCATED_SLUG_RE = /[-/](and|or|the|a|an|for|with|of|to|in|on|its|as|at|by|from|that|this|provides|announces|reports|updates?|results?)$/i;
+const TRUNCATED_SLUG_RE = /[-/](and|or|the|a|an|for|with|of|to|in|on|its|as|at|by|from|that|this)$/i;
 
 // Fallback map: hostname → primary IR listing page. Used when Cloudflare blocks URL
 // verification (403/401) — replaces the unverifiable article URL with the known IR

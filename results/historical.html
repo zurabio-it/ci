@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-13, 4:40:29 p.m. &nbsp;|&nbsp; 109 runs &nbsp;|&nbsp; 443 unique findings</div>
+  <div class="meta">Generated 2026-05-13, 5:15:47 p.m. &nbsp;|&nbsp; 111 runs &nbsp;|&nbsp; 444 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">443</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">109</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">444</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">111</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">72</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">52</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">443</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">444</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -179,7 +179,7 @@
   </div>
   <div class="card"
     data-competitors="orka"
-    data-keywords="hidradenitis suppurativa|hs"
+    data-keywords="hs|hidradenitis suppurativa|il-17"
     data-source="Press Release"
     data-date="2026-05-13"
     data-confidence="95"
@@ -187,10 +187,10 @@
     <div class="card-header">
       <span class="badge" style="background:#2563eb">Press Release</span>
       <span class="competitor-tag">ORKA</span>
-      <span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">HS</span>
+      <span class="keyword-tag">HS</span><span class="keyword-tag">Hidradenitis suppurativa</span><span class="keyword-tag">IL-17</span>
       <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 95/100">High · 95</span>
     </div>
-    <p class="summary">Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update, noting that its lead asset ORKA-001 is on track for quarterly dosing in hidradenitis suppurativa (HS).</p>
+    <p class="summary">Oruka Therapeutics reported Q1 2026 financial results and provided a corporate update. Highlights include interim 16-week data for ORKA-001 (IL-23p19) showing high PASI 100 rates in psoriasis patients. The company also initiated the Phase 2 ORCA-SURGE trial for ORKA-002.</p>
     <a class="source-link" href="https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results" target="_blank" rel="noopener">View Source →</a>
     <div class="card-domain">📅 2026-05-13 · ir.orukatx.com</div>
   </div>
@@ -7785,7 +7785,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 443 findings';
+    countEl.textContent = visible + ' of 444 findings';
   }
 
   function applyFilters() {

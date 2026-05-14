@@ -212,6 +212,20 @@ const urlCheckResults = await Promise.all(allFindings.map(async f => {
       console.log(`  Redirect-to-error dropped: ${url} → ${res.url}`);
       return false;
     }
+    // Read body and check <title> for error indicators — catches sites that return
+    // HTTP 200 with a custom "page not found" HTML page (e.g. VOR, VERA IR sites).
+    const body = await res.text();
+    const titleMatch = body.slice(0, 3000).toLowerCase().match(/<title[^>]*>([^<]{0,200})<\/title>/);
+    const pageTitle = titleMatch?.[1]?.trim() ?? '';
+    const TITLE_ERROR_PATTERNS = ['not found', '404', 'page not found', 'error page', 'unavailable', 'access denied'];
+    if (TITLE_ERROR_PATTERNS.some(p => pageTitle.includes(p))) {
+      try {
+        const fallback = DOMAIN_LISTING_FALLBACK[new URL(url).hostname];
+        if (fallback) { f.source_link = fallback; console.log(`  Title-error fallback: ${url} (title: "${pageTitle}") → ${fallback}`); return true; }
+      } catch {}
+      console.log(`  Title-error dropped: ${url} (title: "${pageTitle}")`);
+      return false;
+    }
     return true;
   } catch {
     // Timeout or connection error = bot-blocking, not a dead URL

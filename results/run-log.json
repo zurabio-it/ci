@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-14T21:11:23.916Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "VOR"
+    ]
+  },
+  {
     "timestamp": "2026-05-14T21:00:20.115Z",
     "status": "clean",
     "findings": 0,

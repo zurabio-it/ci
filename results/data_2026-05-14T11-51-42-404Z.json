@@ -1,0 +1,314 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Included in competitor monitoring list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Included in competitor monitoring list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin 7 receptor",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "interleukin 17",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Included in keyword monitoring list"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Included in keyword monitoring list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as Press Release on the Avalo Therapeutics IR news page.",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX (Avalo Therapeutics) is the subject of the press release.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Keywords 'Hidradenitis suppurativa', 'HS', and 'IL-17' are explicitly mentioned in the clinical update section.",
+        "summary": "Avalo Therapeutics reported Q1 2026 financial results and positive topline results from its Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS). The company plans to move to Phase 3 development.",
+        "summary_citation": "Summarized from the press release title and first two paragraphs.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Published on May 13, 2026 as per the Avalo IR newsroom.",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "Direct link to the press release.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Avalo Therapeutics investor relations domain."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as Press Release on the Oruka Therapeutics IR website.",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "ORKA (Oruka Therapeutics) is the subject of the news release.",
+        "keywords": [
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Keywords 'HS' and 'IL-17' are mentioned in the context of pipeline updates.",
+        "summary": "Oruka Therapeutics announced its first quarter 2026 financial results and provided a corporate update, including progress on its lead programs ORKA-001 and ORKA-002.",
+        "summary_citation": "Summarized from the press release content.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Published on May 13, 2026 as per the Oruka IR newsroom.",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "Direct link to the news release.",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "Oruka Therapeutics investor relations domain."
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Form 10-Q filed with the SEC.",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "VERA (Vera Therapeutics) is the filing company.",
+        "keywords": [
+          "HS",
+          "BAFF"
+        ],
+        "keywords_citation": "Keywords 'HS' and 'BAFF' appear in the 'Management's Discussion and Analysis' and 'Business' sections.",
+        "summary": "Vera Therapeutics filed its quarterly report on Form 10-Q for the period ended March 31, 2026, reporting financial results and providing an update on its development programs, including atacicept.",
+        "summary_citation": "Summarized from the 10-Q cover page and overview section.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Filed on May 13, 2026 as per the VERA SEC filings page.",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/10-q/0001193125-26-212143",
+        "source_link_citation": "Direct link to the SEC filing.",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "Vera Therapeutics investor relations domain."
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Form 10-Q filed with the SEC.",
+        "competitors": [
+          "VOR",
+          "UCB"
+        ],
+        "competitors_citation": "VOR (Vor Bio) is the filing company; UCB is mentioned in the context of collaborations or competition.",
+        "keywords": [
+          "HS",
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "Keywords 'HS', 'BAFF', and 'BLyS' are mentioned verbatim in the business update sections.",
+        "summary": "Vor Bio reported its Q1 2026 financial results and clinical progress in its Form 10-Q filing. The report details the company's financial position and R&D activities.",
+        "summary_citation": "Summarized from the 10-Q overview.",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "Filed on May 13, 2026 as per the VOR SEC filings page.",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link_citation": "Direct link to the SEC filing.",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Vor Bio investor relations domain."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T11:51:42.124Z",
+  "creditsUsed": 651
+}

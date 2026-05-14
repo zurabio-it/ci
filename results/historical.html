@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-14, 10:51:06 a.m. &nbsp;|&nbsp; 126 runs &nbsp;|&nbsp; 187 unique findings</div>
+  <div class="meta">Generated 2026-05-14, 4:14:47 p.m. &nbsp;|&nbsp; 128 runs &nbsp;|&nbsp; 188 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">187</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">126</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">188</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">128</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">61</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">39</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">187</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">188</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -93,11 +93,11 @@
         <div class="divider">— or set custom range —</div>
         <div class="date-row">
           <label>From</label>
-          <input type="date" id="date-from" min="2026-01-21" max="2026-05-13">
+          <input type="date" id="date-from" min="2026-01-21" max="2026-05-14">
         </div>
         <div class="date-row">
           <label>To</label>
-          <input type="date" id="date-to" min="2026-01-21" max="2026-05-13">
+          <input type="date" id="date-to" min="2026-01-21" max="2026-05-14">
         </div>
       </div>
       <div class="panel">
@@ -1288,10 +1288,27 @@
     <div class="section-header">
       <span class="section-dot" style="background:#2563eb"></span>
       <span class="section-title">Systemic Sclerosis (SSc)</span>
-      <span class="section-count">34</span>
+      <span class="section-count">35</span>
     </div>
     <div class="grid section-grid">
       
+  <div class="card"
+    data-competitors="vor"
+    data-keywords="baff|blys"
+    data-source="Press Release"
+    data-date="2026-05-14"
+    data-confidence="95"
+    data-area="SSc">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">VOR</span>
+      <span class="keyword-tag">BAFF</span><span class="keyword-tag">BLyS</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 95/100">High · 95</span>
+    </div>
+    <p class="summary">Vor Bio announced the publication of interim results from its TELIGAN Phase 3 trial of telitacicept in IgA Nephropathy in The New England Journal of Medicine. The analysis showed a 55.0% relative reduction in proteinuria versus placebo at 39 weeks.</p>
+    <a class="source-link" href="https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-14 · ir.vorbio.com</div>
+  </div>
   <div class="card"
     data-competitors="vor"
     data-keywords="baff"
@@ -3382,7 +3399,7 @@
   const countEl = document.getElementById('results-count');
 
   const DATA_MIN = '2026-01-21';
-  const DATA_MAX = '2026-05-13';
+  const DATA_MAX = '2026-05-14';
 
   function toISO(d) { return d.toISOString().slice(0, 10); }
 
@@ -3416,7 +3433,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 187 findings';
+    countEl.textContent = visible + ' of 188 findings';
   }
 
   function applyFilters() {

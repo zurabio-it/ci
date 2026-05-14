@@ -1,0 +1,240 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "AVTX is the ticker for Avalo Therapeutics, mentioned in the press release text."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "ORKA is the ticker for Oruka Therapeutics, mentioned in the press release text."
+      },
+      {
+        "value": "VOR",
+        "value_citation": "vorbio mentioned in the text as Vor Bio"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "UCB mentioned as a competitor in the myasthenia gravis market; VOR as the registrant"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "VERA as the registrant (Vera Therapeutics)"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Incyte (INCY) is the subject of the filing."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Verbatim mentions of 'Hidradenitis suppurativa', 'HS', and 'IL-17' found in the press release text."
+      },
+      {
+        "value": "HS",
+        "value_citation": "Verbatim mentions of 'Hidradenitis suppurativa', 'HS', and 'IL-17' found in the press release text."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Verbatim mentions of 'Hidradenitis suppurativa', 'HS', and 'IL-17' found in the press release text."
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "BAFF and BLyS mentioned as dual inhibition targets of telitacicept"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "BAFF and BLyS mentioned as dual inhibition targets of telitacicept"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as 'Press Release' on the Avalo Therapeutics IR website.",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX is the ticker for Avalo Therapeutics, mentioned in the press release text.",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Verbatim mentions of 'Hidradenitis suppurativa', 'HS', and 'IL-17' found in the press release text.",
+        "summary": "Avalo Therapeutics reported Q1 2026 financial results and provided business updates, including positive topline results from the Phase 2 LOTUS trial of abdakibart in patients with moderate to severe Hidradenitis Suppurativa.",
+        "summary_citation": "Summary derived from the first quarter 2026 financial results press release published on May 13, 2026.",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "The press release is dated May 13, 2026.",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "Direct link provided on the Avalo Therapeutics IR website.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "The source is the official investor relations domain for Avalo Therapeutics."
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Identified as Form 10-Q on the Avalo Therapeutics IR website.",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX is mentioned as the registrant's ticker symbol in the Form 10-Q.",
+        "keywords": [
+          "HS"
+        ],
+        "keywords_citation": "The verbatim keyword 'HS' appears in the Form 10-Q filing.",
+        "summary": "Avalo Therapeutics filed its Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, providing a detailed overview of the company's financial condition and results of operations.",
+        "summary_citation": "Summary derived from the SEC Form 10-Q filing content.",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "The filing is dated 05/13/26 on the SEC filings page.",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_link_citation": "Direct link to the HTML version of the Form 10-Q filing.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "The source is the official investor relations domain for Avalo Therapeutics."
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "Identified as Form 8-K on the Avalo Therapeutics IR website.",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX is mentioned as the registrant's ticker symbol in the Form 8-K.",
+        "keywords": [],
+        "keywords_citation": "No verbatim keywords from the specified list were found in the Form 8-K text.",
+        "summary": "Avalo Therapeutics filed a Current Report on Form 8-K to report the announcement of its first quarter 2026 financial results.",
+        "summary_citation": "Summary derived from the SEC Form 8-K filing content.",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "The filing is dated 05/13/26 on the SEC filings page.",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_link_citation": "Direct link to the HTML version of the Form 8-K filing.",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "The source is the official investor relations domain for Avalo Therapeutics."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Identified as 'Press Release' on the Oruka Therapeutics IR website.",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "ORKA is the ticker for Oruka Therapeutics, mentioned in the press release text.",
+        "keywords": [
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "Verbatim mentions of 'HS' and 'IL-17' found in the press release text.",
+        "summary": "Oruka Therapeutics reported its Q1 2026 financial results and provided a corporate update, including progress on its lead programs ORKA-001 and ORKA-002, and the initiation of the ORCA-SURGE trial.",
+        "summary_citation": "Summary derived from the first quarter 2026 financial results press release published on May 13, 2026.",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "The press release is dated May 13, 2026.",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "Direct link provided on the Oruka Therapeutics IR website.",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "The source is the official investor relations domain for Oruka Therapeutics."
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "ir.vorbio.com news release details for teligan",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "vorbio mentioned in the text as Vor Bio",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF and BLyS mentioned as dual inhibition targets of telitacicept",
+        "summary": "Vor Bio announced the publication of interim results from its TELIGAN Phase 3 trial of telitacicept in IgA Nephropathy in The New England Journal of Medicine. The analysis showed a 55.0% relative reduction in proteinuria versus placebo at 39 weeks.",
+        "summary_citation": "Summary of the press release titled 'Vor Bio Announces Publication of Interim Analysis of TELIGAN...'",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "Date listed at the top of the news release",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "Direct link provided in the news section",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain from the source link"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "ir.vorbio.com news release details for 1q results",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "vorbio mentioned in the text as Vor Bio",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF and BLyS mentioned in the context of the BAFF/APRIL mechanism for telitacicept",
+        "summary": "Vor Bio reported its Q1 2026 financial results and provided a corporate update, highlighting ongoing Phase 3 trials for telitacicept in generalized myasthenia gravis (UPSTREAM MG) and Sjögren’s disease (UPSTREAM SjD).",
+        "summary_citation": "Summary of the press release titled 'Vor Bio Reports First Quarter 2026 Financial Results...'",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Date listed at the top of the news release",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "Direct link provided in the news section",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain from the source link"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "SEC Form 10-Q filing from vorbio.com",
+        "competitors": [
+          "UCB",
+          "VOR"
+        ],
+        "competitors_citation": "UCB mentioned as a competitor in the myasthenia gravis market; VOR as the registrant",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF and BLyS mentioned in the description of telitacicept's mechanism of action",
+        "summary": "Vor Bio filed its Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, which details its financial status and provides updates on its clinical programs and market competition, specifically mentioning UCB.",
+        "summary_citation": "Analysis of the Form 10-Q filing text",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Filing date listed on the SEC filings page and in the document",
+        "source_link": "https://ir.vorbio.com/node/10836/html",
+        "source_link_citation": "Direct link to the HTML version of the SEC filing",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain from the source link"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "SEC Form 4 filing from veratx.com",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "VERA as the registrant (Vera Therapeutics)",
+        "keywords": [],
+        "keywords_citation": "No specified keywords found in the filing",
+        "summary": "A Form 4 SEC filing for Vera Therapeutics reporting a change in beneficial ownership of securities by an insider on May 13, 2026.",
+        "summary_citation": "Analysis of the Form 4 filing content",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Filing date listed on the SEC filings page",
+        "source_link": "https://ir.veratx.com/node/10706/html",
+        "source_link_citation": "Direct link to the HTML version of the SEC filing",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "Domain from the source link"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "SEC Filing type Schedule 13G/A found on Incyte investor relations website.",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Incyte (INCY) is the subject of the filing.",
+        "keywords": [],
+        "keywords_citation": "No keywords from the specified list were found in the filing.",
+        "summary": "A Schedule 13G/A (Amendment No. 3) was filed by Dodge & Cox with the SEC, reporting a 5.6% beneficial ownership stake in Incyte Corporation (12,252,356 shares) as of March 31, 2026.",
+        "summary_citation": "Summary of beneficial ownership report filed by Dodge & Cox.",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "Filing date of May 14, 2026, as listed on the SEC filings page.",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "source_link_citation": "Link to the specific SEC filing on Incyte's website.",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "The domain is investor.incyte.com."
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T20:14:36.689Z",
+  "creditsUsed": 2252
+}

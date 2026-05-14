@@ -1,0 +1,200 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reported first quarter 2026 financial results and highlights from the Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS), which met its primary endpoint and showed a deep clinical response.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "Oruka Therapeutics reported first quarter 2026 financial results and corporate updates, including progress on its IL-17A/F monoclonal antibody ORKA-002, with a Phase 2 trial in hidradenitis suppurativa (HS) planned for 2H 2026.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF",
+          "Baff",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio announced the publication of interim results from the Phase 3 TELIGAN trial of telitacicept in IgA nephropathy in the New England Journal of Medicine, supporting telitacicept as a dual BAFF/APRIL therapy.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "BAFF",
+          "Baff",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "summary": "Vor Bio reported first quarter 2026 financial results and provided a corporate update on its Phase 3 programs for telitacicept, a potential dual BAFF/APRIL inhibitor in development for gMG and SjD.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "summary": "Vera Therapeutics filed a Form 4 (Statement of changes in beneficial ownership) for Fordyce Marshall on May 13, 2026.",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "keywords": [],
+        "keywords_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "summary": "Vor Bio filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026, on May 13, 2026.",
+        "summary_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "summary": "Alumis Inc. reported its first quarter 2026 financial results and highlighted Phase 3 data for envudeucitinib in plaque psoriasis, as well as plans for an NDA submission in 4Q 2026.",
+        "summary_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T21:00:00.575Z",
+  "creditsUsed": 971
+}

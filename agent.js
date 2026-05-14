@@ -143,7 +143,7 @@ function cleanSummary(raw) {
 const allFindings = (result.data?.findings ?? []).map(f => ({
   ...f,
   summary: cleanSummary(f.summary),
-  keywords: (f.keywords ?? []).map(normalizeKeyword).filter(Boolean),
+  keywords: [...new Set((f.keywords ?? []).map(normalizeKeyword).filter(Boolean))],
   competitors: (f.competitors ?? []).map(c => c?.trim()).filter(Boolean),
 })).map(f => ({
   ...f,

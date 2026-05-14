@@ -79,7 +79,7 @@ const COMPETITOR_URLS = [
 ];
 
 const result = await firecrawl.agent({
-  maxCredits: 15000,
+  maxCredits: 5000,
   urls: COMPETITOR_URLS,
   strictConstrainToURLs: true,
   prompt: `Today is ${today}. You are monitoring competitor activity for a biotech company. Visit each of the provided URLs and extract any press releases, SEC filings, financial reports, or quarterly results published TODAY (${today}) or yesterday.

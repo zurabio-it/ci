@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "GLUE",
+        "value_citation": "https://ir.monterosatx.com/node/9276/html"
+      },
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/node/10681/html"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "https://ir.nkartatx.com/node/10071/html"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/node/26586/html"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "https://investors.xencor.com/node/15551/html"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "https://ir.nkartatx.com/node/10071/html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.monterosatx.com/node/9276/html",
+        "competitors": [
+          "GLUE"
+        ],
+        "competitors_citation": "https://ir.monterosatx.com/node/9276/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.monterosatx.com/node/9276/html",
+        "summary": "No Title - [Skip to main content](https://ir.monterosatx.com/node/9276/htmlsec-html-content)\n\n![Monte Rosa Therapeutics](https://ir.monterosatx.com/sites/g/files/knoqqb95451/files/logo-monterosa-color.png)\n\n[Download DOC](https://ir.monterosatx.com/static-files/7475d3af-b5ad-4bfe-8d85-e2d61fa9b1bd \"View the RTF format for this filing\")\n\n[Download PDF](https://ir.monterosatx.com/static-files/7341cd3f-c6aa-4e87-b6b6-57e78337bfe2 \"View the PDF format for this filing\")\n\n[Download XLS](https://ir.monterosatx.co",
+        "summary_citation": "https://ir.monterosatx.com/node/9276/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.monterosatx.com/node/9276/html",
+        "source_link": "https://ir.monterosatx.com/node/9276/html",
+        "source_link_citation": "https://ir.monterosatx.com/node/9276/html",
+        "source_domain": "ir.monterosatx.com",
+        "source_domain_citation": "https://ir.monterosatx.com/node/9276/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "competitors": [],
+        "competitors_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "keywords": [],
+        "keywords_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "summary": "Page Not Found - [Skip to main navigation](https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlightsmain-menu)\n\n Page Not Found\n\n Page Not Found\n\nWe are sorry, the page you requested cannot be found. Please check the URL or visit our [Homepage](https://investor.aclaristx.com/).",
+        "summary_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "source_link": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "source_link_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights",
+        "source_domain": "investor.aclaristx.com",
+        "source_domain_citation": "https://investor.aclaristx.com/press-releases/detail/280/aclaris-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-highlights"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "competitors": [],
+        "competitors_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "summary": "Page Not Found - [Skip to content](https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-resultslfg-main-content)\n\n![magnifying glass icon](https://investor.incyte.com/sites/g/files/knoqqb107111/themes/site/nir_pid7608/dist/portals/default/skins/incyteCorporate/images/Magnifying-Glass.png)\n\n[Home](https://www.incyte.com/) > > [Investors](https://investor.incyte.com/) > > Page Not Found\n\n Page Not Found\n\nWe are sorry, the page you requested cannot be found. Please check",
+        "summary_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "source_link": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/press-releases/detail/205/incyte-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "competitors": [],
+        "competitors_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "summary": "Page Not Found - Page Not Found\n\nWe are sorry, the page you requested cannot be found. Please check the URL or visit our [Homepage](https://ir.moonlaketx.com/).",
+        "summary_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "source_link": "https://ir.moonlaketx.com/node/10216/html",
+        "source_link_citation": "https://ir.moonlaketx.com/node/10216/html",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/node/10216/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.xencor.com/node/15536/html",
+        "competitors": [],
+        "competitors_citation": "https://investors.xencor.com/node/15536/html",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/node/15536/html",
+        "summary": "No Title - ![Xencor, Inc.](https://investors.xencor.com/sites/g/files/knoqqb18641/files/logo_0.gif)\n\nView:\n\n[Download DOC](https://investors.xencor.com/static-files/b84aeebd-e179-4ade-8767-5a1a2680ee6f \"0001326732-26-000036.rtf\")\n\n[Download PDF](https://investors.xencor.com/static-files/90834155-91e8-4a4f-ad09-2c9dc9baf934 \"0001326732-26-000036.pdf\")\n\n[Download XLS](https://investors.xencor.com/static-files/162b6ff7-a130-4c8f-907f-d618ab6df23b \"0001326732-26-000036.xls\")\n\n[Download XBRL](https://investors.",
+        "summary_citation": "https://investors.xencor.com/node/15536/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investors.xencor.com/node/15536/html",
+        "source_link": "https://investors.xencor.com/node/15536/html",
+        "source_link_citation": "https://investors.xencor.com/node/15536/html",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/node/15536/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "competitors": [],
+        "competitors_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "summary": "Page Not Found - ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)\n\nThe cookies we use\n\nWe use cookies to enhance your browsing experience and analyze our traffic. By clicking “Accept All Cookies,” you consent to our use of cookies as set forth in our [Privacy Policy](https://www.anaptysbio.com/privacy-policy/).\n\nCustomizeAccept Essential Cookies OnlyAccept All Cookies\n\nCustomize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)\n\nWe use cookies to help you nav",
+        "summary_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "source_link": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "source_link_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/news/detail/300/anaptysbio-reports-first-quarter-2026-financial-results-and-provides-corporate-update"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "HS",
+          "IL-17",
+          "Hidradenitis suppurativa"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates - Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates\n\nMay 13, 2026 7:00am EDT\n\n- _Achieved positive topline results in Phase 2 LOTUS trial of abdakibart in moderate to severe hidradenitis suppurativa (HS) and plan to advance into a registrational phase 3 program_\n- _Completed public offering of equity securities for gross proceeds of_ _$431.3 million_\n- _Cash, cash equivalents, and short-term investments of $82 million as of March 31, 2026, not including th",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10681/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10681/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10681/html",
+        "summary": "No Title - ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)\n\nWe value your privacy\n\nWe and our [partners](https://veratx.com/privacy-policy/_Toc523123172) use cookies to enhance your browsing experience, analyze our traffic, conduct advertising, and allow you to share content on social media.\n\nCustomizeReject AllAccept All\n\nCustomize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)\n\nWe use cookies to help you navigate efficiently and perform certain fu",
+        "summary_citation": "https://ir.veratx.com/node/10681/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.veratx.com/node/10681/html",
+        "source_link": "https://ir.veratx.com/node/10681/html",
+        "source_link_citation": "https://ir.veratx.com/node/10681/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10681/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.orukatx.com/node/17061/html",
+        "competitors": [],
+        "competitors_citation": "https://ir.orukatx.com/node/17061/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/node/17061/html",
+        "summary": "144: Filer Information - ![Oruka Therapeutics, Inc.](https://ir.orukatx.com/sites/g/files/knoqqb96151/files/Oruka_Logo_Full_Color_RGB_0.png)\n\n[Download DOC](https://ir.orukatx.com/static-files/8ba7ee6b-80a3-4f69-a121-fd0167f838ae \"0001950047-26-003915.rtf\")\n\n[Download PDF](https://ir.orukatx.com/static-files/5d4bc69f-e1cb-4703-8df5-dcf4b1566dbf \"0001950047-26-003915.pdf\")\n\n[Download XLS](https://ir.orukatx.com/static-files/9fb31fc8-6e1d-4f66-a101-7e77ee1f60e2 \"0001950047-26-003915.xls\")\n\n 144: Filer Information\n\n|     |",
+        "summary_citation": "https://ir.orukatx.com/node/17061/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.orukatx.com/node/17061/html",
+        "source_link": "https://ir.orukatx.com/node/17061/html",
+        "source_link_citation": "https://ir.orukatx.com/node/17061/html",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/node/17061/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/node/10836/html",
+        "competitors": [
+          "UCB",
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/node/10836/html",
+        "keywords": [
+          "Baff",
+          "BLyS",
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/node/10836/html",
+        "summary": "No Title - [Skip to main content](https://ir.vorbio.com/node/10836/htmlsec-html-content)\n\n![Vor Bio](https://ir.vorbio.com/sites/g/files/knoqqb106926/files/Vor-Logo-Website-FullColor.png)\n\n[View this filing using the iXBRL viewer](https://ir.vorbio.com/node/10836/ixbrl-viewer \"View this filing using the iXBRL viewer\")\n\n[Download DOC](https://ir.vorbio.com/static-files/b1371bdb-3f77-419b-a28a-190bb7810f8c \"View the RTF format for this filing\")\n\n[Download PDF](https://ir.vorbio.com/static-files/decf7c86-cb30",
+        "summary_citation": "https://ir.vorbio.com/node/10836/html",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "https://ir.vorbio.com/node/10836/html",
+        "source_link": "https://ir.vorbio.com/node/10836/html",
+        "source_link_citation": "https://ir.vorbio.com/node/10836/html",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/node/10836/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/node/10801/html",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/node/10801/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.vorbio.com/node/10801/html",
+        "summary": "No Title - [Skip to main content](https://ir.vorbio.com/node/10801/htmlsec-html-content)\n\n![Vor Bio](https://ir.vorbio.com/sites/g/files/knoqqb106926/files/Vor-Logo-Website-FullColor.png)\n\n[Download DOC](https://ir.vorbio.com/static-files/c8d2a2eb-d32a-4ea2-9c1f-5f96b7a37499 \"View the RTF format for this filing\")\n\n[Download PDF](https://ir.vorbio.com/static-files/4897829e-c733-470d-9099-d8fe8d6737c5 \"View the PDF format for this filing\")\n\n[Download XLS](https://ir.vorbio.com/static-files/76e865f8-cbd3-4a94",
+        "summary_citation": "https://ir.vorbio.com/node/10801/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.vorbio.com/node/10801/html",
+        "source_link": "https://ir.vorbio.com/node/10801/html",
+        "source_link_citation": "https://ir.vorbio.com/node/10801/html",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/node/10801/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.orukatx.com/node/17071/html",
+        "competitors": [],
+        "competitors_citation": "https://ir.orukatx.com/node/17071/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/node/17071/html",
+        "summary": "No Title - ![Oruka Therapeutics, Inc.](https://ir.orukatx.com/sites/g/files/knoqqb96151/files/Oruka_Logo_Full_Color_RGB_0.png)\n\n[Download DOC](https://ir.orukatx.com/static-files/19162c80-5736-40e8-8452-8dae251c7e32 \"0001104659-26-055049.rtf\")\n\n[Download PDF](https://ir.orukatx.com/static-files/5656432f-78e2-45fd-b3f7-7033b4820aed \"0001104659-26-055049.pdf\")\n\n[Download XLS](https://ir.orukatx.com/static-files/a7eca13a-0b23-4122-b0cb-6e336246eda8 \"0001104659-26-055049.xls\")\n\n* * *\n\n|     |\n| --- |\n| SECURIT",
+        "summary_citation": "https://ir.orukatx.com/node/17071/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.orukatx.com/node/17071/html",
+        "source_link": "https://ir.orukatx.com/node/17071/html",
+        "source_link_citation": "https://ir.orukatx.com/node/17071/html",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/node/17071/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.nkartatx.com/node/10071/html",
+        "competitors": [
+          "NKTX"
+        ],
+        "competitors_citation": "https://ir.nkartatx.com/node/10071/html",
+        "keywords": [
+          "Systemic sclerosis"
+        ],
+        "keywords_citation": "https://ir.nkartatx.com/node/10071/html",
+        "summary": "No Title - ![Nkarta, Inc.](https://ir.nkartatx.com/sites/g/files/knoqqb54386/files/logo_1.png)\n\nView:\n\n[Download DOC](https://ir.nkartatx.com/static-files/5d7a70fb-fef5-4e18-b5de-0217fc8c0349 \"0001787400-26-000012.rtf\")\n\n[Download PDF](https://ir.nkartatx.com/static-files/d0910d40-86ff-4c43-92da-2b598efb941a \"0001787400-26-000012.pdf\")\n\n[Download XLS](https://ir.nkartatx.com/static-files/0a11dfbf-ad72-420c-9543-bd2bec316b1d \"0001787400-26-000012.xls\")\n\n[Download XBRL](https://ir.nkartatx.com/sec-filings/se",
+        "summary_citation": "https://ir.nkartatx.com/node/10071/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_link": "https://ir.nkartatx.com/node/10071/html",
+        "source_link_citation": "https://ir.nkartatx.com/node/10071/html",
+        "source_domain": "ir.nkartatx.com",
+        "source_domain_citation": "https://ir.nkartatx.com/node/10071/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.q32bio.com/node/10826/html",
+        "competitors": [],
+        "competitors_citation": "https://ir.q32bio.com/node/10826/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.q32bio.com/node/10826/html",
+        "summary": "No Title - ![Q32 Bio Inc.](https://ir.q32bio.com/sites/g/files/knoqqb90916/files/site-logo.png)\n\n[Download DOC](https://ir.q32bio.com/static-files/339e7891-f565-4f63-a09f-35e5205f6678 \"0000947871-26-000500.rtf\")\n\n[Download PDF](https://ir.q32bio.com/static-files/004878df-42ea-4976-a07d-b81fe7b0d4ca \"0000947871-26-000500.pdf\")\n\n[Download XLS](https://ir.q32bio.com/static-files/97faec4e-2ad2-4189-950d-1273386ad458 \"0000947871-26-000500.xls\")\n\n* * *\n\n|     |\n| --- |\n| SECURITIES AND EXCHANGE COMMISSION<br> <b",
+        "summary_citation": "https://ir.q32bio.com/node/10826/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.q32bio.com/node/10826/html",
+        "source_link": "https://ir.q32bio.com/node/10826/html",
+        "source_link_citation": "https://ir.q32bio.com/node/10826/html",
+        "source_domain": "ir.q32bio.com",
+        "source_domain_citation": "https://ir.q32bio.com/node/10826/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/node/26586/html",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/node/26586/html",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/node/26586/html",
+        "summary": "No Title - ![Incyte](https://investor.incyte.com/sites/g/files/knoqqb107111/files/incyte_logo_169x46.png)\n\nView:\n\n[Download DOC](https://investor.incyte.com/static-files/6e16db0b-638e-4154-bd9d-f1535f682424 \"0001533149-26-000013.rtf\")\n\n[Download PDF](https://investor.incyte.com/static-files/c450974d-efbb-416e-a259-452bc3feab16 \"0001533149-26-000013.pdf\")\n\n[Download XLS](https://investor.incyte.com/static-files/401999cd-1503-49a6-982b-950db2466b44 \"0001533149-26-000013.xls\")\n\nSEC FORM 3\n\nSEC Form 3\n\n\n|     ",
+        "summary_citation": "https://investor.incyte.com/node/26586/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investor.incyte.com/node/26586/html",
+        "source_link": "https://investor.incyte.com/node/26586/html",
+        "source_link_citation": "https://investor.incyte.com/node/26586/html",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/node/26586/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "competitors": [],
+        "competitors_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "keywords": [],
+        "keywords_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "summary": "Page Not Found - [Skip to main content](https://investors.cullinantherapeutics.com/node/11546/htmlsec-html-content)\n\n Page Not Found\n\nWe are sorry, the page you requested cannot be found. Please check the URL or visit our [Homepage](https://investors.cullinantherapeutics.com/).",
+        "summary_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "source_link": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "source_link_citation": "https://investors.cullinantherapeutics.com/node/11546/html",
+        "source_domain": "investors.cullinantherapeutics.com",
+        "source_domain_citation": "https://investors.cullinantherapeutics.com/node/11546/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/node/10811/html",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/node/10811/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.vorbio.com/node/10811/html",
+        "summary": "No Title - [Skip to main content](https://ir.vorbio.com/node/10811/htmlsec-html-content)\n\n![Vor Bio](https://ir.vorbio.com/sites/g/files/knoqqb106926/files/Vor-Logo-Website-FullColor.png)\n\n[Download DOC](https://ir.vorbio.com/static-files/588fa0ab-5520-4e06-a4ff-c97619192290 \"View the RTF format for this filing\")\n\n[Download PDF](https://ir.vorbio.com/static-files/5aecb47a-aaa7-4bbf-aa4d-1cabbd17f602 \"View the PDF format for this filing\")\n\n[Download XLS](https://ir.vorbio.com/static-files/2724e155-ae5a-4d51",
+        "summary_citation": "https://ir.vorbio.com/node/10811/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.vorbio.com/node/10811/html",
+        "source_link": "https://ir.vorbio.com/node/10811/html",
+        "source_link_citation": "https://ir.vorbio.com/node/10811/html",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/node/10811/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.xencor.com/node/15551/html",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://investors.xencor.com/node/15551/html",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/node/15551/html",
+        "summary": "No Title - ![Xencor, Inc.](https://investors.xencor.com/sites/g/files/knoqqb18641/files/logo_0.gif)\n\nView:\n\n[Download DOC](https://investors.xencor.com/static-files/732d3f7b-2154-4423-8618-e1fe12e3ca36 \"0001326732-26-000042.rtf\")\n\n[Download PDF](https://investors.xencor.com/static-files/be91eaf0-11fc-4708-adf8-c3c86bbb5091 \"0001326732-26-000042.pdf\")\n\n[Download XLS](https://investors.xencor.com/static-files/a0bf98bb-5748-4515-8508-b4dd671f6c1e \"0001326732-26-000042.xls\")\n\n[Download XBRL](https://investors.",
+        "summary_citation": "https://investors.xencor.com/node/15551/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investors.xencor.com/node/15551/html",
+        "source_link": "https://investors.xencor.com/node/15551/html",
+        "source_link_citation": "https://investors.xencor.com/node/15551/html",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/node/15551/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10706/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10706/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10706/html",
+        "summary": "No Title - ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)\n\nWe value your privacy\n\nWe and our [partners](https://veratx.com/privacy-policy/_Toc523123172) use cookies to enhance your browsing experience, analyze our traffic, conduct advertising, and allow you to share content on social media.\n\nCustomizeReject AllAccept All\n\nCustomize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)\n\nWe use cookies to help you navigate efficiently and perform certain fu",
+        "summary_citation": "https://ir.veratx.com/node/10706/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.veratx.com/node/10706/html",
+        "source_link": "https://ir.veratx.com/node/10706/html",
+        "source_link_citation": "https://ir.veratx.com/node/10706/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10706/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10701/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10701/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10701/html",
+        "summary": "144: Filer Information - ![Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)\n\nWe value your privacy\n\nWe and our [partners](https://veratx.com/privacy-policy/_Toc523123172) use cookies to enhance your browsing experience, analyze our traffic, conduct advertising, and allow you to share content on social media.\n\nCustomizeReject AllAccept All\n\nCustomize Consent Preferences![](https://cdn-cookieyes.com/assets/images/close.svg)\n\nWe use cookies to help you navigate efficiently and perform certain fu",
+        "summary_citation": "https://ir.veratx.com/node/10701/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.veratx.com/node/10701/html",
+        "source_link": "https://ir.veratx.com/node/10701/html",
+        "source_link_citation": "https://ir.veratx.com/node/10701/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10701/html"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T10:20:51.825Z",
+  "creditsUsed": 605
+}

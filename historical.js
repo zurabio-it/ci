@@ -1,5 +1,15 @@
 import fs from 'fs';
-import { scoreFindings, getPrimaryDiseaseArea, DISEASE_AREAS, DISEASE_AREA_META } from './keywords.js';
+import { scoreFindings, getPrimaryDiseaseArea, DISEASE_AREAS, DISEASE_AREA_META, isStaleContent, AND_MODE } from './keywords.js';
+
+function cleanSummary(raw) {
+  return (raw ?? '')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/#{1,6}\s*/g, '')
+    .replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 function toISODate(raw) {
   if (!raw) return '';
@@ -35,7 +45,10 @@ for (const file of files) {
       keywords: cleanKeywords,
       publication_date: toISODate(f.publication_date),
     };
-    allFindings.push({ ...normalized, confidence: f.confidence ?? scoreFindings(normalized), disease_area: f.disease_area ?? getPrimaryDiseaseArea(normalized.keywords) });
+    const withCleanSummary = { ...normalized, summary: cleanSummary(normalized.summary) };
+    if (isStaleContent(withCleanSummary)) continue;
+    if (AND_MODE && (withCleanSummary.competitors[0] === 'Keyword matched' || !withCleanSummary.keywords.length)) continue;
+    allFindings.push({ ...withCleanSummary, confidence: f.confidence ?? scoreFindings(withCleanSummary), disease_area: f.disease_area ?? getPrimaryDiseaseArea(withCleanSummary.keywords) });
   }
 }
 

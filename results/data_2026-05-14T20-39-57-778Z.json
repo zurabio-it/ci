@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "HS",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Found in monitor activity on May 13, 2026."
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Classification: Press Release",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX: (Nasdaq: AVTX) (“Avalo”), a clinical stage biotechnology company fully dedicated to developing IL-1β-based treatments for immune-mediated inflammatory...",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "HS: # Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates  May 13, 2026 7:00am EDT  - _Achieved positive topline r...; Hidradenitis suppurativa: **About Hidradenitis Suppurativa**  Hidradenitis suppurativa (HS) is a chronic, progressive, often debilitating inflammatory skin disease that causes ...; IL-17: IL-1β is a pro-inflammatory cytokine that plays a central role in the pathogenesis of a wide range of human diseases.1 It activates immune cells that ...",
+        "summary": "Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates",
+        "summary_citation": "Summarized from title: Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "URL: https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Domain: ir.avalotx.com"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "Classification: SEC Filing (10-Q)",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX: 000153412012/312026Q1FALSEhttp://fasb.org/us-gaap/2025#DerivativeLiabilitiesNoncurrenthttp://fasb.org/us-gaap/2025#DerivativeLiabilitiesNoncurrenthttp...",
+        "keywords": [
+          "HS"
+        ],
+        "keywords_citation": "HS: Positive topline data was recently reported for abdakibart in a Phase 2 clinical trial in hidradenitis suppurativa (“HS”)....",
+        "summary": "Avtx 10q",
+        "summary_citation": "Summarized from title: Avtx 10q",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_link_citation": "URL: https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Domain: ir.avalotx.com"
+      },
+      {
+        "source_type": "SEC Filing (8-K)",
+        "source_type_citation": "Classification: SEC Filing (8-K)",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "AVTX: (Exact name of registrant as specified in its charter)  |     |     |     | | --- | --- | --- | |  |  |  | |  |  Delaware  (State or other jurisdictio...",
+        "keywords": [],
+        "keywords_citation": "None",
+        "summary": "Avtx 8k",
+        "summary_citation": "Summarized from title: Avtx 8k",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_link_citation": "URL: https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "Domain: ir.avalotx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Classification: Press Release",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "ORKA: [Skip to content](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results#lfg-main-c...",
+        "keywords": [
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "HS: - In January 2026, Oruka announced positive interim Phase 1 data demonstrating a half-life of approximately 75–80 days and pharmacokinetic modeling su...; IL-17: **_ORKA-002: A novel half-life extended IL-17A/F monoclonal antibody_**  - In March 2026, the Company announced the initiation of ORCA-SURGE, a Phase ...",
+        "summary": "Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "summary_citation": "Summarized from title: Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "URL: https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "Domain: ir.orukatx.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Classification: Press Release",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "VOR: [Skip to content](https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china#lfg-main-conte...",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF: [Skip to content](https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china#lfg-main-conte...; BLyS: **About Telitacicept**  Telitacicept is a novel recombinant fusion protein designed to treat autoimmune diseases through dual inhibition of BLyS (BAFF...",
+        "summary": "Release Details",
+        "summary_citation": "Summarized from title: Release Details",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "Published on May 14, 2026",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "URL: https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain: ir.vorbio.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "Classification: Press Release",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "VOR: [Skip to content](https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and#lfg-main-content) ...",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF: “Encouragingly, clinician feedback this quarter points to a shift in myasthenia gravis treatment toward broader, more durable disease control through ...; BLyS: **About Telitacicept**  Telitacicept is a novel recombinant fusion protein designed to treat autoimmune diseases through dual inhibition of BLyS (BAFF...",
+        "summary": "Release Details",
+        "summary_citation": "Summarized from title: Release Details",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "URL: https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain: ir.vorbio.com"
+      },
+      {
+        "source_type": "SEC Filing (10-Q)",
+        "source_type_citation": "Classification: SEC Filing (10-Q)",
+        "competitors": [
+          "UCB",
+          "VOR"
+        ],
+        "competitors_citation": "UCB: (Uplinza/Myasthenia Gravis), Argenx (VYVGART and VYVGART HYTRULO/Myasthenia Gravis), UCB (Restage/Myasthenia Gravis), Johnson & Johnson (Imaavy/Myasth...; VOR: [Skip to main content](https://ir.vorbio.com/node/10836/html#sec-html-content)  ![Vor Bio](https://ir.vorbio.com/sites/g/files/knoqqb106926/files/Vor-...",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "BAFF: (the “Company”) is a clinical-stage company advancing telitacicept, a novel, dual-target recombinant fusion protein that inhibits both BLyS (BAFF) and...; BLyS: (the “Company”) is a clinical-stage company advancing telitacicept, a novel, dual-target recombinant fusion protein that inhibits both BLyS (BAFF) and...",
+        "summary": "Vor 10q",
+        "summary_citation": "Summarized from title: Vor 10q",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.vorbio.com/node/10836/html",
+        "source_link_citation": "URL: https://ir.vorbio.com/node/10836/html",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "Domain: ir.vorbio.com"
+      },
+      {
+        "source_type": "SEC Filing (Form 4)",
+        "source_type_citation": "Classification: SEC Filing (Form 4)",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "VERA: Name and Address of Reporting Person\\*  |     | | --- | | [Fordyce Marshall](http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001859453)...",
+        "keywords": [],
+        "keywords_citation": "None",
+        "summary": "Vera form4",
+        "summary_citation": "Summarized from title: Vera form4",
+        "publication_date": "May 13, 2026",
+        "publication_date_citation": "Published on May 13, 2026",
+        "source_link": "https://ir.veratx.com/node/10706/html",
+        "source_link_citation": "URL: https://ir.veratx.com/node/10706/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "Domain: ir.veratx.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T20:39:55.835Z",
+  "creditsUsed": 407
+}

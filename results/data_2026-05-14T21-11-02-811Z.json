@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Found on monitored IR website(s)"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Found on monitored IR website(s)"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Found on monitored IR website(s)"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Found on monitored IR website(s)"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Found on monitored IR website(s)"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "Found in press releases/filings published May 13-14, 2026"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Found in press releases/filings published May 13-14, 2026"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Found in press releases/filings published May 13-14, 2026"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Found in press releases/filings published May 13-14, 2026"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Found in press releases/filings published May 13-14, 2026"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics Reports First Quarter 2026 Financial Results and Recent Business Updates",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "Oruka Therapeutics Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio Announces Publication of Interim Analysis of TELIGAN, a China Phase 3 Trial of Telitacicept in IgA Nephropathy, in The New England Journal of Medicine",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "summary": "Vor Bio Reports First Quarter 2026 Financial Results and Provides Corporate Update",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "competitors": [
+          "UCB",
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "summary": "Quarterly report which provides a continuing view of a company's financial position (Form 10-Q)",
+        "summary_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "summary": "Statement of changes in beneficial ownership of securities (Form 4)",
+        "summary_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_link": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_link_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/sec-filings/sec-filing/4/0001859453-26-000007"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "keywords": [
+          "HS"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "summary": "Quarterly report which provides a continuing view of a company's financial position (Form 10-Q)",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000033/avtx-20260331.htm"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "keywords": [],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "summary": "Current report (Form 8-K) announcing first quarter 2026 financial results",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings/content/0001534120-26-000032/avtx-20260513.htm"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T21:11:01.106Z",
+  "creditsUsed": 699
+}

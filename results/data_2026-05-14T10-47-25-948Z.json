@@ -1,0 +1,157 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "https://ir.veratx.com/node/10706/html"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "HS",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "summary": "Avalo Therapeutics reported its first quarter 2026 financial results and recent business updates, including positive topline results for abdakibart in its Phase 2 LOTUS trial for moderate to severe Hidradenitis suppurativa (HS). Abdakibart is an anti-IL-17 monoclonal antibody.",
+        "summary_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_link_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/news-events-presentations/press-releases/detail/223/avalo-therapeutics-reports-first-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "keywords": [
+          "HS",
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "summary": "Oruka Therapeutics reported Q1 2026 financial results and provided corporate updates, including progress on ORKA-001 for plaque psoriasis and Hidradenitis suppurativa (HS), and the initiation of ORCA-SURGE Phase 2 trial of ORKA-002, an IL-17 antibody.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-reports-first-quarter-2026-financial-results"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "competitors": [
+          "ORKA"
+        ],
+        "competitors_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "keywords": [],
+        "keywords_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "summary": "Halozyme and Oruka Therapeutics announced a global collaboration and license agreement to develop ORKA-001, a potentially best-in-class monoclonal antibody for psoriatic diseases, using Halozyme's ENHANZE® drug delivery technology.",
+        "summary_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_link_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license",
+        "source_domain": "ir.orukatx.com",
+        "source_domain_citation": "https://ir.orukatx.com/news-releases/news-release-details/halozyme-and-oruka-announce-global-collaboration-and-license"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/node/10706/html",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/node/10706/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/node/10706/html",
+        "summary": "Vera Therapeutics filed an SEC Form 4 (Statement of changes in beneficial ownership of securities) on May 13, 2026, reporting transactions by an insider.",
+        "summary_citation": "https://ir.veratx.com/node/10706/html",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.veratx.com/node/10706/html",
+        "source_link": "https://ir.veratx.com/node/10706/html",
+        "source_link_citation": "https://ir.veratx.com/node/10706/html",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/node/10706/html"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "competitors": [
+          "VOR",
+          "UCB"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "summary": "Vor Bio's Q1 2026 Form 10-Q filing provides an update on telitacicept, a fusion protein inhibiting BLyS (BAFF) and APRIL, in development for Sjögren’s Disease and gMG. It mentions UCB as a competitor in the gMG treatment landscape (with its products rozanolixizumab and zilucoplan).",
+        "summary_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "publication_date": "2026-05-13",
+        "publication_date_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_link_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/sec-filings/sec-filing/10-q/0001193125-26-220689"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T10:47:24.326Z",
+  "creditsUsed": 5130
+}

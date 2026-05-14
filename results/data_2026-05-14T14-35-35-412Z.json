@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "status": "failed",
+  "error": "Refusal: I am unable to fulfill the request because the technical environment required for web scraping and data processing (Python, Bash, and scraping subextraction) is currently experiencing persistent errors (\"Workspace not found\" and \"Thinking level is not supported\"). I have attempted multiple methods, including subagents, direct scraping, and search, but was unable to retrieve or process any data from the provided URLs.",
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-15T14:35:34.497Z",
+  "creditsUsed": 0
+}

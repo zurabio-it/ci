@@ -67,15 +67,15 @@
 <body>
 <header>
   <h1>Zura Bio — Historical Intelligence</h1>
-  <div class="meta">Generated 2026-05-15, 5:49:27 p.m. &nbsp;|&nbsp; 152 runs &nbsp;|&nbsp; 190 unique findings</div>
+  <div class="meta">Generated 2026-05-15, 5:57:13 p.m. &nbsp;|&nbsp; 153 runs &nbsp;|&nbsp; 191 unique findings</div>
 </header>
 <div class="container">
   <div class="stats">
-    <div class="stat"><div class="num" id="s-total">190</div><div class="label">Total Findings</div></div>
-    <div class="stat"><div class="num">152</div><div class="label">Runs Loaded</div></div>
+    <div class="stat"><div class="num" id="s-total">191</div><div class="label">Total Findings</div></div>
+    <div class="stat"><div class="num">153</div><div class="label">Runs Loaded</div></div>
     <div class="stat"><div class="num">63</div><div class="label">Competitors</div></div>
     <div class="stat"><div class="num">40</div><div class="label">Keywords</div></div>
-    <div class="stat"><div class="num" id="s-visible">190</div><div class="label">Showing</div></div>
+    <div class="stat"><div class="num" id="s-visible">191</div><div class="label">Showing</div></div>
   </div>
   <button class="mobile-filter-toggle" onclick="toggleFilters()" id="filter-toggle-btn">&#9776; Show Filters</button>
   <div class="layout">
@@ -2107,7 +2107,7 @@
     <div class="section-header">
       <span class="section-dot" style="background:#6b7280"></span>
       <span class="section-title">Other</span>
-      <span class="section-count">77</span>
+      <span class="section-count">78</span>
     </div>
     <div class="grid section-grid">
       
@@ -2127,6 +2127,23 @@
     <p class="summary">Kymera Therapeutics announced presentations on KT-621, a first-in-class, oral STAT6 degrader, at the Society for Investigative Dermatology and American Thoracic Society Congresses. The presentations highlight clinical data demonstrating the drug's potential across Type 2 inflammatory diseases, including chronic obstructive pulmonary disease (COPD), asthma, and atopic dermatitis.</p>
     <a class="source-link" href="https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class" target="_blank" rel="noopener">View Source →</a>
     <div class="card-domain">📅 2026-05-15 · investors.kymeratx.com</div>
+  </div>
+  <div class="card"
+    data-competitors="alms"
+    data-keywords="il-17"
+    data-source="Press Release"
+    data-date="2026-05-14"
+    data-confidence="85"
+    data-area="Other">
+    <div class="card-header">
+      <span class="badge" style="background:#2563eb">Press Release</span>
+      <span class="competitor-tag">ALMS</span>
+      <span class="keyword-tag">IL-17</span>
+      <span class="confidence-badge" style="background:#16a34a1a;color:#16a34a;border:1px solid #16a34a40" title="Confidence: 85/100">High · 85</span>
+    </div>
+    <p class="summary">Alumis announced that its TYK2 inhibitor, envudeucitinib, showed robust improvements in skin clearance and quality of life in two Phase 3 trials for plaque psoriasis. The drug targets the IL-23 / IL-17 pathways to provide sustained 24-hour inhibition.</p>
+    <a class="source-link" href="https://investors.alumis.com/news-releases/news-release-details/alumis-envudeucitinib-delivers-early-and-robust-improvements" target="_blank" rel="noopener">View Source →</a>
+    <div class="card-domain">📅 2026-05-14 · investors.alumis.com</div>
   </div>
   <div class="card"
     data-competitors="nktx"
@@ -3467,7 +3484,7 @@
   function updateCount() {
     const visible = [...cards].filter(c => !c.classList.contains('hidden')).length;
     visibleEl.textContent = visible;
-    countEl.textContent = visible + ' of 190 findings';
+    countEl.textContent = visible + ' of 191 findings';
   }
 
   function applyFilters() {

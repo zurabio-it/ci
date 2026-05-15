@@ -1,0 +1,451 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 7 receptor",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "summary": "Kymera Therapeutics announced data presentations for KT-621, an oral STAT6 degrader, at the SID and ATS 2026 congresses. The drug targets Type 2 inflammatory diseases like COPD.",
+        "summary_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.alumis.com/node/8301/html",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/node/8301/html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://investors.alumis.com/node/8301/html",
+        "summary": "Alumis filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026. The filing mentions its pipeline candidate envudeucitinib (ESK-001) and references clinical trial data in Hidradenitis suppurativa and IL-17-driven diseases.",
+        "summary_citation": "https://investors.alumis.com/node/8301/html",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/node/8301/html",
+        "source_link": "https://investors.alumis.com/node/8301/html",
+        "source_link_citation": "https://investors.alumis.com/node/8301/html",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/node/8301/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases",
+        "summary": "Vor Bio announced the publication of an interim analysis of the TELIGAN Phase 3 trial for telitacicept in IgA nephropathy in the New England Journal of Medicine. Telitacicept is described as a dual BAFF/APRIL inhibitor.",
+        "summary_citation": "https://ir.vorbio.com/news-releases",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases",
+        "source_link": "https://ir.vorbio.com/news-releases",
+        "source_link_citation": "https://ir.vorbio.com/news-releases",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.alumis.com/news-events/news-releases",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-events/news-releases",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-events/news-releases",
+        "summary": "Alumis reported its first quarter 2026 financial results and provided a corporate update, including highlights for its Phase 3 program in plaque psoriasis.",
+        "summary_citation": "https://investors.alumis.com/news-events/news-releases",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/news-events/news-releases",
+        "source_link": "https://investors.alumis.com/news-events/news-releases",
+        "source_link_citation": "https://investors.alumis.com/news-events/news-releases",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-events/news-releases"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/financials/sec-filings",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/financials/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/financials/sec-filings",
+        "summary": "Incyte filed a Schedule 13G/A on May 14, 2026, regarding beneficial ownership of its securities.",
+        "summary_citation": "https://investor.incyte.com/financials/sec-filings",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_link": "https://investor.incyte.com/financials/sec-filings",
+        "source_link_citation": "https://investor.incyte.com/financials/sec-filings",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/financials/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "competitors": [
+          "AVTX"
+        ],
+        "competitors_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "summary": "Avalo Therapeutics filed multiple Schedule 13G and 13G/A forms on May 15, 2026, reflecting updates in beneficial ownership by major institutional shareholders.",
+        "summary_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_link": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_link_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings",
+        "source_domain": "ir.avalotx.com",
+        "source_domain_citation": "https://ir.avalotx.com/sec-filings/all-sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.moonlaketx.com/financials-filings",
+        "competitors": [
+          "MLTX"
+        ],
+        "competitors_citation": "https://ir.moonlaketx.com/financials-filings",
+        "keywords": [],
+        "keywords_citation": "https://ir.moonlaketx.com/financials-filings",
+        "summary": "MoonLake Immunotherapeutics filed a Schedule 13G/A on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://ir.moonlaketx.com/financials-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.moonlaketx.com/financials-filings",
+        "source_link": "https://ir.moonlaketx.com/financials-filings",
+        "source_link_citation": "https://ir.moonlaketx.com/financials-filings",
+        "source_domain": "ir.moonlaketx.com",
+        "source_domain_citation": "https://ir.moonlaketx.com/financials-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "competitors": [
+          "CGEM"
+        ],
+        "competitors_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "summary": "Cullinan Therapeutics filed a Schedule 13G/A on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "source_link": "https://investors.cullinantherapeutics.com/sec-filings",
+        "source_link_citation": "https://investors.cullinantherapeutics.com/sec-filings",
+        "source_domain": "investors.cullinantherapeutics.com",
+        "source_domain_citation": "https://investors.cullinantherapeutics.com/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "competitors": [
+          "VERA"
+        ],
+        "competitors_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "summary": "Vera Therapeutics filed a Schedule 13G/A on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "source_link": "https://ir.veratx.com/financial-information/sec-filings",
+        "source_link_citation": "https://ir.veratx.com/financial-information/sec-filings",
+        "source_domain": "ir.veratx.com",
+        "source_domain_citation": "https://ir.veratx.com/financial-information/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "competitors": [
+          "XNCR"
+        ],
+        "competitors_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "summary": "Xencor filed a Schedule 13G/A on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "source_link": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "source_link_citation": "https://investors.xencor.com/financials-and-filings/sec-filings",
+        "source_domain": "investors.xencor.com",
+        "source_domain_citation": "https://investors.xencor.com/financials-and-filings/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.kymeratx.com/sec-filings",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://investors.kymeratx.com/sec-filings",
+        "summary": "Kymera Therapeutics filed a Schedule 13G/A on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://investors.kymeratx.com/sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.kymeratx.com/sec-filings",
+        "source_link": "https://investors.kymeratx.com/sec-filings",
+        "source_link_citation": "https://investors.kymeratx.com/sec-filings",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/sec-filings"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings",
+        "summary": "AnaptysBio filed a Schedule 13G on May 15, 2026, regarding beneficial ownership.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings",
+        "source_link": "https://ir.anaptysbio.com/sec-filings",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T20:46:57.926Z",
+  "creditsUsed": 4634
+}

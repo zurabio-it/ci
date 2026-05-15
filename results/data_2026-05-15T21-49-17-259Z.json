@@ -1,0 +1,206 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Avalo Therapeutics"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "MoonLake Immunotherapeutics"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Oruka Therapeutics"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Insmed"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Aclaris Therapeutics"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "AnaptysBio"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "UCB"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Kymera Therapeutics"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monte Rosa Therapeutics"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "InflaRx"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Cullinan Therapeutics"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Nkarta"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Xencor"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Kiniksa Pharmaceuticals"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Vera Therapeutics"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Vor Bio"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Galapagos"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Alumis"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Q32 Bio"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Incyte"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "HS, acne inversa"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "scleroderma, SSc"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "PMR"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "GCA, temporal arteritis"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "chronic obstructive pulmonary disease, emphysema, chronic bronchitis"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "IL33, interleukin-33, interleukin 33"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "IL7R, interleukin-7 receptor, interleukin 7 receptor, CD127"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "IL17, interleukin-17, interleukin 17"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Baff, BLyS, B-lymphocyte stimulator, TNFSF13B"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "Vor Bio (Nasdaq: VOR)",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "dual inhibition of BLyS (BAFF)",
+        "summary": "Vor Bio announced the publication of interim results from the Phase 3 TELIGAN trial of telitacicept in IgA nephropathy in The New England Journal of Medicine. The trial showed a 55.0% relative reduction in proteinuria at 39 weeks.",
+        "summary_citation": "Vor Bio Announces Publication of Interim Analysis of TELIGAN... published in The New England Journal of Medicine... demonstrated a 55.0% relative reduction in proteinuria versus placebo at 39 weeks.",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "May 14, 2026",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "ir.vorbio.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "Alumis Inc. (Nasdaq: ALMS)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the target list (HS, SSc, PMR, GCA, COPD, IL-33, IL-7R, IL-17, BAFF) were explicitly mentioned in the press release text.",
+        "summary": "Alumis reported first quarter 2026 financial results and highlighted late-breaking Phase 3 data for envudeucitinib in plaque psoriasis, showing robust skin clearance improvements.",
+        "summary_citation": "Alumis Reports First Quarter 2026 Financial Results and Highlights Recent Achievements... Late-breaking Phase 3 data at the 2026 American Academy of Dermatology Annual Meeting demonstrated leading skin-clearance outcomes.",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "May 14, 2026",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "investors.alumis.com"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "Kymera Therapeutics, Inc. (NASDAQ: KYMR)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the target list were explicitly mentioned in the press release text.",
+        "summary": "Kymera announced upcoming presentations for KT-621, an oral STAT6 degrader, at SID and ATS congresses. Presentations will highlight Phase 1b clinical data and potential in Type 2 inflammatory diseases.",
+        "summary_citation": "Kymera Therapeutics Announces Presentations on KT-621... highlight KT-621 BroADen Phase 1b clinical data and potential across Type 2 inflammatory diseases.",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "May 15, 2026",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "investors.kymeratx.com"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/node/26616/html",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "Incyte Corporation (INCY)",
+        "keywords": [],
+        "keywords_citation": "No keywords from the target list were mentioned in the filing title or metadata.",
+        "summary": "Incyte filed a Schedule 13G/A on May 14, 2026, indicating changes in institutional share ownership.",
+        "summary_citation": "Filing Date May 14, 2026 | SCHEDULE 13G/A",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "May 14, 2026",
+        "source_link": "https://investor.incyte.com/node/26616/html",
+        "source_link_citation": "https://investor.incyte.com/node/26616/html",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "investor.incyte.com"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T21:49:15.562Z",
+  "creditsUsed": 1467
+}

@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio announced that results from the Phase 3 TELIGAN trial evaluating telitacicept in IgA nephropathy, sponsored by its collaborator RemeGen, were published in The New England Journal of Medicine. Telitacicept is a dual BAFF/APRIL inhibitor.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "Financial Report",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "summary": "Alumis reported its first quarter 2026 financial results and provided highlights on recent achievements.",
+        "summary_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "summary": "SEC Filing Form SCHEDULE 13G/A for Incyte.",
+        "summary_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "source_link": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "source_link_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/sec-filings/sec-filing/schedule-13ga/0001193125-26-223367"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "summary": "SEC Filing Form SCHEDULE 13G for AnaptysBio.",
+        "summary_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "source_link": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "source_link_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/sec-filings/sec-filing/schedule-13g/0000919574-26-003215"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/sec-filing/schedule-13ga/0000902219-26-000204",
+        "keywords": [],
+        "keywords_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "summary": "SEC Filing Form SCHEDULE 13G/A for Kymera Therapeutics.",
+        "summary_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "source_link": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "source_link_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/sec-filings/sec-filing/schedule-13ga/0000902219-26-000204"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T13:23:54.169Z",
+  "creditsUsed": 3218
+}

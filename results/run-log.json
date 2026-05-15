@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-05-15T11:38:33.927Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "KYMR",
+      "Kymera"
+    ]
+  },
+  {
     "timestamp": "2026-05-15T11:24:06.856Z",
     "status": "clean",
     "findings": 0,

@@ -1,0 +1,169 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "Kymera",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "Vor",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "RemeGen",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "Alumis",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "ACELYRIN",
+        "value_citation": "https://investors.alumis.com/node/8301/html"
+      },
+      {
+        "value": "Insmed",
+        "value_citation": "https://investor.insmed.com/sec"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "https://investors.alumis.com/node/8301/html"
+      },
+      {
+        "value": "HS",
+        "value_citation": "https://investors.alumis.com/node/8301/html"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "https://investors.alumis.com/node/8301/html"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "competitors": [
+          "Kymera"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "summary": "Kymera Therapeutics announced the presentation of clinical data for KT-621, an oral STAT6 degrader, at the Society for Investigative Dermatology (SID) and American Thoracic Society (ATS) congresses, highlighting its potential in chronic obstructive pulmonary disease (COPD) and other Type 2 inflammatory diseases.",
+        "summary_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "publication_date": "May 15, 2026",
+        "publication_date_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "Vor",
+          "RemeGen"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio announced the publication of interim Phase 3 TELIGAN trial results for telitacicept, a dual BAFF/APRIL inhibitor, in IgA nephropathy in the New England Journal of Medicine. The trial was sponsored by its collaborator RemeGen.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.alumis.com/node/8301/html",
+        "competitors": [
+          "Alumis",
+          "ACELYRIN"
+        ],
+        "competitors_citation": "https://investors.alumis.com/node/8301/html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "HS",
+          "IL-17"
+        ],
+        "keywords_citation": "https://investors.alumis.com/node/8301/html",
+        "summary": "In its Q1 2026 10-Q filing, Alumis discussed its lead candidate envudeucitinib (envu) for IL-23/IL-17-driven diseases and detailed ongoing legal proceedings against ACELYRIN regarding Phase 2b trial results for izokibep in hidradenitis suppurativa.",
+        "summary_citation": "https://investors.alumis.com/node/8301/html",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investors.alumis.com/node/8301/html",
+        "source_link": "https://investors.alumis.com/node/8301/html",
+        "source_link_citation": "https://investors.alumis.com/node/8301/html",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/node/8301/html"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "Alumis"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "summary": "Alumis reported financial results for the first quarter of 2026 and provided highlights on its clinical programs, including Phase 3 envudeucitinib data in plaque psoriasis and upcoming milestones for SLE.",
+        "summary_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investor.insmed.com/sec",
+        "competitors": [
+          "Insmed"
+        ],
+        "competitors_citation": "https://investor.insmed.com/sec",
+        "keywords": [],
+        "keywords_citation": "https://investor.insmed.com/sec",
+        "summary": "Insmed filed a Form 144, a non-EDGAR filing submitted by insiders prior to the intended sale of restricted stock.",
+        "summary_citation": "https://investor.insmed.com/sec",
+        "publication_date": "May 14, 2026",
+        "publication_date_citation": "https://investor.insmed.com/sec",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "source_link_citation": "https://investor.insmed.com/sec",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://investor.insmed.com/sec"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T13:44:18.008Z",
+  "creditsUsed": 3619
+}

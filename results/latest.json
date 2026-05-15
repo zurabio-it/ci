@@ -1,0 +1,250 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "AVTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "MLTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ORKA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ACRS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "UCB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLUE",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IFRX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CGEM",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "NKTX",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "XNCR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "KNSA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VERA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GLPG",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "QTTB",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "Hidradenitis suppurativa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "HS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "acne inversa",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Systemic sclerosis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "scleroderma",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "SSc",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Polymyalgia rheumatica",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "PMR",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Giant cell arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "GCA",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "temporal arteritis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "emphysema",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "chronic bronchitis",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 33",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL7R",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-7 receptor",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 7 receptor",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "CD127",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "IL17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin-17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "interleukin 17",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "B-lymphocyte stimulator",
+        "value_citation": "Monitoring list"
+      },
+      {
+        "value": "TNFSF13B",
+        "value_citation": "Monitoring list"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "SEC Filing",
+        "source_type_citation": "https://investors.alumis.com/node/8301/html",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/node/8301/html",
+        "keywords": [
+          "Hidradenitis suppurativa",
+          "IL-17"
+        ],
+        "keywords_citation": "https://investors.alumis.com/node/8301/html",
+        "summary": "Alumis filed its Quarterly Report on Form 10-Q for the period ended March 31, 2026. The filing mentions its pipeline candidate envudeucitinib (ESK-001) and references clinical trial data in Hidradenitis suppurativa and IL-17-driven diseases.",
+        "summary_citation": "https://investors.alumis.com/node/8301/html",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/node/8301/html",
+        "source_link": "https://investors.alumis.com/node/8301/html",
+        "source_link_citation": "https://investors.alumis.com/node/8301/html",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/node/8301/html",
+        "disease_area": "HS",
+        "confidence": 90
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T20:46:57.926Z",
+  "creditsUsed": 4634
+}

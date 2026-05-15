@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-15T20:47:17.259Z",
+    "status": "findings",
+    "findings": 1,
+    "competitors": [
+      "ALMS"
+    ]
+  },
+  {
     "timestamp": "2026-05-15T13:44:37.284Z",
     "status": "clean",
     "findings": 0,

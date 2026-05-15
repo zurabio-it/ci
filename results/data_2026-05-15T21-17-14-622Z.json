@@ -1,0 +1,174 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "ANAB",
+        "value_citation": "https://ir.anaptysbio.com/node/11496/html"
+      },
+      {
+        "value": "INCY",
+        "value_citation": "https://investor.incyte.com/node/26616/html"
+      },
+      {
+        "value": "INSM",
+        "value_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "Baff",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "COPD",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "competitors": [
+          "KYMR"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "summary": "Kymera Therapeutics announces upcoming presentations on KT-621, a first-in-class, oral STAT6 degrader, at the Society for Investigative Dermatology and American Thoracic Society Congresses, highlighting potential in COPD.",
+        "summary_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF",
+          "Baff",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio announces the publication of interim analysis for the TELIGAN Phase 3 trial of telitacicept in IgA Nephropathy in the New England Journal of Medicine, mentioning BAFF and BLyS.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "summary": "Alumis reports first quarter 2026 financial results and provides corporate highlights, including developments in its clinical pipeline for psoriasis.",
+        "summary_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "source_type": "SEC Filing (Schedule 13G)",
+        "source_type_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "competitors": [
+          "ANAB"
+        ],
+        "competitors_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "keywords": [],
+        "keywords_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "summary": "AnaptysBio SEC Filing: Schedule 13G filed on May 15, 2026.",
+        "summary_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "source_link": "https://ir.anaptysbio.com/node/11496/html",
+        "source_link_citation": "https://ir.anaptysbio.com/node/11496/html",
+        "source_domain": "ir.anaptysbio.com",
+        "source_domain_citation": "https://ir.anaptysbio.com/node/11496/html"
+      },
+      {
+        "source_type": "SEC Filing (Schedule 13G/A)",
+        "source_type_citation": "https://investor.incyte.com/node/26616/html",
+        "competitors": [
+          "INCY"
+        ],
+        "competitors_citation": "https://investor.incyte.com/node/26616/html",
+        "keywords": [],
+        "keywords_citation": "https://investor.incyte.com/node/26616/html",
+        "summary": "Incyte SEC Filing: Schedule 13G/A filed on May 14, 2026.",
+        "summary_citation": "https://investor.incyte.com/node/26616/html",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investor.incyte.com/node/26616/html",
+        "source_link": "https://investor.incyte.com/node/26616/html",
+        "source_link_citation": "https://investor.incyte.com/node/26616/html",
+        "source_domain": "investor.incyte.com",
+        "source_domain_citation": "https://investor.incyte.com/node/26616/html"
+      },
+      {
+        "source_type": "SEC Filing (Form 144)",
+        "source_type_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "competitors": [
+          "INSM"
+        ],
+        "competitors_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "keywords": [],
+        "keywords_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "summary": "Insmed SEC Filing: Form 144 (Non-EDGAR) filed on May 14, 2026.",
+        "summary_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "source_link": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "source_link_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14",
+        "source_domain": "investor.insmed.com",
+        "source_domain_citation": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=320049949&type=HTML&symbol=INSM&cdn=e3c7975e2d1d23daa5d5befecb216c5e&companyName=Insmed+Incorporated&formType=144&dateFiled=2026-05-14"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T21:17:13.351Z",
+  "creditsUsed": 867
+}

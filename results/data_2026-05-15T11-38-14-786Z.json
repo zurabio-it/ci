@@ -1,0 +1,118 @@
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "competitors": [
+      {
+        "value": "Kymera",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "KYMR",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "Vor Bio",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "VOR",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "Alumis",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "value": "ALMS",
+        "value_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      }
+    ],
+    "keywords": [
+      {
+        "value": "COPD",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "chronic obstructive pulmonary disease",
+        "value_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "value": "BAFF",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "value": "BLyS",
+        "value_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      }
+    ],
+    "findings": [
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "competitors": [
+          "KYMR",
+          "Kymera"
+        ],
+        "competitors_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "keywords": [
+          "COPD",
+          "chronic obstructive pulmonary disease"
+        ],
+        "keywords_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "summary": "Kymera Therapeutics announced presentations on KT-621, a first-in-class, oral STAT6 degrader, at the Society for Investigative Dermatology and American Thoracic Society Congresses. The presentations highlight clinical data demonstrating the drug's potential across Type 2 inflammatory diseases, including chronic obstructive pulmonary disease (COPD), asthma, and atopic dermatitis.",
+        "summary_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "publication_date": "2026-05-15",
+        "publication_date_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_link_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class",
+        "source_domain": "investors.kymeratx.com",
+        "source_domain_citation": "https://investors.kymeratx.com/news-releases/news-release-details/kymera-therapeutics-announces-presentations-kt-621-first-class"
+      },
+      {
+        "source_type": "Press Release",
+        "source_type_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "competitors": [
+          "Vor",
+          "VOR"
+        ],
+        "competitors_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "keywords": [
+          "BAFF",
+          "BLyS"
+        ],
+        "keywords_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "summary": "Vor Bio announced the publication of an interim analysis of the TELIGAN Phase 3 clinical trial in the New England Journal of Medicine. The trial evaluated telitacicept, a dual inhibitor of B-lymphocyte stimulator (BLyS) and a proliferation-inducing ligand (BAFF), for the treatment of IgA Nephropathy.",
+        "summary_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_link_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china",
+        "source_domain": "ir.vorbio.com",
+        "source_domain_citation": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-announces-publication-interim-analysis-teligan-china"
+      },
+      {
+        "source_type": "Financial Results",
+        "source_type_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "competitors": [
+          "Alumis",
+          "ALMS"
+        ],
+        "competitors_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "keywords": [],
+        "keywords_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "summary": "Alumis reported its first quarter 2026 financial results and provided a business update. Highlights include the presentation of Phase 3 data for envudeucitinib in moderate-to-severe plaque psoriasis and progress toward an NDA submission in late 2026.",
+        "summary_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "publication_date": "2026-05-14",
+        "publication_date_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_link_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and",
+        "source_domain": "investors.alumis.com",
+        "source_domain_citation": "https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and"
+      }
+    ]
+  },
+  "model": "spark-1-mini",
+  "expiresAt": "2026-05-16T11:38:14.610Z",
+  "creditsUsed": 990
+}

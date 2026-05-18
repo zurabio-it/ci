@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-05-18T11:29:27.202Z",
+    "status": "clean",
+    "findings": 0,
+    "competitors": []
+  },
+  {
     "timestamp": "2026-05-18T11:16:40.668Z",
     "status": "clean",
     "findings": 0,
